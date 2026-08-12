@@ -1,24 +1,24 @@
 import fs from"node:fs/promises";
-import {execFileSync} from"node:child_process";
 
-const OUT="data/news.json",DAYS=7;
-const Q=['"Philadelphia Phillies" when:7d','Phillies MLB when:7d'];
+const OUT="data/news.json";
+const DAYS=7;
+const CUTOFF=Date.now()-DAYS*86400000;
 
-async function rss(q){
-  const p=new URLSearchParams({q,hl:"en-US",gl:"US",ceid:"US:en"});
-  const r=await fetch(`https://news.google.com/rss/search?${p}`,{
-    headers:{"User-Agent":"Mozilla/5.0"}
-  });
-  if(!r.ok)throw Error(`RSS ${r.status}`);
+const FEEDS=[
+  ["Phillies Nation","https://philliesnation.com/feed/"],
+  ["ESPN","https://www.espn.com/espn/rss/mlb/news"],
+  ["Google News","https://news.google.com/rss/search?q=Philadelphia+Phillies+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"]
+];
+
+async function get(url){
+  const r=await fetch(url,{headers:{"User-Agent":"Mozilla/5.0"}});
+  if(!r.ok)throw Error(`${r.status} ${url}`);
   return r.text();
 }
 
-function get(x,n){
-  return x.match(new RegExp(`<${n}(?:\\s[^>]*)?>([\\s\\S]*?)</${n}>`,"i"))?.[1]??"";
-}
-
-function clean(x){
-  return x.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/gi,"$1")
+function clean(s=""){
+  return s
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/gi,"$1")
     .replace(/<[^>]*>/g,"")
     .replace(/&amp;/g,"&")
     .replace(/&quot;/g,'"')
@@ -28,125 +28,228 @@ function clean(x){
     .trim();
 }
 
-function parse(xml){
-  return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/gi)].map(m=>{
-    const x=m[1],d=Date.parse(get(x,"pubDate"));
-    return{
-      publishedAt:Number.isNaN(d)?null:new Date(d).toISOString(),
-      link:clean(get(x,"link")),
-      title:clean(get(x,"title")),
-      source:clean(get(x,"source"))
-    };
-  }).filter(x=>x.publishedAt&&x.link&&x.title&&x.source);
+function tag(x,n){
+  return clean(
+    x.match(
+      new RegExp(`<${n}(?:\\s[^>]*)?>([\\s\\S]*?)</${n}>`,"i")
+    )?.[1]||""
+  );
 }
 
-function normTitle(s){
-  return s
-    .toLowerCase()
-    .replace(/<[^>]*>/g,"")
-    .replace(/\s+/g,"")
-    .replace(/[“”"'‘’.,!?;:()[\]{}\-–—]/g,"")
-    .replace(/[^a-z0-9]/g,"");
+function parseRSS(xml,source){
+  return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/gi)]
+    .map(m=>{
+      const x=m[1];
+      const d=Date.parse(
+        tag(x,"pubDate")||
+        tag(x,"published")||
+        tag(x,"updated")
+      );
+
+      return{
+        publishedAt:Number.isNaN(d)?null:new Date(d).toISOString(),
+        link:tag(x,"link"),
+        title:tag(x,"title"),
+        source:tag(x,"source")||source
+      };
+    })
+    .filter(x=>x.link&&x.title);
 }
 
-function normSource(s){
-  return s.toLowerCase()
-    .replace(/[^a-z0-9]/g,"");
+function extractJSONDate(html,name){
+  const a=html.match(
+    new RegExp(`"${name}"\\s*:\\s*"([^"]+)"`,"i")
+  );
+
+  if(a){
+    const d=Date.parse(a[1]);
+    if(!Number.isNaN(d))return new Date(d).toISOString();
+  }
+
+  return null;
 }
 
-function normUrl(u){
+async function articleDate(url){
   try{
-    const x=new URL(u);
-    x.hash="";
-    [
-      "utm_source","utm_medium","utm_campaign",
-      "utm_term","utm_content","gclid","fbclid"
-    ].forEach(k=>x.searchParams.delete(k));
-    return x.toString().replace(/\/$/,"");
-  }catch{
-    return u.trim().replace(/\/$/,"");
+    const html=await get(url);
+
+    return(
+      extractJSONDate(html,"datePublished")||
+      extractJSONDate(html,"dateCreated")||
+      extractJSONDate(html,"uploadDate")
+    );
+  }catch(e){
+    console.error("ARTICLE DATE:",url,e.message);
+    return null;
   }
 }
 
-function duplicateKey(x){
-  return `${normSource(x.source)}|${normTitle(x.title)}`;
+async function mlb(){
+  const html=await get("https://www.mlb.com/phillies/news");
+  const out=[];
+  const seen=new Set();
+
+  for(const m of html.matchAll(
+    /<a[^>]+href="([^"]*\/news\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/gi
+  )){
+    const title=clean(m[2]);
+
+    if(title.length<10)continue;
+
+    const link=m[1].startsWith("http")
+      ?m[1]
+      :`https://www.mlb.com${m[1]}`;
+
+    if(seen.has(link))continue;
+    seen.add(link);
+
+    out.push({
+      publishedAt:null,
+      link,
+      title,
+      source:"MLB.com"
+    });
+  }
+
+  return out;
+}
+
+function urlKey(url){
+  try{
+    const u=new URL(url);
+    u.hash="";
+
+    [
+      "utm_source",
+      "utm_medium",
+      "utm_campaign",
+      "utm_term",
+      "utm_content",
+      "gclid",
+      "fbclid"
+    ].forEach(x=>u.searchParams.delete(x));
+
+    return u.toString()
+      .replace(/\/$/,"")
+      .toLowerCase();
+  }catch{
+    return url
+      .toLowerCase()
+      .trim()
+      .replace(/\/$/,"");
+  }
+}
+
+function titleKey(title){
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g,"")
+    .replace(/philadelphia|phillies|mlb/g,"");
+}
+
+function similarity(a,b){
+  const A=new Set(a.match(/.{1,3}/g)||[]);
+  const B=new Set(b.match(/.{1,3}/g)||[]);
+
+  let n=0;
+
+  for(const x of A)
+    if(B.has(x))n++;
+
+  return n/Math.max(A.size,B.size,1);
 }
 
 async function main(){
-  const cutoff=Date.now()-DAYS*86400000;
+  const results=[];
 
-  const all=(await Promise.all(Q.map(rss)))
-    .flatMap(parse)
-    .filter(x=>Date.parse(x.publishedAt)>=cutoff)
-    .filter(x=>/phillies|philadelphia/i.test(x.title));
-
-  const unique=new Map();
-
-  for(const x of all){
-    const urlKey=`url:${normUrl(x.link)}`;
-    const titleKey=`title:${duplicateKey(x)}`;
-
-    if(unique.has(urlKey)||unique.has(titleKey))continue;
-
-    unique.set(urlKey,x);
-    unique.set(titleKey,x);
+  try{
+    results.push(...await mlb());
+  }catch(e){
+    console.error("MLB:",e.message);
   }
 
-  let news=[...new Set(unique.values())]
-    .sort((a,b)=>Date.parse(b.publishedAt)-Date.parse(a.publishedAt));
+  for(const [source,url] of FEEDS){
+    try{
+      results.push(
+        ...parseRSS(
+          await get(url),
+          source
+        )
+      );
+    }catch(e){
+      console.error(`${source}:`,e.message);
+    }
+  }
 
-  let old=[];
-  try{
-    old=JSON.parse(await fs.readFile(OUT,"utf8"));
-  }catch{}
-
-  const oldJa=new Map(
-    old
-      .filter(x=>x.link&&x.titleJa)
-      .map(x=>[`${normSource(x.source)}|${normTitle(x.title)}`,x.titleJa])
+  const mlbArticles=results.filter(
+    x=>x.source==="MLB.com"&&!x.publishedAt
   );
 
-  for(const x of news){
-    x.titleJa=oldJa.get(duplicateKey(x))||null;
+  for(const x of mlbArticles){
+    x.publishedAt=await articleDate(x.link);
   }
 
+  const news=[];
+  const urls=new Set();
+  const titles=[];
+
+
+  for(const x of results){
+    if(!x.publishedAt)continue;
+
+    const date=Date.parse(x.publishedAt);
+
+    if(Number.isNaN(date)||date<CUTOFF)continue;
+
+    if(!/phillies|philadelphia/i.test(x.title))continue;
+
+    const u=urlKey(x.link);
+    const t=titleKey(x.title);
+
+    if(urls.has(u))continue;
+
+    let duplicate=false;
+
+    for(const y of titles){
+      if(similarity(t,y.title)>=.92){
+        duplicate=true;
+        break;
+      }
+    }
+
+    if(duplicate)continue;
+
+    urls.add(u);
+    titles.push({
+      title:t,
+      source:x.source
+    });
+
+    news.push({
+      publishedAt:x.publishedAt,
+      link:x.link,
+      title:x.title,
+      source:x.source
+    });
+  }
+
+  news.sort(
+    (a,b)=>
+      Date.parse(b.publishedAt)-
+      Date.parse(a.publishedAt)
+  );
+
   await fs.mkdir("data",{recursive:true});
-  await fs.writeFile(OUT,JSON.stringify(news,null,2));
 
-  const py=`
-import json,sys
-import argostranslate.package
-import argostranslate.translate
+  await fs.writeFile(
+    OUT,
+    JSON.stringify(news,null,2),
+    "utf8"
+  );
 
-p=argostranslate.package
-p.update_package_index()
-pkg=next(x for x in p.get_available_packages() if x.from_code=="en" and x.to_code=="ja")
-p.install_from_path(pkg.download())
-
-langs=argostranslate.translate.get_installed_languages()
-en=next(x for x in langs if x.code=="en")
-ja=next(x for x in langs if x.code=="ja")
-tr=en.get_translation(ja)
-
-with open(sys.argv[1],encoding="utf-8") as f:
-    data=json.load(f)
-
-for x in data:
-    if not x.get("titleJa"):
-        try:
-            x["titleJa"]=tr.translate(x["title"])
-        except:
-            x["titleJa"]=x["title"]
-
-with open(sys.argv[1],"w",encoding="utf-8") as f:
-    json.dump(data,f,ensure_ascii=False,indent=2)
-`;
-
-  await fs.writeFile(".translate_news.py",py);
-  execFileSync("python",[".translate_news.py",OUT],{stdio:"inherit"});
-  await fs.unlink(".translate_news.py").catch(()=>{});
-
-  console.log(`Saved ${news.length} unique news`);
+  console.log(
+    `Saved ${news.length} unique news`
+  );
 }
 
 main().catch(e=>{
