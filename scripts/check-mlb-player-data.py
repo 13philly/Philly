@@ -1,78 +1,128 @@
 import json
-from urllib.request import urlopen
+from datetime import datetime
 from urllib.parse import urlencode
+from urllib.request import urlopen
 
-A="https://statsapi.mlb.com/api/v1"
-Y=2026
-P={"Alec Bohm":664761,"Aaron Nola":605400}
-W={
-"Alec Bohm":["WAR","wOBA","wRC+","OPS","DRS","OAA"],
-"Aaron Nola":["WAR","FIP","xFIP","SIERA","K%","BB%"]
+API="https://statsapi.mlb.com/api/v1"
+YEAR=datetime.now().year
+
+PLAYERS={
+    "Alec Bohm":{"id":664761,"group":"hitting"},
+    "Aaron Nola":{"id":605400,"group":"pitching"}
 }
 
-def get(path,**p):
-    try:
-        u=f"{A}/{path}?{urlencode(p)}"
-        with urlopen(u,timeout=30) as r:return json.load(r)
-    except Exception as e:return {"error":str(e)}
+TYPES=[
+    "season",
+    "seasonAdvanced",
+    "sabermetrics",
+    "expectedStatistics",
+    "outsAboveAverage"
+]
 
-def flat(x):
+TARGETS={
+    "Alec Bohm":["WAR","wOBA","wRC+","OPS","DRS","OAA"],
+    "Aaron Nola":["WAR","FIP","xFIP","SIERA","K%","BB%"]
+}
+
+def get(path,params):
+    try:
+        q=urlencode(params)
+        with urlopen(f"{API}/{path}?{q}",timeout=30) as r:
+            return json.load(r)
+    except Exception as e:
+        return {"_error":str(e)}
+
+def flatten(x,p=""):
+    out={}
     if isinstance(x,dict):
         for k,v in x.items():
-            yield k,v
-            yield from flat(v)
+            n=f"{p}.{k}" if p else k
+            out.update(flatten(v,n))
     elif isinstance(x,list):
-        for v in x:yield from flat(v)
+        for i,v in enumerate(x):
+            out.update(flatten(v,f"{p}[{i}]"))
+    else:
+        out[p]=x
+    return out
 
-meta=get("meta/metrics")
-metrics={str(k).lower():v for k,v in flat(meta)}
+def find_values(x):
+    found={}
+    for k,v in flatten(x).items():
+        key=k.split(".")[-1]
+        found[key]=v
+    return found
 
-O={"season":Y,"players":{},"metrics_meta":meta}
+def extract_stats(x):
+    try:
+        return x["stats"][0]["splits"][0]["stat"]
+    except:
+        return {}
 
-for name,pid in P.items():
-    group="hitting" if name=="Alec Bohm" else "pitching"
-    raw=get(
-        "stats",
-        stats="season",
-        group=group,
-        season=Y,
-        personId=pid,
-        limit=100
-    )
+meta={}
+for m in ["statTypes","statGroups","metrics"]:
+    meta[m]=get(f"meta/{m}",{})
 
-    adv=get(
-        "stats",
-        stats="seasonAdvanced",
-        group=group,
-        season=Y,
-        personId=pid,
-        limit=100
-    )
+result={
+    "season":YEAR,
+    "players":{},
+    "meta":meta
+}
 
-    def stat(x):
-        try:return x["stats"][0]["splits"][0]["stat"]
-        except:return {}
-
-    r={**stat(raw),**stat(adv)}
-
-    result={}
-    for wanted in W[name]:
-        key=next((k for k in r if k.lower()==wanted.lower()),None)
-        meta_key=next((k for k in metrics if k==wanted.lower()),None)
-        result[wanted]={
-            "value":r.get(key) if key else None,
-            "api_key":key,
-            "metric_exists":meta_key is not None,
-            "metric_key":meta_key
-        }
-
-    O["players"][name]={
-        "id":pid,
-        "group":group,
-        "requested":result,
-        "raw_season":stat(raw),
-        "raw_advanced":stat(adv)
+for name,p in PLAYERS.items():
+    pdata={
+        "id":p["id"],
+        "group":p["group"],
+        "stats":{},
+        "targets":{}
     }
 
-with open("check-mlb-player-data.json","w",encoding="utf-8") as f:
-    json.dump(O,f,ensure_ascii=False,separators=(",",":"))
+    merged={}
+
+    for typ in TYPES:
+        data=get(
+            "stats",
+            {
+                "stats":typ,
+                "group":p["group"],
+                "season":YEAR,
+                "personId":p["id"],
+                "limit":100
+            }
+        )
+
+        stat=extract_stats(data)
+
+        pdata["stats"][typ]=stat
+
+        for k,v in stat.items():
+            merged[k]=v
+
+        if "_error" in data:
+            pdata["stats"][typ]={"_error":data["_error"]}
+
+    for target in TARGETS[name]:
+        matches={
+            k:v for k,v in merged.items()
+            if k.lower()==target.lower()
+            or target.lower().replace("%","pct")==k.lower()
+            or target.lower().replace("+","plus")==k.lower()
+        }
+
+        pdata["targets"][target]={
+            "value":next(iter(matches.values()),None),
+            "api_keys":list(matches.keys())
+        }
+
+    result["players"][name]=pdata
+
+with open(
+    "check-mlb-player-data.json",
+    "w",
+    encoding="utf-8"
+) as f:
+    json.dump(
+        result,
+        f,
+        ensure_ascii=False,
+        separators=(",",":")
+    )
