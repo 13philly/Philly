@@ -5,36 +5,73 @@ from urllib.parse import urlencode
 A="https://statsapi.mlb.com/api/v1"
 Y=2026
 P={"Alec Bohm":664761,"Aaron Nola":605400}
-B=["WAR","wOBA","wRC+","OPS","DRS","OAA"]
-T=["WAR","FIP","xFIP","SIERA","K%","BB%"]
+W={
+"Alec Bohm":["WAR","wOBA","wRC+","OPS","DRS","OAA"],
+"Aaron Nola":["WAR","FIP","xFIP","SIERA","K%","BB%"]
+}
 
-def g(path,params={}):
+def get(path,**p):
     try:
-        q=urlencode(params)
-        with urlopen(f"{A}/{path}?{q}",timeout=30) as r:return json.load(r)
+        u=f"{A}/{path}?{urlencode(p)}"
+        with urlopen(u,timeout=30) as r:return json.load(r)
     except Exception as e:return {"error":str(e)}
 
-m=g("meta/metrics")
-O={"season":Y,"metrics":m,"players":{}}
+def flat(x):
+    if isinstance(x,dict):
+        for k,v in x.items():
+            yield k,v
+            yield from flat(v)
+    elif isinstance(x,list):
+        for v in x:yield from flat(v)
 
-for n,i in P.items():
-    target=B if n=="Alec Bohm" else T
-    r=g("stats",{
-        "stats":"season",
-        "group":"hitting" if n=="Alec Bohm" else "pitching",
-        "season":Y,
-        "personId":i,
-        "limit":100
-    })
-    a=r.get("stats",[])
-    raw=a[0].get("splits",[{}])[0].get("stat",{}) if a else {}
-    O["players"][n]={
-        "id":i,
-        "available_metrics":{
-            x:raw.get(x) if x in raw else None
-            for x in target
-        },
-        "raw":raw
+meta=get("meta/metrics")
+metrics={str(k).lower():v for k,v in flat(meta)}
+
+O={"season":Y,"players":{},"metrics_meta":meta}
+
+for name,pid in P.items():
+    group="hitting" if name=="Alec Bohm" else "pitching"
+    raw=get(
+        "stats",
+        stats="season",
+        group=group,
+        season=Y,
+        personId=pid,
+        limit=100
+    )
+
+    adv=get(
+        "stats",
+        stats="seasonAdvanced",
+        group=group,
+        season=Y,
+        personId=pid,
+        limit=100
+    )
+
+    def stat(x):
+        try:return x["stats"][0]["splits"][0]["stat"]
+        except:return {}
+
+    r={**stat(raw),**stat(adv)}
+
+    result={}
+    for wanted in W[name]:
+        key=next((k for k in r if k.lower()==wanted.lower()),None)
+        meta_key=next((k for k in metrics if k==wanted.lower()),None)
+        result[wanted]={
+            "value":r.get(key) if key else None,
+            "api_key":key,
+            "metric_exists":meta_key is not None,
+            "metric_key":meta_key
+        }
+
+    O["players"][name]={
+        "id":pid,
+        "group":group,
+        "requested":result,
+        "raw_season":stat(raw),
+        "raw_advanced":stat(adv)
     }
 
 with open("check-mlb-player-data.json","w",encoding="utf-8") as f:
