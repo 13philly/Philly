@@ -2,9 +2,89 @@
   "team": "Philadelphia Phillies",
   "teamId": 143,
   "season": 2026,
-  "updatedAt": "2026-08-12T12:57:47.257951+00:00",
+  "updatedAt": "2026-08-12T13:01:11.916844+00:00",
   "count": 44,
   "players": [
+    {
+      "id": 666969,
+      "name": "Adolis García",
+      "number": "53",
+      "position": "RF",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 641745,
+      "name": "Brad Keller",
+      "number": "40",
+      "position": "P",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 668873,
+      "name": "Caleb Kilian",
+      "number": "56",
+      "position": "P",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 686551,
+      "name": "Christian Cairo",
+      "number": "",
+      "position": "SS",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 679032,
+      "name": "Johan Rojas",
+      "number": "23",
+      "position": "CF",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 691330,
+      "name": "Moisés Chace",
+      "number": "75",
+      "position": "P",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 665561,
+      "name": "Rafael Marchán",
+      "number": "13",
+      "position": "C",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 621383,
+      "name": "Tanner Banks",
+      "number": "58",
+      "position": "P",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
     {
       "id": 605400,
       "name": "Aaron Nola",
@@ -12,8 +92,8 @@
       "position": "P",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 664761,
@@ -22,8 +102,8 @@
       "position": "3B",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 686934,
@@ -32,8 +112,8 @@
       "position": "P",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 691725,
@@ -42,8 +122,8 @@
       "position": "P",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 669016,
@@ -52,8 +132,8 @@
       "position": "LF",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 548384,
@@ -62,8 +142,8 @@
       "position": "P",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 650559,
@@ -72,8 +152,8 @@
       "position": "RF",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 547180,
@@ -82,8 +162,8 @@
       "position": "1B",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 681082,
@@ -92,8 +172,8 @@
       "position": "2B",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 663767,
@@ -102,8 +182,8 @@
       "position": "P",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 650911,
@@ -112,8 +192,8 @@
       "position": "P",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 656537,
@@ -122,8 +202,8 @@
       "position": "CF",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 624641,
@@ -132,8 +212,8 @@
       "position": "LF",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 596117,
@@ -142,8 +222,8 @@
       "position": "C",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 592663,
@@ -152,8 +232,8 @@
       "position": "C",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 666200,
@@ -162,8 +242,8 @@
       "position": "P",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 661395,
@@ -172,8 +252,8 @@
       "position": "P",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 680742,
@@ -182,8 +262,8 @@
       "position": "P",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 621237,
@@ -192,8 +272,8 @@
       "position": "P",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 702222,
@@ -202,8 +282,8 @@
       "position": "CF",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 656941,
@@ -212,8 +292,8 @@
       "position": "DH",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 650333,
@@ -222,8 +302,8 @@
       "position": "2B",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 689147,
@@ -232,8 +312,8 @@
       "position": "P",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 641835,
@@ -242,8 +322,8 @@
       "position": "P",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 607208,
@@ -252,8 +332,8 @@
       "position": "SS",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
+      "isIL": false,
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 554430,
@@ -262,18 +342,8 @@
       "position": "P",
       "is40Man": true,
       "isActive": true,
-      "isIL": true,
-      "rosterClass": "IL"
-    },
-    {
-      "id": 666969,
-      "name": "Adolis García",
-      "number": "53",
-      "position": "RF",
-      "is40Man": true,
-      "isActive": false,
       "isIL": false,
-      "rosterClass": "40-MAN"
+      "rosterClass": "ACTIVE"
     },
     {
       "id": 660604,
@@ -286,40 +356,10 @@
       "rosterClass": "40-MAN"
     },
     {
-      "id": 641745,
-      "name": "Brad Keller",
-      "number": "40",
-      "position": "P",
-      "is40Man": true,
-      "isActive": false,
-      "isIL": false,
-      "rosterClass": "40-MAN"
-    },
-    {
       "id": 662144,
       "name": "Brian Keller",
       "number": "48",
       "position": "P",
-      "is40Man": true,
-      "isActive": false,
-      "isIL": false,
-      "rosterClass": "40-MAN"
-    },
-    {
-      "id": 668873,
-      "name": "Caleb Kilian",
-      "number": "56",
-      "position": "P",
-      "is40Man": true,
-      "isActive": false,
-      "isIL": false,
-      "rosterClass": "40-MAN"
-    },
-    {
-      "id": 686551,
-      "name": "Christian Cairo",
-      "number": "",
-      "position": "SS",
       "is40Man": true,
       "isActive": false,
       "isIL": false,
@@ -366,16 +406,6 @@
       "rosterClass": "40-MAN"
     },
     {
-      "id": 679032,
-      "name": "Johan Rojas",
-      "number": "23",
-      "position": "CF",
-      "is40Man": true,
-      "isActive": false,
-      "isIL": false,
-      "rosterClass": "40-MAN"
-    },
-    {
       "id": 670224,
       "name": "Kameron Misner",
       "number": "",
@@ -406,40 +436,10 @@
       "rosterClass": "40-MAN"
     },
     {
-      "id": 691330,
-      "name": "Moisés Chace",
-      "number": "75",
-      "position": "P",
-      "is40Man": true,
-      "isActive": false,
-      "isIL": false,
-      "rosterClass": "40-MAN"
-    },
-    {
       "id": 805249,
       "name": "Otto Kemp",
       "number": "4",
       "position": "LF",
-      "is40Man": true,
-      "isActive": false,
-      "isIL": false,
-      "rosterClass": "40-MAN"
-    },
-    {
-      "id": 665561,
-      "name": "Rafael Marchán",
-      "number": "13",
-      "position": "C",
-      "is40Man": true,
-      "isActive": false,
-      "isIL": false,
-      "rosterClass": "40-MAN"
-    },
-    {
-      "id": 621383,
-      "name": "Tanner Banks",
-      "number": "58",
-      "position": "P",
       "is40Man": true,
       "isActive": false,
       "isIL": false,
