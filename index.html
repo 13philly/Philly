@@ -14,7 +14,7 @@
 html,body{margin:0;background:var(--bg);color:var(--white);font-family:Inter,sans-serif}
 body{min-height:100vh;background:radial-gradient(circle at 50% -8%,#193b67 0,#0a1a32 34%,#061225 70%)}
 button,select{font:inherit;cursor:pointer}
-.app{max-width:560px;min-height:100vh;margin:auto;padding-bottom:92px}
+.app{max-width:560px;min-height:100vh;margin:auto;padding-bottom:106px}
 
 header{position:sticky;top:0;z-index:30;height:76px;display:flex;align-items:center;padding:0 16px;overflow:hidden;background:linear-gradient(112deg,#b90e2c,#e31837 56%,#b40d2a);box-shadow:0 8px 25px #0005}
 header:before{content:"";position:absolute;inset:0 auto 0 0;width:65%;background:linear-gradient(115deg,transparent,#ffffff13 45%,transparent 46%);transform:skewX(-18deg)}
@@ -74,36 +74,44 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 .save.on{color:#ff5871;border-color:#e3183755;background:#241725}
 
 .stand{overflow:hidden}
-.stand-head,.teamrow{display:grid;grid-template-columns:28px 1fr repeat(3,38px)}
-.stand-head{padding:10px 11px;background:#07172d;color:#617995;font-size:5px;font-weight:900}
-.teamrow{align-items:center;padding:12px 11px;border-top:1px solid var(--line);font-size:7px}
-.teamrow.phi{background:#102a49}
-.rank{font:900 16px "Barlow Condensed";color:#7187a3}
-.tn{font-weight:900}
-.num{text-align:right;font:800 11px "Barlow Condensed"}
+.stand table{width:100%;border-collapse:collapse;table-layout:fixed}
+.stand th,.stand td{border-bottom:1px solid var(--line)}
+.stand th{height:32px;padding:0 10px;background:#07172d;color:#617995;font-size:5px;font-weight:900;text-align:right}
+.stand th:first-child,.stand td:first-child{width:38px;text-align:center}
+.stand th:nth-child(2),.stand td:nth-child(2){width:auto;text-align:left}
+.stand th:nth-child(3),.stand td:nth-child(3),
+.stand th:nth-child(4),.stand td:nth-child(4),
+.stand th:nth-child(5),.stand td:nth-child(5){width:42px;text-align:right}
+.stand td{height:45px;padding:0 10px;font-size:7px}
+.stand tr:last-child td{border-bottom:0}
+.stand .rank{font:900 16px "Barlow Condensed";color:#7187a3}
+.stand .tn{font-weight:900}
+.stand .num{font:800 11px "Barlow Condensed"}
+.stand .phi{background:#102a49}
 .mark{margin-left:5px;padding:2px 4px;border-radius:3px;background:var(--red);font-size:4px;color:#fff;font-style:normal}
 
 .empty{min-height:70vh;display:flex;align-items:center;justify-content:center;color:var(--muted);font:900 12px "Barlow Condensed";letter-spacing:1px}
 
-nav{position:fixed;z-index:40;bottom:0;left:50%;width:100%;max-width:560px;height:82px;padding-bottom:env(safe-area-inset-bottom);transform:translateX(-50%);display:flex;background:#07162bed;border-top:1px solid var(--line);backdrop-filter:blur(20px)}
-nav button{position:relative;flex:1;border:0;background:none;color:#607894;font-size:5px;font-weight:900;letter-spacing:.8px}
-.nav-icon{position:relative;width:31px;height:29px;margin:0 auto 4px;color:currentColor}
-.nav-icon:before,.nav-icon:after{content:"";position:absolute}
+.bottom-nav{position:fixed;z-index:40;left:50%;bottom:0;width:100%;max-width:560px;height:91px;padding:9px 12px calc(9px + env(safe-area-inset-bottom));transform:translateX(-50%);background:linear-gradient(180deg,#07162be8,#061326f5);border-top:1px solid #203b5a;backdrop-filter:blur(22px)}
+.nav-inner{height:100%;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:4px;border:1px solid #18324f;border-radius:17px;background:#08182e;box-shadow:0 8px 30px #00035}
+.nav-item{position:relative;border:0;border-radius:12px;background:transparent;color:#617994;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:5px;font-weight:900;letter-spacing:.8px;transition:.18s}
+.nav-item:active{transform:scale(.96)}
+.nav-item.active{background:linear-gradient(145deg,#142b49,#0d213a);color:#fff;box-shadow:inset 0 0 0 1px #294866,0 4px 12px #0003}
+.nav-item.active:before{content:"";position:absolute;top:0;left:28%;right:28%;height:2px;border-radius:0 0 5px 5px;background:var(--red);box-shadow:0 0 9px #e3183766}
+.nav-icon{position:relative;width:28px;height:27px;color:currentColor}
+.nav-item.active .nav-icon{color:var(--red);filter:drop-shadow(0 0 5px #e3183745)}
 
-.schedule-icon:before{left:3px;top:6px;width:25px;height:19px;border:1.6px solid currentColor;border-radius:5px}
-.schedule-icon:after{left:7px;top:2px;width:2px;height:7px;border-radius:2px;background:currentColor;box-shadow:14px 0 currentColor}
-.schedule-icon{background:linear-gradient(currentColor,currentColor) 7px 12px/17px 1.5px no-repeat,linear-gradient(currentColor,currentColor) 7px 17px/17px 1.5px no-repeat}
+.schedule-icon:before{left:3px;top:6px;width:22px;height:18px;border:1.5px solid currentColor;border-radius:5px}
+.schedule-icon:after{left:7px;top:2px;width:2px;height:7px;border-radius:2px;background:currentColor;box-shadow:12px 0 currentColor}
+.schedule-icon{background:linear-gradient(currentColor,currentColor) 7px 12px/14px 1.5px no-repeat,linear-gradient(currentColor,currentColor) 7px 17px/14px 1.5px no-repeat}
 
-.home-icon:before{left:5px;top:10px;width:21px;height:16px;border:1.6px solid currentColor;border-top:0;border-radius:3px}
-.home-icon:after{left:6px;top:3px;width:20px;height:20px;border-left:1.6px solid currentColor;border-top:1.6px solid currentColor;transform:rotate(45deg) scale(.72);border-radius:2px}
-.home-icon{background:linear-gradient(currentColor,currentColor) 14px 18px/4px 8px no-repeat}
+.home-icon:before{left:5px;top:10px;width:19px;height:15px;border:1.5px solid currentColor;border-top:0;border-radius:3px}
+.home-icon:after{left:7px;top:4px;width:17px;height:17px;border-left:1.5px solid currentColor;border-top:1.5px solid currentColor;transform:rotate(45deg) scale(.72);border-radius:2px}
+.home-icon{background:linear-gradient(currentColor,currentColor) 13px 17px/4px 8px no-repeat}
 
-.players-icon:before{left:10px;top:2px;width:11px;height:11px;border:1.6px solid currentColor;border-radius:50%}
-.players-icon:after{left:4px;bottom:2px;width:23px;height:12px;border:1.6px solid currentColor;border-radius:13px 13px 5px 5px}
-.players-icon{background:linear-gradient(currentColor,currentColor) 14px 16px/2px 6px no-repeat}
-
-nav .active{color:#fff}
-nav .active .nav-icon{color:var(--red);filter:drop-shadow(0 0 5px #e3183755)}
+.players-icon:before{left:9px;top:2px;width:10px;height:10px;border:1.5px solid currentColor;border-radius:50%}
+.players-icon:after{left:3px;bottom:2px;width:22px;height:12px;border:1.5px solid currentColor;border-radius:13px 13px 5px 5px}
+.players-icon{background:linear-gradient(currentColor,currentColor) 13px 15px/2px 6px no-repeat}
 </style>
 </head>
 <body>
@@ -160,23 +168,82 @@ nav .active .nav-icon{color:var(--red);filter:drop-shadow(0 0 5px #e3183755)}
 <div id="news" class="news-grid"></div>
 
 <div class="section"><b>NL EAST</b><span>STANDINGS</span></div>
+
 <div class="card stand">
-<div class="stand-head"><span>#</span><span>TEAM</span><span>W</span><span>L</span><span>GB</span></div>
-<div class="teamrow phi"><span class="rank">1</span><span class="tn">PHI <i class="mark">POST</i></span><span class="num">72</span><span class="num">45</span><span class="num">—</span></div>
-<div class="teamrow"><span class="rank">2</span><span class="tn">ATL</span><span class="num">67</span><span class="num">50</span><span class="num">5.0</span></div>
-<div class="teamrow"><span class="rank">3</span><span class="tn">NYM</span><span class="num">63</span><span class="num">54</span><span class="num">9.0</span></div>
-<div class="teamrow"><span class="rank">4</span><span class="tn">MIA</span><span class="num">51</span><span class="num">66</span><span class="num">21.0</span></div>
-<div class="teamrow"><span class="rank">5</span><span class="tn">WSH</span><span class="num">48</span><span class="num">69</span><span class="num">24.0</span></div>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>TEAM</th>
+<th>W</th>
+<th>L</th>
+<th>GB</th>
+</tr>
+</thead>
+<tbody>
+<tr class="phi">
+<td class="rank">1</td>
+<td class="tn">PHI <i class="mark">POST</i></td>
+<td class="num">72</td>
+<td class="num">45</td>
+<td class="num">—</td>
+</tr>
+<tr>
+<td class="rank">2</td>
+<td class="tn">ATL</td>
+<td class="num">67</td>
+<td class="num">50</td>
+<td class="num">5.0</td>
+</tr>
+<tr>
+<td class="rank">3</td>
+<td class="tn">NYM</td>
+<td class="num">63</td>
+<td class="num">54</td>
+<td class="num">9.0</td>
+</tr>
+<tr>
+<td class="rank">4</td>
+<td class="tn">MIA</td>
+<td class="num">51</td>
+<td class="num">66</td>
+<td class="num">21.0</td>
+</tr>
+<tr>
+<td class="rank">5</td>
+<td class="tn">WSH</td>
+<td class="num">48</td>
+<td class="num">69</td>
+<td class="num">24.0</td>
+</tr>
+</tbody>
+</table>
 </div>
 </main>
 
-<main id="schedule" class="page"><div class="empty">SCHEDULE</div></main>
-<main id="players" class="page"><div class="empty">PLAYERS</div></main>
+<main id="schedule" class="page">
+<div class="empty">SCHEDULE</div>
+</main>
 
-<nav>
-<button id="ns" onclick="go('schedule')"><span class="nav-icon schedule-icon"></span>SCHEDULE</button>
-<button id="nh" class="active" onclick="go('home')"><span class="nav-icon home-icon"></span>HOME</button>
-<button id="np" onclick="go('players')"><span class="nav-icon players-icon"></span>PLAYERS</button>
+<main id="players" class="page">
+<div class="empty">PLAYERS</div>
+</main>
+
+<nav class="bottom-nav">
+<div class="nav-inner">
+<button id="ns" class="nav-item" onclick="go('schedule')">
+<span class="nav-icon schedule-icon"></span>
+<span>SCHEDULE</span>
+</button>
+<button id="nh" class="nav-item active" onclick="go('home')">
+<span class="nav-icon home-icon"></span>
+<span>HOME</span>
+</button>
+<button id="np" class="nav-item" onclick="go('players')">
+<span class="nav-icon players-icon"></span>
+<span>PLAYERS</span>
+</button>
+</div>
 </nav>
 
 </div>
@@ -201,7 +268,8 @@ return m?(m[2]==="H"?+m[1]/24:+m[1]):99
 }
 
 function renderNews(){
-const days=+$("newsFilter").value,filter=$("readFilter").value;
+const days=+$("newsFilter").value;
+const filter=$("readFilter").value;
 const list=news.filter(n=>ageDays(n[3])<=days&&(filter==="ALL"||(filter==="READ"?n[5]:!n[5])));
 $("news").innerHTML=list.length?list.map(n=>{
 const i=news.indexOf(n);
