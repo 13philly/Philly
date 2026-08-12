@@ -21,8 +21,16 @@ jobs:
         with:
           node-version: 20
 
+      - name: Check API
+        run: |
+          node -e "fetch('https://statsapi.mlb.com/api/v1/standings?leagueId=104&season=2026&standingsTypes=regularSeason&hydrate=team,division,league').then(async r=>{console.log('HTTP',r.status);if(!r.ok)process.exit(1);const j=await r.json();console.log('records:',j.records?.length);console.log('teams:',j.records?.reduce((n,x)=>n+(x.teamRecords?.length||0),0));})"
+
       - name: Update standings
         run: node scripts/update_standings.mjs
+
+      - name: Verify output
+        run: |
+          node -e "const fs=require('fs');const x=JSON.parse(fs.readFileSync('data/standings.json'));if(x.division.teams.length!==5)throw Error('NL East is not 5 teams');if(x.wildCard.teams.length!==15)throw Error('NL is not 15 teams');if(!x.division.teams.some(t=>t.teamId===143))throw Error('Phillies missing');console.log('NL East:',x.division.teams.length);console.log('NL:',x.wildCard.teams.length);console.log('Phillies: OK')"
 
       - name: Commit and push
         run: |
