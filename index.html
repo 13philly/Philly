@@ -13,176 +13,103 @@
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html{background:var(--n)}
 body{margin:0;background:radial-gradient(circle at 50% -10%,#163764 0,#07172f 34%,#050f24 68%);background-attachment:fixed;color:var(--w);font-family:Inter,sans-serif}
-button,select{font:inherit}
-button{cursor:pointer}
+button,select{font:inherit}button{cursor:pointer}
 .app{width:100%;max-width:560px;min-height:100vh;margin:auto;padding-bottom:91px}
 .top{position:sticky;top:0;z-index:30;height:64px;padding:0 16px;display:flex;align-items:center;justify-content:space-between;background:#050f24df;border-bottom:1px solid #1b3559;backdrop-filter:blur(18px)}
-.logo{font:900 30px/1 "Barlow Condensed";letter-spacing:.5px}
-.logo i{color:var(--r);font-style:normal}
+.logo{font:900 30px/1 "Barlow Condensed";letter-spacing:.5px}.logo i{color:var(--r);font-style:normal}
 .topmark{font-size:6px;color:#7185a2;font-weight:900;letter-spacing:1.3px}
-.page{display:none;padding:20px 15px}
-.page.show{display:block}
+.page{display:none;padding:20px 15px}.page.show{display:block}
 .eyebrow{font-size:6px;color:var(--m);font-weight:900;letter-spacing:1.5px;margin-top:4px}
 h1{margin:0;font:900 43px/.86 "Barlow Condensed";letter-spacing:-.5px}
-.section{display:flex;justify-content:space-between;align-items:end;margin:26px 2px 10px}
-.section b{font:900 18px/.9 "Barlow Condensed";letter-spacing:.4px}
-.section span{font-size:5px;color:var(--m);font-weight:900;letter-spacing:1px}
+.section{display:flex;justify-content:space-between;align-items:end;margin:26px 2px 10px}.section b{font:900 18px/.9 "Barlow Condensed";letter-spacing:.4px}.section span{font-size:5px;color:var(--m);font-weight:900;letter-spacing:1px}
 .card{border:1px solid var(--l);background:linear-gradient(145deg,#102b52,#081b37);border-radius:18px;box-shadow:0 12px 35px #0003}
-.hero{position:relative;overflow:hidden;padding:16px}
-.hero:before{content:"";position:absolute;width:180px;height:180px;right:-70px;top:-75px;border-radius:50%;background:#e3183720}
-.hero-top{position:relative;display:flex;align-items:center;justify-content:space-between}
-.live{display:flex;align-items:center;gap:6px;color:#ff7085;font-size:6px;font-weight:900;letter-spacing:.8px}
-.live b{width:6px;height:6px;border-radius:50%;background:var(--r);box-shadow:0 0 0 5px #e3183720}
-.final{color:#7f94af;font-size:6px;font-weight:900}
-.hero-date{font-size:6px;color:var(--m);font-weight:900}
-.hero-score{position:relative;display:grid;grid-template-columns:1fr 65px 1fr;align-items:center;text-align:center;padding:25px 0 20px}
-.hero-team{font:900 22px/.8 "Barlow Condensed"}
-.hero-team small{display:block;margin-top:6px;font:800 6px Inter;color:var(--m);letter-spacing:1px}
-.hero-score b{font:900 48px/.8 "Barlow Condensed";letter-spacing:-1px}
-.hero-score em{display:block;font:900 7px Inter;color:var(--m);font-style:normal;margin-bottom:10px}
-.hero-bottom{position:relative;display:flex;justify-content:space-between;padding-top:10px;border-top:1px solid var(--l);font-size:6px;color:var(--m);font-weight:900}
-.hero-btn{width:100%;margin-top:12px;border:0;border-radius:10px;padding:12px;background:var(--r);color:#fff;font-size:7px;font-weight:900;letter-spacing:.7px}
-.news-grid{display:grid;gap:8px}
+
+/* HOME */
+.homehead{display:flex;justify-content:space-between;align-items:end;margin-bottom:20px}
+.homehead .eyebrow{margin:0}
+.homedate{font:900 8px "Barlow Condensed";color:#8095ae;letter-spacing:.8px}
+.homehero{position:relative;overflow:hidden;padding:0;border:1px solid #28486f;border-radius:22px;background:linear-gradient(145deg,#12345f 0,#081a35 65%,#06152d 100%);box-shadow:0 18px 45px #0004}
+.homehero:before{content:"";position:absolute;inset:-90px auto auto -80px;width:230px;height:230px;border-radius:50%;background:#e3183710}
+.homehero:after{content:"";position:absolute;right:-100px;bottom:-110px;width:260px;height:260px;border-radius:50%;border:42px solid #ffffff05}
+.livebar{position:relative;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:13px 15px;border-bottom:1px solid #254366;background:#06162eaa}
+.liveon{display:flex;align-items:center;gap:7px;color:#ff657c;font-size:6px;font-weight:900;letter-spacing:1px}.liveon i{width:6px;height:6px;border-radius:50%;background:var(--r);box-shadow:0 0 0 5px #e3183720}
+.liveclock{font:900 7px "Barlow Condensed";color:#7990ac;letter-spacing:.7px}
+.scoreboard{position:relative;z-index:2;padding:20px 15px 16px}
+.scoreteams{display:grid;grid-template-columns:1fr 74px 1fr;align-items:center;text-align:center}
+.teamname{font:900 27px/.8 "Barlow Condensed";letter-spacing:.2px}.teamname small{display:block;margin-top:7px;font:900 6px Inter;color:#8195ad;letter-spacing:1px}
+.scorecenter em{display:block;margin-bottom:7px;color:#778ca7;font:900 5px Inter;font-style:normal;letter-spacing:1px}.scorecenter b{font:900 53px/.75 "Barlow Condensed";letter-spacing:-1px}
+.situation{display:flex;justify-content:center;gap:7px;margin-top:17px}.situation span{padding:6px 8px;border:1px solid #28486e;border-radius:6px;background:#071a34;color:#9aacc0;font-size:5px;font-weight:900}
+.herolocation{display:flex;justify-content:space-between;padding-top:13px;margin-top:15px;border-top:1px solid #254366;color:#7187a2;font-size:5px;font-weight:900}
+.gamebutton{width:100%;margin-top:13px;border:0;border-radius:10px;padding:12px;background:var(--r);color:#fff;font-size:7px;font-weight:900;letter-spacing:.8px}
+.quickgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:9px}
+.quick{padding:13px;border:1px solid var(--l);border-radius:14px;background:#0b2142}
+.quick small{display:block;color:#627a98;font-size:5px;font-weight:900;letter-spacing:.8px}.quick b{display:block;margin-top:6px;font:900 22px/.8 "Barlow Condensed"}.quick span{display:block;margin-top:6px;color:#7186a2;font-size:5px;font-weight:800}
+.home-news{display:grid;gap:8px}
 .news{position:relative;overflow:hidden;padding:14px;border:1px solid var(--l);border-radius:15px;background:linear-gradient(145deg,#10284c,#091c38);transition:transform .15s,background .15s}
 .news:active,.game:active,.player:active{transform:scale(.985);background:#13315a}
-.news.feature{padding:18px}
-.news.feature .nt{font-size:23px}
-.news.feature .nj{font-size:10px}
+.news.feature{padding:18px;background:linear-gradient(145deg,#14345e,#091c38);border-color:#294a72}.news.feature .nt{font-size:24px}.news.feature .nj{font-size:10px}
 .news.unread{border-left:3px solid var(--r)}
-.nmeta{display:flex;gap:7px;align-items:center;margin-bottom:9px}
-.source{font-size:5px;color:#ff667d;font-weight:900;letter-spacing:1px}
-.ndot{width:3px;height:3px;border-radius:50%;background:#526987}
-.time{font-size:5px;color:#647a98}
-.nt{font:800 18px/1.08 "Barlow Condensed";letter-spacing:.1px;padding-right:26px}
-.nj{margin-top:7px;color:#a7b8cc;font-size:8px;line-height:1.4}
-.nbottom{display:flex;justify-content:space-between;align-items:center;margin-top:12px}
-.read{font-size:5px;color:#657a96;font-weight:900}
-.unread .read{color:var(--r)}
-.fav{border:0;background:none;color:#667d9a;font-size:20px;padding:0;line-height:1}
-.fav.on{color:var(--r)}
-.stand{overflow:hidden}
-.stand-head{display:grid;grid-template-columns:28px 1fr repeat(3,36px);padding:10px 11px;background:#071832;color:#607794;font-size:5px;font-weight:900}
-.teamrow{display:grid;grid-template-columns:28px 1fr repeat(3,36px);align-items:center;padding:12px 11px;border-top:1px solid var(--l);font-size:7px}
-.teamrow strong{font:900 16px "Barlow Condensed"}
-.teamrow .tn{font-weight:900}
-.teamrow .num{text-align:right;font:800 10px "Barlow Condensed"}
-.teamrow.phi{background:linear-gradient(90deg,#132f58,#0d2446)}
-.rank{font:900 16px "Barlow Condensed";color:#7185a2}
-.mark{margin-left:4px;padding:2px 4px;border-radius:3px;background:var(--r);font-size:4px;color:#fff;font-style:normal;font-weight:900}
+.nmeta{display:flex;gap:7px;align-items:center;margin-bottom:9px}.source{font-size:5px;color:#ff667d;font-weight:900;letter-spacing:1px}.ndot{width:3px;height:3px;border-radius:50%;background:#526987}.time{font-size:5px;color:#647a98}
+.nt{font:800 18px/1.08 "Barlow Condensed";letter-spacing:.1px;padding-right:26px}.nj{margin-top:7px;color:#a7b8cc;font-size:8px;line-height:1.4}
+.nbottom{display:flex;justify-content:space-between;align-items:center;margin-top:12px}.read{font-size:5px;color:#657a96;font-weight:900}.unread .read{color:var(--r)}
+.fav{border:0;background:none;color:#667d9a;font-size:20px;padding:0;line-height:1}.fav.on{color:var(--r)}
+.stand{overflow:hidden}.stand-head{display:grid;grid-template-columns:28px 1fr repeat(3,36px);padding:10px 11px;background:#071832;color:#607794;font-size:5px;font-weight:900}
+.teamrow{display:grid;grid-template-columns:28px 1fr repeat(3,36px);align-items:center;padding:12px 11px;border-top:1px solid var(--l);font-size:7px}.teamrow strong{font:900 16px "Barlow Condensed"}.teamrow .tn{font-weight:900}.teamrow .num{text-align:right;font:800 10px "Barlow Condensed"}.teamrow.phi{background:linear-gradient(90deg,#132f58,#0d2446)}
+.rank{font:900 16px "Barlow Condensed";color:#7185a2}.mark{margin-left:4px;padding:2px 4px;border-radius:3px;background:var(--r);font-size:4px;color:#fff;font-style:normal;font-weight:900}
+.nextcard{padding:16px}.nexttop{display:flex;justify-content:space-between;color:#7186a2;font-size:5px;font-weight:900}.nextmatch{display:grid;grid-template-columns:1fr 50px 1fr;align-items:center;text-align:center;padding:21px 0 18px}.nextteam{font:900 22px/.8 "Barlow Condensed"}.nextteam small{display:block;margin-top:6px;color:#7186a2;font:900 5px Inter}.nextvs{font:900 27px "Barlow Condensed"}.nextbottom{display:flex;justify-content:space-between;padding-top:10px;border-top:1px solid var(--l);font-size:5px;color:#7186a2;font-weight:900}
+
+/* SCHEDULE / PLAYERS / DETAIL */
 .month{display:grid;grid-template-columns:73px 1fr 73px;height:91px;margin-top:16px;overflow:hidden;border:1px solid var(--l);border-radius:18px;background:linear-gradient(145deg,#102b52,#081b37);box-shadow:0 10px 30px #0003}
-.month button{border:0;background:transparent;color:#fff;font:500 57px/.8 "Barlow Condensed"}
-.month button:active{background:var(--r)}
-.month button:disabled{color:#29425f}
+.month button{border:0;background:transparent;color:#fff;font:500 57px/.8 "Barlow Condensed"}.month button:active{background:var(--r)}.month button:disabled{color:#29425f}
 .month-title{text-align:center;align-self:center;font:900 29px/.8 "Barlow Condensed";letter-spacing:1px}
-.days{margin-top:10px;overflow:hidden;border:1px solid var(--l);border-radius:17px;background:#081c38}
-.day{min-height:74px;display:flex;align-items:center;padding:8px;border-bottom:1px solid var(--l)}
-.day:last-child{border:0}
-.day.play{cursor:pointer}
-.day.play:active{background:#14315a}
-.dnum{width:44px;text-align:center;font:900 26px/.8 "Barlow Condensed";color:#8295ad}
-.dnum small{display:block;margin-top:5px;font:900 5px Inter;color:#526a88}
-.event{flex:1;min-width:0;padding-left:8px}
-.event b{font:900 15px/.9 "Barlow Condensed"}
-.event small{display:block;margin-top:6px;color:#7186a2;font-size:5px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.result{font:900 17px "Barlow Condensed";padding-right:5px}
-.win{color:var(--g)}
-.loss{color:#f05b72}
-.live-tag{background:var(--r);border-radius:5px;padding:6px;color:#fff;font-size:5px;font-weight:900}
-.filters{display:grid;grid-template-columns:1.3fr .7fr;gap:7px;margin-top:16px}
-.select{position:relative;border:1px solid var(--l);border-radius:10px;background:#0c2345}
-.select label{display:block;padding:6px 9px 0;color:#637b99;font-size:5px;font-weight:900}
-.select select{appearance:none;width:100%;border:0;outline:0;background:transparent;color:#fff;padding:5px 23px 9px 9px;font-size:7px;font-weight:900}
-.select:after{content:"⌄";position:absolute;right:9px;bottom:7px;color:#647a98;pointer-events:none}
-.roster{margin-top:10px;border:1px solid var(--l);border-radius:17px;overflow:hidden;background:#081c38}
-.group{padding:9px 12px;background:#06162e;border-bottom:1px solid var(--l);font:900 12px "Barlow Condensed";color:#7e93ad;letter-spacing:.5px}
-.player{position:relative;display:flex;align-items:center;min-height:82px;padding:9px 10px;border-bottom:1px solid var(--l);transition:.15s;cursor:pointer}
-.player:last-child{border:0}
-.pnum{width:51px;font:900 30px/.8 "Barlow Condensed";color:#657b99}
-.pmain{flex:1;min-width:0}
-.pname{font:900 20px/.9 "Barlow Condensed"}
-.pmeta{display:flex;gap:10px;margin-top:8px;font-size:5px;color:#7186a2;font-weight:900}
-.badge{padding:3px 4px;border-radius:3px;background:#17365f;color:#aebdd0;font-size:4px}
-.badge.il{background:#481d2a;color:#ff8094}
-.ppos{font:900 19px "Barlow Condensed";color:#dce4ed}
-.arrow{font:900 23px "Barlow Condensed";color:#405978;margin-left:8px}
-.detail{display:none;padding:19px 15px 30px}
-.detail.show{display:block}
-.backline{display:flex;align-items:center;gap:9px;margin-bottom:15px}
-.back{width:39px;height:37px;border:1px solid var(--l);border-radius:10px;background:#0d2446;color:#fff;font-size:25px}
-.detail-title{font:900 27px/.8 "Barlow Condensed"}
-.detail-sub{margin-top:4px;color:#6f84a0;font-size:5px;font-weight:900;letter-spacing:.8px}
-.profile{position:relative;overflow:hidden;padding:20px;border:1px solid var(--l);border-radius:19px;background:linear-gradient(145deg,#14345f,#081b37)}
-.profile:after{content:"";position:absolute;right:-18px;bottom:-30px;width:150px;height:150px;border-radius:50%;border:24px solid #ffffff08}
-.big-number{position:absolute;right:3px;bottom:-16px;font:900 125px/.8 "Barlow Condensed";color:#ffffff08}
-.profile h2{position:relative;z-index:2;max-width:75%;margin:0;font:900 39px/.82 "Barlow Condensed"}
-.profile p{position:relative;z-index:2;margin:9px 0 0;color:#8da1bb;font-size:7px;font-weight:900}
-.chips{position:relative;z-index:2;display:flex;gap:5px;margin-top:14px}
-.chip{padding:5px 7px;border-radius:4px;background:#173a65;color:#b9c7d8;font-size:5px;font-weight:900}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:8px}
-.stat{padding:11px 2px;border:1px solid var(--l);border-radius:10px;background:#0b2142;text-align:center}
-.stat b{display:block;font:900 21px/.8 "Barlow Condensed"}
-.stat small{display:block;margin-top:5px;color:#7186a2;font-size:4px;font-weight:900}
-.data{overflow:hidden;border:1px solid var(--l);border-radius:15px;background:#081c38}
-.data-row{display:flex;justify-content:space-between;padding:11px 12px;border-bottom:1px solid var(--l);font-size:7px}
-.data-row:last-child{border:0}
-.data-row span{color:#7186a2}
-.game-card{padding:16px}
-.game-top{display:flex;justify-content:space-between;color:#7287a2;font-size:6px;font-weight:900}
-.game-score{display:grid;grid-template-columns:1fr 80px 1fr;align-items:center;text-align:center;padding:28px 0 22px}
-.game-team{font:900 20px/.8 "Barlow Condensed"}
-.game-team small{display:block;margin-top:6px;color:#7186a2;font:900 5px Inter}
-.game-score strong{font:900 43px/.8 "Barlow Condensed"}
-.game-bottom{display:flex;justify-content:space-between;padding-top:10px;border-top:1px solid var(--l);font-size:5px;color:#7186a2;font-weight:900}
-.innings{width:100%;margin-top:15px;border-collapse:collapse}
-.innings td,.innings th{padding:5px 2px;border-bottom:1px solid var(--l);text-align:center;font-size:5px}
-.innings th{color:#607794}
-.innings td:first-child,.innings th:first-child{text-align:left;font-weight:900}
-.subnav{display:flex;gap:5px;overflow:auto;margin:12px 0 9px}
-.subnav button{flex:none;border:1px solid var(--l);border-radius:7px;background:#0b2142;color:#7085a2;padding:8px 10px;font-size:5px;font-weight:900}
-.subnav button.on{background:var(--r);border-color:var(--r);color:#fff}
-.lineup,.pitching,.plays{overflow:hidden;border:1px solid var(--l);border-radius:15px;background:#081c38}
-.bat,.bathead{display:grid;grid-template-columns:24px 1fr 32px 32px 35px;padding:9px 10px;border-bottom:1px solid var(--l)}
-.bathead{color:#607794;font-size:4px;font-weight:900}
-.bat:last-child{border:0}
-.batnum{font:900 13px "Barlow Condensed";color:#6e84a0}
-.batname{font:900 11px "Barlow Condensed"}
-.batpos{display:block;margin-top:3px;color:#7186a2;font-size:4px}
-.bs{text-align:right;font:900 9px "Barlow Condensed"}
-.pitch{display:grid;grid-template-columns:23px 1fr 40px 40px 40px;padding:10px;border-bottom:1px solid var(--l)}
-.pitch:last-child{border:0}
-.po{font:900 14px "Barlow Condensed";color:#6e84a0}
-.pn{font:900 11px "Barlow Condensed"}
-.psub{display:block;margin-top:3px;color:#7186a2;font-size:4px}
-.pstat{text-align:right;font:900 9px "Barlow Condensed"}
-.pstat small{display:block;color:#607794;font-size:4px}
-.play{display:flex;justify-content:space-between;padding:12px;border-bottom:1px solid var(--l);font-size:6px}
-.play:last-child{border:0}
-.play span{color:#7186a2}
+.days{margin-top:10px;overflow:hidden;border:1px solid var(--l);border-radius:17px;background:#081c38}.day{min-height:74px;display:flex;align-items:center;padding:8px;border-bottom:1px solid var(--l)}.day:last-child{border:0}.day.play{cursor:pointer}.day.play:active{background:#14315a}
+.dnum{width:44px;text-align:center;font:900 26px/.8 "Barlow Condensed";color:#8295ad}.dnum small{display:block;margin-top:5px;font:900 5px Inter;color:#526a88}.event{flex:1;min-width:0;padding-left:8px}.event b{font:900 15px/.9 "Barlow Condensed"}.event small{display:block;margin-top:6px;color:#7186a2;font-size:5px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.result{font:900 17px "Barlow Condensed";padding-right:5px}.win{color:var(--g)}.loss{color:#f05b72}.live-tag{background:var(--r);border-radius:5px;padding:6px;color:#fff;font-size:5px;font-weight:900}
+.filters{display:grid;grid-template-columns:1.3fr .7fr;gap:7px;margin-top:16px}.select{position:relative;border:1px solid var(--l);border-radius:10px;background:#0c2345}.select label{display:block;padding:6px 9px 0;color:#637b99;font-size:5px;font-weight:900}.select select{appearance:none;width:100%;border:0;outline:0;background:transparent;color:#fff;padding:5px 23px 9px 9px;font-size:7px;font-weight:900}.select:after{content:"⌄";position:absolute;right:9px;bottom:7px;color:#647a98;pointer-events:none}
+.roster{margin-top:10px;border:1px solid var(--l);border-radius:17px;overflow:hidden;background:#081c38}.group{padding:9px 12px;background:#06162e;border-bottom:1px solid var(--l);font:900 12px "Barlow Condensed";color:#7e93ad;letter-spacing:.5px}
+.player{position:relative;display:flex;align-items:center;min-height:82px;padding:9px 10px;border-bottom:1px solid var(--l);transition:.15s;cursor:pointer}.player:last-child{border:0}.pnum{width:51px;font:900 30px/.8 "Barlow Condensed";color:#657b99}.pmain{flex:1;min-width:0}.pname{font:900 20px/.9 "Barlow Condensed"}.pmeta{display:flex;gap:10px;margin-top:8px;font-size:5px;color:#7186a2;font-weight:900}.badge{padding:3px 4px;border-radius:3px;background:#17365f;color:#aebdd0;font-size:4px}.badge.il{background:#481d2a;color:#ff8094}.ppos{font:900 19px "Barlow Condensed";color:#dce4ed}.arrow{font:900 23px "Barlow Condensed";color:#405978;margin-left:8px}
+.detail{display:none;padding:19px 15px 30px}.detail.show{display:block}.backline{display:flex;align-items:center;gap:9px;margin-bottom:15px}.back{width:39px;height:37px;border:1px solid var(--l);border-radius:10px;background:#0d2446;color:#fff;font-size:25px}.detail-title{font:900 27px/.8 "Barlow Condensed"}.detail-sub{margin-top:4px;color:#6f84a0;font-size:5px;font-weight:900;letter-spacing:.8px}
+.profile{position:relative;overflow:hidden;padding:20px;border:1px solid var(--l);border-radius:19px;background:linear-gradient(145deg,#14345f,#081b37)}.profile:after{content:"";position:absolute;right:-18px;bottom:-30px;width:150px;height:150px;border-radius:50%;border:24px solid #ffffff08}.big-number{position:absolute;right:3px;bottom:-16px;font:900 125px/.8 "Barlow Condensed";color:#ffffff08}.profile h2{position:relative;z-index:2;max-width:75%;margin:0;font:900 39px/.82 "Barlow Condensed"}.profile p{position:relative;z-index:2;margin:9px 0 0;color:#8da1bb;font-size:7px;font-weight:900}.chips{position:relative;z-index:2;display:flex;gap:5px;margin-top:14px}.chip{padding:5px 7px;border-radius:4px;background:#173a65;color:#b9c7d8;font-size:5px;font-weight:900}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:8px}.stat{padding:11px 2px;border:1px solid var(--l);border-radius:10px;background:#0b2142;text-align:center}.stat b{display:block;font:900 21px/.8 "Barlow Condensed"}.stat small{display:block;margin-top:5px;color:#7186a2;font-size:4px;font-weight:900}
+.data{overflow:hidden;border:1px solid var(--l);border-radius:15px;background:#081c38}.data-row{display:flex;justify-content:space-between;padding:11px 12px;border-bottom:1px solid var(--l);font-size:7px}.data-row:last-child{border:0}.data-row span{color:#7186a2}
+.game-card{padding:16px}.game-top{display:flex;justify-content:space-between;color:#7287a2;font-size:6px;font-weight:900}.game-score{display:grid;grid-template-columns:1fr 80px 1fr;align-items:center;text-align:center;padding:28px 0 22px}.game-team{font:900 20px/.8 "Barlow Condensed"}.game-team small{display:block;margin-top:6px;color:#7186a2;font:900 5px Inter}.game-score strong{font:900 43px/.8 "Barlow Condensed"}.game-bottom{display:flex;justify-content:space-between;padding-top:10px;border-top:1px solid var(--l);font-size:5px;color:#7186a2;font-weight:900}
+.innings{width:100%;margin-top:15px;border-collapse:collapse}.innings td,.innings th{padding:5px 2px;border-bottom:1px solid var(--l);text-align:center;font-size:5px}.innings th{color:#607794}.innings td:first-child,.innings th:first-child{text-align:left;font-weight:900}
+.subnav{display:flex;gap:5px;overflow:auto;margin:12px 0 9px}.subnav button{flex:none;border:1px solid var(--l);border-radius:7px;background:#0b2142;color:#7085a2;padding:8px 10px;font-size:5px;font-weight:900}.subnav button.on{background:var(--r);border-color:var(--r);color:#fff}
+.lineup,.pitching,.plays{overflow:hidden;border:1px solid var(--l);border-radius:15px;background:#081c38}.bat,.bathead{display:grid;grid-template-columns:24px 1fr 32px 32px 35px;padding:9px 10px;border-bottom:1px solid var(--l)}.bathead{color:#607794;font-size:4px;font-weight:900}.bat:last-child{border:0}.batnum{font:900 13px "Barlow Condensed";color:#6e84a0}.batname{font:900 11px "Barlow Condensed"}.batpos{display:block;margin-top:3px;color:#7186a2;font-size:4px}.bs{text-align:right;font:900 9px "Barlow Condensed"}
+.pitch{display:grid;grid-template-columns:23px 1fr 40px 40px 40px;padding:10px;border-bottom:1px solid var(--l)}.pitch:last-child{border:0}.po{font:900 14px "Barlow Condensed";color:#6e84a0}.pn{font:900 11px "Barlow Condensed"}.psub{display:block;margin-top:3px;color:#7186a2;font-size:4px}.pstat{text-align:right;font:900 9px "Barlow Condensed"}.pstat small{display:block;color:#607794;font-size:4px}.play{display:flex;justify-content:space-between;padding:12px;border-bottom:1px solid var(--l);font-size:6px}.play:last-child{border:0}
 nav{position:fixed;left:50%;bottom:0;z-index:50;width:100%;max-width:560px;height:83px;padding-bottom:env(safe-area-inset-bottom);transform:translateX(-50%);display:flex;border-top:1px solid var(--l);background:#061631ee;backdrop-filter:blur(20px)}
-nav button{flex:1;border:0;background:none;color:#5d7594;font-size:5px;font-weight:900;letter-spacing:.5px}
-nav button b{display:block;height:27px;font:900 22px/27px "Barlow Condensed"}
-nav button.active{color:#fff}
-nav button.active b{color:var(--r)}
+nav button{flex:1;border:0;background:none;color:#5d7594;font-size:5px;font-weight:900;letter-spacing:.5px}nav button b{display:block;height:27px;font:900 22px/27px "Barlow Condensed"}nav button.active{color:#fff}nav button.active b{color:var(--r)}
 </style>
 </head>
 <body>
 <div class="app">
 <header class="top"><div class="logo">PHI<i>LLIES</i></div><div class="topmark">PHILADELPHIA BASEBALL</div></header>
+
 <main id="home" class="page show">
-<h1>Home</h1><div class="eyebrow">PHILADELPHIA PHILLIES</div>
-<div class="section"><b>LIVE CENTER</b><span>GAME DAY</span></div>
-<div class="card hero">
-<div class="hero-top"><div class="live"><b></b>LIVE NOW</div><div class="hero-date">AUG 13 · 7TH</div></div>
-<div class="hero-score">
-<div class="hero-team">PHILLIES<small>PHI</small></div>
-<div><em>TRAIL</em><b>4—2</b></div>
-<div class="hero-team">BRAVES<small>ATL</small></div>
+<div class="homehead"><div><h1>Home</h1><div class="eyebrow">PHILADELPHIA PHILLIES</div></div><div class="homedate">AUG 13 · 2026</div></div>
+
+<div class="homehero">
+<div class="livebar"><div class="liveon"><i></i>LIVE CENTER</div><div class="liveclock">7TH INNING</div></div>
+<div class="scoreboard">
+<div class="scoreteams">
+<div class="teamname">PHILLIES<small>PHI · AWAY</small></div>
+<div class="scorecenter"><em>TRAIL</em><b>4—2</b></div>
+<div class="teamname">BRAVES<small>ATL · HOME</small></div>
 </div>
-<div class="hero-bottom"><span>TRUIST PARK</span><span>2 OUT</span></div>
-<button class="hero-btn" onclick="game('lineup',1)">OPEN GAME CENTER</button>
+<div class="situation"><span>7TH</span><span>2 OUT</span><span>RISP</span></div>
+<div class="herolocation"><span>TRUIST PARK</span><span>ATLANTA, GA</span></div>
+<button class="gamebutton" onclick="game('lineup',1)">OPEN GAME CENTER</button>
 </div>
+</div>
+
+<div class="quickgrid">
+<div class="quick"><small>PHI RECORD</small><b>72—45</b><span>1ST · NL EAST</span></div>
+<div class="quick"><small>STREAK</small><b>W 3</b><span>LAST 10 · 7—3</span></div>
+</div>
+
 <div class="section"><b>LATEST</b><span>PHILLIES NEWS</span></div>
-<div id="news" class="news-grid"></div>
+<div id="news" class="home-news"></div>
+
 <div class="section"><b>NL EAST</b><span>STANDINGS</span></div>
 <div class="card stand">
 <div class="stand-head"><span>#</span><span>TEAM</span><span>W</span><span>L</span><span>GB</span></div>
@@ -192,46 +119,64 @@ nav button.active b{color:var(--r)}
 <div class="teamrow"><span class="rank">4</span><span class="tn">MIA</span><span class="num">51</span><span class="num">66</span><span class="num">21.0</span></div>
 <div class="teamrow"><span class="rank">5</span><span class="tn">WSH</span><span class="num">48</span><span class="num">69</span><span class="num">24.0</span></div>
 </div>
+
+<div class="section"><b>NEXT GAME</b><span>UPCOMING</span></div>
+<div class="card nextcard">
+<div class="nexttop"><span>SAT · AUG 15</span><span>7:40 PM</span></div>
+<div class="nextmatch">
+<div class="nextteam">PHILLIES<small>PHI</small></div>
+<div class="nextvs">@</div>
+<div class="nextteam">PADRES<small>SD</small></div>
+</div>
+<div class="nextbottom"><span>PETCO PARK</span><span>SAN DIEGO, CA</span></div>
+</div>
 </main>
+
 <main id="schedule" class="page">
 <h1>Schedule</h1><div class="eyebrow">2026 REGULAR SEASON</div>
 <div class="month"><button id="prev" onclick="monthMove(-1)">‹</button><div id="monthTitle" class="month-title">AUGUST</div><button id="next" onclick="monthMove(1)">›</button></div>
-<div class="section"><b>2026</b><span id="daysLabel"></span></div>
-<div id="days" class="days"></div>
+<div class="section"><b>2026</b><span id="daysLabel"></span></div><div id="days" class="days"></div>
 </main>
+
 <main id="players" class="page">
 <h1>Players</h1><div class="eyebrow">PHILADELPHIA PHILLIES</div>
 <div class="filters">
 <div class="select"><label>ROSTER</label><select id="rf" onchange="players()"><option value="ALL">ACTIVE + 40-MAN + IL</option><option value="ACTIVE">ACTIVE</option><option value="IL">IL</option></select></div>
 <div class="select"><label>POSITION</label><select id="pf" onchange="players()"><option value="ALL">ALL</option><option value="P">P</option><option value="C">C</option><option value="IF">IF</option><option value="OF">OF</option><option value="DH">DH</option></select></div>
 </div>
-<div class="section"><b>ROSTER</b><span id="count"></span></div>
-<div id="roster" class="roster"></div>
+<div class="section"><b>ROSTER</b><span id="count"></span></div><div id="roster" class="roster"></div>
 </main>
+
 <section id="detail" class="detail"></section>
+
 <nav>
 <button id="ns" onclick="go('schedule')"><b>▣</b>SCHEDULE</button>
 <button id="nh" class="active" onclick="go('home')"><b>⌂</b>HOME</button>
 <button id="np" onclick="go('players')"><b>♙</b>PLAYERS</button>
 </nav>
 </div>
+
 <script>
 const $=x=>document.getElementById(x);
 let page="home",back="home",mi=7;
+
 const news=[
 ["MLB.COM","Phillies strengthen bullpen ahead of stretch run","フィリーズ、終盤戦を前にブルペンを強化","2H",0,0],
 ["ESPN","Phillies lineup continues to produce at the plate","フィリーズ打線、好調な打撃を継続","11H",0,1],
 ["PHILLIES NATION","Philadelphia prepares for important divisional series","フィラデルフィア、重要な地区シリーズへ準備","1D",1,0],
 ["MLB.COM","Harper continues to lead Philadelphia offense","ハーパーがフィリーズ打線を牽引","1D",1,0]
 ];
+
 function renderNews(){
 $("news").innerHTML=news.map((n,i)=>`<article class="news ${i===0?"feature ":""}${n[4]?"":"unread"}" onclick="readNews(${i})"><div class="nmeta"><span class="source">${n[0]}</span><i class="ndot"></i><span class="time">${n[3]}</span></div><div class="nt">${n[1]}</div><div class="nj">${n[2]}</div><div class="nbottom"><span class="read">${n[4]?"READ":"UNREAD"}</span><button class="fav ${n[5]?"on":""}" onclick="event.stopPropagation();fav(${i})">${n[5]?"♥":"♡"}</button></div></article>`).join("")
 }
 function readNews(i){news[i][4]=1;renderNews()}
 function fav(i){news[i][5]^=1;renderNews()}
 renderNews();
+
 const mn=["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER"];
 const games={8:["W","5—2","METS","CITIZENS BANK PARK"],9:["L","1—4","METS","CITIZENS BANK PARK"],10:["W","4—1","METS","CITIZENS BANK PARK"],11:["L","2—5","BRAVES","TRUIST PARK"],12:["W","6—3","BRAVES","TRUIST PARK"],13:["LIVE","4—2","BRAVES","TRUIST PARK"],15:["FUTURE","—","PADRES","PETCO PARK"],16:["FUTURE","—","PADRES","PETCO PARK"],17:["FUTURE","—","PADRES","PETCO PARK"]};
+
 function monthMove(x){mi=Math.max(0,Math.min(9,mi+x));drawDays()}
 function drawDays(){
 $("monthTitle").textContent=mn[mi];$("prev").disabled=mi===0;$("next").disabled=mi===9;
@@ -243,6 +188,7 @@ h+=`<div class="day ${g?"play":""}" ${g?`onclick="${g[0]==="LIVE"?"game('lineup'
 $("days").innerHTML=h;$("daysLabel").textContent=max+" DAYS"
 }
 drawDays();
+
 const data=[
 ["Zack Wheeler",45,"P","R / R","ACTIVE","P"],
 ["Cristopher Sánchez",61,"P","L / L","ACTIVE","P"],
@@ -258,35 +204,47 @@ const data=[
 ["Bryson Stott",5,"2B","L / R","ACTIVE","IF"]
 ];
 const groups={P:"PITCHERS",C:"CATCHERS",IF:"INFIELDERS",OF:"OUTFIELDERS",DH:"DESIGNATED HITTER"};
+
 function players(){
 let r=$("rf").value,p=$("pf").value,list=data.filter(x=>(r==="ALL"||x[4]===r)&&(p==="ALL"||x[5]===p)).sort((a,b)=>a[1]-b[1]);
 $("count").textContent=list.length+" PLAYERS";
 $("roster").innerHTML=Object.keys(groups).map(g=>{let a=list.filter(x=>x[5]===g);return a.length?`<div class="group">${groups[g]}</div>`+a.map(x=>`<div class="player" onclick='player(${JSON.stringify(x)})'><div class="pnum">${x[1]}</div><div class="pmain"><div class="pname">${x[0]}</div><div class="pmeta"><span>${x[2]}</span><span>B/T ${x[3]}</span><span class="badge ${x[4]==="IL"?"il":""}">${x[4]}</span></div></div><div class="ppos">${x[2]}</div><div class="arrow">›</div></div>`).join(""):""}).join("")||`<div style="padding:30px;text-align:center;color:#7186a2;font-size:7px">NO PLAYERS</div>`
 }
 players();
-function go(x){page=x;$("detail").classList.remove("show");["home","schedule","players"].forEach(y=>$(y).classList.toggle("show",x===y));$("nh").classList.toggle("active",x==="home");$("ns").classList.toggle("active",x==="schedule");$("np").classList.toggle("active",x==="players");scrollTo(0,0)}
+
+function go(x){
+page=x;$("detail").classList.remove("show");
+["home","schedule","players"].forEach(y=>$(y).classList.toggle("show",x===y));
+$("nh").classList.toggle("active",x==="home");$("ns").classList.toggle("active",x==="schedule");$("np").classList.toggle("active",x==="players");scrollTo(0,0)
+}
 function detail(html){["home","schedule","players"].forEach(x=>$(x).classList.remove("show"));$("detail").innerHTML=html;$("detail").classList.add("show");scrollTo(0,0)}
 function closeDetail(){go(back)}
+
 function player(x){
 back="players";
 let pitcher=x[5]==="P",s=pitcher?[["2.71","ERA"],["1.04","WHIP"],["188","SO"],["24.8%","K-BB%"]]:[[".304","AVG"],[".914","OPS"],["34","HR"],["101","RBI"]];
 detail(`<div class="backline"><button class="back" onclick="closeDetail()">‹</button><div><div class="detail-title">PLAYER</div><div class="detail-sub">2026 SEASON</div></div></div><div class="profile"><div class="big-number">${x[1]}</div><h2>${x[0]}</h2><p>${x[2]} · B/T ${x[3]}</p><div class="chips"><span class="chip">${x[4]}</span><span class="chip">40-MAN</span><span class="chip">2026</span></div></div><div class="stats">${s.map(y=>`<div class="stat"><b>${y[0]}</b><small>${y[1]}</small></div>`).join("")}</div><div class="section"><b>${pitcher?"PITCHING":"BATTING"}</b><span>REGULAR SEASON</span></div><div class="data">${(pitcher?[["IP","148.2"],["W—L","12—5"],["ERA","2.71"],["WHIP","1.04"],["SO","188"],["BB","42"],["K/9","11.38"]]:[["G","112"],["AB","426"],["AVG",".304"],["OBP",".391"],["SLG",".523"],["OPS",".914"],["HR","34"],["RBI","101"]]).map(y=>`<div class="data-row"><span>${y[0]}</span><b>${y[1]}</b></div>`).join("")}</div>`)
 }
+
 function game(section,live){
 back=live?"home":"schedule";
 detail(`<div class="backline"><button class="back" onclick="closeDetail()">‹</button><div><div class="detail-title">${live?"LIVE CENTER":"GAME CENTER"}</div><div class="detail-sub">${live?"IN PROGRESS":"FINAL"} · AUG 13</div></div></div><div class="card game-card"><div class="game-top"><span>AUG 13 · ${live?"7TH":"FINAL"}</span><span>${live?"● LIVE":"FINAL"}</span></div><div class="game-score"><div class="game-team">PHILLIES<small>PHI</small></div><strong>${live?"4—2":"6—3"}</strong><div class="game-team">BRAVES<small>ATL</small></div></div><div class="game-bottom"><span>TRUIST PARK</span><span>${live?"2 OUT":"2:41"}</span></div><table class="innings"><tr><th></th>${[1,2,3,4,5,6,7,"R","H","E"].map(x=>`<th>${x}</th>`).join("")}</tr><tr><td>PHI</td>${[1,0,2,0,1,0,0,4,8,0].map(x=>`<td>${x}</td>`).join("")}</tr><tr><td>ATL</td>${[0,1,0,0,1,0,0,2,5,1].map(x=>`<td>${x}</td>`).join("")}</tr></table></div><div class="subnav">${["lineup","batting","pitching","plays"].map(x=>`<button class="${section===x?"on":""}" onclick="game('${x}',${live})">${x.toUpperCase()}</button>`).join("")}</div>${section==="pitching"?pitching():section==="plays"?plays():lineup(section)}</div>`)
 }
+
 function lineup(section){
 let a=[["1","Kyle Schwarber","DH","4","2","3"],["2","Trea Turner","SS","4","2","0"],["3","Bryce Harper","1B","4","1","1"],["4","Alec Bohm","3B","4","1","0"],["5","J.T. Realmuto","C","3","1","1"],["6","Brandon Marsh","CF","3","0","0"],["7","Max Kepler","RF","3","1","0"],["8","Bryson Stott","2B","3","0","0"],["9","Johan Rojas","LF","3","0","0"]];
 return `<div class="section"><b>${section==="batting"?"BATTING":"PHILLIES LINEUP"}</b><span>ORDER</span></div><div class="lineup"><div class="bathead"><span>#</span><span>PLAYER</span><span>AB</span><span>H</span><span>RBI</span></div>${a.map(x=>`<div class="bat"><span class="batnum">${x[0]}</span><div><div class="batname">${x[1]}</div><span class="batpos">${x[2]}</span></div><span class="bs">${x[3]}</span><span class="bs">${x[4]}</span><span class="bs">${x[5]}</span></div>`).join("")}</div>`
 }
+
 function pitching(){
 let a=[["1","Zack Wheeler","6.0 IP","5","2","7"],["2","Matt Strahm","1.0 IP","0","0","2"],["3","Orion Kerkering","1.0 IP","1","0","1"],["4","José Alvarado","1.0 IP","0","1","2"]];
 return `<div class="section"><b>PITCHING</b><span>APPEARANCE ORDER</span></div><div class="pitching">${a.map(x=>`<div class="pitch"><span class="po">${x[0]}</span><div><div class="pn">${x[1]}</div><span class="psub">${x[2]}</span></div><span class="pstat"><small>H</small>${x[3]}</span><span class="pstat"><small>ER</small>${x[4]}</span><span class="pstat"><small>SO</small>${x[5]}</span></div>`).join("")}</div>`
 }
+
 function plays(){
 return `<div class="section"><b>GAME LOG</b><span>LIVE PLAYS</span></div><div class="plays">${[["Schwarber HR","3rd · 2 RBI"],["Harper RBI single","5th · PHI +1"],["Wheeler strikeout","6th · 2 OUT"],["Turner double","7th · Runner on 2B"],["Alvarado strikeout","9th · Final out"]].map(x=>`<div class="play"><b>${x[0]}</b><span>${x[1]}</span></div>`).join("")}</div>`
 }
+
 function future(){
 back="schedule";
 detail(`<div class="backline"><button class="back" onclick="closeDetail()">‹</button><div><div class="detail-title">GAME PREVIEW</div><div class="detail-sub">UPCOMING · AUG 15</div></div></div><div class="card game-card"><div class="game-top"><span>SAT · AUG 15</span><span>UPCOMING</span></div><div class="game-score"><div class="game-team">PHILLIES<small>PHI</small></div><strong>@</strong><div class="game-team">PADRES<small>SD</small></div></div><div class="game-bottom"><span>PETCO PARK</span><span>7:40 PM</span></div></div><div class="section"><b>GAME INFORMATION</b><span>UPCOMING</span></div><div class="data"><div class="data-row"><span>Opponent</span><b>San Diego Padres</b></div><div class="data-row"><span>Venue</span><b>Petco Park</b></div><div class="data-row"><span>Date</span><b>August 15, 2026</b></div><div class="data-row"><span>First Pitch</span><b>7:40 PM</b></div></div>`)
