@@ -1,0 +1,449 @@
+{
+  "team": "Philadelphia Phillies",
+  "teamId": 143,
+  "season": 2026,
+  "updatedAt": "2026-08-12T12:57:47.257951+00:00",
+  "count": 44,
+  "players": [
+    {
+      "id": 605400,
+      "name": "Aaron Nola",
+      "number": "27",
+      "position": "P",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 664761,
+      "name": "Alec Bohm",
+      "number": "28",
+      "position": "3B",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 686934,
+      "name": "Alex McFarlane",
+      "number": "71",
+      "position": "P",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 691725,
+      "name": "Andrew Painter",
+      "number": "24",
+      "position": "P",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 669016,
+      "name": "Brandon Marsh",
+      "number": "16",
+      "position": "LF",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 548384,
+      "name": "Brooks Raley",
+      "number": "30",
+      "position": "P",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 650559,
+      "name": "Bryan De La Cruz",
+      "number": "41",
+      "position": "RF",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 547180,
+      "name": "Bryce Harper",
+      "number": "3",
+      "position": "1B",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 681082,
+      "name": "Bryson Stott",
+      "number": "5",
+      "position": "2B",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 663767,
+      "name": "Chase Shugart",
+      "number": "55",
+      "position": "P",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 650911,
+      "name": "Cristopher Sánchez",
+      "number": "61",
+      "position": "P",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 656537,
+      "name": "Derek Hill",
+      "number": "49",
+      "position": "CF",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 624641,
+      "name": "Edmundo Sosa",
+      "number": "33",
+      "position": "LF",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 596117,
+      "name": "Garrett Stubbs",
+      "number": "21",
+      "position": "C",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 592663,
+      "name": "J.T. Realmuto",
+      "number": "10",
+      "position": "C",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 666200,
+      "name": "Jesús Luzardo",
+      "number": "44",
+      "position": "P",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 661395,
+      "name": "Jhoan Duran",
+      "number": "59",
+      "position": "P",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 680742,
+      "name": "Jonathan Bowlan",
+      "number": "52",
+      "position": "P",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 621237,
+      "name": "José Alvarado",
+      "number": "46",
+      "position": "P",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 702222,
+      "name": "Justin Crawford",
+      "number": "2",
+      "position": "CF",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 656941,
+      "name": "Kyle Schwarber",
+      "number": "12",
+      "position": "DH",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 650333,
+      "name": "Luis Arraez",
+      "number": "4",
+      "position": "2B",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 689147,
+      "name": "Orion Kerkering",
+      "number": "50",
+      "position": "P",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 641835,
+      "name": "Tim Mayza",
+      "number": "37",
+      "position": "P",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 607208,
+      "name": "Trea Turner",
+      "number": "7",
+      "position": "SS",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 554430,
+      "name": "Zack Wheeler",
+      "number": "45",
+      "position": "P",
+      "is40Man": true,
+      "isActive": true,
+      "isIL": true,
+      "rosterClass": "IL"
+    },
+    {
+      "id": 666969,
+      "name": "Adolis García",
+      "number": "53",
+      "position": "RF",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 660604,
+      "name": "Alan Rangel",
+      "number": "57",
+      "position": "P",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 641745,
+      "name": "Brad Keller",
+      "number": "40",
+      "position": "P",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 662144,
+      "name": "Brian Keller",
+      "number": "48",
+      "position": "P",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 668873,
+      "name": "Caleb Kilian",
+      "number": "56",
+      "position": "P",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 686551,
+      "name": "Christian Cairo",
+      "number": "",
+      "position": "SS",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 687515,
+      "name": "Colby Thomas",
+      "number": "",
+      "position": "RF",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 694025,
+      "name": "Felix Reyes",
+      "number": "29",
+      "position": "LF",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 687282,
+      "name": "Gabriel Rincones Jr.",
+      "number": "17",
+      "position": "RF",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 680880,
+      "name": "Grant Holman",
+      "number": "",
+      "position": "P",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 679032,
+      "name": "Johan Rojas",
+      "number": "23",
+      "position": "CF",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 670224,
+      "name": "Kameron Misner",
+      "number": "",
+      "position": "CF",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 679775,
+      "name": "Kyle Backhus",
+      "number": "19",
+      "position": "P",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 676661,
+      "name": "Max Lazar",
+      "number": "60",
+      "position": "P",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 691330,
+      "name": "Moisés Chace",
+      "number": "75",
+      "position": "P",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 805249,
+      "name": "Otto Kemp",
+      "number": "4",
+      "position": "LF",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 665561,
+      "name": "Rafael Marchán",
+      "number": "13",
+      "position": "C",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    },
+    {
+      "id": 621383,
+      "name": "Tanner Banks",
+      "number": "58",
+      "position": "P",
+      "is40Man": true,
+      "isActive": false,
+      "isIL": false,
+      "rosterClass": "40-MAN"
+    }
+  ]
+}
