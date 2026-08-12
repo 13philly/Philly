@@ -3,143 +3,201 @@ import fs from "node:fs/promises";
 const SEASON = new Date().getFullYear();
 const API = "https://statsapi.mlb.com/api/v1/standings";
 
-async function fetchStandings() {
+async function getStandings() {
   const url = new URL(API);
   url.searchParams.set("leagueId", "104");
-  url.searchParams.set("season", String(SEASON));
+  url.searchParams.set("season", SEASON);
   url.searchParams.set("standingsTypes", "regularSeason");
   url.searchParams.set("hydrate", "team,division,league");
 
-  const res = await fetch(url, {
-    headers: { "User-Agent": "Phillies-Website/1.0" }
-  });
+  const res = await fetch(url);
 
   if (!res.ok) {
-    throw new Error(`MLB Stats API: HTTP ${res.status}`);
+    throw new Error(`MLB Stats API HTTP ${res.status}`);
   }
 
-  return res.json();
+  const json = await res.json();
+
+  if (!Array.isArray(json.records)) {
+    throw new Error("Invalid MLB Stats API response: records missing");
+  }
+
+  return json;
 }
 
-function records(data) {
-  return (data.records || []).flatMap(record => record.teamRecords || []);
+function getTeams(data) {
+  return data.records.flatMap(record =>
+    (record.teamRecords || []).map(team => ({
+      ...team,
+      divisionInfo: record.division || null,
+      leagueInfo: record.league || null
+    }))
+  );
 }
 
-function makeTeam(record) {
-  const wins = Number(record.wins ?? 0);
-  const losses = Number(record.losses ?? 0);
-  const games = wins + losses;
+function makeTeam(x) {
+  const wins = Number(x.wins ?? 0);
+  const losses = Number(x.losses ?? 0);
 
   return {
-    teamId: record.team?.id ?? null,
-    team: record.team?.name ?? "",
-    abbreviation: record.team?.abbreviation ?? "",
-    division: record.division?.name ?? "",
-    divisionId: record.division?.id ?? null,
-    league: record.league?.name ?? "National League",
-    leagueId: record.league?.id ?? 104,
-    divisionRank: Number(record.divisionRank) || null,
-    leagueRank: Number(record.leagueRank) || null,
-    wildCardRank: Number(record.wildCardRank) || null,
+    teamId: x.team?.id ?? null,
+    team: x.team?.name ?? "",
+    abbreviation: x.team?.abbreviation ?? "",
     wins,
     losses,
-    gamesPlayed: games,
-    winningPercentage:
-      record.winningPercentage ??
-      (games ? (wins / games).toFixed(3) : ".000"),
-    gamesBack: record.gamesBack ?? "-",
-    runsScored: Number(record.runsScored ?? 0),
-    runsAllowed: Number(record.runsAllowed ?? 0),
+    winningPercentage: x.winningPercentage ?? ".000",
+    gamesBack: x.gamesBack ?? "-",
+    divisionRank: Number(x.divisionRank) || null,
+    leagueRank: Number(x.leagueRank) || null,
+    wildCardRank: Number(x.wildCardRank) || null,
+    magicNumber: x.magicNumber ?? null,
+    wildCardGamesBack: x.wildCardGamesBack ?? null,
+    divisionRecord: x.divisionRecord
+      ? {
+          wins: Number(x.divisionRecord.wins ?? 0),
+          losses: Number(x.divisionRecord.losses ?? 0),
+          pct: x.divisionRecord.pct ?? ".000"
+        }
+      : null,
+    leagueRecord: x.leagueRecord
+      ? {
+          wins: Number(x.leagueRecord.wins ?? 0),
+          losses: Number(x.leagueRecord.losses ?? 0),
+          pct: x.leagueRecord.pct ?? ".000"
+        }
+      : null,
+    lastTen: x.records?.splitRecords?.find(
+      r => r.type === "lastTen"
+    ) || null,
+    streak: x.streak ?? null,
+    runsScored: Number(x.runsScored ?? 0),
+    runsAllowed: Number(x.runsAllowed ?? 0),
     runDifferential:
-      Number(record.runsScored ?? 0) -
-      Number(record.runsAllowed ?? 0)
+      Number(x.runsScored ?? 0) -
+      Number(x.runsAllowed ?? 0)
   };
 }
 
-function rankByDivision(a, b) {
+function divisionName(x) {
   return (
-    (a.divisionRank ?? 999) - (b.divisionRank ?? 999) ||
+    x.divisionInfo?.name ||
+    x.team?.division?.name ||
+    ""
+  );
+}
+
+function leagueId(x) {
+  return (
+    Number(x.leagueInfo?.id) ||
+    Number(x.team?.league?.id) ||
+    null
+  );
+}
+
+function divisionId(x) {
+  return (
+    Number(x.divisionInfo?.id) ||
+    Number(x.team?.division?.id) ||
+    null
+  );
+}
+
+function sortDivision(a, b) {
+  return (
+    (a.divisionRank ?? 999) -
+      (b.divisionRank ?? 999) ||
+    Number(b.winningPercentage) -
+      Number(a.winningPercentage) ||
     b.wins - a.wins
   );
 }
 
-function rankByLeague(a, b) {
+function sortLeague(a, b) {
   return (
-    (a.leagueRank ?? 999) - (b.leagueRank ?? 999) ||
+    (a.leagueRank ?? 999) -
+      (b.leagueRank ?? 999) ||
+    Number(b.winningPercentage) -
+      Number(a.winningPercentage) ||
     b.wins - a.wins
   );
 }
 
 async function main() {
-  const data = await fetchStandings();
-  const all = records(data).map(makeTeam);
+  const data = await getStandings();
+  const rawTeams = getTeams(data);
 
-  const nl = all.filter(team => team.leagueId === 104);
+  if (!rawTeams.length) {
+    throw new Error("MLB Stats API returned zero teams");
+  }
 
-  if (nl.length !== 15) {
+  const nlRaw = rawTeams.filter(x => leagueId(x) === 104);
+
+  if (nlRaw.length !== 15) {
     throw new Error(
-      `National League team count error: expected 15, got ${nl.length}`
+      `National League count error: ${nlRaw.length}`
     );
   }
 
-  const east = nl
-    .filter(team =>
-      team.division === "National League East" ||
-      team.division === "NL East"
-    )
-    .sort(rankByDivision);
+  const eastRaw = nlRaw.filter(x => {
+    const name = divisionName(x).toLowerCase();
+    return name.includes("national league east") ||
+           name === "nl east";
+  });
 
-  if (east.length !== 5) {
+  if (eastRaw.length !== 5) {
     throw new Error(
-      `NL East team count error: expected 5, got ${east.length}`
+      `NL East count error: ${eastRaw.length}`
     );
   }
 
-  const divisionWinners = nl
-    .filter(team => team.divisionRank === 1)
-    .map(team => team.teamId);
+  const nl = nlRaw.map(makeTeam);
+  const east = eastRaw.map(makeTeam).sort(sortDivision);
 
-  if (divisionWinners.length !== 3) {
-    throw new Error(
-      `NL division leader count error: expected 3, got ${divisionWinners.length}`
-    );
-  }
-
-  const divisionWinnerSet = new Set(divisionWinners);
-
-  const wildCardTeams = nl
-    .filter(team => !divisionWinnerSet.has(team.teamId))
-    .sort(rankByLeague)
-    .slice(0, 3);
-
-  if (wildCardTeams.length !== 3) {
-    throw new Error(
-      `NL Wild Card count error: expected 3, got ${wildCardTeams.length}`
-    );
-  }
-
-  const wildCardSet = new Set(
-    wildCardTeams.map(team => team.teamId)
+  const divisionLeaders = new Set(
+    nl
+      .filter(x => x.divisionRank === 1)
+      .map(x => x.teamId)
   );
 
-  const eastTeams = east.map(team => ({
-    ...team,
+  if (divisionLeaders.size !== 3) {
+    throw new Error(
+      `NL division leader count error: ${divisionLeaders.size}`
+    );
+  }
+
+  const wildCards = nl
+    .filter(x => !divisionLeaders.has(x.teamId))
+    .sort(sortLeague)
+    .slice(0, 3);
+
+  if (wildCards.length !== 3) {
+    throw new Error(
+      `NL Wild Card count error: ${wildCards.length}`
+    );
+  }
+
+  const wildCardIds = new Set(
+    wildCards.map(x => x.teamId)
+  );
+
+  const divisionTeams = east.map(x => ({
+    ...x,
     postseason:
-      team.divisionRank === 1
+      divisionLeaders.has(x.teamId)
         ? "division"
-        : wildCardSet.has(team.teamId)
+        : wildCardIds.has(x.teamId)
           ? "wildcard"
           : null
   }));
 
-  const nlTeams = [...nl]
-    .sort(rankByLeague)
-    .map(team => ({
-      ...team,
+  const nlTeams = nl
+    .sort(sortLeague)
+    .map(x => ({
+      ...x,
       postseason:
-        divisionWinnerSet.has(team.teamId)
+        divisionLeaders.has(x.teamId)
           ? "division"
-          : wildCardSet.has(team.teamId)
+          : wildCardIds.has(x.teamId)
             ? "wildcard"
             : null
     }));
@@ -151,9 +209,9 @@ async function main() {
       name: "National League"
     },
     division: {
-      id: eastTeams[0].divisionId,
+      id: divisionId(eastRaw[0]),
       name: "National League East",
-      teams: eastTeams
+      teams: divisionTeams
     },
     wildCard: {
       league: "National League",
@@ -171,11 +229,12 @@ async function main() {
   );
 
   console.log(
-    `Saved: NL=${nlTeams.length}, NL East=${eastTeams.length}, Wild Card=${wildCardTeams.length}`
+    `SUCCESS: NL=${nl.length}, NL East=${east.length}, Wild Card=3`
   );
 }
 
 main().catch(error => {
-  console.error("UPDATE FAILED:", error);
+  console.error("UPDATE FAILED");
+  console.error(error.stack || error);
   process.exit(1);
 });
