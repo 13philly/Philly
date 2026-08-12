@@ -21,13 +21,13 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install requests
+      - name: Install dependencies
         run: pip install requests
 
       - name: Update roster
         run: python scripts/update_roster.py
 
-      - name: Commit changes
+      - name: Commit updated roster
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
