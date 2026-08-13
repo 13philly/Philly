@@ -41,14 +41,16 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 .news-select select{appearance:none;outline:0;height:29px;min-width:67px;padding:0 21px 0 8px;border:1px solid var(--l);border-radius:7px;background:#0a1b34;color:#dce4ed;font-size:5px;font-weight:900}
 .news-select:after{content:"⌄";position:absolute;right:7px;top:50%;transform:translateY(-55%);color:#7087a2;pointer-events:none}
 .news-grid{display:grid;gap:10px}
-.news{position:relative;padding:14px 13px 12px;border:1px solid var(--l);border-radius:14px;background:linear-gradient(145deg,#0d213b,#09192f);box-shadow:0 7px 18px #00022;transition:.15s}
+.news{position:relative;padding:14px 13px 12px;border:1px solid var(--l);border-radius:14px;background:linear-gradient(145deg,#0d213b,#09192f);box-shadow:0 7px 18px #00022;cursor:pointer}
 .news:active{transform:scale(.988)}
 .news.unread{border-color:#29415c}
-.news.unread:before{content:"";position:absolute;left:-1px;top:11px;bottom:11px;width:3px;border-radius:0 3px 3px 0;background:var(--r)}
+.news.unread:before{content:"";position:absolute;left:-1px;top:12px;bottom:12px;width:3px;border-radius:0 3px 3px 0;background:var(--r)}
+.news.unread:after{content:"";position:absolute;right:13px;top:15px;width:5px;height:5px;border-radius:50%;background:var(--r)}
 .nmeta{display:flex;align-items:center;gap:6px;margin-bottom:7px}.source{font-size:5px;color:#ff6078;font-weight:900}.dot{width:3px;height:3px;border-radius:50%;background:#526b88}
 .time,.published,.read{font-size:5px;color:#627995}
 .nt{font:800 18px/1.07 "Barlow Condensed"}
-.nj{margin-top:6px;color:#a9b8c9;font:600 10px/1.35 Inter}
+.nj{margin-top:5px;color:#b5c2d0;font:700 11px/1.25 "Inter";letter-spacing:-.2px}
+.news-original{margin-top:5px;color:#7187a3;font-size:6px;line-height:1.35}
 .nbottom{display:flex;align-items:center;margin-top:11px}.published{margin-left:auto;margin-right:9px}.unread .read{color:#ff6078}
 .save{position:relative;width:28px;height:28px;border:1px solid #29435f;border-radius:8px;background:#0a1b34;color:#7187a3}
 .save:before{content:"";position:absolute;left:9px;top:7px;width:8px;height:11px;border:1.3px solid currentColor;border-radius:2px}
@@ -63,12 +65,13 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 .empty{min-height:70vh;display:flex;align-items:center;justify-content:center;color:var(--m);font:900 12px "Barlow Condensed";letter-spacing:1px}
 
 /* SCHEDULE */
-.schedule-head{margin-bottom:20px}
+.schedule-head{margin-bottom:14px}
 .schedule-head h1{font-size:46px}
-.schedule-tools{display:flex;gap:5px;margin-top:13px}.schedule-tools select{appearance:none;height:31px;padding:0 21px 0 8px;border:1px solid var(--l);border-radius:7px;background:#0a1b34;color:#dce4ed;font-size:5px;font-weight:900}
-.month-nav{display:flex;align-items:center;justify-content:space-between;margin:0 2px 17px}
-.month-nav button{width:37px;height:32px;border:1px solid var(--l);border-radius:8px;background:#0a1b34;color:#dce4ed;font-size:18px}
-.month-title{font:900 24px/.8 "Barlow Condensed";letter-spacing:.4px}
+.month-nav{display:flex;align-items:center;justify-content:center;gap:22px;margin:17px 0 18px}
+.month-nav button{width:32px;height:32px;border:1px solid var(--l);border-radius:8px;background:#0a1b34;color:#dce4ed;font-size:17px;line-height:1}
+.month-nav b{min-width:100px;text-align:center;font:900 24px/.8 "Barlow Condensed"}
+.month-nav span{display:block;margin-top:5px;text-align:center;color:#607995;font-size:4px;font-weight:900;letter-spacing:1px}
+.schedule-tools{display:flex;justify-content:flex-end}.schedule-tools select{appearance:none;height:31px;padding:0 21px 0 8px;border:1px solid var(--l);border-radius:7px;background:#0a1b34;color:#dce4ed;font-size:5px;font-weight:900}
 .schedule-list{display:grid;gap:9px}.schedule-day{margin-top:18px}.schedule-day:first-child{margin-top:0}
 .schedule-date{display:flex;align-items:center;gap:8px;margin:0 3px 7px}.schedule-date b{font:900 17px/.8 "Barlow Condensed"}.schedule-date span{color:#607995;font-size:5px;font-weight:900}.schedule-date i{height:1px;flex:1;background:linear-gradient(90deg,#29445f,transparent)}
 .schedule-game{position:relative;padding:13px;border:1px solid var(--l);border-radius:15px;background:linear-gradient(145deg,#0d213b,#09192f);box-shadow:0 7px 18px #00022;overflow:hidden}
@@ -103,9 +106,11 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 .pitch-table td{height:51px;padding:0 8px;text-align:right;font:900 9px "Barlow Condensed"}.pitch-table .pitcher{font-size:12px;text-align:left}.pitch-table .stat{font-size:9px}
 
 /* PLAYERS */
-.players-hero{position:relative;margin:0 0 18px;padding:0;overflow:hidden;border:0;background:none;box-shadow:none}
-.players-hero:before{display:none}.players-hero>*{position:relative;z-index:2}
-.players-hero-top{display:none}.players-hero h1{margin:0;font-size:46px}.players-hero-sub{margin-top:6px;color:#7187a3;font-size:5px;font-weight:900;letter-spacing:.7px}
+.players-hero{position:relative;margin:0 0 18px;padding:22px 18px 19px;overflow:hidden;border:1px solid #294766;border-radius:20px;background:linear-gradient(135deg,#102b4a,#08182e 70%);box-shadow:0 15px 35px #0003}
+.players-hero:before{content:"";position:absolute;right:-65px;top:-90px;width:210px;height:210px;border:30px solid #e3183712;border-radius:50%}.players-hero>*{position:relative;z-index:2}
+.players-hero-top{display:flex;align-items:center;justify-content:space-between}.players-kicker{font-size:5px;font-weight:900;letter-spacing:2px;color:#8095ae}
+.players-count{text-align:right}.players-count b{display:block;font:900 27px/.7 "Barlow Condensed"}.players-count span{display:block;margin-top:5px;color:#7187a3;font-size:4px;font-weight:900;letter-spacing:1px}
+.players-hero h1{margin-top:9px;font-size:46px}.players-hero-sub{margin-top:8px;color:#879bb2;font-size:6px;font-weight:900;letter-spacing:.6px}
 .player-filters{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:18px}.player-filter{position:relative}
 .player-filter label{display:block;margin:0 3px 6px;color:#607995;font-size:5px;font-weight:900;letter-spacing:1px}
 .player-filter select{appearance:none;width:100%;height:37px;padding:0 28px 0 11px;outline:0;border:1px solid #203b58;border-radius:9px;background:#091a31;color:#dce4ed;font-size:5px;font-weight:900}
@@ -142,7 +147,7 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 .schedule-icon{background:linear-gradient(currentColor,currentColor) 7px 12px/14px 1.5px no-repeat,linear-gradient(currentColor,currentColor) 7px 17px/10px 1.5px no-repeat}
 .home-icon:before{content:"";position:absolute;left:4px;top:9px;width:20px;height:16px;border:1.6px solid currentColor;border-top:0;border-radius:3px}.home-icon:after{content:"";position:absolute;left:7px;top:3px;width:18px;height:18px;border-left:1.6px solid currentColor;border-top:1.6px solid currentColor;transform:rotate(45deg) scale(.72);border-radius:2px}
 .home-icon{background:linear-gradient(currentColor,currentColor) 13px 17px/4px 8px no-repeat}.players-icon:before{content:"";position:absolute;left:8px;top:2px;width:11px;height:11px;border:1.6px solid currentColor;border-radius:50%}.players-icon:after{content:"";position:absolute;left:3px;bottom:2px;width:22px;height:12px;border:1.6px solid currentColor;border-radius:13px 13px 5px 5px}.players-icon{background:linear-gradient(currentColor,currentColor) 13px 15px/2px 6px no-repeat}
-@media(max-width:390px){.player-name{font-size:17px}.player-position-large{min-width:35px;max-width:43px;font-size:22px}.player-stat b{font-size:11px}}
+@media(max-width:390px){.players-hero h1{font-size:44px}.player-number{width:39px;font-size:27px}.player-name{font-size:17px}.player-position-large{min-width:35px;max-width:43px;font-size:22px}.player-stat b{font-size:11px}}
 @media(max-width:340px){.player-stat-grid{grid-template-columns:repeat(2,1fr)}.player-filters{grid-template-columns:1fr}.player-position-large{min-width:33px;max-width:40px;font-size:20px}.player-number{width:36px;font-size:25px}.player-name{font-size:16px}}
 </style>
 </head>
@@ -183,6 +188,12 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 <div class="eyebrow">PHILADELPHIA PHILLIES</div>
 <h1>SCHEDULE</h1>
 
+<div class="month-nav">
+<button onclick="changeMonth(-1)">‹</button>
+<div><b id="monthTitle">AUGUST</b><span id="monthYear">2026</span></div>
+<button onclick="changeMonth(1)">›</button>
+</div>
+
 <div class="schedule-tools">
 <select id="scheduleFilter" onchange="renderSchedule()">
 <option value="ALL">ALL</option>
@@ -190,12 +201,6 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 <option value="TODAY">TODAY</option>
 <option value="UPCOMING">UPCOMING</option>
 </select>
-</div>
-
-<div class="month-nav">
-<button onclick="changeMonth(-1)">‹</button>
-<div id="monthTitle" class="month-title">&lt; AUGUST &gt;</div>
-<button onclick="changeMonth(1)">›</button>
 </div>
 
 <div id="scheduleList" class="schedule-list">
@@ -208,36 +213,19 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 <h1>PLAYERS</h1>
 
 <div class="players-hero">
+<div class="players-hero-top">
+<div class="players-kicker">ROSTER DIRECTORY</div>
+<div class="players-count"><b id="heroCount">0</b><span>PLAYERS SHOWN</span></div>
+</div>
 <div class="players-hero-sub">PHILADELPHIA PHILLIES · 2026 ROSTER</div>
 </div>
 
 <div class="player-filters">
-<div class="player-filter">
-<label>POSITION</label>
-<select id="positionFilter" onchange="renderPlayers()">
-<option value="ALL">ALL POSITIONS</option>
-<option value="PITCHERS">PITCHERS</option>
-<option value="CATCHERS">CATCHERS</option>
-<option value="INFIELDERS">INFIELDERS</option>
-<option value="OUTFIELDERS">OUTFIELDERS</option>
-<option value="DH">DESIGNATED HITTERS</option>
-</select>
-</div>
-<div class="player-filter">
-<label>ROSTER</label>
-<select id="rosterFilter" onchange="renderPlayers()">
-<option value="ALL">ACTIVE + IL + 40-MAN</option>
-<option value="ACTIVE">ACTIVE</option>
-<option value="IL">IL</option>
-<option value="40-MAN">40-MAN</option>
-</select>
-</div>
+<div class="player-filter"><label>POSITION</label><select id="positionFilter" onchange="renderPlayers()"><option value="ALL">ALL POSITIONS</option><option value="PITCHERS">PITCHERS</option><option value="CATCHERS">CATCHERS</option><option value="INFIELDERS">INFIELDERS</option><option value="OUTFIELDERS">OUTFIELDERS</option><option value="DH">DESIGNATED HITTERS</option></select></div>
+<div class="player-filter"><label>ROSTER</label><select id="rosterFilter" onchange="renderPlayers()"><option value="ALL">ACTIVE + IL + 40-MAN</option><option value="ACTIVE">ACTIVE</option><option value="IL">IL</option><option value="40-MAN">40-MAN</option></select></div>
 </div>
 
-<div class="players-summary">
-<span>ROSTER DIRECTORY</span>
-<strong id="playerCount">0 PLAYERS</strong>
-</div>
+<div class="players-summary"><span>ROSTER DIRECTORY</span><strong id="playerCount">0 PLAYERS</strong></div>
 <div id="playerList"></div>
 </main>
 
@@ -250,14 +238,14 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 <button id="np" class="nav-item" onclick="go('players')"><span class="nav-icon players-icon"></span><span>PLAYERS</span></button>
 </div>
 </nav>
-
 </div>
 
 <script>
 const $=id=>document.getElementById(id);
 const RAW="https://raw.githubusercontent.com/13philly/Philly/main/data/";
 const MLB="https://statsapi.mlb.com/api/v1";
-let news=[],standings=[],schedule=[],rosterData=[],opened=null,currentMonth=new Date().getMonth();
+let news=[],standings=[],schedule=[],rosterData=[],opened=null;
+let monthIndex=0,months=[];
 
 function escapeHTML(v){return String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
 
@@ -300,6 +288,35 @@ return new Intl.DateTimeFormat("en-US",{hour:"numeric",minute:"2-digit"}).format
 }
 
 /* NEWS */
+async function translateTitle(title){
+if(!title)return"";
+let key="philly-ja-"+title;
+try{
+let cached=localStorage.getItem(key);
+if(cached)return cached;
+}catch(e){}
+try{
+let url="https://api.mymemory.translated.net/get?q="+encodeURIComponent(title)+"&langpair=en|ja";
+let r=await fetch(url);
+let j=await r.json();
+let t=j?.responseData?.translatedText;
+if(t&&t!==title){
+try{localStorage.setItem(key,t)}catch(e){}
+return t
+}
+}catch(e){}
+return""
+}
+
+async function translateNews(){
+let targets=news.filter(n=>n.title&&!n.jaTitle);
+for(let i=0;i<targets.length;i++){
+targets[i].jaTitle=await translateTitle(targets[i].title);
+if(i%3===0)renderNews()
+}
+renderNews()
+}
+
 function renderNews(){
 let d=+$("newsFilter").value,f=$("readFilter").value;
 let a=news.filter(n=>ageHours(n.publishedAt)<=d*24&&(f=="ALL"||(f=="READ"?n.read:!n.read)));
@@ -308,7 +325,8 @@ let i=news.indexOf(n);
 return`<article class="news ${n.read?"":"unread"}" onclick="openNews(${i})">
 <div class="nmeta"><span class="source">${escapeHTML(n.source||"NEWS")}</span><i class="dot"></i><span class="time">${relativeTime(n.publishedAt)}</span></div>
 <div class="nt">${escapeHTML(n.title)}</div>
-<div class="nj">${escapeHTML(n.japaneseTitle||"日本語タイトルを取得中…")}</div>
+${n.jaTitle?`<div class="nj">${escapeHTML(n.jaTitle)}</div>`:`<div class="nj" style="color:#607995">日本語タイトルを取得中…</div>`}
+<div class="news-original">${escapeHTML(dateText(n.publishedAt))}</div>
 <div class="nbottom"><span class="read">${n.read?"READ":"UNREAD"}</span><span class="published">${escapeHTML(n.source||"")}</span><button class="save ${n.saved?"on":""}" onclick="event.stopPropagation();fav(${i})"></button></div>
 </article>`
 }).join(""):`<div style="padding:35px;text-align:center;color:var(--m);font-size:7px;font-weight:900">NO ARTICLES</div>`
@@ -318,28 +336,11 @@ function openNews(i){
 if(!news[i])return;
 news[i].read=true;
 try{localStorage.setItem("philly-news-read",JSON.stringify(news.filter(x=>x.read).map(x=>x.link)))}catch(e){}
-if(news[i].link)window.open(news[i].link,"_blank","noopener")
-renderNews()
+renderNews();
+if(news[i].link)location.href=news[i].link
 }
 
-function fav(i){
-news[i].saved=!news[i].saved;
-renderNews()
-}
-
-/* SIMPLE JAPANESE TITLE GENERATION */
-async function translateNewsTitle(n,i){
-if(!n.title||n.japaneseTitle)return;
-try{
-let u="https://api.mymemory.translated.net/get?q="+encodeURIComponent(n.title)+"&langpair=en|ja";
-let r=await fetch(u,{cache:"no-store"}),j=await r.json();
-let t=j?.responseData?.translatedText;
-if(t&&t.toLowerCase()!=n.title.toLowerCase()){
-news[i].japaneseTitle=t;
-renderNews()
-}
-}catch(e){}
-}
+function fav(i){news[i].saved=!news[i].saved;renderNews()}
 
 /* STANDINGS */
 function renderStandings(){
@@ -359,8 +360,8 @@ function normalizeSchedule(data){
 let out=[];
 (data.dates||[]).forEach(d=>(d.games||[]).forEach(g=>{
 let home=g.teams?.home?.team,away=g.teams?.away?.team;
-let phiHome=home?.id===143,phiAway=away?.id===143,phi=phiHome||phiAway;
-if(!phi)return;
+let phiHome=home?.id===143,phiAway=away?.id===143;
+if(!phiHome&&!phiAway)return;
 let ph=g.teams?.[phiHome?"home":"away"],opp=g.teams?.[phiHome?"away":"home"];
 let status=g.status||{},score=ph?.score??null,oppScore=opp?.score??null;
 let state=status.abstractGameState==="Final"?"FINAL":status.abstractGameState==="Live"?"LIVE":status.detailedState||status.abstractGameState||"SCHEDULED";
@@ -376,6 +377,32 @@ linescore:g.linescore
 return out.sort((a,b)=>new Date(a.date)-new Date(b.date))
 }
 
+function setupMonths(){
+let set=[...new Set(schedule.map(g=>localDate(g.date).slice(0,7)))].sort();
+months=set;
+if(!months.length){
+let now=localDate(new Date()).slice(0,7);
+months=[now]
+}
+let current=localDate(new Date()).slice(0,7);
+monthIndex=Math.max(0,months.indexOf(current));
+updateMonthTitle()
+}
+
+function updateMonthTitle(){
+let key=months[monthIndex]||localDate(new Date()).slice(0,7);
+let d=new Date(key+"-01T00:00:00");
+$("monthTitle").textContent=d.toLocaleDateString("en-US",{month:"long"}).toUpperCase();
+$("monthYear").textContent=d.getFullYear()
+}
+
+function changeMonth(step){
+if(!months.length)return;
+monthIndex=Math.max(0,Math.min(months.length-1,monthIndex+step));
+updateMonthTitle();
+renderSchedule()
+}
+
 function scheduleClass(g){
 let today=localDate(g.date),now=localDate(new Date()),c="next";
 if(g.status==="FINAL")c=g.result==="W"?"win":"loss";
@@ -383,32 +410,22 @@ if(today===now)c+=" today";
 return c
 }
 
-function changeMonth(v){
-currentMonth+=v;
-if(currentMonth<0)currentMonth=11;
-if(currentMonth>11)currentMonth=0;
-renderSchedule()
-}
-
 function renderSchedule(){
 let f=$("scheduleFilter").value;
-let year=2026;
-let monthName=new Intl.DateTimeFormat("en-US",{month:"long"}).format(new Date(year,currentMonth,1)).toUpperCase();
-$("monthTitle").textContent="< "+monthName+" >";
-
+let key=months[monthIndex];
 let a=schedule.filter(g=>{
-let d=new Date(g.date),type=g.status==="FINAL"?"PAST":localDate(g.date)===localDate(new Date())?"TODAY":"UPCOMING";
-return d.getFullYear()===year&&d.getMonth()===currentMonth&&(f==="ALL"||f===type)
+let month=localDate(g.date).slice(0,7);
+if(month!==key)return false;
+let d=localDate(g.date),now=localDate(new Date());
+let type=g.status==="FINAL"?"PAST":d===now?"TODAY":"UPCOMING";
+return f==="ALL"||f===type
 });
-
 if(!a.length){
-$("scheduleList").innerHTML='<div class="schedule-loading">NO GAMES IN THIS MONTH</div>';
+$("scheduleList").innerHTML='<div class="schedule-loading">NO GAMES THIS MONTH</div>';
 return
 }
-
 let groups={};
 a.forEach(g=>{let k=localDate(g.date);(groups[k]??=[]).push(g)});
-
 $("scheduleList").innerHTML=Object.entries(groups).map(([d,arr])=>`
 <section class="schedule-day">
 <div class="schedule-date">
@@ -416,17 +433,23 @@ $("scheduleList").innerHTML=Object.entries(groups).map(([d,arr])=>`
 <span>${arr[0].venue||""}</span><i></i>
 </div>
 ${arr.map(g=>`
-<article class="schedule-game ${scheduleClass(g)}" onclick="${g.status==="FINAL"||g.status==="LIVE"||g.status==="IN_PROGRESS"?`game(${g.pk})`:""}">
+<article class="schedule-game ${scheduleClass(g)}" onclick="game(${g.pk})">
 <div class="schedule-top">
 <span>${g.home?"HOME":"AWAY"} · ${clock(g.date)}</span>
 <span class="schedule-status">${g.status==="FINAL"?g.result:g.status}</span>
 </div>
 <div class="schedule-teams">
 <div class="schedule-team"><b>PHI</b><small>Philadelphia Phillies</small></div>
-<div class="schedule-score">${g.status==="FINAL"||g.status==="LIVE"||g.status==="IN_PROGRESS"?`${g.phiScore??0}–${g.oppScore??0}`:"VS"}<small>${g.status==="FINAL"?"FINAL":g.status==="LIVE"||g.status==="IN_PROGRESS"?"LIVE":""}</small></div>
+<div class="schedule-score">
+${g.status==="FINAL"||g.status==="LIVE"||g.status==="IN_PROGRESS"?`${g.phiScore??0}–${g.oppScore??0}`:"VS"}
+<small>${g.status==="FINAL"?"FINAL":g.status==="LIVE"||g.status==="IN_PROGRESS"?"LIVE":""}</small>
+</div>
 <div class="schedule-team"><b>${escapeHTML(g.oppAbbr||"OPP")}</b><small>${escapeHTML(g.opp)}</small></div>
 </div>
-<div class="schedule-meta"><span>${escapeHTML(g.venue)}</span><span>${g.probable?"SP "+escapeHTML(g.probable):"SCHEDULED"}</span></div>
+<div class="schedule-meta">
+<span>${escapeHTML(g.venue)}</span>
+<span>${g.probable?"SP "+escapeHTML(g.probable):"SCHEDULED"}</span>
+</div>
 </article>`).join("")}
 </section>`).join("")
 }
@@ -436,8 +459,12 @@ async function game(pk){
 let g=schedule.find(x=>String(x.pk)===String(pk));
 if(!g)return;
 
-detail(`<div class="game-detail">
-<div class="detail-head"><button class="back" onclick="go('schedule')">‹</button><div><div class="detail-title">GAME CENTER</div><div class="detail-sub">LOADING · ${dateText(g.date)}</div></div></div>
+detail(`
+<div class="game-detail">
+<div class="detail-head">
+<button class="back" onclick="go('schedule')">‹</button>
+<div><div class="detail-title">GAME CENTER</div><div class="detail-sub">${dateText(g.date)} · ${escapeHTML(g.oppAbbr)}</div></div>
+</div>
 <div class="schedule-loading">LOADING GAME DATA</div>
 </div>`);
 
@@ -448,10 +475,17 @@ let teams=gd?.teams||{},ph=teams.home?.id===143?"home":"away",oppSide=ph==="home
 let phTeam=teams[ph],oppTeam=teams[oppSide],ps=ls.teams?.[ph]||{},os=ls.teams?.[oppSide]||{};
 let bats=box.teams?.[ph]?.players||{},pits=box.teams?.[ph]?.pitchers||[];
 
-let batRows=Object.values(bats).map(x=>x.stats&&x.person?{
-name:x.person.fullName,ab:x.stats.atBats??0,h:x.stats.hits??0,
-hr:x.stats.homeRuns??0,rbi:x.stats.rbi??0,order:x.battingOrder
-}:null).filter(Boolean).sort((a,b)=>(a.order||999)-(b.order||999));
+let batRows=Object.values(bats).map(x=>{
+if(!x.stats||!x.person)return null;
+return{
+name:x.person.fullName,
+ab:x.stats.atBats??0,
+h:x.stats.hits??0,
+hr:x.stats.homeRuns??0,
+rbi:x.stats.rbi??0,
+order:x.battingOrder
+}
+}).filter(Boolean).sort((a,b)=>(a.order||999)-(b.order||999));
 
 let pitRows=pits.map(id=>{
 let x=box.teams?.[ph]?.players?.["ID"+id];
@@ -462,7 +496,8 @@ h:x.stats?.hits??0,
 er:x.stats?.earnedRuns??0,
 k:x.stats?.strikeOuts??0,
 bb:x.stats?.baseOnBalls??0,
-r:x.stats?.runs??0
+hr:x.stats?.homeRuns??0,
+era:x.stats?.era??"—"
 }:null
 }).filter(Boolean);
 
@@ -471,6 +506,7 @@ let currentPitcher=live?.plays?.currentPlay?.matchup?.pitcher?.fullName||"—";
 let inning=ls.currentInning||ls.currentInningOrdinal||status.detailedState||"";
 let outs=ls.outs??0;
 let base=[!!ls.offense?.first,!!ls.offense?.second,!!ls.offense?.third];
+
 let runRows=(ls.innings||[]).map(x=>[x.away?.runs??0,x.home?.runs??0]);
 let cols=Math.max(9,runRows.length);
 let rhead=Array.from({length:cols},(_,i)=>`<th>${i+1}</th>`).join("");
@@ -508,10 +544,10 @@ detail(`
 </table>
 </div>
 
-<div class="section"><b>SUMMARY</b><span>GAME STATS</span></div>
+<div class="section"><b>GAME SUMMARY</b><span>${status.abstractGameState==="Live"?"LIVE":"FINAL"}</span></div>
 <div class="summary">
-<div class="summary-box"><span class="summary-label">PITCHER</span><span class="summary-main">${escapeHTML(currentPitcher)}</span><span class="summary-sub">CURRENT</span></div>
-<div class="summary-box"><span class="summary-label">BATTER</span><span class="summary-main">${escapeHTML(currentBatter)}</span><span class="summary-sub">CURRENT</span></div>
+<div class="summary-box"><span class="summary-label">PITCHER</span><span class="summary-main">${escapeHTML(currentPitcher)}</span><span class="summary-sub">CURRENT PITCHER</span></div>
+<div class="summary-box"><span class="summary-label">BATTER</span><span class="summary-main">${escapeHTML(currentBatter)}</span><span class="summary-sub">CURRENT BATTER</span></div>
 <div class="summary-box"><span class="summary-label">OUTS</span><span class="summary-main">${outs} OUT</span><span class="summary-sub">${escapeHTML(inning)}</span></div>
 <div class="summary-box"><span class="summary-label">RUNNERS</span><div class="bases"><i class="base ${base[0]?"on":""}"></i><i class="base ${base[1]?"on":""}"></i><i class="base ${base[2]?"on":""}"></i></div><span class="summary-sub">${base.filter(Boolean).length?"BASES OCCUPIED":"BASES EMPTY"}</span></div>
 </div>
@@ -519,10 +555,11 @@ detail(`
 <div class="section"><b>PHILLIES BATTING ORDER</b><span>GAME STATS</span></div>
 <div class="line-table">
 <table>
+<colgroup><col style="width:29px"><col><col style="width:43px"><col style="width:43px"><col style="width:43px"><col style="width:43px"></colgroup>
 <thead><tr><th>#</th><th>PLAYER</th><th>AB</th><th>H</th><th>HR</th><th>RBI</th></tr></thead>
 <tbody>
 ${batRows.map((p,i)=>`
-<tr class="${String(p.order||"").slice(-1)!=="0"?"sub-player":""}">
+<tr>
 <td class="num-order">${i+1}</td>
 <td><span class="player-name">${escapeHTML(p.name)}</span><small class="position">BATTER</small></td>
 <td>${p.ab}</td><td>${p.h}</td><td>${p.hr}</td><td>${p.rbi}</td>
@@ -534,12 +571,13 @@ ${batRows.map((p,i)=>`
 <div class="section"><b>PHILLIES PITCHING</b><span>APPEARANCE ORDER</span></div>
 <div class="pitch-table">
 <table>
+<colgroup><col class="order"><col><col class="ip"><col class="stat"><col class="stat"><col class="stat"></colgroup>
 <thead><tr><th>#</th><th>PITCHER</th><th>IP</th><th>H</th><th>ER</th><th>SO</th></tr></thead>
 <tbody>
 ${pitRows.map((p,i)=>`
 <tr>
 <td class="order">${i+1}</td>
-<td class="pitcher">${escapeHTML(p.name)}<small class="pitch-sub">${p.ip} IP · ${p.bb} BB · ${p.k} SO</small></td>
+<td class="pitcher">${escapeHTML(p.name)}<small class="pitch-sub">${p.ip} IP · ERA ${escapeHTML(p.era)}</small></td>
 <td>${p.ip}</td><td class="stat">${p.h}</td><td class="stat">${p.er}</td><td class="stat">${p.k}</td>
 </tr>`).join("")}
 </tbody>
@@ -547,13 +585,18 @@ ${pitRows.map((p,i)=>`
 </div>
 </div>`);
 }catch(e){
-detail(`<div class="game-detail"><div class="detail-head"><button class="back" onclick="go('schedule')">‹</button><div><div class="detail-title">GAME CENTER</div><div class="detail-sub">${dateText(g.date)}</div></div></div><div class="schedule-loading">GAME DATA UNAVAILABLE</div></div>`)
+detail(`
+<div class="game-detail">
+<div class="detail-head"><button class="back" onclick="go('schedule')">‹</button><div><div class="detail-title">GAME CENTER</div><div class="detail-sub">${dateText(g.date)}</div></div></div>
+<div class="schedule-loading">GAME DATA UNAVAILABLE</div>
+</div>`)
 }
 }
 
-/* HOME */
+/* HOME GAME */
 function renderHomeGame(){
-let now=localDate(new Date()),g=schedule.find(x=>localDate(x.date)===now&&x.status!=="FINAL");
+let now=localDate(new Date());
+let g=schedule.find(x=>localDate(x.date)===now&&x.status!=="FINAL");
 if(!g)g=schedule.filter(x=>x.status==="FINAL").at(-1);
 if(!g){
 $("homeLive").innerHTML='<div class="card"><div class="schedule-loading">NO GAME DATA</div></div>';
@@ -561,7 +604,8 @@ return
 }
 let live=g.status==="LIVE"||g.status==="IN_PROGRESS";
 $("homeGameLabel").textContent=live?"LIVE GAME":g.status==="FINAL"?"LATEST RESULT":"GAME DAY";
-$("homeLive").innerHTML=`<div class="card live-card">
+$("homeLive").innerHTML=`
+<div class="card live-card">
 <div class="game-head"><div class="${live?"live":""}">${live?'<i></i>LIVE':g.status}</div><div class="game-state">${escapeHTML(live?g.status:dateText(g.date))}</div></div>
 <div class="score"><span class="team">PHI</span><strong>${g.status==="FINAL"||live?`${g.phiScore??0}–${g.oppScore??0}`:"VS"}</strong><span class="team">${escapeHTML(g.oppAbbr)}</span></div>
 <div class="game-foot"><span>${escapeHTML(g.venue)}</span><span>${live?"LIVE":g.status==="FINAL"?g.result:clock(g.date)}</span></div>
@@ -594,11 +638,12 @@ return"OUTFIELDERS"
 function normalizePlayer(p){
 const state=rosterState(p);
 return{
-raw:p,id:p.id,name:p.name||"",number:p.number||"",position:p.position?.abbreviation||"",
-detailPosition:p.position?.name||"",bt:p.bt?`${p.bt.bats}/${p.bt.throws}`:"",
+raw:p,id:p.id,name:p.name||"",number:p.number||"",
+position:p.position?.abbreviation||"",detailPosition:p.position?.name||"",
+bt:p.bt?`${p.bt.bats}/${p.bt.throws}`:"",
 birthCountry:p.physical?.birthCountry||"—",birthDate:p.physical?.birthDate||"—",
-active:state==="ACTIVE",il:state==="IL",roster:state,group:positionGroup(p),
-type:p.stats?.type||""
+active:state==="ACTIVE",il:state==="IL",roster:state,
+group:positionGroup(p),type:p.stats?.type||""
 }
 }
 
@@ -628,8 +673,8 @@ return v
 function statsFor(p){
 const s=p.raw.stats||{},h=s.hitting?.season,hs=s.hitting?.sabermetrics,q=s.pitching?.season,qs=s.pitching?.sabermetrics;
 if(p.type==="pitcher")return[
-["G",q?.gamesPlayed],["IP",q?.inningsPitched],["W-L",q?`${q.wins}-${q.losses}`:"—"],
-["ERA",q?.era],["WAR",qs?.war],["FIP",qs?.fip],["xFIP",qs?.xfip],["WHIP",q?.whip]
+["G",q?.gamesPlayed],["IP",q?.inningsPitched],["W-L",q?`${q.wins}-${q.losses}`:"—"],["ERA",q?.era],
+["WAR",qs?.war],["FIP",qs?.fip],["xFIP",qs?.xfip],["WHIP",q?.whip]
 ];
 return[
 ["G",h?.gamesPlayed],["AVG",h?.avg],["HR",h?.homeRuns],["RBI",h?.rbi],
@@ -639,7 +684,8 @@ return[
 
 function detailCard(p){
 const stats=statsFor(p),role=p.type==="pitcher"?"PITCHER":p.position==="DH"?"DESIGNATED HITTER":"POSITION PLAYER";
-return`<div class="player-stats">
+return`
+<div class="player-stats">
 <div class="player-profile">
 <div><div class="player-profile-name">${escapeHTML(p.name)}</div><div class="player-profile-role">${role} · ${escapeHTML(p.detailPosition)} · ${escapeHTML(p.bt)}</div></div>
 <div class="player-profile-number"><b>${escapeHTML(p.number)}</b><span>ROSTER NUMBER</span></div>
@@ -666,18 +712,21 @@ if(e)e.scrollIntoView({behavior:"smooth",block:"nearest"})
 function renderPlayers(){
 const pos=$("positionFilter").value,rf=$("rosterFilter").value;
 let list=rosterData.filter(p=>(rf==="ALL"||p.roster===rf)&&(pos==="ALL"||p.group===pos)).sort((a,b)=>(+a.number||999)-(+b.number||999));
+$("heroCount").textContent=list.length;
 $("playerCount").textContent=list.length+" PLAYERS";
 const gs=pos==="ALL"?groups:[pos];
 
 $("playerList").innerHTML=gs.map(g=>{
 const a=list.filter(p=>p.group===g);
 if(!a.length)return"";
-return`<section class="player-group">
+return`
+<section class="player-group">
 <div class="player-group-head"><b>${groupNames[g]}</b><span>${a.length}</span><i></i></div>
 <div class="player-list">
 ${a.map(p=>{
 const i=rosterData.indexOf(p),c=rosterClass(p),open=opened===i;
-return`<div class="player-wrap" id="player-${i}">
+return`
+<div class="player-wrap" id="player-${i}">
 <div class="player-card ${c} ${open?"open":""}" onclick="togglePlayer(${i})">
 <div class="player-number">${escapeHTML(p.number)}</div>
 <div class="player-info">
@@ -694,7 +743,7 @@ ${open?detailCard(p):""}
 }).join("")||`<div class="player-empty">NO PLAYERS MATCH THE CURRENT FILTER</div>`
 }
 
-/* LOAD DATA */
+/* LOAD */
 async function load(){
 try{
 let saved=[];
@@ -706,16 +755,14 @@ fetch(RAW+"standings.json",{cache:"no-store"}).then(r=>r.json()),
 fetch(RAW+"players.json",{cache:"no-store"}).then(r=>r.json())
 ]);
 
-news=(n||[]).map(x=>({...x,read:saved.includes(x.link),saved:false,japaneseTitle:x.japaneseTitle||x.title_ja||x.jpTitle||""}));
+news=(n||[]).map(x=>({...x,read:saved.includes(x.link),saved:false,jaTitle:x.jaTitle||""}));
 standings=s?.division?.teams||[];
 rosterData=(p?.players||[]).map(normalizePlayer).filter(x=>x.active||x.il||x.raw.roster?.fortyMan);
 
 renderNews();
 renderStandings();
 renderPlayers();
-
-news.forEach((n,i)=>translateNewsTitle(n,i));
-
+translateNews()
 }catch(e){
 $("news").innerHTML='<div class="schedule-loading">DATA UNAVAILABLE</div>';
 $("standings").innerHTML='<tr><td colspan="5" style="text-align:center;padding:25px;color:var(--m)">DATA UNAVAILABLE</td></tr>';
@@ -725,8 +772,9 @@ try{
 let r=await fetch(`${MLB}/schedule?sportId=1&teamId=143&season=2026&startDate=2026-03-01&endDate=2026-11-01&hydrate=team,venue,probablePitcher,linescore`,{cache:"no-store"});
 let j=await r.json();
 schedule=normalizeSchedule(j);
+setupMonths();
 renderSchedule();
-renderHomeGame();
+renderHomeGame()
 }catch(e){
 $("scheduleList").innerHTML='<div class="schedule-loading">SCHEDULE DATA UNAVAILABLE</div>';
 }
@@ -739,10 +787,10 @@ if(!schedule.length)return;
 try{
 let today=localDate(new Date());
 let r=await fetch(`${MLB}/schedule?sportId=1&teamId=143&season=2026&startDate=${today}&endDate=${today}&hydrate=team,venue,probablePitcher,linescore`,{cache:"no-store"});
-let j=await r.json();
-let games=normalizeSchedule(j);
-if(games.length){
-schedule=schedule.filter(g=>localDate(g.date)!==today).concat(games).sort((a,b)=>new Date(a.date)-new Date(b.date));
+let j=await r.json(),todayGames=normalizeSchedule(j);
+if(todayGames.length){
+schedule=schedule.filter(g=>localDate(g.date)!==today).concat(todayGames).sort((a,b)=>new Date(a.date)-new Date(b.date));
+setupMonths();
 renderSchedule();
 renderHomeGame()
 }
