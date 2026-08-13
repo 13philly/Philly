@@ -86,12 +86,13 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 .detail-head{display:flex;align-items:center;gap:10px;margin-bottom:16px}
 .detail-title{font:900 27px/.8 "Barlow Condensed"}
 .detail-sub{margin-top:4px;color:var(--m);font-size:5px;font-weight:900;letter-spacing:1px}
-.running{overflow:hidden;border:1px solid var(--l);border-radius:15px;background:#091a31}
-.running table{width:100%;border-collapse:collapse;table-layout:fixed}
-.running th,.running td{height:32px;border-bottom:1px solid var(--l);padding:0 7px;text-align:center;font:900 8px "Barlow Condensed"}
+.running{overflow-x:auto;border:1px solid var(--l);border-radius:15px;background:#091a31}
+.running table{width:100%;min-width:480px;border-collapse:collapse;table-layout:fixed}
+.running th,.running td{height:32px;border-bottom:1px solid var(--l);padding:0 5px;text-align:center;font:900 8px "Barlow Condensed"}
 .running th{background:#07172d;color:#617995;font-size:5px}
 .running th:first-child,.running td:first-child{width:38px;text-align:left}
-.running th:last-child,.running td:last-child{width:42px}
+.running th:nth-child(n+2):nth-child(-n+10),.running td:nth-child(n+2):nth-child(-n+10){width:34px}
+.running th:nth-child(n+11),.running td:nth-child(n+11){width:38px}
 .running tr:last-child td{border:0}
 .summary{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .summary-box{min-height:78px;padding:13px;border:1px solid var(--l);border-radius:13px;background:#0b1d36}
@@ -101,7 +102,6 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 .bases{display:flex;align-items:center;justify-content:center;height:46px;margin-top:6px}
 .base{width:13px;height:13px;border:1px solid #526b88;transform:rotate(45deg);margin:0 9px}
 .base.on{background:var(--r);border-color:var(--r)}
-
 .line-table,.pitch-table{overflow:hidden;border:1px solid var(--l);border-radius:15px;background:#091a31}
 .line-table table,.pitch-table table{width:100%;border-collapse:collapse;table-layout:fixed}
 .line-table th,.line-table td{border-bottom:1px solid var(--l)}
@@ -120,7 +120,6 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 .line-table .sub-player .player-name{font-size:11px;color:#d3dce7}
 .line-table .sub-player .position{color:#607995}
 .line-table .sub-player .player-name:before{content:"↳ ";color:#607995}
-
 .pitch-table col.order{width:30px}
 .pitch-table col.ip{width:48px}
 .pitch-table col.stat{width:38px}
@@ -134,7 +133,6 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 .pitch-table .pitcher{font-size:12px;text-align:left}
 .pitch-table .pitch-sub{display:block;margin-top:3px;color:#7187a3;font:900 4px Inter}
 .pitch-table .stat{font-size:9px}
-
 .bottom-nav{position:fixed;z-index:40;left:50%;bottom:0;width:100%;max-width:560px;height:91px;padding:9px 12px calc(9px + env(safe-area-inset-bottom));transform:translateX(-50%);background:#07162bed;border-top:1px solid #203b5a;backdrop-filter:blur(22px)}
 .nav-inner{height:100%;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:4px;border:1px solid #18324f;border-radius:17px;background:#08182e;box-shadow:0 8px 30px #00035}
 .nav-item{position:relative;border:0;border-radius:12px;background:transparent;color:#617994;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:5px;font-weight:900;letter-spacing:.8px;transition:.18s}
@@ -156,6 +154,7 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 </head>
 <body>
 <div class="app">
+
 <header>
 <img class="header-logo" src="https://raw.githubusercontent.com/13philly/Philly/main/IMG_7708.png" alt="">
 <div class="header-detail"><b></b><i></i></div>
@@ -297,7 +296,7 @@ const batting=[
 
 const rows=batting.flatMap(x=>x.players.map((p,i)=>`
 <tr class="${p.sub?"sub-player":""}">
-<td class="num-order">${i?"" : x.order}</td>
+<td class="num-order">${i?"":x.order}</td>
 <td><span class="player-name">${p.name}</span><small class="position">${p.pos}${p.sub?" · SUB":" · START"}</small></td>
 <td>${p.ab}</td>
 <td>${p.h}</td>
@@ -322,10 +321,27 @@ detail(`
 <div class="section"><b>RUNNING SCORE</b><span>LIVE</span></div>
 <div class="running">
 <table>
-<thead><tr><th>TEAM</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>R</th></tr></thead>
+<thead>
+<tr>
+<th>TEAM</th>
+<th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
+<th>6</th><th>7</th><th>8</th><th>9</th>
+<th>R</th><th>H</th><th>E</th>
+</tr>
+</thead>
 <tbody>
-<tr><td>PHI</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>3</td></tr>
-<tr><td>LAD</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr>
+<td>PHI</td>
+<td>1</td><td>0</td><td>1</td><td>0</td><td>1</td>
+<td>0</td><td>0</td><td>0</td><td>0</td>
+<td>3</td><td>8</td><td>0</td>
+</tr>
+<tr>
+<td>LAD</td>
+<td>0</td><td>0</td><td>0</td><td>1</td><td>0</td>
+<td>0</td><td>0</td><td>0</td><td>0</td>
+<td>1</td><td>5</td><td>1</td>
+</tr>
 </tbody>
 </table>
 </div>
