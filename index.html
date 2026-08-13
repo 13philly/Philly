@@ -81,6 +81,27 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 .phi{background:#102a49}
 .mark{margin-left:5px;padding:2px 4px;border-radius:3px;background:var(--r);font-size:4px;color:#fff;font-style:normal}
 .empty{min-height:70vh;display:flex;align-items:center;justify-content:center;color:var(--m);font:900 12px "Barlow Condensed";letter-spacing:1px}
+
+/* PLAYERS */
+.players-tools{display:flex;gap:7px;margin:20px 0 10px}
+.players-filter{position:relative;flex:1}
+.players-filter select{appearance:none;outline:0;width:100%;height:38px;padding:0 30px 0 12px;border:1px solid var(--l);border-radius:9px;background:#0a1b34;color:#dce4ed;font-size:7px;font-weight:900}
+.players-filter:after{content:"⌄";position:absolute;right:10px;top:50%;transform:translateY(-55%);color:#7087a2;pointer-events:none}
+.players-count{display:flex;align-items:center;padding:0 12px;border:1px solid var(--l);border-radius:9px;background:#0a1b34;color:var(--m);font-size:6px;font-weight:900;white-space:nowrap}
+.players-table{overflow:hidden;border:1px solid var(--l);border-radius:15px;background:#091a31}
+.players-table table{width:100%;border-collapse:collapse;table-layout:fixed}
+.players-table th,.players-table td{border-bottom:1px solid var(--l)}
+.players-table th{height:34px;padding:0 7px;background:#07172d;color:#607995;font-size:5px;font-weight:900;text-align:left}
+.players-table th:first-child,.players-table td:first-child{width:43px;text-align:center}
+.players-table th:nth-child(3),.players-table td:nth-child(3){width:48px;text-align:center}
+.players-table th:nth-child(4),.players-table td:nth-child(4){width:47px;text-align:center}
+.players-table td{height:48px;padding:0 7px;font:900 10px "Barlow Condensed"}
+.players-table tr:last-child td{border:0}
+.player-number{font-size:15px;color:#7086a2}
+.player-name-list{font-size:12px}
+.player-sub{display:block;margin-top:3px;color:#7187a3;font:900 4px Inter}
+.player-bt,.player-pos{font:900 9px "Barlow Condensed"}
+.players-empty{padding:35px;text-align:center;color:var(--m);font-size:7px;font-weight:900}
 .game-detail{padding:22px 15px 30px}
 .back{width:38px;height:36px;border:1px solid var(--l);border-radius:9px;background:#0b1d36;color:#fff;font-size:23px}
 .detail-head{display:flex;align-items:center;gap:10px;margin-bottom:16px}
@@ -154,7 +175,6 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 </head>
 <body>
 <div class="app">
-
 <header>
 <img class="header-logo" src="https://raw.githubusercontent.com/13philly/Philly/main/IMG_7708.png" alt="">
 <div class="header-detail"><b></b><i></i></div>
@@ -163,7 +183,6 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 <main id="home" class="page show">
 <div class="eyebrow">PHILADELPHIA PHILLIES</div>
 <h1>HOME</h1>
-
 <div class="section"><b>LIVE CENTER</b><span>GAME DAY</span></div>
 <div class="card live-card">
 <div class="game-head"><div class="live"><i></i>LIVE</div><div class="game-state">7TH · 2 OUT</div></div>
@@ -171,7 +190,6 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 <div class="game-foot"><span>DODGER STADIUM</span><span>TOP 7</span></div>
 <button class="game-btn" onclick="game()">OPEN GAME CENTER</button>
 </div>
-
 <div class="section latest-head">
 <b>LATEST</b>
 <div class="news-tools">
@@ -180,7 +198,6 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 </div>
 </div>
 <div id="news" class="news-grid"></div>
-
 <div class="section"><b>NL EAST</b><span>STANDINGS</span></div>
 <div class="card stand">
 <table>
@@ -197,7 +214,35 @@ h1{margin:0;font:900 46px/.82 "Barlow Condensed"}
 </main>
 
 <main id="schedule" class="page"><div class="empty">SCHEDULE</div></main>
-<main id="players" class="page"><div class="empty">PLAYERS</div></main>
+
+<main id="players" class="page">
+<div class="eyebrow">PHILADELPHIA PHILLIES</div>
+<h1>PLAYERS</h1>
+
+<div class="players-tools">
+<div class="players-filter">
+<select id="playerFilter" onchange="renderPlayers()">
+<option value="ALL">ALL PLAYERS</option>
+<option value="P">PITCHERS</option>
+<option value="C">CATCHERS</option>
+<option value="IF">INFIELDERS</option>
+<option value="OF">OUTFIELDERS</option>
+<option value="DH">DH</option>
+</select>
+</div>
+<div id="playerCount" class="players-count">0 PLAYERS</div>
+</div>
+
+<div class="players-table">
+<table>
+<thead>
+<tr><th>#</th><th>PLAYER</th><th>B/T</th><th>POS</th></tr>
+</thead>
+<tbody id="playersList"></tbody>
+</table>
+</div>
+</main>
+
 <section id="detail"></section>
 
 <nav class="bottom-nav">
@@ -245,10 +290,60 @@ return`<article class="news ${n[5]?"":"unread"}" onclick="readNews(${i})">
 function readNews(i){news[i][5]=1;renderNews()}
 function fav(i){news[i][6]^=1;renderNews()}
 
+const players=[
+["46","José Alvarado","L/L","P"],
+["19","Kyle Backhus","L/L","P"],
+["58","Tanner Banks","R/L","P"],
+["52","Jonathan Bowlan","R/R","P"],
+["75","Moisés Chace","R/R","P"],
+["59","Jhoan Duran","R/R","P"],
+["51","Seth Johnson","R/R","P"],
+["50","Orion Kerkering","R/R","P"],
+["60","Max Lazar","R/R","P"],
+["22","Lou Trivino III","R/R","P"],
+["45","Zack Wheeler","L/R","P"],
+["13","Rafael Marchán","S/R","C"],
+["10","J.T. Realmuto","R/R","C"],
+["21","Garrett Stubbs","L/R","C"],
+["28","Alec Bohm","R/R","3B"],
+["3","Bryce Harper","L/R","1B"],
+["5","Bryson Stott","L/R","2B"],
+["7","Trea Turner","R/R","SS"],
+["9","Brandon Marsh","L/L","LF"],
+["12","Edmundo Sosa","R/R","LF"],
+["44","Bryan De La Cruz","R/R","RF"],
+["30","Derek Hill","R/R","CF"],
+["8","Justin Crawford","L/L","CF"],
+["16","Gabriel Rincones Jr.","L/L","RF"],
+["29","Kyle Schwarber","L/R","DH"]
+];
+
+function playerGroup(pos){
+if(pos=="P")return"P";
+if(pos=="C")return"C";
+if(["1B","2B","3B","SS"].includes(pos))return"IF";
+if(["LF","CF","RF"].includes(pos))return"OF";
+return"DH"
+}
+
+function renderPlayers(){
+let f=$("playerFilter").value;
+let list=players.filter(p=>f=="ALL"||playerGroup(p[3])==f);
+$("playerCount").textContent=`${list.length} PLAYERS`;
+$("playersList").innerHTML=list.length?list.map(p=>`
+<tr>
+<td class="player-number">${p[0]}</td>
+<td><span class="player-name-list">${p[1]}</span><small class="player-sub">${playerGroup(p[3])=="IF"?"INFIELDER":playerGroup(p[3])=="OF"?"OUTFIELDER":playerGroup(p[3])=="P"?"PITCHER":playerGroup(p[3])=="C"?"CATCHER":"DESIGNATED HITTER"}</small></td>
+<td class="player-bt">${p[2]}</td>
+<td class="player-pos">${p[3]}</td>
+</tr>`).join(""):`<tr><td colspan="4"><div class="players-empty">NO PLAYERS</div></td></tr>`
+}
+
 function go(id){
 ["home","schedule","players"].forEach(x=>$(x).classList.toggle("show",x==id));
 ["h","s","p"].forEach(x=>$("n"+x).classList.toggle("active",x==={home:"h",schedule:"s",players:"p"}[id]));
 $("detail").innerHTML="";
+if(id=="players")renderPlayers();
 scrollTo(0,0)
 }
 
@@ -261,7 +356,6 @@ scrollTo(0,0)
 function closeGame(){go("home")}
 
 function game(){
-
 const batting=[
 {order:1,players:[
 {name:"Kyle Schwarber",pos:"DH",ab:3,h:2,hr:1,rbi:2,start:1}
@@ -306,18 +400,15 @@ const rows=batting.flatMap(x=>x.players.map((p,i)=>`
 
 detail(`
 <div class="game-detail">
-
 <div class="detail-head">
 <button class="back" onclick="closeGame()">‹</button>
 <div><div class="detail-title">GAME CENTER</div><div class="detail-sub">LIVE · AUG 13 · 7TH</div></div>
 </div>
-
 <div class="card live-card">
 <div class="game-head"><div class="live"><i></i>LIVE</div><div class="game-state">7TH · 2 OUT</div></div>
 <div class="score"><span class="team">PHI</span><strong>3–1</strong><span class="team">LAD</span></div>
 <div class="game-foot"><span>DODGER STADIUM</span><span>TOP 7</span></div>
 </div>
-
 <div class="section"><b>RUNNING SCORE</b><span>LIVE</span></div>
 <div class="running">
 <table>
@@ -345,7 +436,6 @@ detail(`
 </tbody>
 </table>
 </div>
-
 <div class="section"><b>SUMMARY</b><span>CURRENT STATE</span></div>
 <div class="summary">
 <div class="summary-box">
@@ -369,9 +459,7 @@ detail(`
 <span class="summary-sub">RUNNER ON 2B</span>
 </div>
 </div>
-
 <div class="section"><b>PHILLIES BATTING ORDER</b><span>4 HITTING STATS</span></div>
-
 <div class="line-table">
 <table>
 <colgroup>
@@ -388,9 +476,7 @@ detail(`
 <tbody>${rows}</tbody>
 </table>
 </div>
-
 <div class="section"><b>PHILLIES PITCHING</b><span>APPEARANCE ORDER</span></div>
-
 <div class="pitch-table">
 <table>
 <colgroup>
@@ -418,12 +504,6 @@ ${[
 </tbody>
 </table>
 </div>
-
 </div>
 `)
 }
-
-renderNews();
-</script>
-</body>
-</html>
