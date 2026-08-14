@@ -117,35 +117,35 @@
         "teamId": 120,
         "team": "Washington Nationals",
         "abbreviation": "WSH",
-        "wins": 59,
+        "wins": 60,
         "losses": 63,
-        "winningPercentage": ".484",
-        "gamesBack": "14.5",
+        "winningPercentage": ".488",
+        "gamesBack": "14.0",
         "divisionRank": 4,
         "leagueRank": 10,
         "wildCardRank": 7,
         "magicNumber": null,
-        "wildCardGamesBack": "5.0",
+        "wildCardGamesBack": "4.5",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 59,
+          "wins": 60,
           "losses": 63,
-          "pct": ".484"
+          "pct": ".488"
         },
         "lastTen": {
-          "wins": 4,
-          "losses": 6,
+          "wins": 5,
+          "losses": 5,
           "type": "lastTen",
-          "pct": ".400"
+          "pct": ".500"
         },
         "streak": {
-          "streakCode": "L2",
-          "streakType": "losses",
-          "streakNumber": 2
+          "streakCode": "W1",
+          "streakType": "wins",
+          "streakNumber": 1
         },
-        "runsScored": 655,
+        "runsScored": 662,
         "runsAllowed": 639,
-        "runDifferential": 16,
+        "runDifferential": 23,
         "postseason": null
       },
       {
@@ -199,7 +199,7 @@
         "divisionRank": 1,
         "leagueRank": 1,
         "wildCardRank": null,
-        "magicNumber": "39",
+        "magicNumber": "38",
         "wildCardGamesBack": "-",
         "divisionRecord": null,
         "leagueRecord": {
@@ -298,19 +298,19 @@
         "team": "Chicago Cubs",
         "abbreviation": "CHC",
         "wins": 71,
-        "losses": 50,
-        "winningPercentage": ".587",
-        "gamesBack": "3.0",
+        "losses": 51,
+        "winningPercentage": ".582",
+        "gamesBack": "3.5",
         "divisionRank": 2,
         "leagueRank": 4,
         "wildCardRank": 1,
         "magicNumber": null,
-        "wildCardGamesBack": "+7.5",
+        "wildCardGamesBack": "+7.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 71,
-          "losses": 50,
-          "pct": ".587"
+          "losses": 51,
+          "pct": ".582"
         },
         "lastTen": {
           "wins": 8,
@@ -319,13 +319,13 @@
           "pct": ".800"
         },
         "streak": {
-          "streakCode": "W3",
-          "streakType": "wins",
-          "streakNumber": 3
+          "streakCode": "L1",
+          "streakType": "losses",
+          "streakNumber": 1
         },
         "runsScored": 634,
-        "runsAllowed": 519,
-        "runDifferential": 115,
+        "runsAllowed": 526,
+        "runDifferential": 108,
         "postseason": "wildcard"
       },
       {
@@ -507,35 +507,35 @@
         "teamId": 120,
         "team": "Washington Nationals",
         "abbreviation": "WSH",
-        "wins": 59,
+        "wins": 60,
         "losses": 63,
-        "winningPercentage": ".484",
-        "gamesBack": "14.5",
+        "winningPercentage": ".488",
+        "gamesBack": "14.0",
         "divisionRank": 4,
         "leagueRank": 10,
         "wildCardRank": 7,
         "magicNumber": null,
-        "wildCardGamesBack": "5.0",
+        "wildCardGamesBack": "4.5",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 59,
+          "wins": 60,
           "losses": 63,
-          "pct": ".484"
+          "pct": ".488"
         },
         "lastTen": {
-          "wins": 4,
-          "losses": 6,
+          "wins": 5,
+          "losses": 5,
           "type": "lastTen",
-          "pct": ".400"
+          "pct": ".500"
         },
         "streak": {
-          "streakCode": "L2",
-          "streakType": "losses",
-          "streakNumber": 2
+          "streakCode": "W1",
+          "streakType": "wins",
+          "streakNumber": 1
         },
-        "runsScored": 655,
+        "runsScored": 662,
         "runsAllowed": 639,
-        "runDifferential": 16,
+        "runDifferential": 23,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-08-13T21:29:56.011Z"
+  "updatedAt": "2026-08-14T00:09:24.248Z"
 }
