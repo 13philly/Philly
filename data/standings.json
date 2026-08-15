@@ -647,20 +647,20 @@
         "teamId": 137,
         "team": "San Francisco Giants",
         "abbreviation": "SF",
-        "wins": 50,
+        "wins": 51,
         "losses": 72,
-        "winningPercentage": ".410",
-        "gamesBack": "23.5",
+        "winningPercentage": ".415",
+        "gamesBack": "23.0",
         "divisionRank": 4,
         "leagueRank": 14,
         "wildCardRank": 11,
         "magicNumber": null,
-        "wildCardGamesBack": "14.5",
+        "wildCardGamesBack": "14.0",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 50,
+          "wins": 51,
           "losses": 72,
-          "pct": ".410"
+          "pct": ".415"
         },
         "lastTen": {
           "wins": 3,
@@ -669,13 +669,13 @@
           "pct": ".300"
         },
         "streak": {
-          "streakCode": "L2",
-          "streakType": "losses",
-          "streakNumber": 2
+          "streakCode": "W1",
+          "streakType": "wins",
+          "streakNumber": 1
         },
-        "runsScored": 495,
-        "runsAllowed": 562,
-        "runDifferential": -67,
+        "runsScored": 502,
+        "runsAllowed": 563,
+        "runDifferential": -61,
         "postseason": null
       },
       {
@@ -683,19 +683,19 @@
         "team": "Colorado Rockies",
         "abbreviation": "COL",
         "wins": 49,
-        "losses": 73,
-        "winningPercentage": ".402",
-        "gamesBack": "24.5",
+        "losses": 74,
+        "winningPercentage": ".398",
+        "gamesBack": "25.0",
         "divisionRank": 5,
         "leagueRank": 15,
         "wildCardRank": 12,
         "magicNumber": null,
-        "wildCardGamesBack": "15.5",
+        "wildCardGamesBack": "16.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 49,
-          "losses": 73,
-          "pct": ".402"
+          "losses": 74,
+          "pct": ".398"
         },
         "lastTen": {
           "wins": 4,
@@ -704,16 +704,16 @@
           "pct": ".400"
         },
         "streak": {
-          "streakCode": "W3",
-          "streakType": "wins",
-          "streakNumber": 3
+          "streakCode": "L1",
+          "streakType": "losses",
+          "streakNumber": 1
         },
-        "runsScored": 582,
-        "runsAllowed": 695,
-        "runDifferential": -113,
+        "runsScored": 583,
+        "runsAllowed": 702,
+        "runDifferential": -119,
         "postseason": null
       }
     ]
   },
-  "updatedAt": "2026-08-15T21:43:19.265Z"
+  "updatedAt": "2026-08-15T22:51:21.963Z"
 }
