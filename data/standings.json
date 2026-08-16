@@ -199,7 +199,7 @@
         "divisionRank": 1,
         "leagueRank": 1,
         "wildCardRank": null,
-        "magicNumber": "35",
+        "magicNumber": "34",
         "wildCardGamesBack": "-",
         "divisionRecord": null,
         "leagueRecord": {
@@ -298,34 +298,34 @@
         "team": "Chicago Cubs",
         "abbreviation": "CHC",
         "wins": 72,
-        "losses": 52,
-        "winningPercentage": ".581",
-        "gamesBack": "4.0",
+        "losses": 53,
+        "winningPercentage": ".576",
+        "gamesBack": "4.5",
         "divisionRank": 2,
         "leagueRank": 4,
         "wildCardRank": 1,
         "magicNumber": null,
-        "wildCardGamesBack": "+6.0",
+        "wildCardGamesBack": "+5.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 72,
-          "losses": 52,
-          "pct": ".581"
+          "losses": 53,
+          "pct": ".576"
         },
         "lastTen": {
-          "wins": 7,
-          "losses": 3,
+          "wins": 6,
+          "losses": 4,
           "type": "lastTen",
-          "pct": ".700"
+          "pct": ".600"
         },
         "streak": {
-          "streakCode": "L1",
+          "streakCode": "L2",
           "streakType": "losses",
-          "streakNumber": 1
+          "streakNumber": 2
         },
-        "runsScored": 641,
-        "runsAllowed": 534,
-        "runDifferential": 107,
+        "runsScored": 645,
+        "runsAllowed": 545,
+        "runDifferential": 100,
         "postseason": "wildcard"
       },
       {
@@ -472,70 +472,70 @@
         "teamId": 138,
         "team": "St. Louis Cardinals",
         "abbreviation": "STL",
-        "wins": 62,
+        "wins": 63,
         "losses": 61,
-        "winningPercentage": ".504",
-        "gamesBack": "13.5",
+        "winningPercentage": ".508",
+        "gamesBack": "13.0",
         "divisionRank": 3,
         "leagueRank": 9,
         "wildCardRank": 6,
         "magicNumber": null,
-        "wildCardGamesBack": "3.5",
+        "wildCardGamesBack": "3.0",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 62,
+          "wins": 63,
           "losses": 61,
-          "pct": ".504"
+          "pct": ".508"
         },
         "lastTen": {
-          "wins": 6,
-          "losses": 4,
+          "wins": 7,
+          "losses": 3,
           "type": "lastTen",
-          "pct": ".600"
+          "pct": ".700"
         },
         "streak": {
-          "streakCode": "W1",
+          "streakCode": "W2",
           "streakType": "wins",
-          "streakNumber": 1
+          "streakNumber": 2
         },
-        "runsScored": 537,
-        "runsAllowed": 537,
-        "runDifferential": 0,
+        "runsScored": 548,
+        "runsAllowed": 541,
+        "runDifferential": 7,
         "postseason": null
       },
       {
         "teamId": 134,
         "team": "Pittsburgh Pirates",
         "abbreviation": "PIT",
-        "wins": 60,
+        "wins": 61,
         "losses": 65,
-        "winningPercentage": ".480",
-        "gamesBack": "16.5",
+        "winningPercentage": ".484",
+        "gamesBack": "16.0",
         "divisionRank": 4,
         "leagueRank": 10,
         "wildCardRank": 7,
         "magicNumber": null,
-        "wildCardGamesBack": "6.5",
+        "wildCardGamesBack": "6.0",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 60,
+          "wins": 61,
           "losses": 65,
-          "pct": ".480"
+          "pct": ".484"
         },
         "lastTen": {
-          "wins": 3,
-          "losses": 7,
+          "wins": 4,
+          "losses": 6,
           "type": "lastTen",
-          "pct": ".300"
+          "pct": ".400"
         },
         "streak": {
-          "streakCode": "L1",
-          "streakType": "losses",
+          "streakCode": "W1",
+          "streakType": "wins",
           "streakNumber": 1
         },
-        "runsScored": 625,
-        "runsAllowed": 600,
-        "runDifferential": 25,
+        "runsScored": 633,
+        "runsAllowed": 603,
+        "runDifferential": 30,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-08-16T21:40:56.339Z"
+  "updatedAt": "2026-08-16T22:49:00.190Z"
 }
