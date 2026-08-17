@@ -122,8 +122,8 @@
         "winningPercentage": ".476",
         "gamesBack": "15.0",
         "divisionRank": 4,
-        "leagueRank": 12,
-        "wildCardRank": 9,
+        "leagueRank": 11,
+        "wildCardRank": 8,
         "magicNumber": null,
         "wildCardGamesBack": "7.5",
         "divisionRecord": null,
@@ -472,20 +472,20 @@
         "teamId": 138,
         "team": "St. Louis Cardinals",
         "abbreviation": "STL",
-        "wins": 63,
+        "wins": 64,
         "losses": 61,
-        "winningPercentage": ".508",
-        "gamesBack": "13.5",
+        "winningPercentage": ".512",
+        "gamesBack": "13.0",
         "divisionRank": 3,
         "leagueRank": 9,
         "wildCardRank": 6,
         "magicNumber": null,
-        "wildCardGamesBack": "3.5",
+        "wildCardGamesBack": "3.0",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 63,
+          "wins": 64,
           "losses": 61,
-          "pct": ".508"
+          "pct": ".512"
         },
         "lastTen": {
           "wins": 7,
@@ -494,13 +494,13 @@
           "pct": ".700"
         },
         "streak": {
-          "streakCode": "W2",
+          "streakCode": "W3",
           "streakType": "wins",
-          "streakNumber": 2
+          "streakNumber": 3
         },
-        "runsScored": 548,
-        "runsAllowed": 541,
-        "runDifferential": 7,
+        "runsScored": 550,
+        "runsAllowed": 542,
+        "runDifferential": 8,
         "postseason": null
       },
       {
@@ -539,41 +539,6 @@
         "postseason": null
       },
       {
-        "teamId": 113,
-        "team": "Cincinnati Reds",
-        "abbreviation": "CIN",
-        "wins": 59,
-        "losses": 64,
-        "winningPercentage": ".480",
-        "gamesBack": "17.0",
-        "divisionRank": 5,
-        "leagueRank": 11,
-        "wildCardRank": 8,
-        "magicNumber": null,
-        "wildCardGamesBack": "7.0",
-        "divisionRecord": null,
-        "leagueRecord": {
-          "wins": 59,
-          "losses": 64,
-          "pct": ".480"
-        },
-        "lastTen": {
-          "wins": 4,
-          "losses": 6,
-          "type": "lastTen",
-          "pct": ".400"
-        },
-        "streak": {
-          "streakCode": "L2",
-          "streakType": "losses",
-          "streakNumber": 2
-        },
-        "runsScored": 502,
-        "runsAllowed": 588,
-        "runDifferential": -86,
-        "postseason": null
-      },
-      {
         "teamId": 120,
         "team": "Washington Nationals",
         "abbreviation": "WSH",
@@ -582,8 +547,8 @@
         "winningPercentage": ".476",
         "gamesBack": "15.0",
         "divisionRank": 4,
-        "leagueRank": 12,
-        "wildCardRank": 9,
+        "leagueRank": 11,
+        "wildCardRank": 8,
         "magicNumber": null,
         "wildCardGamesBack": "7.5",
         "divisionRecord": null,
@@ -606,6 +571,41 @@
         "runsScored": 670,
         "runsAllowed": 652,
         "runDifferential": 18,
+        "postseason": null
+      },
+      {
+        "teamId": 113,
+        "team": "Cincinnati Reds",
+        "abbreviation": "CIN",
+        "wins": 59,
+        "losses": 65,
+        "winningPercentage": ".476",
+        "gamesBack": "17.5",
+        "divisionRank": 5,
+        "leagueRank": 12,
+        "wildCardRank": 9,
+        "magicNumber": null,
+        "wildCardGamesBack": "7.5",
+        "divisionRecord": null,
+        "leagueRecord": {
+          "wins": 59,
+          "losses": 65,
+          "pct": ".476"
+        },
+        "lastTen": {
+          "wins": 3,
+          "losses": 7,
+          "type": "lastTen",
+          "pct": ".300"
+        },
+        "streak": {
+          "streakCode": "L3",
+          "streakType": "losses",
+          "streakNumber": 3
+        },
+        "runsScored": 503,
+        "runsAllowed": 590,
+        "runDifferential": -87,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-08-17T17:00:24.525Z"
+  "updatedAt": "2026-08-17T21:00:19.973Z"
 }
