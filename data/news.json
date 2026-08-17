@@ -1,15 +1,9 @@
 [
   {
-    "publishedAt": "2026-08-17T08:04:36.000Z",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1WX3RVWHlfbmI5RWtPZUwtdTQ5Sk5uNXF6bmNIQjdHRjlFM09CZlNZMUJqM2VPWjB6SURGc1dfRkxmU1FmOVc3NEJVT0xlN0tqYml1cnhmenVfOTln?oc=5",
-    "title": "Marlins vs. Phillies (Aug 17, 2026) Pregame - ESPN",
-    "source": "ESPN"
-  },
-  {
     "publishedAt": "2026-08-17T03:21:11.000Z",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TNWNVSEp4OEM3QmdLMFdqTW9DdjQ4WXFYazVPQ1haZnIyQkM0eWxtUDBFOXJIMkVYcEhHNktxMlM4SlhOTTFrUEduNVdsbFNQS0Z0Z1c2VGJSRWhySVpSVVh2bUVma3ZqUU44WFJKS21KN040V1QtXzBTeHJuZTA?oc=5",
-    "title": "Statcast Game Preview: Miami Marlins at Philadelphia Phillies - 2026-08-17 - baseballsavant.mlb.com",
-    "source": "baseballsavant.mlb.com"
+    "title": "Statcast Game Preview: Miami Marlins at Philadelphia Phillies - 2026-08-17 - Baseball Savant",
+    "source": "Baseball Savant"
   },
   {
     "publishedAt": "2026-08-17T02:17:51.191Z",
@@ -28,6 +22,12 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNemt3TUNZUXlTRFNUQUxsc2ZlZF9iZEZ3cjMwQVp1REpkc0xGX1hTUF9Vb2x1TElweEJfZjZ1YndqY3JpVGFJM0h6cGVfdVhuSGJzOHV6VEJHbE10bm1lalIxS3N2V28yWkNlZDQ1d2QwRHBhc3YwWUNwX2ktVG1sMVQ1dTI?oc=5",
     "title": "Phillies rally in the 8th inning in 7-5 win - MLB.com",
     "source": "MLB.com"
+  },
+  {
+    "publishedAt": "2026-08-16T23:19:37.000Z",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYkpfNUJ1VjZnZ1JFWWZyNjlzdXZXZ0lBWWoxb3BqTm5FVF9KSDVITjIxMklBeFNWQXFLbjFlVi1YY0N6VmJjcmtOczFUOFZubkFSVmRCVXlqY0tBMmhHbFVYZUpDZG13TFVoWUJHbEVSMnczdXVrNVo0eUhGc0l5bFJhRmVuYWR0a0ppTTdpb2xhTG1LeGNELVlLVGtDV3VDMFAzYzdfeTVhSmVNNkUyQzVleXcwa1RyN3fSAcIBQVVfeXFMTmlQdUtjSmd2di1ucEtleXlOcGJ1V1F5amhSWlNqcV8xUzhtanFNWTNTTm9SbmZCX29fUzZSdkhOQXZUbU0xQWVQRXkwcmpEY0Y4QUZYZGRfOEFYdDRHSmtYRGVNVjNCeXZHSFg4TGUyZk5DWWd2SWNsLXdzOHhOSVhWOF9IOUtOQWt2MEVseGJsbFBfckNwQ3FKalphZnQxUVMzZS1sTXU0WHU0b2JSN3JOWm1Zc0pURUptbWVaQThoZmc?oc=5",
+    "title": "Takeaways as Bohm leads Phillies' fightback after Painter's early trouble - NBC Sports Philadelphia",
+    "source": "NBC Sports Philadelphia"
   },
   {
     "publishedAt": "2026-08-16T22:35:00.000Z",
@@ -66,6 +66,12 @@
     "source": "MLB.com"
   },
   {
+    "publishedAt": "2026-08-16T21:32:05.000Z",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQlVmeG9lMHc4dExSNEVWaWw1NHdTdGJZY3BfdGREX1IzbGJjanJpN19CZlhEUEFaM3doaVByc21WaHl2eGdTaGlqbkMxSVBDZDRKdjd2WUxweklrOU5YYmxlMWVQbG54cjN0Um5maU1oaWQxMTc5XzAzRjlfSEVNQ0RWVUFrcEhybFlBSmdXUlI2YVFIbW5pakRyN3dVRGVqOUo1RHJJbFJUekJ1S0NQTGhMTDZWR3lPUGJNaHFLdDYyMjZYMU5RTnFPaHdTb29PNVgzUHQ4QQ?oc=5",
+    "title": "MLB: Philadelphia Phillies at Minnesota Twins - The Lufkin Daily News",
+    "source": "The Lufkin Daily News"
+  },
+  {
     "publishedAt": "2026-08-16T21:29:10.000Z",
     "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOU0o4UE5BMW9DU0d5VUtwV1piWWtNdW42WjVvVGpacVBpN09iWVF5eldNU21RVlVtdk5IUjZkQ0locnJJYWhZSFZneHk0aWwtVVNMRWtNWWZJMC1ZUHkzdF9yUmFBQmYzd2JQR01PWUFmM1RwN3ZIdmRqdHJjemxLY2xkWkljQ2hDOFpfY05wY3Nza0pPS3dEZjJ4X1B2c1JuRm16S1hEU2lISnNBRXdGZEpSUVlMczBMWHkyVXJlZjQ3czhROTVsQmxCbzNpRmVjdEl4ZDYtM0I2YmhBdmRhTG1ZdTM5eTVBUUh6OE5mcGpxdEUtS2laUGNxRW1pZHd6OU96YjlJTHNxY0pDZnlBX3pn?oc=5",
     "title": "De La Cruz hits go-ahead single, Phillies overcome five-run deficit to beat Minnesota 7-5 - Bozeman Daily Chronicle",
@@ -80,8 +86,8 @@
   {
     "publishedAt": "2026-08-16T21:25:05.000Z",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5EMnEzMWtuUFplOGdrMFphMlVXQlVmZG11dmRLX1pZeTM0amFwYmNIcmo3M0JzYTBQWnVGYUZhNkx2TG1BempLTmJIN0dPMnl0Nkl6ZTBrbFVsdUJKald0eTYtYi1WMWVTNWxFUEpn?oc=5",
-    "title": "Philadelphia Phillies vs. Minnesota Twins: Game Highlights - ESPN",
-    "source": "ESPN"
+    "title": "Philadelphia Phillies vs. Minnesota Twins: Game Highlights - espn.com",
+    "source": "espn.com"
   },
   {
     "publishedAt": "2026-08-16T21:20:20.000Z",
@@ -90,10 +96,10 @@
     "source": "Phillies Nation"
   },
   {
-    "publishedAt": "2026-08-16T21:13:20.000Z",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYkpfNUJ1VjZnZ1JFWWZyNjlzdXZXZ0lBWWoxb3BqTm5FVF9KSDVITjIxMklBeFNWQXFLbjFlVi1YY0N6VmJjcmtOczFUOFZubkFSVmRCVXlqY0tBMmhHbFVYZUpDZG13TFVoWUJHbEVSMnczdXVrNVo0eUhGc0l5bFJhRmVuYWR0a0ppTTdpb2xhTG1LeGNELVlLVGtDV3VDMFAzYzdfeTVhSmVNNkUyQzVleXcwa1RyN3fSAcIBQVVfeXFMTmlQdUtjSmd2di1ucEtleXlOcGJ1V1F5amhSWlNqcV8xUzhtanFNWTNTTm9SbmZCX29fUzZSdkhOQXZUbU0xQWVQRXkwcmpEY0Y4QUZYZGRfOEFYdDRHSmtYRGVNVjNCeXZHSFg4TGUyZk5DWWd2SWNsLXdzOHhOSVhWOF9IOUtOQWt2MEVseGJsbFBfckNwQ3FKalphZnQxUVMzZS1sTXU0WHU0b2JSN3JOWm1Zc0pURUptbWVaQThoZmc?oc=5",
-    "title": "Takeaways as Bohm leads Phillies' fightback after Painter's early trouble - NBC Sports Philadelphia",
-    "source": "NBC Sports Philadelphia"
+    "publishedAt": "2026-08-16T21:18:41.000Z",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOclgxemo4aUg3VmNqVE1RYWRPem1ySHlHRUJQUXdvNC1YWnludG44QVNQUGpCc09icVVSUTNHbzJrU2F5SUZnNGZmdTA0RVNaTEIyVmFlMTRUVU5hUTZ1TV9RN1pSeTI0VWhXYTJfVDNnNmgtbVc4cm1DamxpVHI5Skg2QQ?oc=5",
+    "title": "Phillies come back late to sweep Twins - Pioneer Press",
+    "source": "Pioneer Press"
   },
   {
     "publishedAt": "2026-08-16T20:07:31.000Z",
@@ -104,8 +110,8 @@
   {
     "publishedAt": "2026-08-16T19:09:52.000Z",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNlRIdHcyRThaMHRTV041SVI1cnB5VXN6OGc1TVk5dDR3UkgzOGRVbF8wUjhWdWl6aEhtVmRlOFRlalVlVXFfZi1hQVpZT2gzcnhDbHNDRHY2VmZKS2xNSnU2dlEwVk10ZnJqT3BQNFBCM3ZkNks5TFktekdhTmJWN1lDQ1RwMlprVS11bS1GSHgxTlhtaWc?oc=5",
-    "title": "Philadelphia Phillies Announce Trea Turner News Before Twins Series Finale - sports.yahoo.com",
-    "source": "sports.yahoo.com"
+    "title": "Philadelphia Phillies Announce Trea Turner News Before Twins Series Finale - Yahoo Sports",
+    "source": "Yahoo Sports"
   },
   {
     "publishedAt": "2026-08-16T18:59:18.000Z",
@@ -126,6 +132,12 @@
     "source": "MLB.com"
   },
   {
+    "publishedAt": "2026-08-16T17:08:17.000Z",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHOFVIcFZKUVpyN09vUjkzWTk1TkFYQXM1NWt5amROdnMzRVpRbDVXWEVuQ215dUl0SkxxREpZREV1U3AzRTZYSjFCYWpLUUljdHBrVkJhSUdMQWF0SGZHVExMVTBrR1c1TWcycGY1MFMxaWM?oc=5",
+    "title": "St. Louis Cardinals vs Philadelphia Phillies Preview & Start Time — August 23, 2026 | SI - Sports Illustrated",
+    "source": "Sports Illustrated"
+  },
+  {
     "publishedAt": "2026-08-16T16:36:04.000Z",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcWpodzQ2N2NCZldLSFRXenpsbjFTZmpMbi0xZTlSTXNFeUpkdXNYdXE1ZHIxeXdwQnJFVG9fSllUanBLNlBEbllwV2pwN0NuaFRscGRCbFBEMnNtN0FiS2F0NV9XMG8tbXEzcTBIc1l0ZnU5emxrYWtCaS1CcE1VZTNQUmRzMS01ZDg2ajQ3Tm1Oa3EyMHN5dXJHYTRpblZQQTlUZl9Leko2QQ?oc=5",
     "title": "Philadelphia Phillies vs Minnesota Twins Live Stream: How to Watch MLB - Fubo",
@@ -134,8 +146,8 @@
   {
     "publishedAt": "2026-08-16T15:45:25.000Z",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNlMwbDVOdUk1eWN4aUtaYXkyRGZnbzlLRUFoc3FReHRscHljLVlyN0l6WTBZdjlpZWFLa3pyVmxYQzhfLWxqRUJxM1BPelU0ZDhIUVZGZ1kxRldQOEhnVmE3bUE3VUJfMVY2aXNEVmNYbmlSbTV5Mm9GSHlvdC1keHRUZklJbFc2UHZVVkZqQXc?oc=5",
-    "title": "What channel are the Phillies on tonight? What channel are the Twins on? - sports.yahoo.com",
-    "source": "sports.yahoo.com"
+    "title": "What channel are the Phillies on tonight? What channel are the Twins on? - Yahoo Sports",
+    "source": "Yahoo Sports"
   },
   {
     "publishedAt": "2026-08-16T15:45:00.000Z",
@@ -168,7 +180,7 @@
     "source": "The Good Phight"
   },
   {
-    "publishedAt": "2026-08-16T11:00:00.000Z",
+    "publishedAt": "2026-08-16T11:00:20.000Z",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcGlvMkJzOGpTejZEb1VWTHFZLXg0ZFlHc1Rid2V2WExWN0lWcjc2emR2eTJzZnRGU2VLOUZIR1g4blVpQ1FYSUEyNTdKMkxoRTBWdGRyUUtISldqdmhqSzVUdTFwRm9lQ2FCUHE1eWdTMk84bnNZTnE5czVTN3J3Q3NyQ2FSRTI3YXl6QXVpQS1tWVJwd2Y5QUdDWFdvQWhYOThyY2JMd0J6eXhhMjdz?oc=5",
     "title": "Phillies news: Trea Turner, prospects, Joshua Baez - The Good Phight",
     "source": "The Good Phight"
@@ -202,12 +214,6 @@
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQLW03X1VTRVhoYk4tVEJvOUduV2VveFVoYU1HbFBkWE5FZmRUU2RYMUFRakNXMkFNYWtDWlJpUHFONmRsQWlNbm9FSnh0M0NrVFlkU3lJTFJ0bnlDZlNnZFVYMHJhY1RDekhyVC1Nb0N1cTBKaGxnVHI0VFhyTjdzbXlNRjF5U28?oc=5",
     "title": "Pumped-up Prielipp undone by lack of command in rough 5th vs. Phillies - MLB.com",
     "source": "MLB.com"
-  },
-  {
-    "publishedAt": "2026-08-16T03:11:36.000Z",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNGlTUm0tdnNxRFZxRzlPZkZtZUw0SUpmYVdfVWdFV1dLMUhBUzYtTXlTVGV2NVNEVmpTQk9UUldXSUJ0THBuTmJzTTJheXdlZ3ItQXhrYlowWnZkeFY0RHVLeHZKQ0JkVUl5UF9XbDRZZFliM1VlTVZOY2lTYnJ2WXZnOUFZRnJ0TFBsOVV5ZEtXaW52YXR0Z20yMkhyeEk0QmkyQzV0OExUZw?oc=5",
-    "title": "Alec Bohm has 5 hits in the Phillies' 9-1 victory over the Twins - Greenwich Time",
-    "source": "Greenwich Time"
   },
   {
     "publishedAt": "2026-08-16T03:10:00.000Z",
@@ -254,8 +260,8 @@
   {
     "publishedAt": "2026-08-16T02:09:21.000Z",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tRm5rTTNUYmFVbzRUbGpXUjN5SDlGOWc0amJHYkhvTWNESmNCUHFhMC1BNnY4b3VVekdPTXhKMlppVTVheF9FSHpOUDBxQVBlaDJDeFlBdUxzQQ?oc=5",
-    "title": "Phillies 9-1 Twins (Aug 15, 2026) Game Recap - ESPN",
-    "source": "ESPN"
+    "title": "Phillies 9-1 Twins (Aug 15, 2026) Game Recap - espn.com",
+    "source": "espn.com"
   },
   {
     "publishedAt": "2026-08-16T02:06:48.000Z",
@@ -290,8 +296,8 @@
   {
     "publishedAt": "2026-08-15T23:57:43.000Z",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS3ZSSkc1LTRtWk14Nk1KTmJnZVVYU2dLNmRqbEo4QS1pZVNtRWV0X1pFY2tWaFlHTHM4TlRtdkRwVm0tVHBuYWg2WTk1Rzd1c2x5NUhjeXQ0ZjZ5anotcTFBbjZESkZTY2RoM05qcHBkRFVfLVpnTXRpOFJDV25MTEcxaHdLVGZjTThRa3B2ZUpjSXdSS3RGZA?oc=5",
-    "title": "Philadelphia Phillies Announce Brandon Marsh News During Twins Series - sports.yahoo.com",
-    "source": "sports.yahoo.com"
+    "title": "Philadelphia Phillies Announce Brandon Marsh News During Twins Series - Yahoo Sports",
+    "source": "Yahoo Sports"
   },
   {
     "publishedAt": "2026-08-15T22:49:26.000Z",
@@ -308,8 +314,14 @@
   {
     "publishedAt": "2026-08-15T18:48:25.000Z",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQ2tDUFpyX3VvdVlqdmhpZjBpMi1WR1I3VXA4T1JLcWxZMzI2bm9sWC05TVFxT3BJcE8xVzN6U2huWU9QVFJYTG50WnFFdVljQ1BLMUZqWGJFQkd2Sy1OM254OUNmYXhlUm1kZVR4c3N6TW4wVkN3M18wUWhuR2RJc0gyQ3QtSWdtZm10UTdlMA?oc=5",
-    "title": "Philadelphia Phillies Demote 3-Year Player During Twins Series - sports.yahoo.com",
-    "source": "sports.yahoo.com"
+    "title": "Philadelphia Phillies Demote 3-Year Player During Twins Series - Yahoo Sports",
+    "source": "Yahoo Sports"
+  },
+  {
+    "publishedAt": "2026-08-15T16:14:00.000Z",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQXZSeWExZHE1X0lsWjEtNzRnRm90Qmk3cHpNQVZpc1hWbG5RamNwU210ZERMUThCcHI5aDdMN2JJc1laNEo2YWU5ZUZUc3BOM0l4b0tGdzRZVFYtT3hhWXlzaDIycWktNUlGNHlmczNiOVZBYmszYTkxSm5iNTRDNksyQ3RDSnVoQzg5ZjFsZUFRV3ZRRFE?oc=5",
+    "title": "Phillies bring 1-0 series lead over Twins into game 2 - wgal.com",
+    "source": "wgal.com"
   },
   {
     "publishedAt": "2026-08-15T12:18:23.341Z",
@@ -332,20 +344,20 @@
   {
     "publishedAt": "2026-08-15T08:25:59.000Z",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54ZGIxeGpfamxYV25rd0FvbTVzaldiMU5qWERWOHNaZ1BNTVdkLTdFRWkzbVBjcEFWVVJEMWZGTTVDS3NfOHBBeEMzdmpCb2NtRDNMcUlSb0hIdVY0?oc=5",
-    "title": "Phillies vs. Twins (Aug 15, 2026) Pregame - ESPN",
-    "source": "ESPN"
+    "title": "Phillies vs. Twins (Aug 15, 2026) Pregame - espn.com",
+    "source": "espn.com"
   },
   {
     "publishedAt": "2026-08-15T00:55:00.000Z",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY1pWZDRncHJTaUZlMDUxQlRjNzM0ZS1wRlhjQjVzQ3JtVnZwUEFOZklQdXRRSXVuV25IcloxcnFrNG1ueDF5SGd3dzhLOEl2Z092UTBWY2VULTcyZ09Hb1pNRXJsU0pDUUp4WEEyTmRwYmRvVjZDUzRwck1qeU5RR3lXMXZpZW9pSHh6andR?oc=5",
-    "title": "Philadelphia Phillies Sign 5-Year Pitcher During Twins Series - sports.yahoo.com",
-    "source": "sports.yahoo.com"
+    "title": "Philadelphia Phillies Sign 5-Year Pitcher During Twins Series - Yahoo Sports",
+    "source": "Yahoo Sports"
   },
   {
     "publishedAt": "2026-08-14T18:19:23.000Z",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPU1NNNk5JNVA4bzZLc1FHRGx3Y2tlZlBaTXp5Z3ZKSmZtYjBONmoxTXZqczVyMHliNUV5eUNYNVlQbnZoV3loMThILWY3SXozNFlpZnMweWlWWTVVb0gtX3MxalVzdzMwZ3BkZkFKdVVvcXU5bjBIN21wenJ3b2dORmhQbHhTZw?oc=5",
-    "title": "Bryce Harper makes request to MLB after Phillies win against Twins - sports.yahoo.com",
-    "source": "sports.yahoo.com"
+    "title": "Bryce Harper makes request to MLB after Phillies win against Twins - Yahoo Sports",
+    "source": "Yahoo Sports"
   },
   {
     "publishedAt": "2026-08-14T15:08:00.000Z",
@@ -384,22 +396,16 @@
     "source": "LancasterOnline"
   },
   {
-    "publishedAt": "2026-08-14T03:46:00.000Z",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSDIwazNfOVM4b21KT1lJbW51cFRGeUFpN3lfenhrNi1jVlllMzhQVE83U3JldThhUEpGYmNlNkw0bnRIT3M1VWhRbjktUl8zWjd1VHBTdm1JTHpCVFlDS0JaZzVWVEljcGZuMm5KTmZzRkZhd2N2dmZ6MW8zSnpTd08tMVdQR1hQU2ZaVURWWjloUDFpTTROT1FRSHdlWmgx?oc=5",
-    "title": "Field of Dreams welcomes Hall of Fame, as 26 members come out of the corn for Phillies-Twins game - AP News",
-    "source": "AP News"
-  },
-  {
     "publishedAt": "2026-08-14T03:42:00.000Z",
-    "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQdm5EX2tzWXRSeGtYMk1ydEJCS0FZRUFRaW5lb2hETlk4VlRDTE9aOVh4b1gyd05SRnFzNTlYSjlYZ2c0dUVYRndHMk9kanFOblZKQTc2V29MVzVReVB3UTIyWUtQTUhfMVBrX3o0UjRaX0docW9aQ1NGTTNVVjEtYjBsVzBNT1V6YkpwdjZDMkthaFZsQ2dvczRFZU53aVktZDdFSm9EU2dlLWdfQVl3VTdjQ0lpSXBITk1LRnd6OHd3ekx0WmM5UUp3MWxvTW03RzkybXlGbmpuTVd3T3pxVFVZYmFEU2xCM1dsS0JYcnZLZk5OY0tibmVjTEJ0OEN2Y0NaNm9GUzZWSHBvUE14ek9BY3BBT245aXdYNUF2b1N1Uk16MzBZSmtidmFtYlJ6NWJyRW41SHFpVWtVSUE?oc=5",
-    "title": "PHILLIES POSTCAST: Philadelphia Phillies beat Minnesota Twins, 7-1 in \"Field of Dreams\" Game! - KTVB",
-    "source": "KTVB"
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ3U2d01acnFYNkdyOU9jWTRoRjdvN0ZMdXg1Z2NLeVhWYUZ0UHdpUFJ1YmJ0UWRYM0s2MWU1UC1YdnRfZ2Q1NmNRcGFPNWFmRUV2UFpRNmdOdUZlazRRdWdkTFBQLTNzamM1WlN4T1JaekEwWTM1OW0xdThNbnlBQ1FXRzZUNm1ITklqNmZaWXRkdjBQcFBkV29PQTcyRGZVemprMks1MnRHVHpMc0ZZZ3BrNkNwTTc1?oc=5",
+    "title": "'Field of Dreams' hosts Twins against Phillies in Dyersville, Iowa - usatoday.com",
+    "source": "usatoday.com"
   },
   {
     "publishedAt": "2026-08-14T02:51:00.000Z",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPazVhVkgzVW5QVlhQdnlIN29fTWhBVWtpTGc0VWcyWXB4STdqVjdnb3ZVWExVa3dRN1BNeDhoLVNLdTlEbUVMTUZkS18xeUJid05HSDBTVEJiSFpFYUN2QVZvM1R6MURaanQ1VWxQcjFOWXdkRTlYbDlLNkV2Z1EtZnRnLVJmeWdWVmNSQjNMT0p6WWxOc2xEc1lxbVg2YS04VUE?oc=5",
-    "title": "Kyle Schwarber hits 2 homers as Phillies defeat Twins in Iowa - ESPN",
-    "source": "ESPN"
+    "title": "Kyle Schwarber hits 2 homers as Phillies defeat Twins in Iowa - espn.com",
+    "source": "espn.com"
   },
   {
     "publishedAt": "2026-08-14T02:39:49.000Z",
@@ -470,14 +476,8 @@
   {
     "publishedAt": "2026-08-12T21:15:29.000Z",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QNnFEcjFONmdrN3B0b3czWW5ZU3Rxc3hjc1Uyb1NtSDdhTjZHMzU4aUpiQlJRTlZwQ256NUQ2WnhLU0xHRVB4dFF0NGpZU1BkM1lkUVhEQ2xVZ2c?oc=5",
-    "title": "Cardinals 7-1 Phillies (Aug 12, 2026) Game Recap - ESPN",
-    "source": "ESPN"
-  },
-  {
-    "publishedAt": "2026-08-12T21:03:45.000Z",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaG5ZNm1qaHFtRW1sb2J4dlkxMkVWNndzTjFXalhTWmZicG4yeklkZmZUNW9qOVIxVUFjWHVQd01pYnBVaHdZeUJJZGlwekk1MllYWnE4QjJJVC1FQkpCRzFtSmE3MG1lM2QybHVqQUZnT1Fvckhxa01OUUZpdUx4LTRFS25HN1k?oc=5",
-    "title": "Philadelphia Phillies at St. Louis Cardinals Game Story, Scores/Highlights - 08/12/2026 - MLB.com",
-    "source": "MLB.com"
+    "title": "Cardinals 7-1 Phillies (Aug 12, 2026) Game Recap - espn.com",
+    "source": "espn.com"
   },
   {
     "publishedAt": "2026-08-12T21:02:43.000Z",
@@ -486,10 +486,10 @@
     "source": "Phillies Nation"
   },
   {
-    "publishedAt": "2026-08-12T19:14:22.000Z",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSk5JdzI0WUlBOXkxMm5MWGtaT3FDSllwOUNiU0pJemhMVWN3amQtbUxoNjJVcjFkX3dCOExidzRMNEZBMDdxYW9tUWxpaHBBNWdVZHVneVVIaVozNFI2c01tZVRwQlNqVjR6em94dzc5T3lYMHJHaWV0V2FvUDV3Y015TDR4R0hYRzBBUVktWE53SUgzZHlldlYxVkRUNzJmVWd2Y0lWRUVIbzJSejFQQWFHaU1TX0RTVHpNenQ5YS16OFhFMHJfV0tIenN2Z2FPMDdUZmlhWjAyQXdTUnlGenhudUnSAewBQVVfeXFMUFVwTjJxXzBIMThUbkprZjFCX18zV1hraThUcnFnMVQ4bkcwNWxHdVViekFtV2Jva2FHNXhDWVZwOV81SFFJNk5mUWxfaXhaVFdBYzVMblhRQzRUWDFBSnVER3JQVXZzWWx4VFd2Wk5aVEM4WGRWcW1uWlhtXzVjZE9HSGI0OHVCOXhQcE8wYm5QdUg3UFk4amZPRUpUdVlrNG9YSG93LVVPU2lGT1lrdGxqdG1aaUJFVWZuYVRZR0VEcjBudHRnWnl1UmRYRE5yV0kxbFRwMEppNUNsMVp3REhIZjRrUjdRakVTMTM?oc=5",
-    "title": "The Wheels come off in St. Louis as lifeless Phils lose another series - NBC Sports Philadelphia",
-    "source": "NBC Sports Philadelphia"
+    "publishedAt": "2026-08-12T18:30:03.000Z",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBMT3VpYTdJdi1ROEFkWk1VTG1wSnQ1LUpnSXdqMEdxVThBMXJFZEZlQWdackpNTFNNa01melVzQXNnWl91OVk3bFFPRGJnUE430gFQQVVfeXFMUExPdWlhN0l2LVE4QWRaTVVMbXBKdDUtSmdJd2owR3FVOEExckVkRmVBZ1pySk1MU01rTWZ6VXNBc2daX3U5WTdsUU9EYmdQTjc?oc=5",
+    "title": "Philadelphia Phillies at St. Louis Cardinals Game Story, Scores/Highlights - 08/12/2026 - MLB.com",
+    "source": "MLB.com"
   },
   {
     "publishedAt": "2026-08-12T13:00:00.000Z",
@@ -542,7 +542,7 @@
   {
     "publishedAt": "2026-08-10T17:27:40.000Z",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPX0JSdG9nb3NsWElHSENQakE1dHlWRkdJVkJpU0U3QXpxcExZZnN3QkVOa0x3NWZkZ3Q0WHd4MTNtdzdmeFlLNzh4WHlxR3ZUSU1WUmZObGVJTnZIX25nTC0yOUk3MVdHZzk1LTRpdllRU0NRZWhadmwzNkdhYVdvOXRZcjNhYl9YT0Fr?oc=5",
-    "title": "St. Louis Cardinals vs Philadelphia Phillies Series Preview - sports.yahoo.com",
-    "source": "sports.yahoo.com"
+    "title": "St. Louis Cardinals vs Philadelphia Phillies Series Preview - Yahoo Sports",
+    "source": "Yahoo Sports"
   }
 ]
