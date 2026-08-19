@@ -227,20 +227,20 @@
         "teamId": 119,
         "team": "Los Angeles Dodgers",
         "abbreviation": "LAD",
-        "wins": 75,
+        "wins": 76,
         "losses": 51,
-        "winningPercentage": ".595",
+        "winningPercentage": ".598",
         "gamesBack": "-",
         "divisionRank": 1,
         "leagueRank": 2,
         "wildCardRank": null,
-        "magicNumber": "29",
+        "magicNumber": "28",
         "wildCardGamesBack": "-",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 75,
+          "wins": 76,
           "losses": 51,
-          "pct": ".595"
+          "pct": ".598"
         },
         "lastTen": {
           "wins": 6,
@@ -249,13 +249,13 @@
           "pct": ".600"
         },
         "streak": {
-          "streakCode": "W1",
+          "streakCode": "W2",
           "streakType": "wins",
-          "streakNumber": 1
+          "streakNumber": 2
         },
-        "runsScored": 627,
-        "runsAllowed": 485,
-        "runDifferential": 142,
+        "runsScored": 634,
+        "runsAllowed": 491,
+        "runDifferential": 143,
         "postseason": "division"
       },
       {
@@ -297,20 +297,20 @@
         "teamId": 112,
         "team": "Chicago Cubs",
         "abbreviation": "CHC",
-        "wins": 73,
+        "wins": 74,
         "losses": 53,
-        "winningPercentage": ".579",
-        "gamesBack": "5.0",
+        "winningPercentage": ".583",
+        "gamesBack": "4.5",
         "divisionRank": 2,
         "leagueRank": 4,
         "wildCardRank": 1,
         "magicNumber": null,
-        "wildCardGamesBack": "+5.5",
+        "wildCardGamesBack": "+6.0",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 73,
+          "wins": 74,
           "losses": 53,
-          "pct": ".579"
+          "pct": ".583"
         },
         "lastTen": {
           "wins": 6,
@@ -319,13 +319,13 @@
           "pct": ".600"
         },
         "streak": {
-          "streakCode": "W1",
+          "streakCode": "W2",
           "streakType": "wins",
-          "streakNumber": 1
+          "streakNumber": 2
         },
-        "runsScored": 652,
-        "runsAllowed": 550,
-        "runDifferential": 102,
+        "runsScored": 656,
+        "runsAllowed": 553,
+        "runDifferential": 103,
         "postseason": "wildcard"
       },
       {
@@ -370,7 +370,7 @@
         "wins": 68,
         "losses": 59,
         "winningPercentage": ".535",
-        "gamesBack": "7.5",
+        "gamesBack": "8.0",
         "divisionRank": 2,
         "leagueRank": 6,
         "wildCardRank": 3,
@@ -405,7 +405,7 @@
         "wins": 66,
         "losses": 61,
         "winningPercentage": ".520",
-        "gamesBack": "9.5",
+        "gamesBack": "10.0",
         "divisionRank": 3,
         "leagueRank": 7,
         "wildCardRank": 4,
@@ -650,7 +650,7 @@
         "wins": 51,
         "losses": 74,
         "winningPercentage": ".408",
-        "gamesBack": "23.5",
+        "gamesBack": "24.0",
         "divisionRank": 4,
         "leagueRank": 14,
         "wildCardRank": 11,
@@ -683,19 +683,19 @@
         "team": "Colorado Rockies",
         "abbreviation": "COL",
         "wins": 50,
-        "losses": 75,
-        "winningPercentage": ".400",
-        "gamesBack": "24.5",
+        "losses": 76,
+        "winningPercentage": ".397",
+        "gamesBack": "25.5",
         "divisionRank": 5,
         "leagueRank": 15,
         "wildCardRank": 12,
         "magicNumber": null,
-        "wildCardGamesBack": "17.0",
+        "wildCardGamesBack": "17.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 50,
-          "losses": 75,
-          "pct": ".400"
+          "losses": 76,
+          "pct": ".397"
         },
         "lastTen": {
           "wins": 5,
@@ -704,16 +704,16 @@
           "pct": ".500"
         },
         "streak": {
-          "streakCode": "L1",
+          "streakCode": "L2",
           "streakType": "losses",
-          "streakNumber": 1
+          "streakNumber": 2
         },
-        "runsScored": 601,
-        "runsAllowed": 720,
-        "runDifferential": -119,
+        "runsScored": 607,
+        "runsAllowed": 727,
+        "runDifferential": -120,
         "postseason": null
       }
     ]
   },
-  "updatedAt": "2026-08-19T03:14:03.393Z"
+  "updatedAt": "2026-08-19T05:16:59.083Z"
 }
