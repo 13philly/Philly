@@ -402,35 +402,35 @@
         "teamId": 109,
         "team": "Arizona Diamondbacks",
         "abbreviation": "AZ",
-        "wins": 66,
+        "wins": 67,
         "losses": 61,
-        "winningPercentage": ".520",
-        "gamesBack": "10.0",
+        "winningPercentage": ".523",
+        "gamesBack": "9.5",
         "divisionRank": 3,
         "leagueRank": 7,
         "wildCardRank": 4,
         "magicNumber": null,
-        "wildCardGamesBack": "1.5",
+        "wildCardGamesBack": "1.0",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 66,
+          "wins": 67,
           "losses": 61,
-          "pct": ".520"
+          "pct": ".523"
         },
         "lastTen": {
-          "wins": 4,
-          "losses": 6,
+          "wins": 5,
+          "losses": 5,
           "type": "lastTen",
-          "pct": ".400"
+          "pct": ".500"
         },
         "streak": {
-          "streakCode": "L3",
-          "streakType": "losses",
-          "streakNumber": 3
+          "streakCode": "W1",
+          "streakType": "wins",
+          "streakNumber": 1
         },
-        "runsScored": 572,
-        "runsAllowed": 569,
-        "runDifferential": 3,
+        "runsScored": 579,
+        "runsAllowed": 575,
+        "runDifferential": 4,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-08-19T22:56:21.497Z"
+  "updatedAt": "2026-08-19T23:50:47.523Z"
 }
