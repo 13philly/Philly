@@ -122,8 +122,8 @@
         "winningPercentage": ".477",
         "gamesBack": "13.5",
         "divisionRank": 4,
-        "leagueRank": 12,
-        "wildCardRank": 9,
+        "leagueRank": 11,
+        "wildCardRank": 8,
         "magicNumber": null,
         "wildCardGamesBack": "7.0",
         "divisionRecord": null,
@@ -437,35 +437,35 @@
         "teamId": 138,
         "team": "St. Louis Cardinals",
         "abbreviation": "STL",
-        "wins": 65,
+        "wins": 66,
         "losses": 63,
-        "winningPercentage": ".508",
-        "gamesBack": "13.5",
+        "winningPercentage": ".512",
+        "gamesBack": "13.0",
         "divisionRank": 3,
         "leagueRank": 8,
         "wildCardRank": 5,
         "magicNumber": null,
-        "wildCardGamesBack": "3.0",
+        "wildCardGamesBack": "2.5",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 65,
+          "wins": 66,
           "losses": 63,
-          "pct": ".508"
+          "pct": ".512"
         },
         "lastTen": {
-          "wins": 6,
-          "losses": 4,
+          "wins": 7,
+          "losses": 3,
           "type": "lastTen",
-          "pct": ".600"
+          "pct": ".700"
         },
         "streak": {
-          "streakCode": "L1",
-          "streakType": "losses",
+          "streakCode": "W1",
+          "streakType": "wins",
           "streakNumber": 1
         },
-        "runsScored": 562,
-        "runsAllowed": 553,
-        "runDifferential": 9,
+        "runsScored": 572,
+        "runsAllowed": 562,
+        "runDifferential": 10,
         "postseason": null
       },
       {
@@ -539,41 +539,6 @@
         "postseason": null
       },
       {
-        "teamId": 113,
-        "team": "Cincinnati Reds",
-        "abbreviation": "CIN",
-        "wins": 61,
-        "losses": 66,
-        "winningPercentage": ".480",
-        "gamesBack": "17.0",
-        "divisionRank": 5,
-        "leagueRank": 11,
-        "wildCardRank": 8,
-        "magicNumber": null,
-        "wildCardGamesBack": "6.5",
-        "divisionRecord": null,
-        "leagueRecord": {
-          "wins": 61,
-          "losses": 66,
-          "pct": ".480"
-        },
-        "lastTen": {
-          "wins": 5,
-          "losses": 5,
-          "type": "lastTen",
-          "pct": ".500"
-        },
-        "streak": {
-          "streakCode": "W1",
-          "streakType": "wins",
-          "streakNumber": 1
-        },
-        "runsScored": 514,
-        "runsAllowed": 602,
-        "runDifferential": -88,
-        "postseason": null
-      },
-      {
         "teamId": 120,
         "team": "Washington Nationals",
         "abbreviation": "WSH",
@@ -582,8 +547,8 @@
         "winningPercentage": ".477",
         "gamesBack": "13.5",
         "divisionRank": 4,
-        "leagueRank": 12,
-        "wildCardRank": 9,
+        "leagueRank": 11,
+        "wildCardRank": 8,
         "magicNumber": null,
         "wildCardGamesBack": "7.0",
         "divisionRecord": null,
@@ -606,6 +571,41 @@
         "runsScored": 676,
         "runsAllowed": 657,
         "runDifferential": 19,
+        "postseason": null
+      },
+      {
+        "teamId": 113,
+        "team": "Cincinnati Reds",
+        "abbreviation": "CIN",
+        "wins": 61,
+        "losses": 67,
+        "winningPercentage": ".477",
+        "gamesBack": "17.5",
+        "divisionRank": 5,
+        "leagueRank": 12,
+        "wildCardRank": 9,
+        "magicNumber": null,
+        "wildCardGamesBack": "7.0",
+        "divisionRecord": null,
+        "leagueRecord": {
+          "wins": 61,
+          "losses": 67,
+          "pct": ".477"
+        },
+        "lastTen": {
+          "wins": 4,
+          "losses": 6,
+          "type": "lastTen",
+          "pct": ".400"
+        },
+        "streak": {
+          "streakCode": "L1",
+          "streakType": "losses",
+          "streakNumber": 1
+        },
+        "runsScored": 523,
+        "runsAllowed": 612,
+        "runDifferential": -89,
         "postseason": null
       },
       {
@@ -648,19 +648,19 @@
         "team": "San Francisco Giants",
         "abbreviation": "SF",
         "wins": 52,
-        "losses": 74,
-        "winningPercentage": ".413",
-        "gamesBack": "24.0",
+        "losses": 75,
+        "winningPercentage": ".409",
+        "gamesBack": "24.5",
         "divisionRank": 4,
         "leagueRank": 14,
         "wildCardRank": 11,
         "magicNumber": null,
-        "wildCardGamesBack": "15.0",
+        "wildCardGamesBack": "15.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 52,
-          "losses": 74,
-          "pct": ".413"
+          "losses": 75,
+          "pct": ".409"
         },
         "lastTen": {
           "wins": 3,
@@ -669,13 +669,13 @@
           "pct": ".300"
         },
         "streak": {
-          "streakCode": "W1",
-          "streakType": "wins",
+          "streakCode": "L1",
+          "streakType": "losses",
           "streakNumber": 1
         },
-        "runsScored": 511,
-        "runsAllowed": 584,
-        "runDifferential": -73,
+        "runsScored": 513,
+        "runsAllowed": 589,
+        "runDifferential": -76,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-08-20T18:00:32.338Z"
+  "updatedAt": "2026-08-20T20:00:02.644Z"
 }
