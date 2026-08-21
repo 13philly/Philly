@@ -118,34 +118,34 @@
         "team": "Washington Nationals",
         "abbreviation": "WSH",
         "wins": 61,
-        "losses": 67,
-        "winningPercentage": ".477",
-        "gamesBack": "14.0",
+        "losses": 68,
+        "winningPercentage": ".473",
+        "gamesBack": "14.5",
         "divisionRank": 4,
-        "leagueRank": 11,
-        "wildCardRank": 8,
+        "leagueRank": 12,
+        "wildCardRank": 9,
         "magicNumber": null,
-        "wildCardGamesBack": "7.0",
+        "wildCardGamesBack": "7.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 61,
-          "losses": 67,
-          "pct": ".477"
+          "losses": 68,
+          "pct": ".473"
         },
         "lastTen": {
-          "wins": 4,
-          "losses": 6,
+          "wins": 3,
+          "losses": 7,
           "type": "lastTen",
-          "pct": ".400"
+          "pct": ".300"
         },
         "streak": {
-          "streakCode": "W1",
-          "streakType": "wins",
+          "streakCode": "L1",
+          "streakType": "losses",
           "streakNumber": 1
         },
         "runsScored": 676,
-        "runsAllowed": 657,
-        "runDifferential": 19,
+        "runsAllowed": 659,
+        "runDifferential": 17,
         "postseason": null
       },
       {
@@ -539,41 +539,6 @@
         "postseason": null
       },
       {
-        "teamId": 120,
-        "team": "Washington Nationals",
-        "abbreviation": "WSH",
-        "wins": 61,
-        "losses": 67,
-        "winningPercentage": ".477",
-        "gamesBack": "14.0",
-        "divisionRank": 4,
-        "leagueRank": 11,
-        "wildCardRank": 8,
-        "magicNumber": null,
-        "wildCardGamesBack": "7.0",
-        "divisionRecord": null,
-        "leagueRecord": {
-          "wins": 61,
-          "losses": 67,
-          "pct": ".477"
-        },
-        "lastTen": {
-          "wins": 4,
-          "losses": 6,
-          "type": "lastTen",
-          "pct": ".400"
-        },
-        "streak": {
-          "streakCode": "W1",
-          "streakType": "wins",
-          "streakNumber": 1
-        },
-        "runsScored": 676,
-        "runsAllowed": 657,
-        "runDifferential": 19,
-        "postseason": null
-      },
-      {
         "teamId": 113,
         "team": "Cincinnati Reds",
         "abbreviation": "CIN",
@@ -582,8 +547,8 @@
         "winningPercentage": ".477",
         "gamesBack": "18.0",
         "divisionRank": 5,
-        "leagueRank": 12,
-        "wildCardRank": 9,
+        "leagueRank": 11,
+        "wildCardRank": 8,
         "magicNumber": null,
         "wildCardGamesBack": "7.0",
         "divisionRecord": null,
@@ -606,6 +571,41 @@
         "runsScored": 523,
         "runsAllowed": 612,
         "runDifferential": -89,
+        "postseason": null
+      },
+      {
+        "teamId": 120,
+        "team": "Washington Nationals",
+        "abbreviation": "WSH",
+        "wins": 61,
+        "losses": 68,
+        "winningPercentage": ".473",
+        "gamesBack": "14.5",
+        "divisionRank": 4,
+        "leagueRank": 12,
+        "wildCardRank": 9,
+        "magicNumber": null,
+        "wildCardGamesBack": "7.5",
+        "divisionRecord": null,
+        "leagueRecord": {
+          "wins": 61,
+          "losses": 68,
+          "pct": ".473"
+        },
+        "lastTen": {
+          "wins": 3,
+          "losses": 7,
+          "type": "lastTen",
+          "pct": ".300"
+        },
+        "streak": {
+          "streakCode": "L1",
+          "streakType": "losses",
+          "streakNumber": 1
+        },
+        "runsScored": 676,
+        "runsAllowed": 659,
+        "runDifferential": 17,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-08-20T23:55:34.951Z"
+  "updatedAt": "2026-08-21T05:49:44.087Z"
 }
