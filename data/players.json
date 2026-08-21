@@ -5,7 +5,7 @@
   },
   "season": 2026,
   "source": "MLB Stats API",
-  "updatedAt": "2026-08-21T08:04:14.744Z",
+  "updatedAt": "2026-08-21T14:06:02.072Z",
   "players": [
     {
       "id": 605400,
@@ -67,9 +67,9 @@
             "strikePercentage": ".630"
           },
           "sabermetrics": {
-            "war": 0.880691,
-            "fip": 4.92553,
-            "xfip": 3.7976,
+            "war": 0.882733,
+            "fip": 4.92795,
+            "xfip": 3.79835,
             "k-bb%": null,
             "wpa": null,
             "re24": null
@@ -77,7 +77,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:09.808Z"
+      "updatedAt": "2026-08-21T14:05:54.913Z"
     },
     {
       "id": 666969,
@@ -154,7 +154,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:09.931Z"
+      "updatedAt": "2026-08-21T14:05:55.013Z"
     },
     {
       "id": 660604,
@@ -226,7 +226,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:10.055Z"
+      "updatedAt": "2026-08-21T14:05:55.142Z"
     },
     {
       "id": 664761,
@@ -303,7 +303,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:10.172Z"
+      "updatedAt": "2026-08-21T14:05:55.236Z"
     },
     {
       "id": 686934,
@@ -365,9 +365,9 @@
             "strikePercentage": ".600"
           },
           "sabermetrics": {
-            "war": 0.0605741,
-            "fip": 3.31688,
-            "xfip": 4.3658,
+            "war": 0.0605211,
+            "fip": 3.3193,
+            "xfip": 4.36725,
             "k-bb%": null,
             "wpa": null,
             "re24": null
@@ -375,7 +375,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:10.284Z"
+      "updatedAt": "2026-08-21T14:05:56.888Z"
     },
     {
       "id": 694851,
@@ -447,7 +447,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:10.387Z"
+      "updatedAt": "2026-08-21T14:05:57.002Z"
     },
     {
       "id": 691725,
@@ -509,9 +509,9 @@
             "strikePercentage": ".640"
           },
           "sabermetrics": {
-            "war": 0.0806896,
-            "fip": 5.38299,
-            "xfip": 4.74618,
+            "war": 0.0803434,
+            "fip": 5.38541,
+            "xfip": 4.7468,
             "k-bb%": null,
             "wpa": null,
             "re24": null
@@ -519,7 +519,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:10.507Z"
+      "updatedAt": "2026-08-21T14:05:57.099Z"
     },
     {
       "id": 641745,
@@ -581,9 +581,9 @@
             "strikePercentage": ".620"
           },
           "sabermetrics": {
-            "war": 0.168627,
-            "fip": 4.13931,
-            "xfip": 3.9787,
+            "war": 0.168204,
+            "fip": 4.14173,
+            "xfip": 3.97974,
             "k-bb%": null,
             "wpa": null,
             "re24": null
@@ -591,7 +591,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:10.601Z"
+      "updatedAt": "2026-08-21T14:05:57.226Z"
     },
     {
       "id": 669016,
@@ -668,7 +668,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:10.698Z"
+      "updatedAt": "2026-08-21T14:05:57.330Z"
     },
     {
       "id": 548384,
@@ -730,9 +730,9 @@
             "strikePercentage": ".660"
           },
           "sabermetrics": {
-            "war": 0.7856431,
-            "fip": 3.356943333333333,
-            "xfip": 3.914956111111111,
+            "war": 0.7846831,
+            "fip": 3.3593733333333335,
+            "xfip": 3.9158644444444444,
             "k-bb%": null,
             "wpa": null,
             "re24": null
@@ -740,7 +740,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:10.805Z"
+      "updatedAt": "2026-08-21T14:05:57.465Z"
     },
     {
       "id": 650559,
@@ -817,7 +817,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:10.900Z"
+      "updatedAt": "2026-08-21T14:05:57.550Z"
     },
     {
       "id": 547180,
@@ -882,19 +882,19 @@
             "homeRunsPerPlateAppearance": ".046"
           },
           "sabermetrics": {
-            "war": 2.72668,
+            "war": 2.73166,
             "wpa": null,
             "wpaMinus": null,
             "wpaPlus": null,
             "re24": null,
             "wrcPlus": null,
             "wraa": null,
-            "woba": 0.377491
+            "woba": 0.377575
           }
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:11.006Z"
+      "updatedAt": "2026-08-21T14:05:57.682Z"
     },
     {
       "id": 681082,
@@ -971,7 +971,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:11.120Z"
+      "updatedAt": "2026-08-21T14:05:57.773Z"
     },
     {
       "id": 668873,
@@ -1033,9 +1033,9 @@
             "strikePercentage": ".650"
           },
           "sabermetrics": {
-            "war": 0.2350116,
-            "fip": 3.8203751748251746,
-            "xfip": 3.7732604895104895,
+            "war": 0.23318,
+            "fip": 3.822805174825175,
+            "xfip": 3.774222937062937,
             "k-bb%": null,
             "wpa": null,
             "re24": null
@@ -1043,7 +1043,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:11.297Z"
+      "updatedAt": "2026-08-21T14:05:57.879Z"
     },
     {
       "id": 663767,
@@ -1105,9 +1105,9 @@
             "strikePercentage": ".610"
           },
           "sabermetrics": {
-            "war": -0.196044,
-            "fip": 5.08611,
-            "xfip": 3.9323,
+            "war": -0.196145,
+            "fip": 5.08854,
+            "xfip": 3.93316,
             "k-bb%": null,
             "wpa": null,
             "re24": null
@@ -1115,7 +1115,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:11.404Z"
+      "updatedAt": "2026-08-21T14:05:58.004Z"
     },
     {
       "id": 686551,
@@ -1192,7 +1192,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:11.484Z"
+      "updatedAt": "2026-08-21T14:05:58.111Z"
     },
     {
       "id": 687515,
@@ -1269,7 +1269,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:11.641Z"
+      "updatedAt": "2026-08-21T14:05:58.211Z"
     },
     {
       "id": 650911,
@@ -1341,7 +1341,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:11.748Z"
+      "updatedAt": "2026-08-21T14:05:58.330Z"
     },
     {
       "id": 656537,
@@ -1406,19 +1406,19 @@
             "homeRunsPerPlateAppearance": ".050"
           },
           "sabermetrics": {
-            "war": 0.76919,
+            "war": 0.77031,
             "wpa": null,
             "wpaMinus": null,
             "wpaPlus": null,
             "re24": null,
             "wrcPlus": null,
             "wraa": null,
-            "woba": 0.310836
+            "woba": 0.310906
           }
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:11.862Z"
+      "updatedAt": "2026-08-21T14:05:58.452Z"
     },
     {
       "id": 624641,
@@ -1483,19 +1483,19 @@
             "homeRunsPerPlateAppearance": ".024"
           },
           "sabermetrics": {
-            "war": -0.0343,
+            "war": -0.032,
             "wpa": null,
             "wpaMinus": null,
             "wpaPlus": null,
             "re24": null,
             "wrcPlus": null,
             "wraa": null,
-            "woba": 0.269506
+            "woba": 0.269566
           }
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:12.008Z"
+      "updatedAt": "2026-08-21T14:05:58.567Z"
     },
     {
       "id": 694025,
@@ -1572,7 +1572,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:12.108Z"
+      "updatedAt": "2026-08-21T14:05:58.673Z"
     },
     {
       "id": 687282,
@@ -1649,7 +1649,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:12.221Z"
+      "updatedAt": "2026-08-21T14:05:58.802Z"
     },
     {
       "id": 596117,
@@ -1714,19 +1714,19 @@
             "homeRunsPerPlateAppearance": ".000"
           },
           "sabermetrics": {
-            "war": -0.24965,
+            "war": -0.25109,
             "wpa": null,
             "wpaMinus": null,
             "wpaPlus": null,
             "re24": null,
             "wrcPlus": null,
             "wraa": null,
-            "woba": 0.185324
+            "woba": 0.185363
           }
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:12.346Z"
+      "updatedAt": "2026-08-21T14:05:58.948Z"
     },
     {
       "id": 680880,
@@ -1798,7 +1798,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:12.430Z"
+      "updatedAt": "2026-08-21T14:05:59.060Z"
     },
     {
       "id": 592663,
@@ -1875,7 +1875,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:12.559Z"
+      "updatedAt": "2026-08-21T14:05:59.154Z"
     },
     {
       "id": 666200,
@@ -1947,7 +1947,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:12.663Z"
+      "updatedAt": "2026-08-21T14:05:59.269Z"
     },
     {
       "id": 661395,
@@ -2019,7 +2019,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:12.784Z"
+      "updatedAt": "2026-08-21T14:05:59.392Z"
     },
     {
       "id": 679032,
@@ -2096,7 +2096,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:12.864Z"
+      "updatedAt": "2026-08-21T14:05:59.503Z"
     },
     {
       "id": 680742,
@@ -2168,7 +2168,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:12.984Z"
+      "updatedAt": "2026-08-21T14:06:00.248Z"
     },
     {
       "id": 621237,
@@ -2230,9 +2230,9 @@
             "strikePercentage": ".610"
           },
           "sabermetrics": {
-            "war": 0.457786,
-            "fip": 3.75278,
-            "xfip": 4.24698,
+            "war": 0.458267,
+            "fip": 3.7552,
+            "xfip": 4.24788,
             "k-bb%": null,
             "wpa": null,
             "re24": null
@@ -2240,7 +2240,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:13.094Z"
+      "updatedAt": "2026-08-21T14:06:00.348Z"
     },
     {
       "id": 702222,
@@ -2305,19 +2305,19 @@
             "homeRunsPerPlateAppearance": ".005"
           },
           "sabermetrics": {
-            "war": 0.45003,
+            "war": 0.45593,
             "wpa": null,
             "wpaMinus": null,
             "wpaPlus": null,
             "re24": null,
             "wrcPlus": null,
             "wraa": null,
-            "woba": 0.300087
+            "woba": 0.300154
           }
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:13.237Z"
+      "updatedAt": "2026-08-21T14:06:00.442Z"
     },
     {
       "id": 670224,
@@ -2382,19 +2382,19 @@
             "homeRunsPerPlateAppearance": ".000"
           },
           "sabermetrics": {
-            "war": -0.39539,
+            "war": -0.39521,
             "wpa": null,
             "wpaMinus": null,
             "wpaPlus": null,
             "re24": null,
             "wrcPlus": null,
             "wraa": null,
-            "woba": 0.227301
+            "woba": 0.227351
           }
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:13.336Z"
+      "updatedAt": "2026-08-21T14:06:00.552Z"
     },
     {
       "id": 679775,
@@ -2466,7 +2466,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:13.483Z"
+      "updatedAt": "2026-08-21T14:06:00.639Z"
     },
     {
       "id": 656941,
@@ -2543,7 +2543,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:13.586Z"
+      "updatedAt": "2026-08-21T14:06:00.750Z"
     },
     {
       "id": 650333,
@@ -2620,7 +2620,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:13.700Z"
+      "updatedAt": "2026-08-21T14:06:00.882Z"
     },
     {
       "id": 676661,
@@ -2692,7 +2692,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:13.809Z"
+      "updatedAt": "2026-08-21T14:06:01.032Z"
     },
     {
       "id": 691330,
@@ -2764,7 +2764,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:13.887Z"
+      "updatedAt": "2026-08-21T14:06:01.137Z"
     },
     {
       "id": 641482,
@@ -2836,7 +2836,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:13.973Z"
+      "updatedAt": "2026-08-21T14:06:01.259Z"
     },
     {
       "id": 689147,
@@ -2908,7 +2908,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:14.146Z"
+      "updatedAt": "2026-08-21T14:06:01.382Z"
     },
     {
       "id": 805249,
@@ -2985,7 +2985,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:14.252Z"
+      "updatedAt": "2026-08-21T14:06:01.488Z"
     },
     {
       "id": 665561,
@@ -3050,19 +3050,19 @@
             "homeRunsPerPlateAppearance": ".022"
           },
           "sabermetrics": {
-            "war": -0.38,
+            "war": -0.38291,
             "wpa": null,
             "wpaMinus": null,
             "wpaPlus": null,
             "re24": null,
             "wrcPlus": null,
             "wraa": null,
-            "woba": 0.143248
+            "woba": 0.14328
           }
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:14.350Z"
+      "updatedAt": "2026-08-21T14:06:01.592Z"
     },
     {
       "id": 621383,
@@ -3124,9 +3124,9 @@
             "strikePercentage": ".660"
           },
           "sabermetrics": {
-            "war": -0.236965,
-            "fip": 5.36198,
-            "xfip": 4.57503,
+            "war": -0.236196,
+            "fip": 5.3644,
+            "xfip": 4.57529,
             "k-bb%": null,
             "wpa": null,
             "re24": null
@@ -3134,7 +3134,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:14.442Z"
+      "updatedAt": "2026-08-21T14:06:01.724Z"
     },
     {
       "id": 641835,
@@ -3206,7 +3206,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:14.541Z"
+      "updatedAt": "2026-08-21T14:06:01.824Z"
     },
     {
       "id": 607208,
@@ -3271,19 +3271,19 @@
             "homeRunsPerPlateAppearance": ".031"
           },
           "sabermetrics": {
-            "war": 1.4094,
+            "war": 1.41598,
             "wpa": null,
             "wpaMinus": null,
             "wpaPlus": null,
             "re24": null,
             "wrcPlus": null,
             "wraa": null,
-            "woba": 0.30482
+            "woba": 0.304888
           }
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-21T08:04:14.639Z"
+      "updatedAt": "2026-08-21T14:06:01.914Z"
     },
     {
       "id": 554430,
@@ -3355,7 +3355,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-21T08:04:14.744Z"
+      "updatedAt": "2026-08-21T14:06:02.072Z"
     }
   ]
 }
