@@ -82,20 +82,20 @@
         "teamId": 146,
         "team": "Miami Marlins",
         "abbreviation": "MIA",
-        "wins": 65,
+        "wins": 66,
         "losses": 64,
-        "winningPercentage": ".504",
-        "gamesBack": "9.5",
+        "winningPercentage": ".508",
+        "gamesBack": "9.0",
         "divisionRank": 3,
-        "leagueRank": 9,
-        "wildCardRank": 6,
+        "leagueRank": 8,
+        "wildCardRank": 5,
         "magicNumber": null,
-        "wildCardGamesBack": "4.0",
+        "wildCardGamesBack": "3.5",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 65,
+          "wins": 66,
           "losses": 64,
-          "pct": ".504"
+          "pct": ".508"
         },
         "lastTen": {
           "wins": 5,
@@ -104,13 +104,13 @@
           "pct": ".500"
         },
         "streak": {
-          "streakCode": "W1",
+          "streakCode": "W2",
           "streakType": "wins",
-          "streakNumber": 1
+          "streakNumber": 2
         },
-        "runsScored": 563,
-        "runsAllowed": 548,
-        "runDifferential": 15,
+        "runsScored": 567,
+        "runsAllowed": 550,
+        "runDifferential": 17,
         "postseason": null
       },
       {
@@ -118,19 +118,19 @@
         "team": "Washington Nationals",
         "abbreviation": "WSH",
         "wins": 61,
-        "losses": 69,
-        "winningPercentage": ".469",
-        "gamesBack": "14.0",
+        "losses": 70,
+        "winningPercentage": ".466",
+        "gamesBack": "14.5",
         "divisionRank": 4,
         "leagueRank": 12,
         "wildCardRank": 9,
         "magicNumber": null,
-        "wildCardGamesBack": "8.5",
+        "wildCardGamesBack": "9.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 61,
-          "losses": 69,
-          "pct": ".469"
+          "losses": 70,
+          "pct": ".466"
         },
         "lastTen": {
           "wins": 2,
@@ -139,13 +139,13 @@
           "pct": ".200"
         },
         "streak": {
-          "streakCode": "L2",
+          "streakCode": "L3",
           "streakType": "losses",
-          "streakNumber": 2
+          "streakNumber": 3
         },
-        "runsScored": 678,
-        "runsAllowed": 662,
-        "runDifferential": 16,
+        "runsScored": 680,
+        "runsAllowed": 666,
+        "runDifferential": 14,
         "postseason": null
       },
       {
@@ -434,6 +434,41 @@
         "postseason": null
       },
       {
+        "teamId": 146,
+        "team": "Miami Marlins",
+        "abbreviation": "MIA",
+        "wins": 66,
+        "losses": 64,
+        "winningPercentage": ".508",
+        "gamesBack": "9.0",
+        "divisionRank": 3,
+        "leagueRank": 8,
+        "wildCardRank": 5,
+        "magicNumber": null,
+        "wildCardGamesBack": "3.5",
+        "divisionRecord": null,
+        "leagueRecord": {
+          "wins": 66,
+          "losses": 64,
+          "pct": ".508"
+        },
+        "lastTen": {
+          "wins": 5,
+          "losses": 5,
+          "type": "lastTen",
+          "pct": ".500"
+        },
+        "streak": {
+          "streakCode": "W2",
+          "streakType": "wins",
+          "streakNumber": 2
+        },
+        "runsScored": 567,
+        "runsAllowed": 550,
+        "runDifferential": 17,
+        "postseason": null
+      },
+      {
         "teamId": 138,
         "team": "St. Louis Cardinals",
         "abbreviation": "STL",
@@ -442,8 +477,8 @@
         "winningPercentage": ".508",
         "gamesBack": "15.0",
         "divisionRank": 3,
-        "leagueRank": 8,
-        "wildCardRank": 5,
+        "leagueRank": 9,
+        "wildCardRank": 6,
         "magicNumber": null,
         "wildCardGamesBack": "3.5",
         "divisionRecord": null,
@@ -466,41 +501,6 @@
         "runsScored": 578,
         "runsAllowed": 569,
         "runDifferential": 9,
-        "postseason": null
-      },
-      {
-        "teamId": 146,
-        "team": "Miami Marlins",
-        "abbreviation": "MIA",
-        "wins": 65,
-        "losses": 64,
-        "winningPercentage": ".504",
-        "gamesBack": "9.5",
-        "divisionRank": 3,
-        "leagueRank": 9,
-        "wildCardRank": 6,
-        "magicNumber": null,
-        "wildCardGamesBack": "4.0",
-        "divisionRecord": null,
-        "leagueRecord": {
-          "wins": 65,
-          "losses": 64,
-          "pct": ".504"
-        },
-        "lastTen": {
-          "wins": 5,
-          "losses": 5,
-          "type": "lastTen",
-          "pct": ".500"
-        },
-        "streak": {
-          "streakCode": "W1",
-          "streakType": "wins",
-          "streakNumber": 1
-        },
-        "runsScored": 563,
-        "runsAllowed": 548,
-        "runDifferential": 15,
         "postseason": null
       },
       {
@@ -578,19 +578,19 @@
         "team": "Washington Nationals",
         "abbreviation": "WSH",
         "wins": 61,
-        "losses": 69,
-        "winningPercentage": ".469",
-        "gamesBack": "14.0",
+        "losses": 70,
+        "winningPercentage": ".466",
+        "gamesBack": "14.5",
         "divisionRank": 4,
         "leagueRank": 12,
         "wildCardRank": 9,
         "magicNumber": null,
-        "wildCardGamesBack": "8.5",
+        "wildCardGamesBack": "9.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 61,
-          "losses": 69,
-          "pct": ".469"
+          "losses": 70,
+          "pct": ".466"
         },
         "lastTen": {
           "wins": 2,
@@ -599,13 +599,13 @@
           "pct": ".200"
         },
         "streak": {
-          "streakCode": "L2",
+          "streakCode": "L3",
           "streakType": "losses",
-          "streakNumber": 2
+          "streakNumber": 3
         },
-        "runsScored": 678,
-        "runsAllowed": 662,
-        "runDifferential": 16,
+        "runsScored": 680,
+        "runsAllowed": 666,
+        "runDifferential": 14,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-08-22T22:52:24.055Z"
+  "updatedAt": "2026-08-22T23:43:54.335Z"
 }
