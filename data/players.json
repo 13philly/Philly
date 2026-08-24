@@ -5,7 +5,7 @@
   },
   "season": 2026,
   "source": "MLB Stats API",
-  "updatedAt": "2026-08-23T19:01:31.433Z",
+  "updatedAt": "2026-08-24T03:32:43.444Z",
   "players": [
     {
       "id": 605400,
@@ -77,7 +77,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:27.159Z"
+      "updatedAt": "2026-08-24T03:32:38.385Z"
     },
     {
       "id": 666969,
@@ -154,7 +154,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:27.242Z"
+      "updatedAt": "2026-08-24T03:32:38.474Z"
     },
     {
       "id": 660604,
@@ -226,7 +226,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:27.315Z"
+      "updatedAt": "2026-08-24T03:32:38.547Z"
     },
     {
       "id": 664761,
@@ -303,7 +303,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:27.374Z"
+      "updatedAt": "2026-08-24T03:32:38.639Z"
     },
     {
       "id": 686934,
@@ -340,21 +340,21 @@
         "type": "pitcher",
         "pitching": {
           "season": {
-            "gamesPlayed": 5,
+            "gamesPlayed": 6,
             "gamesStarted": 0,
-            "wins": 2,
+            "wins": 3,
             "losses": 1,
             "saves": 0,
             "holds": 0,
-            "inningsPitched": "5.1",
+            "inningsPitched": "6.1",
             "hits": 5,
             "runs": 3,
             "earnedRuns": 1,
             "homeRuns": 0,
             "baseOnBalls": 3,
-            "strikeOuts": 4,
-            "era": "1.69",
-            "whip": "1.50"
+            "strikeOuts": 5,
+            "era": "1.42",
+            "whip": "1.26"
           },
           "advanced": {
             "strikeoutsPer9Inn": null,
@@ -362,7 +362,7 @@
             "hitsPer9Inn": null,
             "homeRunsPer9": "0.00",
             "strikeoutWalkRatio": null,
-            "strikePercentage": ".600"
+            "strikePercentage": ".620"
           },
           "sabermetrics": {
             "war": 0.0895804,
@@ -375,7 +375,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:27.449Z"
+      "updatedAt": "2026-08-24T03:32:38.718Z"
     },
     {
       "id": 694851,
@@ -447,7 +447,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:28.379Z"
+      "updatedAt": "2026-08-24T03:32:38.811Z"
     },
     {
       "id": 691725,
@@ -519,7 +519,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:28.458Z"
+      "updatedAt": "2026-08-24T03:32:38.912Z"
     },
     {
       "id": 641745,
@@ -591,7 +591,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:28.522Z"
+      "updatedAt": "2026-08-24T03:32:38.992Z"
     },
     {
       "id": 669016,
@@ -629,8 +629,8 @@
         "hitting": {
           "season": {
             "gamesPlayed": 125,
-            "plateAppearances": 487,
-            "atBats": 450,
+            "plateAppearances": 489,
+            "atBats": 452,
             "runs": 66,
             "hits": 125,
             "doubles": 18,
@@ -641,18 +641,18 @@
             "strikeOuts": 121,
             "stolenBases": 11,
             "caughtStealing": 3,
-            "avg": ".278",
-            "obp": ".323",
-            "slg": ".440",
-            "ops": ".763",
-            "babip": ".342",
+            "avg": ".277",
+            "obp": ".322",
+            "slg": ".438",
+            "ops": ".760",
+            "babip": ".340",
             "totalBases": 198
           },
           "advanced": {
             "iso": ".162",
-            "pitchesPerPlateAppearance": "3.717",
-            "walksPerPlateAppearance": ".062",
-            "strikeoutsPerPlateAppearance": ".248",
+            "pitchesPerPlateAppearance": "3.716",
+            "walksPerPlateAppearance": ".061",
+            "strikeoutsPerPlateAppearance": ".247",
             "homeRunsPerPlateAppearance": ".035"
           },
           "sabermetrics": {
@@ -668,7 +668,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:28.602Z"
+      "updatedAt": "2026-08-24T03:32:39.090Z"
     },
     {
       "id": 548384,
@@ -740,7 +740,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:28.676Z"
+      "updatedAt": "2026-08-24T03:32:39.168Z"
     },
     {
       "id": 650559,
@@ -778,31 +778,31 @@
         "hitting": {
           "season": {
             "gamesPlayed": 19,
-            "plateAppearances": 43,
-            "atBats": 37,
-            "runs": 5,
-            "hits": 13,
+            "plateAppearances": 45,
+            "atBats": 39,
+            "runs": 6,
+            "hits": 14,
             "doubles": 2,
             "triples": 0,
             "homeRuns": 2,
-            "rbi": 10,
+            "rbi": 11,
             "baseOnBalls": 2,
             "strikeOuts": 9,
             "stolenBases": 0,
             "caughtStealing": 0,
-            "avg": ".351",
-            "obp": ".395",
-            "slg": ".568",
-            "ops": ".963",
-            "babip": ".393",
-            "totalBases": 21
+            "avg": ".359",
+            "obp": ".400",
+            "slg": ".564",
+            "ops": ".964",
+            "babip": ".400",
+            "totalBases": 22
           },
           "advanced": {
-            "iso": ".216",
-            "pitchesPerPlateAppearance": "3.558",
-            "walksPerPlateAppearance": ".047",
-            "strikeoutsPerPlateAppearance": ".209",
-            "homeRunsPerPlateAppearance": ".047"
+            "iso": ".205",
+            "pitchesPerPlateAppearance": "3.644",
+            "walksPerPlateAppearance": ".044",
+            "strikeoutsPerPlateAppearance": ".200",
+            "homeRunsPerPlateAppearance": ".044"
           },
           "sabermetrics": {
             "war": 0.39188,
@@ -817,7 +817,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:28.769Z"
+      "updatedAt": "2026-08-24T03:32:39.242Z"
     },
     {
       "id": 547180,
@@ -855,11 +855,11 @@
         "hitting": {
           "season": {
             "gamesPlayed": 131,
-            "plateAppearances": 557,
-            "atBats": 456,
-            "runs": 82,
-            "hits": 117,
-            "doubles": 23,
+            "plateAppearances": 559,
+            "atBats": 458,
+            "runs": 83,
+            "hits": 119,
+            "doubles": 25,
             "triples": 3,
             "homeRuns": 26,
             "rbi": 75,
@@ -867,18 +867,18 @@
             "strikeOuts": 117,
             "stolenBases": 7,
             "caughtStealing": 5,
-            "avg": ".257",
-            "obp": ".379",
-            "slg": ".491",
-            "ops": ".870",
-            "babip": ".284",
-            "totalBases": 224
+            "avg": ".260",
+            "obp": ".381",
+            "slg": ".498",
+            "ops": ".879",
+            "babip": ".289",
+            "totalBases": 228
           },
           "advanced": {
-            "iso": ".235",
-            "pitchesPerPlateAppearance": "3.946",
-            "walksPerPlateAppearance": ".167",
-            "strikeoutsPerPlateAppearance": ".210",
+            "iso": ".238",
+            "pitchesPerPlateAppearance": "3.948",
+            "walksPerPlateAppearance": ".166",
+            "strikeoutsPerPlateAppearance": ".209",
             "homeRunsPerPlateAppearance": ".047"
           },
           "sabermetrics": {
@@ -894,7 +894,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:28.872Z"
+      "updatedAt": "2026-08-24T03:32:39.303Z"
     },
     {
       "id": 681082,
@@ -932,8 +932,8 @@
         "hitting": {
           "season": {
             "gamesPlayed": 125,
-            "plateAppearances": 489,
-            "atBats": 432,
+            "plateAppearances": 490,
+            "atBats": 433,
             "runs": 57,
             "hits": 112,
             "doubles": 25,
@@ -946,16 +946,16 @@
             "caughtStealing": 0,
             "avg": ".259",
             "obp": ".337",
-            "slg": ".407",
-            "ops": ".744",
-            "babip": ".299",
+            "slg": ".406",
+            "ops": ".743",
+            "babip": ".298",
             "totalBases": 176
           },
           "advanced": {
             "iso": ".148",
-            "pitchesPerPlateAppearance": "4.157",
+            "pitchesPerPlateAppearance": "4.155",
             "walksPerPlateAppearance": ".102",
-            "strikeoutsPerPlateAppearance": ".164",
+            "strikeoutsPerPlateAppearance": ".163",
             "homeRunsPerPlateAppearance": ".018"
           },
           "sabermetrics": {
@@ -971,7 +971,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:28.933Z"
+      "updatedAt": "2026-08-24T03:32:39.379Z"
     },
     {
       "id": 668873,
@@ -1043,7 +1043,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:29.015Z"
+      "updatedAt": "2026-08-24T03:32:39.475Z"
     },
     {
       "id": 663767,
@@ -1115,7 +1115,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:29.155Z"
+      "updatedAt": "2026-08-24T03:32:39.608Z"
     },
     {
       "id": 686551,
@@ -1192,7 +1192,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:29.208Z"
+      "updatedAt": "2026-08-24T03:32:39.693Z"
     },
     {
       "id": 687515,
@@ -1269,7 +1269,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:29.290Z"
+      "updatedAt": "2026-08-24T03:32:39.805Z"
     },
     {
       "id": 650911,
@@ -1312,15 +1312,15 @@
             "losses": 4,
             "saves": 0,
             "holds": 0,
-            "inningsPitched": "167.1",
-            "hits": 165,
-            "runs": 54,
-            "earnedRuns": 48,
+            "inningsPitched": "168.1",
+            "hits": 168,
+            "runs": 55,
+            "earnedRuns": 49,
             "homeRuns": 14,
             "baseOnBalls": 38,
-            "strikeOuts": 193,
-            "era": "2.58",
-            "whip": "1.21"
+            "strikeOuts": 194,
+            "era": "2.62",
+            "whip": "1.22"
           },
           "advanced": {
             "strikeoutsPer9Inn": null,
@@ -1341,7 +1341,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:29.357Z"
+      "updatedAt": "2026-08-24T03:32:39.870Z"
     },
     {
       "id": 656537,
@@ -1418,7 +1418,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:29.437Z"
+      "updatedAt": "2026-08-24T03:32:39.954Z"
     },
     {
       "id": 624641,
@@ -1456,31 +1456,31 @@
         "hitting": {
           "season": {
             "gamesPlayed": 68,
-            "plateAppearances": 211,
-            "atBats": 193,
-            "runs": 22,
-            "hits": 44,
-            "doubles": 7,
+            "plateAppearances": 213,
+            "atBats": 195,
+            "runs": 23,
+            "hits": 45,
+            "doubles": 8,
             "triples": 2,
             "homeRuns": 5,
-            "rbi": 32,
+            "rbi": 35,
             "baseOnBalls": 7,
             "strikeOuts": 44,
             "stolenBases": 3,
             "caughtStealing": 0,
-            "avg": ".228",
-            "obp": ".269",
-            "slg": ".363",
-            "ops": ".632",
-            "babip": ".265",
-            "totalBases": 70
+            "avg": ".231",
+            "obp": ".271",
+            "slg": ".369",
+            "ops": ".640",
+            "babip": ".268",
+            "totalBases": 72
           },
           "advanced": {
-            "iso": ".135",
-            "pitchesPerPlateAppearance": "3.706",
+            "iso": ".138",
+            "pitchesPerPlateAppearance": "3.709",
             "walksPerPlateAppearance": ".033",
-            "strikeoutsPerPlateAppearance": ".209",
-            "homeRunsPerPlateAppearance": ".024"
+            "strikeoutsPerPlateAppearance": ".207",
+            "homeRunsPerPlateAppearance": ".023"
           },
           "sabermetrics": {
             "war": 0.05337,
@@ -1495,7 +1495,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:29.497Z"
+      "updatedAt": "2026-08-24T03:32:40.020Z"
     },
     {
       "id": 694025,
@@ -1572,7 +1572,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:29.591Z"
+      "updatedAt": "2026-08-24T03:32:40.115Z"
     },
     {
       "id": 687282,
@@ -1649,7 +1649,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:29.659Z"
+      "updatedAt": "2026-08-24T03:32:40.201Z"
     },
     {
       "id": 596117,
@@ -1726,7 +1726,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:29.745Z"
+      "updatedAt": "2026-08-24T03:32:40.338Z"
     },
     {
       "id": 680880,
@@ -1798,7 +1798,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:29.778Z"
+      "updatedAt": "2026-08-24T03:32:40.415Z"
     },
     {
       "id": 592663,
@@ -1836,10 +1836,10 @@
         "hitting": {
           "season": {
             "gamesPlayed": 97,
-            "plateAppearances": 367,
-            "atBats": 324,
-            "runs": 39,
-            "hits": 72,
+            "plateAppearances": 369,
+            "atBats": 326,
+            "runs": 40,
+            "hits": 73,
             "doubles": 17,
             "triples": 0,
             "homeRuns": 8,
@@ -1848,18 +1848,18 @@
             "strikeOuts": 77,
             "stolenBases": 3,
             "caughtStealing": 0,
-            "avg": ".222",
-            "obp": ".297",
-            "slg": ".349",
-            "ops": ".646",
-            "babip": ".261",
-            "totalBases": 113
+            "avg": ".224",
+            "obp": ".298",
+            "slg": ".350",
+            "ops": ".648",
+            "babip": ".263",
+            "totalBases": 114
           },
           "advanced": {
-            "iso": ".127",
-            "pitchesPerPlateAppearance": "3.956",
+            "iso": ".126",
+            "pitchesPerPlateAppearance": "3.957",
             "walksPerPlateAppearance": ".076",
-            "strikeoutsPerPlateAppearance": ".210",
+            "strikeoutsPerPlateAppearance": ".209",
             "homeRunsPerPlateAppearance": ".022"
           },
           "sabermetrics": {
@@ -1875,7 +1875,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:29.838Z"
+      "updatedAt": "2026-08-24T03:32:40.480Z"
     },
     {
       "id": 666200,
@@ -1947,7 +1947,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:29.962Z"
+      "updatedAt": "2026-08-24T03:32:40.544Z"
     },
     {
       "id": 661395,
@@ -2019,7 +2019,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:30.084Z"
+      "updatedAt": "2026-08-24T03:32:40.629Z"
     },
     {
       "id": 679032,
@@ -2096,7 +2096,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:30.140Z"
+      "updatedAt": "2026-08-24T03:32:40.705Z"
     },
     {
       "id": 680742,
@@ -2168,7 +2168,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:30.204Z"
+      "updatedAt": "2026-08-24T03:32:40.797Z"
     },
     {
       "id": 621237,
@@ -2240,7 +2240,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:30.359Z"
+      "updatedAt": "2026-08-24T03:32:40.868Z"
     },
     {
       "id": 702222,
@@ -2278,29 +2278,29 @@
         "hitting": {
           "season": {
             "gamesPlayed": 121,
-            "plateAppearances": 381,
-            "atBats": 349,
-            "runs": 39,
+            "plateAppearances": 383,
+            "atBats": 350,
+            "runs": 40,
             "hits": 94,
             "doubles": 17,
             "triples": 4,
             "homeRuns": 2,
             "rbi": 32,
-            "baseOnBalls": 21,
+            "baseOnBalls": 22,
             "strikeOuts": 68,
             "stolenBases": 16,
             "caughtStealing": 4,
             "avg": ".269",
-            "obp": ".314",
-            "slg": ".358",
+            "obp": ".315",
+            "slg": ".357",
             "ops": ".672",
-            "babip": ".326",
+            "babip": ".325",
             "totalBases": 125
           },
           "advanced": {
             "iso": ".089",
-            "pitchesPerPlateAppearance": "3.614",
-            "walksPerPlateAppearance": ".055",
+            "pitchesPerPlateAppearance": "3.619",
+            "walksPerPlateAppearance": ".057",
             "strikeoutsPerPlateAppearance": ".178",
             "homeRunsPerPlateAppearance": ".005"
           },
@@ -2317,7 +2317,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:30.418Z"
+      "updatedAt": "2026-08-24T03:32:40.939Z"
     },
     {
       "id": 670224,
@@ -2394,7 +2394,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:30.497Z"
+      "updatedAt": "2026-08-24T03:32:41.037Z"
     },
     {
       "id": 679775,
@@ -2466,7 +2466,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:30.574Z"
+      "updatedAt": "2026-08-24T03:32:42.444Z"
     },
     {
       "id": 656941,
@@ -2504,31 +2504,31 @@
         "hitting": {
           "season": {
             "gamesPlayed": 125,
-            "plateAppearances": 558,
-            "atBats": 464,
-            "runs": 75,
-            "hits": 113,
+            "plateAppearances": 560,
+            "atBats": 466,
+            "runs": 76,
+            "hits": 114,
             "doubles": 15,
             "triples": 1,
-            "homeRuns": 38,
-            "rbi": 76,
+            "homeRuns": 39,
+            "rbi": 78,
             "baseOnBalls": 82,
             "strikeOuts": 186,
             "stolenBases": 3,
             "caughtStealing": 1,
-            "avg": ".244",
+            "avg": ".245",
             "obp": ".361",
-            "slg": ".526",
-            "ops": ".887",
-            "babip": ".306",
-            "totalBases": 244
+            "slg": ".532",
+            "ops": ".893",
+            "babip": ".305",
+            "totalBases": 248
           },
           "advanced": {
-            "iso": ".282",
-            "pitchesPerPlateAppearance": "4.208",
-            "walksPerPlateAppearance": ".147",
-            "strikeoutsPerPlateAppearance": ".333",
-            "homeRunsPerPlateAppearance": ".068"
+            "iso": ".288",
+            "pitchesPerPlateAppearance": "4.213",
+            "walksPerPlateAppearance": ".146",
+            "strikeoutsPerPlateAppearance": ".332",
+            "homeRunsPerPlateAppearance": ".070"
           },
           "sabermetrics": {
             "war": 2.87504,
@@ -2543,7 +2543,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:30.647Z"
+      "updatedAt": "2026-08-24T03:32:42.519Z"
     },
     {
       "id": 650333,
@@ -2580,9 +2580,9 @@
         "type": "hitter",
         "hitting": {
           "season": {
-            "gamesPlayed": 122,
-            "plateAppearances": 540,
-            "atBats": 493,
+            "gamesPlayed": 123,
+            "plateAppearances": 541,
+            "atBats": 494,
             "runs": 63,
             "hits": 159,
             "doubles": 28,
@@ -2593,15 +2593,15 @@
             "strikeOuts": 24,
             "stolenBases": 10,
             "caughtStealing": 0,
-            "avg": ".323",
-            "obp": ".356",
-            "slg": ".444",
-            "ops": ".800",
+            "avg": ".322",
+            "obp": ".355",
+            "slg": ".443",
+            "ops": ".798",
             "babip": ".323",
             "totalBases": 219
           },
           "advanced": {
-            "iso": ".122",
+            "iso": ".121",
             "pitchesPerPlateAppearance": "3.719",
             "walksPerPlateAppearance": ".050",
             "strikeoutsPerPlateAppearance": ".044",
@@ -2615,12 +2615,12 @@
             "re24": null,
             "wrcPlus": null,
             "wraa": null,
-            "woba": 0.344751
+            "woba": 0.344747
           }
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:30.719Z"
+      "updatedAt": "2026-08-24T03:32:42.623Z"
     },
     {
       "id": 676661,
@@ -2692,7 +2692,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:30.779Z"
+      "updatedAt": "2026-08-24T03:32:42.715Z"
     },
     {
       "id": 691330,
@@ -2764,7 +2764,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:30.832Z"
+      "updatedAt": "2026-08-24T03:32:42.794Z"
     },
     {
       "id": 641482,
@@ -2836,7 +2836,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:30.862Z"
+      "updatedAt": "2026-08-24T03:32:42.866Z"
     },
     {
       "id": 689147,
@@ -2908,7 +2908,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:30.975Z"
+      "updatedAt": "2026-08-24T03:32:42.957Z"
     },
     {
       "id": 805249,
@@ -2985,7 +2985,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:31.070Z"
+      "updatedAt": "2026-08-24T03:32:43.047Z"
     },
     {
       "id": 665561,
@@ -3062,7 +3062,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:31.142Z"
+      "updatedAt": "2026-08-24T03:32:43.138Z"
     },
     {
       "id": 621383,
@@ -3134,7 +3134,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:31.207Z"
+      "updatedAt": "2026-08-24T03:32:43.223Z"
     },
     {
       "id": 641835,
@@ -3171,27 +3171,27 @@
         "type": "pitcher",
         "pitching": {
           "season": {
-            "gamesPlayed": 50,
+            "gamesPlayed": 51,
             "gamesStarted": 4,
             "wins": 3,
             "losses": 3,
             "saves": 0,
             "holds": 1,
-            "inningsPitched": "57.0",
-            "hits": 48,
+            "inningsPitched": "58.1",
+            "hits": 49,
             "runs": 24,
             "earnedRuns": 22,
             "homeRuns": 6,
-            "baseOnBalls": 14,
-            "strikeOuts": 57,
-            "era": "3.47",
-            "whip": "1.09"
+            "baseOnBalls": 15,
+            "strikeOuts": 58,
+            "era": "3.39",
+            "whip": "1.10"
           },
           "advanced": {
             "strikeoutsPer9Inn": null,
             "walksPer9Inn": null,
             "hitsPer9Inn": null,
-            "homeRunsPer9": "0.95",
+            "homeRunsPer9": "0.93",
             "strikeoutWalkRatio": null,
             "strikePercentage": ".630"
           },
@@ -3206,7 +3206,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:31.284Z"
+      "updatedAt": "2026-08-24T03:32:43.306Z"
     },
     {
       "id": 607208,
@@ -3244,8 +3244,8 @@
         "hitting": {
           "season": {
             "gamesPlayed": 126,
-            "plateAppearances": 559,
-            "atBats": 516,
+            "plateAppearances": 561,
+            "atBats": 518,
             "runs": 86,
             "hits": 127,
             "doubles": 22,
@@ -3256,16 +3256,16 @@
             "strikeOuts": 121,
             "stolenBases": 17,
             "caughtStealing": 3,
-            "avg": ".246",
-            "obp": ".299",
-            "slg": ".391",
-            "ops": ".690",
-            "babip": ".289",
+            "avg": ".245",
+            "obp": ".298",
+            "slg": ".390",
+            "ops": ".688",
+            "babip": ".287",
             "totalBases": 202
           },
           "advanced": {
             "iso": ".145",
-            "pitchesPerPlateAppearance": "3.769",
+            "pitchesPerPlateAppearance": "3.768",
             "walksPerPlateAppearance": ".064",
             "strikeoutsPerPlateAppearance": ".216",
             "homeRunsPerPlateAppearance": ".030"
@@ -3283,7 +3283,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-08-23T19:01:31.353Z"
+      "updatedAt": "2026-08-24T03:32:43.380Z"
     },
     {
       "id": 554430,
@@ -3355,7 +3355,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-08-23T19:01:31.433Z"
+      "updatedAt": "2026-08-24T03:32:43.444Z"
     }
   ]
 }
