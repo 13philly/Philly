@@ -228,8 +228,8 @@
         "team": "Los Angeles Dodgers",
         "abbreviation": "LAD",
         "wins": 81,
-        "losses": 54,
-        "winningPercentage": ".600",
+        "losses": 55,
+        "winningPercentage": ".596",
         "gamesBack": "-",
         "divisionRank": 1,
         "leagueRank": 2,
@@ -239,23 +239,23 @@
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 81,
-          "losses": 54,
-          "pct": ".600"
+          "losses": 55,
+          "pct": ".596"
         },
         "lastTen": {
-          "wins": 7,
-          "losses": 3,
+          "wins": 6,
+          "losses": 4,
           "type": "lastTen",
-          "pct": ".700"
+          "pct": ".600"
         },
         "streak": {
-          "streakCode": "W1",
-          "streakType": "wins",
+          "streakCode": "L1",
+          "streakType": "losses",
           "streakNumber": 1
         },
-        "runsScored": 663,
-        "runsAllowed": 514,
-        "runDifferential": 149,
+        "runsScored": 664,
+        "runsAllowed": 516,
+        "runDifferential": 148,
         "postseason": "division"
       },
       {
@@ -370,7 +370,7 @@
         "wins": 72,
         "losses": 63,
         "winningPercentage": ".533",
-        "gamesBack": "9.0",
+        "gamesBack": "8.5",
         "divisionRank": 2,
         "leagueRank": 6,
         "wildCardRank": 3,
@@ -405,7 +405,7 @@
         "wins": 72,
         "losses": 64,
         "winningPercentage": ".529",
-        "gamesBack": "9.5",
+        "gamesBack": "9.0",
         "divisionRank": 3,
         "leagueRank": 7,
         "wildCardRank": 4,
@@ -650,7 +650,7 @@
         "wins": 55,
         "losses": 80,
         "winningPercentage": ".407",
-        "gamesBack": "26.0",
+        "gamesBack": "25.5",
         "divisionRank": 4,
         "leagueRank": 14,
         "wildCardRank": 11,
@@ -685,7 +685,7 @@
         "wins": 52,
         "losses": 83,
         "winningPercentage": ".385",
-        "gamesBack": "29.0",
+        "gamesBack": "28.5",
         "divisionRank": 5,
         "leagueRank": 15,
         "wildCardRank": 12,
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-08-29T19:05:42.766Z"
+  "updatedAt": "2026-08-29T20:05:54.799Z"
 }
