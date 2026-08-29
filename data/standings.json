@@ -297,20 +297,20 @@
         "teamId": 112,
         "team": "Chicago Cubs",
         "abbreviation": "CHC",
-        "wins": 76,
+        "wins": 77,
         "losses": 59,
-        "winningPercentage": ".563",
-        "gamesBack": "8.0",
+        "winningPercentage": ".566",
+        "gamesBack": "7.5",
         "divisionRank": 2,
         "leagueRank": 4,
         "wildCardRank": 1,
         "magicNumber": null,
-        "wildCardGamesBack": "+4.0",
+        "wildCardGamesBack": "+4.5",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 76,
+          "wins": 77,
           "losses": 59,
-          "pct": ".563"
+          "pct": ".566"
         },
         "lastTen": {
           "wins": 4,
@@ -319,13 +319,13 @@
           "pct": ".400"
         },
         "streak": {
-          "streakCode": "L3",
-          "streakType": "losses",
-          "streakNumber": 3
+          "streakCode": "W1",
+          "streakType": "wins",
+          "streakNumber": 1
         },
-        "runsScored": 703,
-        "runsAllowed": 586,
-        "runDifferential": 117,
+        "runsScored": 720,
+        "runsAllowed": 591,
+        "runDifferential": 129,
         "postseason": "wildcard"
       },
       {
@@ -543,19 +543,19 @@
         "team": "Cincinnati Reds",
         "abbreviation": "CIN",
         "wins": 64,
-        "losses": 71,
-        "winningPercentage": ".474",
-        "gamesBack": "20.0",
+        "losses": 72,
+        "winningPercentage": ".471",
+        "gamesBack": "20.5",
         "divisionRank": 5,
         "leagueRank": 11,
         "wildCardRank": 8,
         "magicNumber": null,
-        "wildCardGamesBack": "8.0",
+        "wildCardGamesBack": "8.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 64,
-          "losses": 71,
-          "pct": ".474"
+          "losses": 72,
+          "pct": ".471"
         },
         "lastTen": {
           "wins": 4,
@@ -564,13 +564,13 @@
           "pct": ".400"
         },
         "streak": {
-          "streakCode": "W2",
-          "streakType": "wins",
-          "streakNumber": 2
+          "streakCode": "L1",
+          "streakType": "losses",
+          "streakNumber": 1
         },
-        "runsScored": 558,
-        "runsAllowed": 656,
-        "runDifferential": -98,
+        "runsScored": 563,
+        "runsAllowed": 673,
+        "runDifferential": -110,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-08-29T21:05:40.397Z"
+  "updatedAt": "2026-08-29T22:05:42.385Z"
 }
