@@ -473,69 +473,69 @@
         "team": "St. Louis Cardinals",
         "abbreviation": "STL",
         "wins": 68,
-        "losses": 68,
-        "winningPercentage": ".500",
-        "gamesBack": "16.5",
+        "losses": 69,
+        "winningPercentage": ".496",
+        "gamesBack": "17.0",
         "divisionRank": 3,
         "leagueRank": 9,
         "wildCardRank": 6,
         "magicNumber": null,
-        "wildCardGamesBack": "4.5",
+        "wildCardGamesBack": "5.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 68,
-          "losses": 68,
-          "pct": ".500"
+          "losses": 69,
+          "pct": ".496"
         },
         "lastTen": {
-          "wins": 4,
-          "losses": 6,
+          "wins": 3,
+          "losses": 7,
           "type": "lastTen",
-          "pct": ".400"
+          "pct": ".300"
         },
         "streak": {
-          "streakCode": "W2",
-          "streakType": "wins",
-          "streakNumber": 2
+          "streakCode": "L1",
+          "streakType": "losses",
+          "streakNumber": 1
         },
-        "runsScored": 604,
-        "runsAllowed": 614,
-        "runDifferential": -10,
+        "runsScored": 606,
+        "runsAllowed": 620,
+        "runDifferential": -14,
         "postseason": null
       },
       {
         "teamId": 134,
         "team": "Pittsburgh Pirates",
         "abbreviation": "PIT",
-        "wins": 65,
+        "wins": 66,
         "losses": 71,
-        "winningPercentage": ".478",
-        "gamesBack": "19.5",
+        "winningPercentage": ".482",
+        "gamesBack": "19.0",
         "divisionRank": 4,
         "leagueRank": 10,
         "wildCardRank": 7,
         "magicNumber": null,
-        "wildCardGamesBack": "7.5",
+        "wildCardGamesBack": "7.0",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 65,
+          "wins": 66,
           "losses": 71,
-          "pct": ".478"
+          "pct": ".482"
         },
         "lastTen": {
-          "wins": 4,
-          "losses": 6,
+          "wins": 5,
+          "losses": 5,
           "type": "lastTen",
-          "pct": ".400"
+          "pct": ".500"
         },
         "streak": {
-          "streakCode": "L2",
-          "streakType": "losses",
-          "streakNumber": 2
+          "streakCode": "W1",
+          "streakType": "wins",
+          "streakNumber": 1
         },
-        "runsScored": 658,
-        "runsAllowed": 637,
-        "runDifferential": 21,
+        "runsScored": 664,
+        "runsAllowed": 639,
+        "runDifferential": 25,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-08-29T20:05:54.799Z"
+  "updatedAt": "2026-08-29T21:05:40.397Z"
 }
