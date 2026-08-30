@@ -31,6 +31,12 @@
   },
   {
     "publishedAt": "2026-08-30T06:41:00.000Z",
+    "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOSnlXVmVqOE9DQ2FDQlZ6ZmRoS3paVzZoZFlGVk5ra0pPcU9jZi1CUmFjNDJjU240US1nLTNEZEZFd2tKaEp6LW45dEFQeFpMZkt3R3RUR3RHOENsM3pXUVIwTXRlZ3BHODJOdUhHZ3lIVnU4LXlhWlRwUTZJUmpFaEVxZDRKenNKQ2pyU0c1V0RXSHdQZ3JhYUlKSmdSdG1rWHlOaHhaYWtjZDl5SlpxTkdtUTFtMGdzVFhrVHYwdTNfZjhtMHMzSng0dXNNOThvVjNCSFFVTGU2VVdvV3BOQVU1WEhrTjdGdXdHRWxMNHphMlczZEt4TEJXWW5CcHVORzVXaDg5dlBncDhNSEItNV9WQ1lvQktXSzJhREU1NDhzVFh4T183WGpNRVBnUTl1OHF2VWNlazhZaFpReEgtWjl2RHdQUG4t?oc=5",
+    "title": "PHILLIES POSTCAST: Philadelphia Phillies OVERCOME MANY MISTAKES IN 4-2 Win in 10 over LA Angles - 13WMAZ",
+    "source": "13WMAZ"
+  },
+  {
+    "publishedAt": "2026-08-30T06:41:00.000Z",
     "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOcTVUSTJaeVB4M2Q1ZXRQNEd4SlE0S1B4aWs3QnR6N0xTWEdWbDJTemlFbkJuWmtaVU1HeUVoUUNFTXpIakZvQWd5LWtUcUFqT3hHR2NETFVQbDFxMl9zWmZGTnJHU3loam05MW5RSzRyRlNPWVhVdUxyVk1uUmxPZEd5cDZRSEgzeXQwOVluODJndjdyMVVjQzFlb01LWWZCbGRWd3ZVU2tXTjFldXVxNWZieGVNTGlCSTA3NE5Tb1AwYUo4OVFtNUtvTXZmaGZ2Q1hTNDBGTDNucmJLMjhFWDRsbUZmMGczeEVwRjRKUXdqWHB6Yzh1X1pGLXdEOWdXX2hkY2t1QndUSkhmei1TdHkzbW1taVI2UkNYa1lQRFUyYVg3ZzZ4cE02RkNlVlNGUDZMYWZsRXpxZDQ4RTlONUNYMWFmZw?oc=5",
     "title": "PHILLIES POSTCAST: Philadelphia Phillies OVERCOME MANY MISTAKES IN 4-2 Win in 10 over LA Angles - cbs19.tv",
     "source": "cbs19.tv"
@@ -112,12 +118,6 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTWUxVjdsSTVrWFVCQXMzb0FRdWdlMU9EU2lfUG9sajIydklQSU9rZTBDM3RkeWxscWFFZW56N211SXBQU1VCcXliaTJGMVVIQTdxdHVvbzFsbEhuRExaSDVJdzZPQUdINjdHR21HRlEtTklsWHBvdWR6em56cS1FT2tZRGJxbGZfRUtsUHBnbw?oc=5",
     "title": "Larry Christenson, World Series winner with Phillies, dies at 72 - 6abc Philadelphia",
     "source": "6abc Philadelphia"
-  },
-  {
-    "publishedAt": "2026-08-29T20:19:06.000Z",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ1pVOUNIOTBqQ05zTjRSTG9uWnBsTkg5bEFmRkZGRUpreWtja0NTdzI3cUJ6blR4UDlrcnFHTnVKMEtjOFdBb2pSaExLVzMwM0hvbllRcDFxQTBDZDluWEhqTTZoUHY5aUdFYTkwQnZQUE5oSWlfLXlLT00ybUw1U0gxMWwxVGZxX1pQS0U5UTdWRkU?oc=5",
-    "title": "Philadelphia Phillies at Los Angeles Angels MLB Prediction, Picks & Odds for Aug. 29, 2026 - Yahoo Sports",
-    "source": "Yahoo Sports"
   },
   {
     "publishedAt": "2026-08-29T20:00:01.000Z",
@@ -242,7 +242,7 @@
   {
     "publishedAt": "2026-08-29T04:48:16.000Z",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4tTTcxWGJYRWJCaGlvMkd5MUJLeXltWFB1cjVoeFJTVG16dW5DdTdEZnctOVN4RXRzVFQ3N19pQ2lnQlZRWFk2U3JKT0N6S213RkE4X0xGeXFqdG1oQV9oUUhUeTNNNE5LVEFUYkxHWVdKeVV3b1Bob1dIYw?oc=5",
-    "title": "TST Images: Phillies defeat Angels, 0-0, in Anaheim - The Sporting Tribune",
+    "title": "TST Images: Phillies defeat Angels, 5-3, in Anaheim - The Sporting Tribune",
     "source": "The Sporting Tribune"
   },
   {
@@ -336,10 +336,22 @@
     "source": "Sports Illustrated"
   },
   {
+    "publishedAt": "2026-08-28T19:59:38.000Z",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONFR6UGNjNjd4aEtocU1vR3ZwWk9wVTRWRzRNOVBJcVRmelZuQ21lQnVfWGo2cW5wTVpBOG53VmpoeHdCMl9CWmxxckFWQ0VrOTY3X2xXRUp3VTl1aGkwQWczeGZvaUtPOUJ1dXJsVnZaeEhHelpiMi1sRHlhR0c2aWFZdFJKbi1JdDNaU0w4RVVLZ1Q0d0hyZDMteF9GLUtVU2J0ZXhR?oc=5",
+    "title": "Phillies Make Smart Move To Help Nestor Cortes Get Ready for Debut - Sports Illustrated",
+    "source": "Sports Illustrated"
+  },
+  {
     "publishedAt": "2026-08-28T19:18:00.000Z",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZmFBazk4eGJNZHo1U3U2bTFVTkNGZ0x6QXZKXzJnWlM2RDVqZGRyOW9BVFlmOS1oOF91bS1rdFZSSnZoOE1FNHVJQ2otc0hTX19QMlNMQndSM2c3cGc5WGszQmxFazlFZmdOOFFRajF3WTVqR2N5YTlWQktnVXpZQ1dwNkMza24yT3NsQW96bElHWi05S1VuMHFhcUtsTzJoLTFPT3A4N04?oc=5",
     "title": "Phillies vs Angels betting preview: Hot pitching points to the under - Philadelphia Baseball Review",
     "source": "Philadelphia Baseball Review"
+  },
+  {
+    "publishedAt": "2026-08-28T18:56:39.000Z",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMklicFFZNTB3UEdRcmpYT0hMWjlrM0R0NGszWWNyaE1vYU9QZG9DYU5FRjN2QWRGZy14Zjd5TzhMZS11UE16OXVEZ2hPVC1jZndpMHZXYXpuREVKZUZST2g4OGtENDYxd05hd1RETEg0TWdZLUZESlNsUHFsZVZGWEFFdmljRXNQYko3aDdHUlhmSVE?oc=5",
+    "title": "Philadelphia Phillies at Los Angeles Angels MLB Prediction, Picks & Odds for Aug. 28, 2026 - Yahoo Sports",
+    "source": "Yahoo Sports"
   },
   {
     "publishedAt": "2026-08-28T17:42:24.000Z",
