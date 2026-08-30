@@ -192,20 +192,20 @@
         "teamId": 158,
         "team": "Milwaukee Brewers",
         "abbreviation": "MIL",
-        "wins": 84,
+        "wins": 85,
         "losses": 51,
-        "winningPercentage": ".622",
+        "winningPercentage": ".625",
         "gamesBack": "-",
         "divisionRank": 1,
         "leagueRank": 1,
         "wildCardRank": null,
-        "magicNumber": "20",
+        "magicNumber": "19",
         "wildCardGamesBack": "-",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 84,
+          "wins": 85,
           "losses": 51,
-          "pct": ".622"
+          "pct": ".625"
         },
         "lastTen": {
           "wins": 7,
@@ -214,13 +214,13 @@
           "pct": ".700"
         },
         "streak": {
-          "streakCode": "W3",
+          "streakCode": "W4",
           "streakType": "wins",
-          "streakNumber": 3
+          "streakNumber": 4
         },
-        "runsScored": 674,
-        "runsAllowed": 496,
-        "runDifferential": 178,
+        "runsScored": 679,
+        "runsAllowed": 499,
+        "runDifferential": 180,
         "postseason": "division"
       },
       {
@@ -300,7 +300,7 @@
         "wins": 77,
         "losses": 59,
         "winningPercentage": ".566",
-        "gamesBack": "7.5",
+        "gamesBack": "8.0",
         "divisionRank": 2,
         "leagueRank": 4,
         "wildCardRank": 1,
@@ -475,7 +475,7 @@
         "wins": 68,
         "losses": 69,
         "winningPercentage": ".496",
-        "gamesBack": "17.0",
+        "gamesBack": "17.5",
         "divisionRank": 3,
         "leagueRank": 9,
         "wildCardRank": 6,
@@ -510,7 +510,7 @@
         "wins": 66,
         "losses": 71,
         "winningPercentage": ".482",
-        "gamesBack": "19.0",
+        "gamesBack": "19.5",
         "divisionRank": 4,
         "leagueRank": 10,
         "wildCardRank": 7,
@@ -580,7 +580,7 @@
         "wins": 64,
         "losses": 72,
         "winningPercentage": ".471",
-        "gamesBack": "20.5",
+        "gamesBack": "21.0",
         "divisionRank": 5,
         "leagueRank": 12,
         "wildCardRank": 9,
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-08-30T01:05:48.489Z"
+  "updatedAt": "2026-08-30T02:05:47.506Z"
 }
