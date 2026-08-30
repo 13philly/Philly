@@ -47,20 +47,20 @@
         "teamId": 143,
         "team": "Philadelphia Phillies",
         "abbreviation": "PHI",
-        "wins": 75,
+        "wins": 76,
         "losses": 60,
-        "winningPercentage": ".556",
-        "gamesBack": "5.5",
+        "winningPercentage": ".559",
+        "gamesBack": "5.0",
         "divisionRank": 2,
         "leagueRank": 5,
         "wildCardRank": 2,
         "magicNumber": null,
-        "wildCardGamesBack": "+3.5",
+        "wildCardGamesBack": "+4.0",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 75,
+          "wins": 76,
           "losses": 60,
-          "pct": ".556"
+          "pct": ".559"
         },
         "lastTen": {
           "wins": 8,
@@ -69,13 +69,13 @@
           "pct": ".800"
         },
         "streak": {
-          "streakCode": "W2",
+          "streakCode": "W3",
           "streakType": "wins",
-          "streakNumber": 2
+          "streakNumber": 3
         },
-        "runsScored": 613,
-        "runsAllowed": 588,
-        "runDifferential": 25,
+        "runsScored": 617,
+        "runsAllowed": 590,
+        "runDifferential": 27,
         "postseason": "wildcard"
       },
       {
@@ -332,20 +332,20 @@
         "teamId": 143,
         "team": "Philadelphia Phillies",
         "abbreviation": "PHI",
-        "wins": 75,
+        "wins": 76,
         "losses": 60,
-        "winningPercentage": ".556",
-        "gamesBack": "5.5",
+        "winningPercentage": ".559",
+        "gamesBack": "5.0",
         "divisionRank": 2,
         "leagueRank": 5,
         "wildCardRank": 2,
         "magicNumber": null,
-        "wildCardGamesBack": "+3.5",
+        "wildCardGamesBack": "+4.0",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 75,
+          "wins": 76,
           "losses": 60,
-          "pct": ".556"
+          "pct": ".559"
         },
         "lastTen": {
           "wins": 8,
@@ -354,13 +354,13 @@
           "pct": ".800"
         },
         "streak": {
-          "streakCode": "W2",
+          "streakCode": "W3",
           "streakType": "wins",
-          "streakNumber": 2
+          "streakNumber": 3
         },
-        "runsScored": 613,
-        "runsAllowed": 588,
-        "runDifferential": 25,
+        "runsScored": 617,
+        "runsAllowed": 590,
+        "runDifferential": 27,
         "postseason": "wildcard"
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-08-30T05:05:51.481Z"
+  "updatedAt": "2026-08-30T06:06:29.948Z"
 }
