@@ -193,8 +193,8 @@
         "team": "Milwaukee Brewers",
         "abbreviation": "MIL",
         "wins": 85,
-        "losses": 51,
-        "winningPercentage": ".625",
+        "losses": 52,
+        "winningPercentage": ".620",
         "gamesBack": "-",
         "divisionRank": 1,
         "leagueRank": 1,
@@ -204,8 +204,8 @@
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 85,
-          "losses": 51,
-          "pct": ".625"
+          "losses": 52,
+          "pct": ".620"
         },
         "lastTen": {
           "wins": 7,
@@ -214,13 +214,13 @@
           "pct": ".700"
         },
         "streak": {
-          "streakCode": "W4",
-          "streakType": "wins",
-          "streakNumber": 4
+          "streakCode": "L1",
+          "streakType": "losses",
+          "streakNumber": 1
         },
-        "runsScored": 679,
-        "runsAllowed": 499,
-        "runDifferential": 180,
+        "runsScored": 683,
+        "runsAllowed": 506,
+        "runDifferential": 177,
         "postseason": "division"
       },
       {
@@ -262,20 +262,20 @@
         "teamId": 119,
         "team": "Los Angeles Dodgers",
         "abbreviation": "LAD",
-        "wins": 81,
+        "wins": 82,
         "losses": 55,
-        "winningPercentage": ".596",
+        "winningPercentage": ".599",
         "gamesBack": "-",
         "divisionRank": 1,
         "leagueRank": 3,
         "wildCardRank": null,
-        "magicNumber": "17",
+        "magicNumber": "16",
         "wildCardGamesBack": "-",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 81,
+          "wins": 82,
           "losses": 55,
-          "pct": ".596"
+          "pct": ".599"
         },
         "lastTen": {
           "wins": 6,
@@ -284,13 +284,13 @@
           "pct": ".600"
         },
         "streak": {
-          "streakCode": "L1",
-          "streakType": "losses",
+          "streakCode": "W1",
+          "streakType": "wins",
           "streakNumber": 1
         },
-        "runsScored": 664,
-        "runsAllowed": 516,
-        "runDifferential": 148,
+        "runsScored": 670,
+        "runsAllowed": 517,
+        "runDifferential": 153,
         "postseason": "division"
       },
       {
@@ -300,7 +300,7 @@
         "wins": 77,
         "losses": 59,
         "winningPercentage": ".566",
-        "gamesBack": "8.0",
+        "gamesBack": "7.5",
         "divisionRank": 2,
         "leagueRank": 4,
         "wildCardRank": 1,
@@ -370,7 +370,7 @@
         "wins": 73,
         "losses": 65,
         "winningPercentage": ".529",
-        "gamesBack": "9.0",
+        "gamesBack": "9.5",
         "divisionRank": 2,
         "leagueRank": 6,
         "wildCardRank": 3,
@@ -405,7 +405,7 @@
         "wins": 72,
         "losses": 65,
         "winningPercentage": ".526",
-        "gamesBack": "9.5",
+        "gamesBack": "10.0",
         "divisionRank": 3,
         "leagueRank": 7,
         "wildCardRank": 4,
@@ -473,19 +473,19 @@
         "team": "St. Louis Cardinals",
         "abbreviation": "STL",
         "wins": 68,
-        "losses": 69,
-        "winningPercentage": ".496",
+        "losses": 70,
+        "winningPercentage": ".493",
         "gamesBack": "17.5",
         "divisionRank": 3,
         "leagueRank": 9,
         "wildCardRank": 6,
         "magicNumber": null,
-        "wildCardGamesBack": "4.5",
+        "wildCardGamesBack": "5.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 68,
-          "losses": 69,
-          "pct": ".496"
+          "losses": 70,
+          "pct": ".493"
         },
         "lastTen": {
           "wins": 3,
@@ -494,33 +494,33 @@
           "pct": ".300"
         },
         "streak": {
-          "streakCode": "L1",
+          "streakCode": "L2",
           "streakType": "losses",
-          "streakNumber": 1
+          "streakNumber": 2
         },
-        "runsScored": 606,
-        "runsAllowed": 620,
-        "runDifferential": -14,
+        "runsScored": 610,
+        "runsAllowed": 625,
+        "runDifferential": -15,
         "postseason": null
       },
       {
         "teamId": 134,
         "team": "Pittsburgh Pirates",
         "abbreviation": "PIT",
-        "wins": 66,
+        "wins": 67,
         "losses": 71,
-        "winningPercentage": ".482",
-        "gamesBack": "19.5",
+        "winningPercentage": ".486",
+        "gamesBack": "18.5",
         "divisionRank": 4,
         "leagueRank": 10,
         "wildCardRank": 7,
         "magicNumber": null,
-        "wildCardGamesBack": "6.5",
+        "wildCardGamesBack": "6.0",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 66,
+          "wins": 67,
           "losses": 71,
-          "pct": ".482"
+          "pct": ".486"
         },
         "lastTen": {
           "wins": 5,
@@ -529,13 +529,13 @@
           "pct": ".500"
         },
         "streak": {
-          "streakCode": "W1",
+          "streakCode": "W2",
           "streakType": "wins",
-          "streakNumber": 1
+          "streakNumber": 2
         },
-        "runsScored": 664,
-        "runsAllowed": 639,
-        "runDifferential": 25,
+        "runsScored": 669,
+        "runsAllowed": 643,
+        "runDifferential": 26,
         "postseason": null
       },
       {
@@ -545,7 +545,7 @@
         "wins": 64,
         "losses": 72,
         "winningPercentage": ".471",
-        "gamesBack": "21.0",
+        "gamesBack": "20.5",
         "divisionRank": 5,
         "leagueRank": 11,
         "wildCardRank": 8,
@@ -650,7 +650,7 @@
         "wins": 56,
         "losses": 81,
         "winningPercentage": ".409",
-        "gamesBack": "25.5",
+        "gamesBack": "26.0",
         "divisionRank": 4,
         "leagueRank": 14,
         "wildCardRank": 11,
@@ -685,7 +685,7 @@
         "wins": 52,
         "losses": 85,
         "winningPercentage": ".380",
-        "gamesBack": "29.5",
+        "gamesBack": "30.0",
         "divisionRank": 5,
         "leagueRank": 15,
         "wildCardRank": 12,
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-08-30T21:05:44.524Z"
+  "updatedAt": "2026-08-30T22:05:57.792Z"
 }
