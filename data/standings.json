@@ -683,19 +683,19 @@
         "team": "Colorado Rockies",
         "abbreviation": "COL",
         "wins": 52,
-        "losses": 85,
-        "winningPercentage": ".380",
-        "gamesBack": "30.0",
+        "losses": 86,
+        "winningPercentage": ".377",
+        "gamesBack": "30.5",
         "divisionRank": 5,
         "leagueRank": 15,
         "wildCardRank": 12,
         "magicNumber": null,
-        "wildCardGamesBack": "20.5",
+        "wildCardGamesBack": "21.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 52,
-          "losses": 85,
-          "pct": ".380"
+          "losses": 86,
+          "pct": ".377"
         },
         "lastTen": {
           "wins": 2,
@@ -704,16 +704,16 @@
           "pct": ".200"
         },
         "streak": {
-          "streakCode": "L4",
+          "streakCode": "L5",
           "streakType": "losses",
-          "streakNumber": 4
+          "streakNumber": 5
         },
-        "runsScored": 644,
-        "runsAllowed": 786,
-        "runDifferential": -142,
+        "runsScored": 645,
+        "runsAllowed": 788,
+        "runDifferential": -143,
         "postseason": null
       }
     ]
   },
-  "updatedAt": "2026-09-01T05:10:12.195Z"
+  "updatedAt": "2026-09-01T06:14:39.145Z"
 }
