@@ -153,19 +153,19 @@
         "team": "New York Mets",
         "abbreviation": "NYM",
         "wins": 62,
-        "losses": 76,
-        "winningPercentage": ".449",
-        "gamesBack": "20.0",
+        "losses": 77,
+        "winningPercentage": ".446",
+        "gamesBack": "20.5",
         "divisionRank": 5,
         "leagueRank": 13,
         "wildCardRank": 10,
         "magicNumber": null,
-        "wildCardGamesBack": "11.0",
+        "wildCardGamesBack": "11.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 62,
-          "losses": 76,
-          "pct": ".449"
+          "losses": 77,
+          "pct": ".446"
         },
         "lastTen": {
           "wins": 4,
@@ -174,13 +174,13 @@
           "pct": ".400"
         },
         "streak": {
-          "streakCode": "W1",
-          "streakType": "wins",
+          "streakCode": "L1",
+          "streakType": "losses",
           "streakNumber": 1
         },
-        "runsScored": 565,
-        "runsAllowed": 617,
-        "runDifferential": -52,
+        "runsScored": 567,
+        "runsAllowed": 623,
+        "runDifferential": -56,
         "postseason": null
       }
     ]
@@ -613,19 +613,19 @@
         "team": "New York Mets",
         "abbreviation": "NYM",
         "wins": 62,
-        "losses": 76,
-        "winningPercentage": ".449",
-        "gamesBack": "20.0",
+        "losses": 77,
+        "winningPercentage": ".446",
+        "gamesBack": "20.5",
         "divisionRank": 5,
         "leagueRank": 13,
         "wildCardRank": 10,
         "magicNumber": null,
-        "wildCardGamesBack": "11.0",
+        "wildCardGamesBack": "11.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 62,
-          "losses": 76,
-          "pct": ".449"
+          "losses": 77,
+          "pct": ".446"
         },
         "lastTen": {
           "wins": 4,
@@ -634,13 +634,13 @@
           "pct": ".400"
         },
         "streak": {
-          "streakCode": "W1",
-          "streakType": "wins",
+          "streakCode": "L1",
+          "streakType": "losses",
           "streakNumber": 1
         },
-        "runsScored": 565,
-        "runsAllowed": 617,
-        "runDifferential": -52,
+        "runsScored": 567,
+        "runsAllowed": 623,
+        "runDifferential": -56,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-09-02T00:17:05.428Z"
+  "updatedAt": "2026-09-02T01:09:27.864Z"
 }
