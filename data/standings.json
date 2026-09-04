@@ -193,8 +193,8 @@
         "team": "Milwaukee Brewers",
         "abbreviation": "MIL",
         "wins": 87,
-        "losses": 53,
-        "winningPercentage": ".621",
+        "losses": 54,
+        "winningPercentage": ".617",
         "gamesBack": "-",
         "divisionRank": 1,
         "leagueRank": 1,
@@ -204,8 +204,8 @@
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 87,
-          "losses": 53,
-          "pct": ".621"
+          "losses": 54,
+          "pct": ".617"
         },
         "lastTen": {
           "wins": 6,
@@ -214,13 +214,13 @@
           "pct": ".600"
         },
         "streak": {
-          "streakCode": "W2",
-          "streakType": "wins",
-          "streakNumber": 2
+          "streakCode": "L1",
+          "streakType": "losses",
+          "streakNumber": 1
         },
-        "runsScored": 704,
-        "runsAllowed": 532,
-        "runDifferential": 172,
+        "runsScored": 705,
+        "runsAllowed": 534,
+        "runDifferential": 171,
         "postseason": "division"
       },
       {
@@ -332,20 +332,20 @@
         "teamId": 112,
         "team": "Chicago Cubs",
         "abbreviation": "CHC",
-        "wins": 78,
+        "wins": 79,
         "losses": 62,
-        "winningPercentage": ".557",
-        "gamesBack": "9.0",
+        "winningPercentage": ".560",
+        "gamesBack": "8.0",
         "divisionRank": 2,
         "leagueRank": 5,
         "wildCardRank": 2,
         "magicNumber": null,
-        "wildCardGamesBack": "+4.5",
+        "wildCardGamesBack": "+5.0",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 78,
+          "wins": 79,
           "losses": 62,
-          "pct": ".557"
+          "pct": ".560"
         },
         "lastTen": {
           "wins": 4,
@@ -354,13 +354,13 @@
           "pct": ".400"
         },
         "streak": {
-          "streakCode": "L2",
-          "streakType": "losses",
-          "streakNumber": 2
+          "streakCode": "W1",
+          "streakType": "wins",
+          "streakNumber": 1
         },
-        "runsScored": 751,
-        "runsAllowed": 619,
-        "runDifferential": 132,
+        "runsScored": 753,
+        "runsAllowed": 620,
+        "runDifferential": 133,
         "postseason": "wildcard"
       },
       {
@@ -475,7 +475,7 @@
         "wins": 70,
         "losses": 70,
         "winningPercentage": ".500",
-        "gamesBack": "17.0",
+        "gamesBack": "16.5",
         "divisionRank": 3,
         "leagueRank": 9,
         "wildCardRank": 6,
@@ -510,7 +510,7 @@
         "wins": 69,
         "losses": 72,
         "winningPercentage": ".489",
-        "gamesBack": "18.5",
+        "gamesBack": "18.0",
         "divisionRank": 4,
         "leagueRank": 10,
         "wildCardRank": 7,
@@ -545,7 +545,7 @@
         "wins": 67,
         "losses": 73,
         "winningPercentage": ".479",
-        "gamesBack": "20.0",
+        "gamesBack": "19.5",
         "divisionRank": 5,
         "leagueRank": 11,
         "wildCardRank": 8,
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-09-04T01:08:42.810Z"
+  "updatedAt": "2026-09-04T02:11:03.461Z"
 }
