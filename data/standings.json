@@ -83,34 +83,34 @@
         "team": "Miami Marlins",
         "abbreviation": "MIA",
         "wins": 71,
-        "losses": 69,
-        "winningPercentage": ".507",
-        "gamesBack": "12.0",
+        "losses": 70,
+        "winningPercentage": ".504",
+        "gamesBack": "12.5",
         "divisionRank": 3,
         "leagueRank": 8,
         "wildCardRank": 5,
         "magicNumber": null,
-        "wildCardGamesBack": "2.5",
+        "wildCardGamesBack": "3.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 71,
-          "losses": 69,
-          "pct": ".507"
+          "losses": 70,
+          "pct": ".504"
         },
         "lastTen": {
-          "wins": 5,
-          "losses": 5,
+          "wins": 4,
+          "losses": 6,
           "type": "lastTen",
-          "pct": ".500"
+          "pct": ".400"
         },
         "streak": {
-          "streakCode": "W2",
-          "streakType": "wins",
-          "streakNumber": 2
+          "streakCode": "L1",
+          "streakType": "losses",
+          "streakNumber": 1
         },
-        "runsScored": 612,
-        "runsAllowed": 594,
-        "runDifferential": 18,
+        "runsScored": 615,
+        "runsAllowed": 601,
+        "runDifferential": 14,
         "postseason": null
       },
       {
@@ -438,34 +438,34 @@
         "team": "Miami Marlins",
         "abbreviation": "MIA",
         "wins": 71,
-        "losses": 69,
-        "winningPercentage": ".507",
-        "gamesBack": "12.0",
+        "losses": 70,
+        "winningPercentage": ".504",
+        "gamesBack": "12.5",
         "divisionRank": 3,
         "leagueRank": 8,
         "wildCardRank": 5,
         "magicNumber": null,
-        "wildCardGamesBack": "2.5",
+        "wildCardGamesBack": "3.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 71,
-          "losses": 69,
-          "pct": ".507"
+          "losses": 70,
+          "pct": ".504"
         },
         "lastTen": {
-          "wins": 5,
-          "losses": 5,
+          "wins": 4,
+          "losses": 6,
           "type": "lastTen",
-          "pct": ".500"
+          "pct": ".400"
         },
         "streak": {
-          "streakCode": "W2",
-          "streakType": "wins",
-          "streakNumber": 2
+          "streakCode": "L1",
+          "streakType": "losses",
+          "streakNumber": 1
         },
-        "runsScored": 612,
-        "runsAllowed": 594,
-        "runDifferential": 18,
+        "runsScored": 615,
+        "runsAllowed": 601,
+        "runDifferential": 14,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-09-04T02:11:03.461Z"
+  "updatedAt": "2026-09-04T03:11:09.599Z"
 }
