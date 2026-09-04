@@ -1,5 +1,11 @@
 [
   {
+    "publishedAt": "2026-09-04T14:33:23.000Z",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYTdIc0V2UkRIcnFkRGl6N1lFTFBCSlZGalpFSlB2c3NuaDYwanpjZ0gzME84em1HUDFtOG9QWXRVUDVzbldmNkpkdzY3TVRRemREVHpHeVVXREtnbnNRTlgxWVVwYThQTHRwUzZOR19UN2lvTGhnb1ZBa3ZIMEEyWVFsbC10M19yRC1VbnBQQWdZdlZzQVVUOE1tYjNTd0ZrWDRaVEw2Ym0tZDUw?oc=5",
+    "title": "Three Players Who Must Step Up For Phillies In Pivotal Series vs. Braves - Sports Illustrated",
+    "source": "Sports Illustrated"
+  },
+  {
     "publishedAt": "2026-09-04T14:04:09.000Z",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HS0RMamZqc1VubVBkcDJpQUFoNVlGanJMd3dsX1hRbXZwLWhvSllmZ1lRbHRwQXpBM1RzaVJQV2dqOGhmSVZzc2VZV1JmQVRUTk52NzNxQU84a0d5VjM3Vk8yZkxfRjlnbFJnT1g1cHhrOGg2dG13MUFQZTJaSVU?oc=5",
     "title": "Statcast Game Preview: Atlanta Braves at Philadelphia Phillies - 2026-09-04 - Baseball Savant",
@@ -16,12 +22,6 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOM3lfOWU0WmljLVhkd1licGpYbGdFSk9sYkhYNS01RjBrdnRHeWVla2FyYmZqS2UwSndRd1UwbFRSZTN5QTF3alFSOGlHQU9WTXR5dEttRDkwY0ZXaUY1a2N0NDg5WmNockJsSmFQXzdnMUlPUV81NWpReGtoU0gtWmp1b3ladHRqc2FyYUhuMXJqQjYwZGplQkc2emFqY21td0NmVzZkeTNkemx0MU1paUZuNGUyOHVtbFBzeGUxY1Rva00?oc=5",
     "title": "How to watch the Atlanta Braves vs Philadelphia Phillies: Live stream info, schedule, preview - NBC Sports",
     "source": "NBC Sports"
-  },
-  {
-    "publishedAt": "2026-09-04T11:00:00.000Z",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNa3VjR0lmaHMwWjVFcDQtemlibVNTVFRLM1BYV1NaNDdWWEF3MzUxcXJoM3dla2dzdFBJM2dRR001ZEJ6RVYyVDMxRzdQX01TdXBoRjNWMzlKNmxIOEFVVXloam5vdkgyX0RfLU1RckdEMkFYVks0YmRXazEwN284Qm1RdnFnREk?oc=5",
-    "title": "Phillies News: Aidan Miller, Alex McFarlane, The Farm - Yahoo Sports",
-    "source": "Yahoo Sports"
   },
   {
     "publishedAt": "2026-09-04T11:00:00.000Z",
@@ -80,14 +80,20 @@
   {
     "publishedAt": "2026-09-03T16:33:28.000Z",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbUQwX1NKSFhtR0I5VW5raGVGYXlHTThoNmEtbkN1aVZDaXJ6WnlYRTc0TW5XRkxONDFKdlRKM29HVVpldWdEUG1BSmIydVNxSVJReWJiRmZieEhQaDhwRWVqakFyUGlXbVZheE9uQTRZaDdoOHRzbk1XQjc4RDg5aWpYdkVMN2NVamFXRHRqLS1QR25TNVVjRll3QS1QS0g3VS1UdzNDMkhGY1ZnbWZDeEtqcUNraDB3U0FHTEk3MVdvUmlBUzh2SWpaLXhsZ9IB1gFBVV95cUxQU3VudFJ2ZnBsb1VaQUtnekIwSi1GMkU1LWtZR0tEdEozNVpEdXpuZHRzQ2tXVUU0RDI0djZPOXNFQjVpQTBxQkJJbE5VcFg0YW1kc3hJRTl5QmpiaXhBVGgtMG8zVGJZLVhZMEtSbmF3RHRyS0VlbXFhRFJiaEZCN2FpWTN3RHhLbXItc0s0djN1aTFqSUZSdW44RG9vMnk2d3V5c1oxdHBVTTlPMmFBUGMwNEtMcmRaQ1lLSTdoOGRsR2syN28tbjNLeFBNU1BiZGdMWjhn?oc=5",
-    "title": "Phillies to host Domestic Violence Awareness Night on Friday - nbcphiladelphia.com",
-    "source": "nbcphiladelphia.com"
+    "title": "Phillies to host Domestic Violence Awareness Night on Friday - NBC10 Philadelphia",
+    "source": "NBC10 Philadelphia"
   },
   {
     "publishedAt": "2026-09-03T16:00:00.000Z",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTzM4QW9zdjR3M2tzOC16M2Z0SEFvRlVIcUFHWFl6ejY2UHV0YlR1aFRSckgxVTI2c184aWktYldTSUhMeWdvb0NOT2l1cnpKZmVvbEFxcWs2aWFDOTBxOVk0QlJlN0NqdVlVR3hSWUpWNkM1a1FZdUpqbnAtNXhLVEZIcGxXOE5sXzBIcW9XcGYwY0ZzdXZPTDZaTEZENVVlTTA3VHAwU3g4NW83YkdTRTVOVnMwM3JsMEEzNTV0N21aRzhrcjV0RdIB0AFBVV95cUxOWUY2ZU9ueXRQWk9ZcVdOblZJWEo4Y0JiTV85UExETENtYW5acUh5S2JpelozQ0M4bng1anpiQ2xuMUJWU1RxMXc4N2ExMGloejVrVHc5bmpRNDIwUlhNaDhmTkxKXzhaajZzenpQZy1yZTlZUThKQ3hXYjZqOUpGYk91SmNvMTR0c0ZKYVIzVWNFTnc3VkNBRTVLMUxGRFMtbDJiTFEyeTFlYi1adkVYREZyU2xyZjVtb0l2d1dma0RaQVhhV09fc2pIMmdWZ1dD?oc=5",
     "title": "As Phillies' farm system makes unheralded contributions, changes are made - NBC Sports Philadelphia",
     "source": "NBC Sports Philadelphia"
+  },
+  {
+    "publishedAt": "2026-09-03T15:41:21.000Z",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNa3VjR0lmaHMwWjVFcDQtemlibVNTVFRLM1BYV1NaNDdWWEF3MzUxcXJoM3dla2dzdFBJM2dRR001ZEJ6RVYyVDMxRzdQX01TdXBoRjNWMzlKNmxIOEFVVXloam5vdkgyX0RfLU1RckdEMkFYVks0YmRXazEwN284Qm1RdnFnREk?oc=5",
+    "title": "Phillies News: Aidan Miller, Alex McFarlane, The Farm - Yahoo Sports",
+    "source": "Yahoo Sports"
   },
   {
     "publishedAt": "2026-09-03T15:30:09.000Z",
@@ -258,10 +264,22 @@
     "source": "Yahoo Sports"
   },
   {
+    "publishedAt": "2026-09-02T07:40:40.000Z",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQam0wa3l3MEx4Z1UwcWxHRUpzcUYwNHIzRkFTdUg2Qmd4R0NLU2cwTExDT3JNbEs5ZVd4WXA4eDMzS0FDNEg3SkJvQ1FveEJvMEM2QmQxS3k3dldEMkZ0ZGpqakFvM2lFajBtRFJiWEhzdy0xc1lPclZ3S0tER3EwQnp2MG51bWU1Z3RVRlRnODRUb1k3UXFhUk9lbTBpZ1ZtZzR3cVhHXy1PaHdkVkIxT0x5cVl1QVpzdngwRW9TbWhwVUdXSGY00gHPAUFVX3lxTE1ldXZNUXZDcUpyUWZEV1RDb2JXbWoxS1Uxa3dINlhJblVBeVdCeEF1NGVpai01NlA3WnZSR0FLUHotVVRxSUV5OWFlUmhBajRLamY1QzZMc2VpZ2NPYzYzNVJaTlNnTzN6S25LWmRvb2xfanR5T0JJeFFuTm9HY2RqMTc5eE5YUkVxaHRDYlBqVHMtZnZiQ01OSnZoYmQxWmY3V3F3VmFhb3JfM1dHeFZ2SlVLZUsyQTFfb19RODZaTXlGWXBQNkVQN2dfc0RnNA?oc=5",
+    "title": "Sizzling Phillies take over NL wild-card lead, close in on East-leading Braves - NBC Sports Philadelphia",
+    "source": "NBC Sports Philadelphia"
+  },
+  {
     "publishedAt": "2026-09-02T07:21:29.000Z",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdHRyYlRUUkpxUG5BV2NwNUVPRklIMzRiajl2OXRZVG1yMDk3dWxqWEQtTW5hbUEzNXJNcTRURjRGMF9SUVZDV19JUEFiMTFBTXhQUGpTcnZyeHNzdnQ5M3NKWkpjbkhXdkFsN2tySk9aQ2g0Wm1YczBFSXhCUFhndmJuNlM?oc=5",
     "title": "Can anyone stop the Phillies? | Morning Lineup - MLB.com",
     "source": "MLB.com"
+  },
+  {
+    "publishedAt": "2026-09-02T07:02:02.000Z",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOW9OaHRGTW9KaDhQMF81eURZRWo2OFM2dFZPQVROS3JUYnZuNDE3ZWNlUHB6bFBUQi1FMThZeWxjUmtzV2hBQW16WlZJMjNvb29QMjZUMGZIRWtRaVpMWEx5ZTNPMDlFaWIzdXhrak5FWUR6VkRMTjBuVE1IQ2pleEpXWGRGTWVmczBN?oc=5",
+    "title": "Watch MLB Mini: Philadelphia Phillies vs Arizona Diamondbacks - Disney Plus",
+    "source": "Disney Plus"
   },
   {
     "publishedAt": "2026-09-02T07:00:00.000Z",
@@ -289,12 +307,6 @@
   },
   {
     "publishedAt": "2026-09-02T05:19:00.000Z",
-    "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNT0NBU3h4X0hveUp5N1p1YTZXUHZWT3BqTzFMV3dINjlOTTdNQzVRT184WW1Zd3VKalFCQURBQmVqUEVxWUZDLTdIZnBITXlpcGlGMjdUbUs4WldVQ01PQVA2akVqTktxQ3VFX3pKMENUUlg0XzFCcmZyVHBjU1JXUXd1dnNOTlY3WlF4QUxFVXFLelVaR0VoLS1mTDdmcWNkWmtEVTBvRHF3Vjk1Q0w5SEl2dGU1SU9DVmMwYlRPdUJLeG45NUZOQjdiMl92eE5lRlpYa040NUw3cHcycjN0RnBEdUpSX0lqU2RuM2FxZWY0TGVlRVFFRWJGbVJSV3NuSWtNNmRuQVRia0NXOUpuMzRBaDYzRFRqWXFPTzJaMkZiSUNJT0dKR1YzWE85M1VuLThSVW5LUEljeEp1WHRQbG9QUHhGazFU?oc=5",
-    "title": "PHILLIES POSTCAST: Philadelphia Phillies with 13 hits, Luzardo DEALS in 7-1 WIN vs Diamondbacks! - ABC10",
-    "source": "ABC10"
-  },
-  {
-    "publishedAt": "2026-09-02T05:19:00.000Z",
     "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNMG1wNmVQYzNsOUprSTYwNURPektMYUo0QTlENnVUT05rRG1Vbzh4b0tERlFEZHFUakdIQi1RTXFaUGViZXBiY1BrYnBIb0NyOWdUMU5Hb0xuS1VyQ2s5ZzZkOUd3OE9xY3pGS3B0RUlFdmc1UElzSjRadUJyOUVtSzRsVFNJNDc5SVNOSGRNVi1VUVZWVEdfY0JQX0RNYS1kczdBR1FQX25nMjdjY24yY0UwdzhneVhvZ1pUVk9iVm9LMXdJVkd1UFFjRXU4RFdqdjVCbXVKcnZLLWFOTHpSQ1hrRmctaW1ZS1lSS3JEdVlSd3pjV3hmbEZfUXFWZ0thS0pHMFRKUTY2VFVzcTJoVUdJRUkxdDV5VjR1TTd3emdfMlp2bzVqZlBMNndYMllhWlZTZzI1eHhVdmJObUNQVjBrVXpUdmpZ?oc=5",
     "title": "PHILLIES POSTCAST: Philadelphia Phillies come up w/ hits, Luzardo DEALS in 7-1 WIN vs Diamondbacks! - kens5.com",
     "source": "kens5.com"
@@ -312,16 +324,16 @@
     "source": "firstcoastnews.com"
   },
   {
+    "publishedAt": "2026-09-02T05:19:00.000Z",
+    "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPLTRSX2w0RkhPZVdVbUU5eU96cDZuYTRNVHR3d1ZCWHhIMGF6al9BSWJFWnNwUzFJdEY5b19iOUlyZXVyaWhGUlhjVDd3Y3RVUURGR2RtVmxjY1BLZWQ2UTlVcjhrWDBjSGJoTzFrZm1pRG0zRjR0OThWRG55SFRWdWtnek9SUGdxMDVhOUlsdGhlUktNTkNndURXdjBhTzJhQkczeXEtODFreGNDQkJMYmVJLWVNM0RKampSSEFiWUJSU2pfUk5pSFZZWmNhT0tMLVVQakZ6OUZlZkE2cXc2TTdOWVBUYVpfNkhaQl9vZlVTcmo5YVI2OW9EYmtuQVJ1MEN0cW4wN1pfcFNGdTgtY3Y3d2o3RGFSTUctQnM3STJnMkZMZ1VKNGJJNExtWUFWVGd0cTdHWDAzaUVYRy04UFhZTEtGMk0?oc=5",
+    "title": "PHILLIES POSTCAST: Philadelphia Phillies with 13 hits, Luzardo DEALS in 7-1 WIN vs Diamondbacks! - krem.com",
+    "source": "krem.com"
+  },
+  {
     "publishedAt": "2026-09-02T04:48:07.000Z",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYby1LSXYxZ3hSaV9LQWZSWmg5cEQtNEdtTldqRFVsOHVuYk9hTUhxS0FMb1hHWlFKeUlLdDl2Zmo5QzNEUVJFQlo0NUpNRFFfYnVJRk4zekpXelU?oc=5",
     "title": "Phillies 7-1 Diamondbacks (Sep 1, 2026) Game Recap - ESPN",
     "source": "ESPN"
-  },
-  {
-    "publishedAt": "2026-09-02T04:34:30.000Z",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZXV2TVF2Q3FKclFmRFdUQ29iV21qMUtVMWt3SDZYSW5VQXlXQnhBdTRlaWotNTZQN1p2UkdBS1B6LVVUcUlFeTlhZVJoQWo0S2pmNUM2THNlaWdjT2M2MzVSWk5TZ08zektuS1pkb29sX2p0eU9CSXhRbk5vR2NkajE3OXhOWFJFcWh0Q2JQalRzLWZ2YkNNTkp2aGJkMVpmN1dxd1ZhYW9yXzNXR3hWdkpVS2VLMkExX29fUTg2Wk15RllwUDZFUDdnX3NEZzTSAc8BQVVfeXFMTWV1dk1RdkNxSnJRZkRXVENvYldtajFLVTFrd0g2WEluVUF5V0J4QXU0ZWlqLTU2UDdadlJHQUtQei1VVHFJRXk5YWVSaEFqNEtqZjVDNkxzZWlnY09jNjM1UlpOU2dPM3pLbktaZG9vbF9qdHlPQkl4UW5Ob0djZGoxNzl4TlhSRXFodENiUGpUcy1mdmJDTU5KdmhiZDFaZjdXcXdWYWFvcl8zV0d4VnZKVUtlSzJBMV9vX1E4NlpNeUZZcFA2RVA3Z19zRGc0?oc=5",
-    "title": "Sizzling Phillies take over NL wild-card lead, close in on East-leading Braves - NBC Sports Philadelphia",
-    "source": "NBC Sports Philadelphia"
   },
   {
     "publishedAt": "2026-09-02T04:28:55.000Z",
@@ -360,16 +372,10 @@
     "source": "Yahoo Sports"
   },
   {
-    "publishedAt": "2026-09-01T23:13:55.000Z",
+    "publishedAt": "2026-09-01T22:55:24.000Z",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOc24ycjBfbWNKY2RDaUg1ZzJzV3NUOVZ5ejNhelNnYUpmMy1fdi1HSlgzV0lrU090VzVodVNBY29XZnVOVXJDa25mT3c2NkY0YUFuYXNrTW9ib0dnODhjaUk2blMtVkVKajJWN0NtNENqTm9IY2tnaHdtNXh4T2dlQS1KSHJIcUZMTkthWFZWSmhuSzdaRXdMdWtB?oc=5",
     "title": "What channel are the Phillies on tonight? What channel are the Diamondbacks on? - Yahoo Sports",
     "source": "Yahoo Sports"
-  },
-  {
-    "publishedAt": "2026-09-01T22:13:42.000Z",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOUtCT2R2cmstQ1Z3YmRTck1fc1FKZXQtZm5pTGZtQ1JzN1lYUUxPRTRuZHRxYmhYLVd1ZXZPMHFBcWNnbDF2YWZtU0RuTFAyd2xpVzBQWW9GVnBoMkxBZFJsNXd2QVozRWVUY1JFYVV4TU5yRUcyR0VlQjh2bE4zbHJtank0UEpCM2NlT0ZtY3BFcDlUdEE5WUhPWEx3QURpb2ZqRWpVcFhSOXNqWEVUQXNXS2ZHMHktemc?oc=5",
-    "title": "Philadelphia Phillies Quietly Sign Intriguing 27-Year-Old Pitcher During Diamondbacks Series - heavy.com",
-    "source": "heavy.com"
   },
   {
     "publishedAt": "2026-09-01T21:59:54.000Z",
@@ -448,6 +454,12 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90RmxzaWVoQzk2U1M2ODUxbjh6VG9oNjdhZGdxb2Rwc1hudEZjWHlEYzJsUlZCNktreW8zUVVudklwV1p1cXVVOXdQVE5YdmtvRjgzZFZpZHR4cWc?oc=5",
     "title": "Phillies 2-1 Diamondbacks (Aug 31, 2026) Game Recap - ESPN",
     "source": "ESPN"
+  },
+  {
+    "publishedAt": "2026-09-01T04:44:12.000Z",
+    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPS0VUYVZubEYySWZULUF0ci1ZWTJMWXBMcDZET2V0Unk3QVNZcVhROHhUV21OTXo0amN3dzlUYndLX2JMcjl5QnhRMEFGalM1U280U2xnb2V2ZnBtM2VBbEZ4UDQ1SDFxUm1SckNjOVVtYXJPdzc1N1lER1dqWUp0OUtKVGpVRE9hOXkyS2dzVFZWR3dta290MkJaY2tQd3JUQzY3NjQ4QnFiYTlLell6MWpPNGExQndVb3lTTXN0SnJiQUlBZFFETG5vUjl1TDBGX3ZSRktjczZEUEdoUlNoaDNRUFRPRXJObFhIS205ZHNJY09iSmtjS254dXhULW5UWkE?oc=5",
+    "title": "Bryson Stott hits a solo HR, Phillies beat the Diamondbacks 2-1 to cap 21-win August - Bozeman Daily Chronicle",
+    "source": "Bozeman Daily Chronicle"
   },
   {
     "publishedAt": "2026-09-01T02:14:20.000Z",
@@ -592,11 +604,5 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ0sxbTFTWG5zbGhOZFp5dFhCTEJheVI0NVEydm9rYVQxLUJ4SDE1Ukt3QjBYTmZ1MWw0VlJGbHEzRFFWeHdLcGE5NUd0alg5NldEMHQxTEltMUNkOHlqQUppa0xrZnJJWFdKWVRFaWJUNERSclREX1hDYTZLaGd3Mm5GeF9KWTdOeUtpRE5QTXNGTVFGMGloLWpqbFVfRG9GcGo0VkhRbXNqbHpjNVZaVVBTZHFfSFVtTXNRZ0xaVdIBxwFBVV95cUxOcTZ6WUZZdWFMTUphLW9kSHB4NGlva3JKTmRaNnA4UV8tUUgyaU1jbVgwVUdIWFJ4UGlaTmVicFNIbTBmbjQzMGVYQk4xVWJWbjhGZ2djR0FuS181M1dIUWRFckhxc0paX1lWWVdhY3EyY3ZoTlRCZ19qaDg0OEVSeWpjYzJJUktLV2dNUzNkYkhJWmJjZkZmSTRGd181cHotZDNiLXJwNFVvOTZIeVRtV1lQNVZxMjlsSmxwcTBWeVFVU2lmT2ww?oc=5",
     "title": "Phillies World Series Champion Larry Christenson dies at 72 - NBC Sports Philadelphia",
     "source": "NBC Sports Philadelphia"
-  },
-  {
-    "publishedAt": "2026-08-28T15:42:17.000Z",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYWhlWTNBcm1RMGlhb3g1R2g0RTdLMWhBR2k5dDQ3UEdwdWhyRktYQjB0R0Ytd3AyclZVX1NzaUFWQVRMRGNLWTRZZ3VjYjhPcFZLSEQ0X2NMZzBPdi1PZDRrb1RHeXJ4WjFCaTdISk42T0VMRktKcnJhOU1yeHk0ODQyRV81dDNuQmlsZFZCaUd1ZWc2MmcyUHd2MnNlVWV1cC02LWZDYjc1Zm54dWV1X3dZWTlrOHNLaW96aFQweTFqTW9mN2c?oc=5",
-    "title": "Phillies veteran Aaron Nola shares thoughts on homegrown starter Andrew Painter, pitching as rookie: ‘It’s going to help him a lot down the road’ - Phillies Nation",
-    "source": "Phillies Nation"
   }
 ]
