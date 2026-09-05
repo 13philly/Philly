@@ -153,34 +153,34 @@
         "team": "New York Mets",
         "abbreviation": "NYM",
         "wins": 64,
-        "losses": 77,
-        "winningPercentage": ".454",
-        "gamesBack": "20.0",
+        "losses": 78,
+        "winningPercentage": ".451",
+        "gamesBack": "20.5",
         "divisionRank": 5,
         "leagueRank": 13,
         "wildCardRank": 10,
         "magicNumber": null,
-        "wildCardGamesBack": "10.0",
+        "wildCardGamesBack": "10.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 64,
-          "losses": 77,
-          "pct": ".454"
+          "losses": 78,
+          "pct": ".451"
         },
         "lastTen": {
-          "wins": 5,
-          "losses": 5,
+          "wins": 4,
+          "losses": 6,
           "type": "lastTen",
-          "pct": ".500"
+          "pct": ".400"
         },
         "streak": {
-          "streakCode": "W2",
-          "streakType": "wins",
-          "streakNumber": 2
+          "streakCode": "L1",
+          "streakType": "losses",
+          "streakNumber": 1
         },
-        "runsScored": 587,
-        "runsAllowed": 633,
-        "runDifferential": -46,
+        "runsScored": 592,
+        "runsAllowed": 642,
+        "runDifferential": -50,
         "postseason": null
       }
     ]
@@ -613,54 +613,19 @@
         "team": "New York Mets",
         "abbreviation": "NYM",
         "wins": 64,
-        "losses": 77,
-        "winningPercentage": ".454",
-        "gamesBack": "20.0",
+        "losses": 78,
+        "winningPercentage": ".451",
+        "gamesBack": "20.5",
         "divisionRank": 5,
         "leagueRank": 13,
         "wildCardRank": 10,
         "magicNumber": null,
-        "wildCardGamesBack": "10.0",
+        "wildCardGamesBack": "10.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 64,
-          "losses": 77,
-          "pct": ".454"
-        },
-        "lastTen": {
-          "wins": 5,
-          "losses": 5,
-          "type": "lastTen",
-          "pct": ".500"
-        },
-        "streak": {
-          "streakCode": "W2",
-          "streakType": "wins",
-          "streakNumber": 2
-        },
-        "runsScored": 587,
-        "runsAllowed": 633,
-        "runDifferential": -46,
-        "postseason": null
-      },
-      {
-        "teamId": 137,
-        "team": "San Francisco Giants",
-        "abbreviation": "SF",
-        "wins": 58,
-        "losses": 84,
-        "winningPercentage": ".408",
-        "gamesBack": "26.5",
-        "divisionRank": 4,
-        "leagueRank": 14,
-        "wildCardRank": 11,
-        "magicNumber": null,
-        "wildCardGamesBack": "16.5",
-        "divisionRecord": null,
-        "leagueRecord": {
-          "wins": 58,
-          "losses": 84,
-          "pct": ".408"
+          "losses": 78,
+          "pct": ".451"
         },
         "lastTen": {
           "wins": 4,
@@ -669,13 +634,48 @@
           "pct": ".400"
         },
         "streak": {
-          "streakCode": "L2",
+          "streakCode": "L1",
           "streakType": "losses",
-          "streakNumber": 2
+          "streakNumber": 1
         },
         "runsScored": 592,
-        "runsAllowed": 669,
-        "runDifferential": -77,
+        "runsAllowed": 642,
+        "runDifferential": -50,
+        "postseason": null
+      },
+      {
+        "teamId": 137,
+        "team": "San Francisco Giants",
+        "abbreviation": "SF",
+        "wins": 59,
+        "losses": 84,
+        "winningPercentage": ".413",
+        "gamesBack": "26.0",
+        "divisionRank": 4,
+        "leagueRank": 14,
+        "wildCardRank": 11,
+        "magicNumber": null,
+        "wildCardGamesBack": "16.0",
+        "divisionRecord": null,
+        "leagueRecord": {
+          "wins": 59,
+          "losses": 84,
+          "pct": ".413"
+        },
+        "lastTen": {
+          "wins": 5,
+          "losses": 5,
+          "type": "lastTen",
+          "pct": ".500"
+        },
+        "streak": {
+          "streakCode": "W1",
+          "streakType": "wins",
+          "streakNumber": 1
+        },
+        "runsScored": 601,
+        "runsAllowed": 674,
+        "runDifferential": -73,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-09-05T22:10:02.176Z"
+  "updatedAt": "2026-09-05T23:09:32.531Z"
 }
