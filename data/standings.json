@@ -234,7 +234,7 @@
         "divisionRank": 1,
         "leagueRank": 2,
         "wildCardRank": null,
-        "magicNumber": "12",
+        "magicNumber": "11",
         "wildCardGamesBack": "-",
         "divisionRecord": null,
         "leagueRecord": {
@@ -364,12 +364,12 @@
         "postseason": "wildcard"
       },
       {
-        "teamId": 135,
-        "team": "San Diego Padres",
-        "abbreviation": "SD",
-        "wins": 74,
-        "losses": 67,
-        "winningPercentage": ".525",
+        "teamId": 109,
+        "team": "Arizona Diamondbacks",
+        "abbreviation": "AZ",
+        "wins": 75,
+        "losses": 68,
+        "winningPercentage": ".524",
         "gamesBack": "10.0",
         "divisionRank": 2,
         "leagueRank": 6,
@@ -378,30 +378,30 @@
         "wildCardGamesBack": "-",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 74,
-          "losses": 67,
-          "pct": ".525"
+          "wins": 75,
+          "losses": 68,
+          "pct": ".524"
         },
         "lastTen": {
-          "wins": 3,
-          "losses": 7,
+          "wins": 5,
+          "losses": 5,
           "type": "lastTen",
-          "pct": ".300"
+          "pct": ".500"
         },
         "streak": {
           "streakCode": "W1",
           "streakType": "wins",
           "streakNumber": 1
         },
-        "runsScored": 597,
-        "runsAllowed": 586,
-        "runDifferential": 11,
+        "runsScored": 633,
+        "runsAllowed": 635,
+        "runDifferential": -2,
         "postseason": "wildcard"
       },
       {
-        "teamId": 109,
-        "team": "Arizona Diamondbacks",
-        "abbreviation": "AZ",
+        "teamId": 135,
+        "team": "San Diego Padres",
+        "abbreviation": "SD",
         "wins": 74,
         "losses": 68,
         "winningPercentage": ".521",
@@ -418,19 +418,19 @@
           "pct": ".521"
         },
         "lastTen": {
-          "wins": 5,
-          "losses": 5,
+          "wins": 3,
+          "losses": 7,
           "type": "lastTen",
-          "pct": ".500"
+          "pct": ".300"
         },
         "streak": {
           "streakCode": "L1",
           "streakType": "losses",
           "streakNumber": 1
         },
-        "runsScored": 629,
-        "runsAllowed": 632,
-        "runDifferential": -3,
+        "runsScored": 598,
+        "runsAllowed": 591,
+        "runDifferential": 7,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-09-06T02:10:48.348Z"
+  "updatedAt": "2026-09-06T03:11:04.789Z"
 }
