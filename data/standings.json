@@ -508,34 +508,34 @@
         "team": "Pittsburgh Pirates",
         "abbreviation": "PIT",
         "wins": 70,
-        "losses": 72,
-        "winningPercentage": ".493",
-        "gamesBack": "18.0",
+        "losses": 73,
+        "winningPercentage": ".490",
+        "gamesBack": "18.5",
         "divisionRank": 4,
         "leagueRank": 10,
         "wildCardRank": 7,
         "magicNumber": null,
-        "wildCardGamesBack": "4.5",
+        "wildCardGamesBack": "5.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 70,
-          "losses": 72,
-          "pct": ".493"
+          "losses": 73,
+          "pct": ".490"
         },
         "lastTen": {
-          "wins": 7,
-          "losses": 3,
+          "wins": 6,
+          "losses": 4,
           "type": "lastTen",
-          "pct": ".700"
+          "pct": ".600"
         },
         "streak": {
-          "streakCode": "W2",
-          "streakType": "wins",
-          "streakNumber": 2
+          "streakCode": "L1",
+          "streakType": "losses",
+          "streakNumber": 1
         },
-        "runsScored": 692,
-        "runsAllowed": 662,
-        "runDifferential": 30,
+        "runsScored": 693,
+        "runsAllowed": 668,
+        "runDifferential": 25,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-09-06T01:09:09.209Z"
+  "updatedAt": "2026-09-06T02:10:48.348Z"
 }
