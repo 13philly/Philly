@@ -1,11 +1,5 @@
 [
   {
-    "publishedAt": "2026-09-07T09:00:55.000Z",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQTIxRG9DaWs2SDZNeHNlblJkTWxOazF0MmwwSkRtbnJlRVk4VlFwYV9zTGVkWG1fUExQdU1ubm9pdkdWa3VUbFEydXdNdENYMUZ2T21pWlJPLUN6UXZyTGxjeEtVeTdZNDJkaHBBYUVGM0RrVXlhUzlHT240enZYcGVyNHFPWncyaHhQa1QzWVlhWTI2aWxhUmN6VUw?oc=5",
-    "title": "For the Phillies, the ghosts of October are showing up early - The New York Times",
-    "source": "The New York Times"
-  },
-  {
     "publishedAt": "2026-09-07T08:26:15.000Z",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWXJZWUl5aUtVcVNXcE5FN0t2WXVLUG0wRmstQlpvOWhWMjM2Z0dzZm9VMGJSSVUwdVFRVkp2Wk51alNkTnQzWTdpcWxWWkpHZDhWLVQ5TVppMTNEUG0tMnpueHc0aVg3TDh1emNqVU54SWFSYXBERFhyNHFuazlldnZGZW0xNzczV1FFZkExLXVrUQ?oc=5",
     "title": "Acuña relishes boos from Phillies fans as he gets last laugh in villain role with epic HR - MLB.com",
@@ -38,8 +32,14 @@
   {
     "publishedAt": "2026-09-07T00:40:00.000Z",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdmE2dy1MVUJhNE1URTNXZ0dKQkZ4NlJWb05jX3g5N2lZVGlnNWo0ZUdkQlBqNUxoX0RjeEhuUU42NnNDSmN3emFSbFZmejdWWWtJUTdhY0JQMGlpNDRYLUd1NFIzcjJEM0pUQ1FDWWVBN3JIUTFXU1NRLVFUd2FERjk4Y3dYaWVrZGJMT2JjbVltakVwMlVTX3p0N1BwWGV3Q3dBN2EzRHE1SjBhQ0lIa0lMQlZ4dFhj0gHAAUFVX3lxTE1TZjVHWnA4a0pGck9ZX0g5eDhjdmdQWDRnbHF3d0syZGZReFp0NTJJYzE2ekZDTFVNRFo0SVlGbk1YVVhVQmJaekJ1TXlnczhMQ0VZWmVTSDlhLU5EbHN1Z2lVUDQ5b24xaF80aHFEY2ZJSzNYWmRES3lyZ0RVVlZRX3ZST0VPaHkzbEZLOGFiZDVxSnFuZXFCSGd0ZkNKSE43ZkYybnNJNlRwdFJVVFlkS0hHNzlpdXI4UEtwVkZMdw?oc=5",
-    "title": "Phillies' rotation gamble looks sharp as Aaron Nola keeps rolling - nbcsportsphiladelphia.com",
-    "source": "nbcsportsphiladelphia.com"
+    "title": "Phillies' rotation gamble looks sharp as Aaron Nola keeps rolling - NBC Sports Philadelphia",
+    "source": "NBC Sports Philadelphia"
+  },
+  {
+    "publishedAt": "2026-09-06T23:47:32.000Z",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONFJPRXNOWlBZYWFjd3J2TUVHZEdQSlZicDBlS0d3RzJiTVNybFN3MjhFaS1rVHNFM3VSX2tUTjBTUTRTeVhMN3pSY0xSX08yN1QwcmUzS2t4LTFmY29aQ0gwZGFJb3UtS2dKaEh3d3RPaUZVb3REVm5JVDVYWkppRkxsYzdfWHAzNmV2MjMwVVR5RFJ0eElmQkhyeWUwRlVuSllVa2VON3N4TDhPcnlRRkNJTlVIVjhtb3dXOVU0eW93NTE1Q1Q4MGQzbV92V3RfaEZPQy1KX1doUdIB4gFBVV95cUxOcFFzd2RCZlBrZFh1M3pKcXZHSG50cEdpOTBPbU1iRFYyRzFxSkNYNkxReWZJZGVtSVdCSk9PMTdRYjJYM2NLYU1nQTc3NWdYUjVXVXFOdHZpWmVYRThqUWdIenFCaTVoT2p5cFF5ZFl3VGp6M29PNHNub3N5Q1I4QVBPM1RNbFVvWW80akRSZlluTWpGRE1wYVVQU1R5b3ZTZ0pPc0RBRGRjX081aE4yMjdGY29RWG9IeVYxOERhUENJNHhPd3JaTjdBYjNscmRLRjBscUtkdXpsT1RvN0k0VlZB?oc=5",
+    "title": "Boy who beat cancer rounds the bases with Bryce Harper at Phillies game - NBC10 Philadelphia",
+    "source": "NBC10 Philadelphia"
   },
   {
     "publishedAt": "2026-09-06T23:30:03.000Z",
@@ -78,6 +78,12 @@
     "source": "WQAD"
   },
   {
+    "publishedAt": "2026-09-06T20:49:00.000Z",
+    "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQZDc5RTlnWjJuckxWdHBNU1hlZ0RndUhadTBaQlNqUGx4ZE9iVnFlRW1GUW04VFZjVnJ5Sk83X19PSS1GQUM5T3ZUWG83V3Z0eDhYRHVQazUtQVNlMXQ4UHljUDVVZ1RMbXdUeXJNT21UdXZMOWtQeUxPOVdfTnc3V1BKSkNBYXNoeDhtc3ZJenEyYUQ4MUhFTi1yT1dHNTktVl95Q1VONFdBOEJUYVV3SjlmNEU2c0dPaGZsVWc1dkFiUldvd0g1OFJrOGF3b2cwYUlLNWF0MlJ2QnR6dEVlT2JaSXZvZGV1SHJhWnFvcVB0NTZpdy0tZ2dMd05MTTFZWmxIXzBKcThwNjZjeGg4M2Yzb0dKQkZQdHlqdEpGOUx4SmQ1ZFpEbkJXeUdId0dfQzVIVVBDdDZucklmS3BrNFBMeExjVG9E?oc=5",
+    "title": "PHILLIES POSTCAST: Philadelphia Phillies BLOW 4-1 Lead in 8th, Fall to the Atlanta Braves, 5-4 - 13newsnow.com",
+    "source": "13newsnow.com"
+  },
+  {
     "publishedAt": "2026-09-06T20:37:17.000Z",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tNHZ5M0JNYVVEczBLQk53LXFJSWVWc3d6ZHhrM2NVTVJDUHRDMUZQaXlhLVlIbEg3VUZBTHdvejMwRm0ybW9Ubm5kWG5zT2V4X3k4Tl9mamVUd1ByMXpFOVpndEJqelVia2JWeGNn?oc=5",
     "title": "Atlanta Braves vs. Philadelphia Phillies: Game Highlights - ESPN",
@@ -108,6 +114,12 @@
     "source": "Sports Illustrated"
   },
   {
+    "publishedAt": "2026-09-06T19:22:24.000Z",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZW16X1ppVC1feUpfYzVoTGxPSk8zT2M1RjJSY0VGUnN2MkI3YzJWRXE1aWpMTFV5eU1uazRhcl9JSnZaNS1fdHBZN2R5bVVPMm9kbTd0T2NtbTFjWW5VS0NwaFJZX2dRR21UbWkwbGNjYXUzMGdEYlVQQUNicmt4UUNKc1hqUjN1VlRkU2VqdTNaemdXQThiYjhmYzZWUlYxU0hSa9IBrAFBVV95cUxNS1FBU3B3MGJXWVRqS1NTM0REZGRpTEw4YzlVNFptdTI1UGs0NlBYRzNWOV8wUktEdnRUS3RxM2N1empUSlRDdUhOd1pZZFpPQWNhUFNjZVpKay1tWUcwT0RRSnQteU9laDFwQ3FPejhvSnFKdVNJVFhxclUtNm5qbFY3RmM2OW9xSkpuem5QYlFzdkh1UjJZeDhNbE1Fd1pYeVFWS3gzblZYdkYy?oc=5",
+    "title": "Curtain call at CBP? Ronald Acuña Jr.'s rampage against Phillies continues - NBC10 Philadelphia",
+    "source": "NBC10 Philadelphia"
+  },
+  {
     "publishedAt": "2026-09-06T18:19:59.000Z",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMjE4WEdiZGlqb29nVnZSemNtWnkwb0dVQzd6b09fenpacGZCTnA1MVpmZTQ5NWhsR3RBNkhVVDliTkRXVWpkTTVaQnVRQ29wTFNYSy0zMVVnTVRXVTNIQTdtMVB5UHNtcDhMcnd6MkxIZkloY2Y4TFRZaGNxQmJVVWFmbEc0QUd2YzF3Y25Qamx0YmE2elE?oc=5",
     "title": "Starting lineups for Braves at Phillies - September 6, 2026 - MLB.com",
@@ -118,6 +130,12 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5kSGJNdkFUSWIzR29UcXNrSTFpSEgwd0MxVmN2VWQ1MC1YY2J3Rnk0STU5QUVhWDFZYUpJa1NvMnNGNDRLZzk4UEtoSjFDUU1zRFdzdlpHdjh4a03SAVtBVV95cUxOZEhiTXZBVEliM0dvVHFza0kxaUhIMHdDMVZjdlVkNTAtWGNid0Z5NEk1OUFFYVgxWWFKSWtTbzJzRjQ0S2c5OFBLaEoxQ1FNc0RXc3ZaR3Y4eGtN?oc=5",
     "title": "Houston Astros at Philadelphia Phillies Preview - 09/08/2026 - MLB.com",
     "source": "MLB.com"
+  },
+  {
+    "publishedAt": "2026-09-06T18:09:22.000Z",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQY2g0cmVZRnBCMEEyZ0xGTDVTMWEyeEUwSXdsWkxTRjFaRzR0cE9GOFZTTlZBUTNDQ05hb1BuRzlVcS1zdERXSkppQzE3anE2Q0h3RXhTbHFvNmZDZGgxc3h1cUcxUU45X0JZckVBVnVNeVd6MktWc05KX2h3Wnc4dVlZaUNKTTJTTXpjeEpjQnJhSFY4cTJQdQ?oc=5",
+    "title": "Philadelphia Phillies Announce Brandon Marsh Decision During Braves Series - Yahoo Sports",
+    "source": "Yahoo Sports"
   },
   {
     "publishedAt": "2026-09-06T18:06:01.000Z",
@@ -142,12 +160,6 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMkRWYXhnTXdTX3M1Rm1makFjZFdLNGRlMTZCUkQ5QVZabUlVanMzQVMxdzdhUEsxTTFMZ1lpeTFsR0Z1WHd5aUxlcTM2YjFDWTlybjRtVVozUl9jYmlLQXY2akp3V05WWVQtUnlRbG9SdGFMQXBMYkNHbzVqUzJnQXBQQV9odjA0RzRYOC1HMXppcHdXT3FkRFJ4UVdPN3BPV3NBNXFSbzlMMFYtS0JUNmpVbGpHZ2ExZ3Z2LWxLMU96cloxUnpJX0M2SEt5Zw?oc=5",
     "title": "How to watch Braves vs. Phillies: TV channel and streaming options for September 6 - The New York Times",
     "source": "The New York Times"
-  },
-  {
-    "publishedAt": "2026-09-06T14:57:00.000Z",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaGpmWnpKOTRDcTZrVE1zME1kUTJZQkRPNGhhZ3FwR28yWS1xSm93Tk5fRnVZRTU1MDRNblE0b0luajJxXzZfRE9PZkxoM3FvODhlUHRqQjZOd3RlRnZ4WU1jVUxDcmJFclp6MkdvbjNQRl9QTkFQOXF4eHF4T3hodHR3eHFpWVJxd0h3aA?oc=5",
-    "title": "Braves vs Phillies Prediction, Picks & Odds for Today's MLB Game - Yahoo Sports",
-    "source": "Yahoo Sports"
   },
   {
     "publishedAt": "2026-09-06T14:26:00.000Z",
@@ -272,8 +284,8 @@
   {
     "publishedAt": "2026-09-05T21:42:58.000Z",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaUNLY1JPNzFaeHU2UG4xTHRNeGRaUEJKbEZDTjZha3cySzZaTlJHbnptU01GTXJoT2RWOGRwR2JBUkJVdWlxQUsxcWJPV0twbjZsWDR2OXZ2T1VDWHZfVU1ELUx2Ymk1UVBmcHVYX19kNDAxUmNCS2lWZEZ3QWlFclF4RXY3bEk4Z0NJMGZOd0xtSlVIWkJQc3ZZd3FSckgxT3NNU2hOZkw1Uy1zeFNwbkZsbUZJV3ctTnFFazZsZkQ3d9IBygFBVV95cUxQOVJ4c0tIc3pFNmRhdkxud1lPb3djM09ZMnF2VGI3a3YwQ1dJLTg1cW9fX25pQklGbkVOUk11NkIzTVFtWU1POUM3a2tVanhSQi16SG45TkNCOUtHX21iRVZPSnNlQUFXb1Zocy11OGhLOW9OWmRlMGkyOGo1dENydEVDQWdBYko3NmdmU0dFemNLMGgzMnY4VjBpdlJaQVdLQ2RnVnh4aWx6MV9FbE1zSFBXVzk0WVo0S0ZvQmVJdllmSFd1QjVmZkxB?oc=5",
-    "title": "Phillies answer every Braves punch behind Zack Wheeler's resilient start - nbcsportsphiladelphia.com",
-    "source": "nbcsportsphiladelphia.com"
+    "title": "Phillies answer every Braves punch behind Zack Wheeler's resilient start - NBC Sports Philadelphia",
+    "source": "NBC Sports Philadelphia"
   },
   {
     "publishedAt": "2026-09-05T18:52:37.000Z",
@@ -292,6 +304,12 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORDJkYzE0T3U5bXRzVXhzZzhRYUhRNzVia25NVWp1N3EtelFkZnBlQWdoZk8zaHZHZUZ1VEc3eVNVT25RZVZJRjhvUHpaLWp6VnRDNFkyRG9xcnVVU3dNYUZyMmh6LTAtaW9Zam9TME9WeVA5d28wZWFSTExMaHJPWF9QclM3YUtlbWpaUmNweHk3ZmlM?oc=5",
     "title": "Joe Torre Talks ‘Safe At Home,’ Intensity of Philadelphia & More - 97.5 The Fanatic",
     "source": "97.5 The Fanatic"
+  },
+  {
+    "publishedAt": "2026-09-05T10:00:04.000Z",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZW9hWktzZFpNMEs2ZkU3MHBmcmRiRlBlQ3o3YWFjNGdvbVVmbE5RRFFmajhwOE5GTmVBdFVKdDhFTkR3U3FZLW9XTUpmdmE5UDdPOGFFR2NLWnpHRjBCYkd3cERvR2o0WEFhSG91WXNqdHhvVjV3V3djLUZ0dXByOUF2R2FoYW9SV3BkY0R4SUlBMTZtVnhaMDJ3?oc=5",
+    "title": "Bryce Harper Put Himself on Pace To Make Phillies History - Sports Illustrated",
+    "source": "Sports Illustrated"
   },
   {
     "publishedAt": "2026-09-05T03:41:07.000Z",
@@ -318,6 +336,12 @@
     "source": "fox61.com"
   },
   {
+    "publishedAt": "2026-09-05T02:44:00.000Z",
+    "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNd2FvUHBnVjRrdFk0RVZCZG9UWGhOcDd5Y3oyNFd4X21HZUd4QUQtcVFlNlVPTzJGR3FaOGJqSV9rQXh3eEFfN2Rjd2hUbV9YOEh3dF83a3p4X1I3cW9Sa3NtNUo4QzcwWFhIM3R4bHBUcDNDcFFIdjBSQmp4Y1dnOXp3Z3BCbUVGZE92eEx1NEc1WHo3N3RrYTRQaVpqdGFRdm01LVFna3Q3bTVNenNiaXpRXzV1bUV6Zk1KMTJvemNBU3hyU096cV9uc3U3bERzdTZZUGtNX3l5M184LVUwTi1mdUp4ZlJELTF1LW5NcGkzMWZhNXRlS2R1M2RHUUc4eFN4bmF1YTJJdzJmVDBfVHNTZ2pVUV9xUFo0d2JKWndiRkU4NS1SQVF3?oc=5",
+    "title": "PHILLIES POSTCAST: Philadelphia Phillies LOSE Game 1 vs Atlanta Braves, 5-2 - WQAD",
+    "source": "WQAD"
+  },
+  {
     "publishedAt": "2026-09-05T01:41:57.000Z",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtLXZZQlBXRVJBVG84NkJFdFdnbGY5VHpBZUl5QTZFTkl2UEcwdkRrZ1RxelBUd0tPRXhfOXFrel9pZkxiR3pzSXp4OXRsdk1MNG1jTU9pdjVDUGM?oc=5",
     "title": "Braves 5-2 Phillies (Sep 4, 2026) Game Recap - ESPN",
@@ -336,28 +360,16 @@
     "source": "Fubo"
   },
   {
-    "publishedAt": "2026-09-04T22:52:38.000Z",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS0JzYkNmTHBvcS1uRWgxYm5qekxkbm05bDE0R2hwd2NFZjZ2VUhtcUpUb1puN3AtRmVzdl9Oa1EzS2s2ZFQ2TDlkRDRpUEFxUTVlaXp0cW81Vm1DTWd0ZnlTSlEyNkNuVkVqVGhOTVlLV0ttSEJwYlh6SDRBN1pHYjFDdHRXSURHWjdpTG8yelJBNk5tMXBIOQ?oc=5",
-    "title": "Philadelphia Phillies Announce Brandon Marsh Decision Before Braves Series - Yahoo Sports",
-    "source": "Yahoo Sports"
-  },
-  {
     "publishedAt": "2026-09-04T22:49:09.000Z",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1laXhGTWdKdFdlNU9JUGxTSVNCM1RkamtGczNkN2JQUEJxMTl5WWhfOHc3cnU5MjRzTVZiOGRFU2Fhcy12WG1wcUp6WGFQZkZlR1ItTjR6Y3BzMmvSAVtBVV95cUxNZWl4Rk1nSnRXZTVPSVBsU0lTQjNUZGprRnMzZDdiUFBCcTE5eVloXzh3N3J1OTI0c01WYjhkRVNhYXMtdlhtcHFKelhhUGZGZUdSLU40emNwczJr?oc=5",
     "title": "Atlanta Braves at Philadelphia Phillies Preview - 09/05/2026 - MLB.com",
     "source": "MLB.com"
   },
   {
-    "publishedAt": "2026-09-04T22:14:40.000Z",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd0Uyc1lFREh5dk40TEt2R1k5OGc2RFV5TUFXMEN5d0cxVmMtNG9RY0N5OUlWaE1xSU8zOXBkNFFrckF0NWt6WUgyZEk5MEsxRlQwUFpwMXlEYTFPMW9jUGVCWnNvYy0tU0ZiVWtOVG5yWUQyZ1hZbjYyTTVHbExWTHg2QXZfSWdnaWpJVXB2bVNJVlJsd2NndWx3?oc=5",
-    "title": "Philadelphia Phillies Announce Kyle Schwarber News Before Braves Series - Yahoo Sports",
-    "source": "Yahoo Sports"
-  },
-  {
     "publishedAt": "2026-09-04T21:18:50.000Z",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUV9GUmtrRjc4UEdxSmFlSUs3SmkyTFc4UFlQVmFWd3NFMWM1UE93bG83ajk0MndNNzNUMk5QaWxtcmIxRXRxZHVrUDhTZEdwRTRIYmZqamFHWUlzZ1pPcU5LZnVXSHU1RkdkTmY0VHNOUkpacjFIVlFUcTJiNXkyRnBnMEZiTUxOelc1NXd2a2NhS0JWdGtqMjJMTG9iQmozT1p1WGxzTGpUeHhWSkkyNzAzZUFlT1gxOTJ0anQ3SEg3YlNZWmfSAc4BQVVfeXFMT3dzanBZUE5zYUJOZU1xVUhRMEZOWWptV281M21hLWdWZ20wang1RHl6UVR3TnptY1k1cE54elVIU0hIalU5eHlkM0RqRWNuSEVYTW9Ea1JxVXdJakxXNDFVeE85UUR2UlRqU1JmXzNKVVk4Xy0wYmtOZlltTWV4VTJJdENRa2UwNUYtOV94WEtrM041V0J2eHVZRzB6S3J0TFdFcC1iTzFqMzRjSW9sUXdvWkhLRmx4Yk01Z3NDRVdJSlpfWlhPYTZMcTlQQ0E?oc=5",
-    "title": "Chris vs. Cris: Atlanta's Sale edges Phillies' Sánchez in series opener - nbcsportsphiladelphia.com",
-    "source": "nbcsportsphiladelphia.com"
+    "title": "Chris vs. Cris: Atlanta's Sale edges Phillies' Sánchez in series opener - NBC Sports Philadelphia",
+    "source": "NBC Sports Philadelphia"
   },
   {
     "publishedAt": "2026-09-04T20:45:22.000Z",
@@ -374,14 +386,14 @@
   {
     "publishedAt": "2026-09-04T19:52:03.000Z",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUFFkQzViR0M5ek1rOXl0RU13Z2c4MUhWdzVwVDM5QjI3RktKc2RRNlhaZ2xIaFh1dkpPOTVtUnpSLXhpVUpBT1lpVHJKZ3Z6VzR1Vlo3MXR2ZXphejlFS3FYVE1kY2YyVl8xT3lISkEtUW90bGVib2dudlh3U3ZqVGxQb0R0bkxPSVJxS0xManVUX3FZaE8zVlYxNTRsT3RRcXFvNlk1Z1hCNWtfcHM5NmRweG9qOFVFc0JjWkFRSldCdWJyRkdHcUZhLVFUNUtjREMw0gHbAUFVX3lxTE1uM3JFODdkd3ZQeFUwTVBQZkdRNzR6LUpqMXlYNUN2Tnh0Q25wZTk1T0VmMmRobmEzRnVhSlNNLWtoQ3h0bXlFYmZOaUpuSDd4ZWR2cEpoZ3o0aFhQQnhfNkhhc05Mdy11Qjhib0o0eHRCd0hLZEtRLVZXQmFIbU1aaEJ2M3Ytd2NSaUowUFdsZVNGdXRxanBFQ0ZVUFNRR3JwWllZeE5fMThDdjUxd2p4WnJ0Z3RZN1pUcFFrRF9kOFB1T2hyeUgxRGlBT29UeElIZ25aYXljMEVUcw?oc=5",
-    "title": "Phillies top prospect Aidan Miller set for first game action of 2026 - nbcsportsphiladelphia.com",
-    "source": "nbcsportsphiladelphia.com"
+    "title": "Phillies top prospect Aidan Miller set for first game action of 2026 - NBC Sports Philadelphia",
+    "source": "NBC Sports Philadelphia"
   },
   {
     "publishedAt": "2026-09-04T12:52:42.000Z",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV3J6U0VBNVhFMVlLMFNvaXNhQ1hSb1ZGS2lzQ2ZPODIyZHpwMTJXQTlkUzVsS3RXaDFLOWtPTWdWeU9oRlpJQ0RDd1JoVnN0dExFTzEtVkpxZ0VJZ0hyeFZ5RXh1SmFyQjdxa1JDd0tHcDItd1FZb0ZtT3VINkEzUEJqbkFkQS1YR0VLSHAzQ0w1ejNYMTNCX2tlSQ?oc=5",
-    "title": "Phillies vs. Braves prediction, preview: Everything to know as rivals square off in massive four-game set - cbssports.com",
-    "source": "cbssports.com"
+    "title": "Phillies vs. Braves prediction, preview: Everything to know as rivals square off in massive four-game set - CBS Sports",
+    "source": "CBS Sports"
   },
   {
     "publishedAt": "2026-09-04T11:25:00.000Z",
@@ -410,8 +422,8 @@
   {
     "publishedAt": "2026-09-03T16:00:00.000Z",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTzM4QW9zdjR3M2tzOC16M2Z0SEFvRlVIcUFHWFl6ejY2UHV0YlR1aFRSckgxVTI2c184aWktYldTSUhMeWdvb0NOT2l1cnpKZmVvbEFxcWs2aWFDOTBxOVk0QlJlN0NqdVlVR3hSWUpWNkM1a1FZdUpqbnAtNXhLVEZIcGxXOE5sXzBIcW9XcGYwY0ZzdXZPTDZaTEZENVVlTTA3VHAwU3g4NW83YkdTRTVOVnMwM3JsMEEzNTV0N21aRzhrcjV0RdIB0AFBVV95cUxOWUY2ZU9ueXRQWk9ZcVdOblZJWEo4Y0JiTV85UExETENtYW5acUh5S2JpelozQ0M4bng1anpiQ2xuMUJWU1RxMXc4N2ExMGloejVrVHc5bmpRNDIwUlhNaDhmTkxKXzhaajZzenpQZy1yZTlZUThKQ3hXYjZqOUpGYk91SmNvMTR0c0ZKYVIzVWNFTnc3VkNBRTVLMUxGRFMtbDJiTFEyeTFlYi1adkVYREZyU2xyZjVtb0l2d1dma0RaQVhhV09fc2pIMmdWZ1dD?oc=5",
-    "title": "As Phillies' farm system makes unheralded contributions, changes are made - nbcsportsphiladelphia.com",
-    "source": "nbcsportsphiladelphia.com"
+    "title": "As Phillies' farm system makes unheralded contributions, changes are made - NBC Sports Philadelphia",
+    "source": "NBC Sports Philadelphia"
   },
   {
     "publishedAt": "2026-09-03T15:30:09.000Z",
@@ -452,8 +464,8 @@
   {
     "publishedAt": "2026-09-02T07:40:40.000Z",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQam0wa3l3MEx4Z1UwcWxHRUpzcUYwNHIzRkFTdUg2Qmd4R0NLU2cwTExDT3JNbEs5ZVd4WXA4eDMzS0FDNEg3SkJvQ1FveEJvMEM2QmQxS3k3dldEMkZ0ZGpqakFvM2lFajBtRFJiWEhzdy0xc1lPclZ3S0tER3EwQnp2MG51bWU1Z3RVRlRnODRUb1k3UXFhUk9lbTBpZ1ZtZzR3cVhHXy1PaHdkVkIxT0x5cVl1QVpzdngwRW9TbWhwVUdXSGY00gHPAUFVX3lxTE1ldXZNUXZDcUpyUWZEV1RDb2JXbWoxS1Uxa3dINlhJblVBeVdCeEF1NGVpai01NlA3WnZSR0FLUHotVVRxSUV5OWFlUmhBajRLamY1QzZMc2VpZ2NPYzYzNVJaTlNnTzN6S25LWmRvb2xfanR5T0JJeFFuTm9HY2RqMTc5eE5YUkVxaHRDYlBqVHMtZnZiQ01OSnZoYmQxWmY3V3F3VmFhb3JfM1dHeFZ2SlVLZUsyQTFfb19RODZaTXlGWXBQNkVQN2dfc0RnNA?oc=5",
-    "title": "Sizzling Phillies take over NL wild-card lead, close in on East-leading Braves - nbcsportsphiladelphia.com",
-    "source": "nbcsportsphiladelphia.com"
+    "title": "Sizzling Phillies take over NL wild-card lead, close in on East-leading Braves - NBC Sports Philadelphia",
+    "source": "NBC Sports Philadelphia"
   },
   {
     "publishedAt": "2026-09-02T05:44:17.000Z",
@@ -522,21 +534,9 @@
     "source": "ESPN"
   },
   {
-    "publishedAt": "2026-08-31T19:07:00.000Z",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYXpxSmRxTkUtd3ZXeWx1VFBMdnZMYTZUc05wSzVQTkpSSTFOaHdKZTJfOXJJYTZvMElqUnpvdEhtZG1QcFh4cXlPaktjbXJrMGdBMVh3REZ1aXdoRkdQTEVNVXNyNlNoMkRhUk44TDdTc1cyNk1lcVFzc29VN005S1VDQ0RKUlg0OUFyOF9HTk1SeUd6NXJFOGY2N3ZFVjBNZzZHMEowQ1g1VTVIcXo0T1A2NjcybmYxanEwZnlRVEZva3FfTzN6MlRWRm8wLXNyQmZrSG13?oc=5",
-    "title": "Arizona Diamondbacks Series Preview #44: Diamondbacks vs. Philadelphia Phillies - AZ Snake Pit",
-    "source": "AZ Snake Pit"
-  },
-  {
     "publishedAt": "2026-08-31T14:36:52.890Z",
     "link": "https://www.mlb.com/news/phillies-improve-position-in-postseason-picture",
     "title": "How does postseason picture look for surging Phillies?",
     "source": "MLB.com"
-  },
-  {
-    "publishedAt": "2026-08-31T11:00:00.000Z",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa1ktZ3RMNmZaQW9OV1hxTVdadDMxbXlJSjlRa2FocXY0RHlGSGlmQ0RJRTA3X2p1R2JDSlFxdEFyZlFQQzU5VHY0M3plTndyem1PTmpaOGhYOU55NjVhOU1RYU1aN2FQZlQ2dlBQTHNYMFFHcjRmTktPcXVoeTRWM3R1SldjaTBabE1OSWdsRG5yUG9KQ2hjWVJaLWR6SjBCUnBtZG8xTkhIeUxBQzBjN0xaMA?oc=5",
-    "title": "Phillies news: Front office, baserunning, Ketel Marte - The Good Phight",
-    "source": "The Good Phight"
   }
 ]
