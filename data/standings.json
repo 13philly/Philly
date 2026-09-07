@@ -118,19 +118,19 @@
         "team": "Washington Nationals",
         "abbreviation": "WSH",
         "wins": 67,
-        "losses": 77,
-        "winningPercentage": ".465",
-        "gamesBack": "18.5",
+        "losses": 78,
+        "winningPercentage": ".462",
+        "gamesBack": "19.0",
         "divisionRank": 4,
         "leagueRank": 12,
         "wildCardRank": 9,
         "magicNumber": null,
-        "wildCardGamesBack": "9.0",
+        "wildCardGamesBack": "9.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 67,
-          "losses": 77,
-          "pct": ".465"
+          "losses": 78,
+          "pct": ".462"
         },
         "lastTen": {
           "wins": 5,
@@ -139,13 +139,13 @@
           "pct": ".500"
         },
         "streak": {
-          "streakCode": "L3",
+          "streakCode": "L4",
           "streakType": "losses",
-          "streakNumber": 3
+          "streakNumber": 4
         },
-        "runsScored": 743,
-        "runsAllowed": 732,
-        "runDifferential": 11,
+        "runsScored": 748,
+        "runsAllowed": 739,
+        "runDifferential": 9,
         "postseason": null
       },
       {
@@ -227,35 +227,35 @@
         "teamId": 119,
         "team": "Los Angeles Dodgers",
         "abbreviation": "LAD",
-        "wins": 85,
+        "wins": 86,
         "losses": 57,
-        "winningPercentage": ".599",
+        "winningPercentage": ".601",
         "gamesBack": "-",
         "divisionRank": 1,
         "leagueRank": 2,
         "wildCardRank": null,
-        "magicNumber": "10",
+        "magicNumber": "9",
         "wildCardGamesBack": "-",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 85,
+          "wins": 86,
           "losses": 57,
-          "pct": ".599"
+          "pct": ".601"
         },
         "lastTen": {
-          "wins": 5,
-          "losses": 5,
+          "wins": 6,
+          "losses": 4,
           "type": "lastTen",
-          "pct": ".500"
+          "pct": ".600"
         },
         "streak": {
-          "streakCode": "W3",
+          "streakCode": "W4",
           "streakType": "wins",
-          "streakNumber": 3
+          "streakNumber": 4
         },
-        "runsScored": 698,
-        "runsAllowed": 548,
-        "runDifferential": 150,
+        "runsScored": 705,
+        "runsAllowed": 553,
+        "runDifferential": 152,
         "postseason": "division"
       },
       {
@@ -370,7 +370,7 @@
         "wins": 76,
         "losses": 68,
         "winningPercentage": ".528",
-        "gamesBack": "10.0",
+        "gamesBack": "10.5",
         "divisionRank": 2,
         "leagueRank": 6,
         "wildCardRank": 3,
@@ -405,7 +405,7 @@
         "wins": 75,
         "losses": 68,
         "winningPercentage": ".524",
-        "gamesBack": "10.5",
+        "gamesBack": "11.0",
         "divisionRank": 3,
         "leagueRank": 7,
         "wildCardRank": 4,
@@ -578,19 +578,19 @@
         "team": "Washington Nationals",
         "abbreviation": "WSH",
         "wins": 67,
-        "losses": 77,
-        "winningPercentage": ".465",
-        "gamesBack": "18.5",
+        "losses": 78,
+        "winningPercentage": ".462",
+        "gamesBack": "19.0",
         "divisionRank": 4,
         "leagueRank": 12,
         "wildCardRank": 9,
         "magicNumber": null,
-        "wildCardGamesBack": "9.0",
+        "wildCardGamesBack": "9.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 67,
-          "losses": 77,
-          "pct": ".465"
+          "losses": 78,
+          "pct": ".462"
         },
         "lastTen": {
           "wins": 5,
@@ -599,13 +599,13 @@
           "pct": ".500"
         },
         "streak": {
-          "streakCode": "L3",
+          "streakCode": "L4",
           "streakType": "losses",
-          "streakNumber": 3
+          "streakNumber": 4
         },
-        "runsScored": 743,
-        "runsAllowed": 732,
-        "runDifferential": 11,
+        "runsScored": 748,
+        "runsAllowed": 739,
+        "runDifferential": 9,
         "postseason": null
       },
       {
@@ -650,7 +650,7 @@
         "wins": 59,
         "losses": 85,
         "winningPercentage": ".410",
-        "gamesBack": "27.0",
+        "gamesBack": "27.5",
         "divisionRank": 4,
         "leagueRank": 14,
         "wildCardRank": 11,
@@ -685,7 +685,7 @@
         "wins": 55,
         "losses": 88,
         "winningPercentage": ".385",
-        "gamesBack": "30.5",
+        "gamesBack": "31.0",
         "divisionRank": 5,
         "leagueRank": 15,
         "wildCardRank": 12,
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-09-07T04:11:14.423Z"
+  "updatedAt": "2026-09-07T05:10:28.061Z"
 }
