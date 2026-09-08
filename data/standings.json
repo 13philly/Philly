@@ -19,7 +19,7 @@
         "divisionRank": 1,
         "leagueRank": 3,
         "wildCardRank": null,
-        "magicNumber": "15",
+        "magicNumber": "14",
         "wildCardGamesBack": "-",
         "divisionRecord": null,
         "leagueRecord": {
@@ -199,7 +199,7 @@
         "divisionRank": 1,
         "leagueRank": 1,
         "wildCardRank": null,
-        "magicNumber": "10",
+        "magicNumber": "9",
         "wildCardGamesBack": "-",
         "divisionRecord": null,
         "leagueRecord": {
@@ -269,7 +269,7 @@
         "divisionRank": 1,
         "leagueRank": 3,
         "wildCardRank": null,
-        "magicNumber": "15",
+        "magicNumber": "14",
         "wildCardGamesBack": "-",
         "divisionRecord": null,
         "leagueRecord": {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-09-08T16:12:33.758Z"
+  "updatedAt": "2026-09-08T17:11:38.945Z"
 }
