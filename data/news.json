@@ -1,11 +1,5 @@
 [
   {
-    "publishedAt": "2026-09-10T08:05:15.000Z",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZGJ2bEtoZ0JkcnpYV2xoRS1COXAxWEw1OTV3akc5OGZWRU8wSjE5OXVVVG9BNDJJcU5hX3ZsN1cyY3Nzd1pyREQzRlZUdmhWZnRGX1dKcm04dHF5Nk9tVnk3MkpKT3dSRWs0eTlsc3hzYzZIWVFURWdlR3M4UHo5dkQwWQ?oc=5",
-    "title": "Phillies and Astros play to determine series winner - ABC13 Houston",
-    "source": "ABC13 Houston"
-  },
-  {
     "publishedAt": "2026-09-10T05:15:35.000Z",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRkVTNXR6ckRVZjUwY1lZRFN3d0liZDk0a1lwVHoxMmlZR29hRHBXTnZFTzJjcWFlUVVJUExPV0o0RnB5VEpmTUg0dktWUWhpVHNWX2IxUGplUmJSbld4bHE1ZXQ5RlFkNlVaNnhIMFRTSUNkV0VUYThrXzZ5UUdLT0p6ZEkyNG96ZV9fYm5RWDhqcy1FNUYyd2pwZlpMREx5WExLVDUzVDBYdURiSHc?oc=5",
     "title": "Astros' pitching falters as Phillies ride big sixth inning to win - Houston Chronicle",
@@ -16,6 +10,12 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY05iOVpPaFM2RUl0bGRjaDNaWDZFb3pIY1VKNHgxbmFZb3k2UmdiOWZvVFIzVGtETTV5RGhnX2RQRlRjNGM1UU5XbFk5N25FTUpObWxGNVhQYkVRWWg0d1llYk5rTThGUVNFYnIzV0VGc3FfVUtXSkw0Mm1WazZ6UjYxMF9aLUFBNDJtVFdnX19RSWpsWjlxNEZMWUx5TUlZdGV1TQ?oc=5",
     "title": "Hunter Brown got grounders, but Phillies turned them into runs. 'Unfortunate' - Houston Chronicle",
     "source": "Houston Chronicle"
+  },
+  {
+    "publishedAt": "2026-09-10T04:01:00.000Z",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYmdtcFlabjNBQjhkWU9jYjQxQVg1UG0yQmhiMndyNGd2cnNEZjJ1Q2ljMk9MRmRveTZabG5Xdl9La3RJWklnb0dyakg5VGJ2QWVxRmtPclhJcW93aVk2RkVJRUs5TU9aZ0MyYzN6bHNFcWhQYmh5SU9xRWk4TEJLaDBwSVZqcVc2bE84WmlB?oc=5",
+    "title": "Phillies' Kyle Schwarber Speaks Out After Crazy Win Over Astros - Yahoo Sports",
+    "source": "Yahoo Sports"
   },
   {
     "publishedAt": "2026-09-10T03:43:24.000Z",
@@ -37,6 +37,12 @@
   },
   {
     "publishedAt": "2026-09-10T02:36:00.000Z",
+    "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQQ2FWOTZBc0dXVmxyN0pBdzE2UzJEVmNwVU12dTN2WDlLWE5HMFAxOHN2ZDNMNVoxRlA3YnlZUjhfak16b2VzZ1oyaTJXZ3pRVXhiUVNJYjJ5dGRWbU1SRVZ5cjllV1pYZERqU0pQMFZWUDRQZDNvT2tiTV9rMHVQRHloNUk2TzdoV21LOThtNXRVVENUZlc0S2RnR3ZVYXlqbGhNTjJDbFNMWnROMFBVdjV4VmN6RDVMOU9GU3VYYVpFellZUjNvR2xjV1RLS0hKUHd5M0RIM0pxSEhzYTBNRzJuOF8xa1ZWbXJZNnVRUGJHMi1fVzNTamhFUnZMeDUzdkNvNzU3WWprN2I5Um9UZU4wTXVzemFoZW16TnFuUFBYUXhmTHlXYTlzbTQzU3ZKQXhhZlVhU0hDU1FrNmdhd3NfR1h1YXg4b0ZEX19PRQ?oc=5",
+    "title": "PHILLIES POSTCAST: KYLE SCHWARBER'S GRAND SLAM helps Philadelphia Phillies to 11-7 win over Astros! - 13newsnow.com",
+    "source": "13newsnow.com"
+  },
+  {
+    "publishedAt": "2026-09-10T02:36:00.000Z",
     "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOY0tQUzN3STZhWVBhR1JmX2NWZGt6d3BXTG5rbVFYZC1ldjdFT2R0ejh0TC02OVBzQzM3dUFyS0pVeWlmcWlGV3VmWmFkNDFDeldBZVU1dTlsdjhEY084WVZDeDR5NS10NFdkUXBuTGYxcnVTMEg5RUFMUW9PRzAyVVI1RGJINy1fb0JocmhEY3JTUXY0bWFwRUNocTNCSXBwV1JYa0I0MDNfRzVmbGRLY2JUbDlrZU1pOUlhWWhCR29SV1QtbG02YkNGb2x2SUhrRjRJTFdCTFpZRHgwTUZfUG45cktoaWxYb0xOSUZZcFZNcUNBMW04ZWZLdTdUWmp0UTZLWDh1NVVSV1ltZnZHS0RsTFBXRXpiN2ROaWI0RVJXX0NlUXdqZnRqWWZxTUNaMTg1Y0VCSHl3ZkFTMzBaV0loNWJJS2Rf?oc=5",
     "title": "PHILLIES POSTCAST: KYLE SCHWARBER'S GRAND SLAM helps Philadelphia Phillies to 11-7 win over Astros! - cbs19.tv",
     "source": "cbs19.tv"
@@ -48,16 +54,10 @@
     "source": "firstcoastnews.com"
   },
   {
-    "publishedAt": "2026-09-10T02:14:00.000Z",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbnFWWmhrMVJ4dWVDWElMMUo0SS10eFJoa3V5LXpJeTBtZklsSWpZT0hXYjU3ekEya0xBQ3pMaEN4ZVlvWWVFaERLbGxtSExGY083WmNmUFdjVEF3cW94OXRDVHo4cWF6RFRlN0x4M0JfS2NWVkhjekw4NmZBU2dSMVJNNEcybW5yTmhsaWduRUZzU3BDMW5UQWMzMWR6RFFFZ3htS3R2VlJuNEtVc01v?oc=5",
-    "title": "Kyle Schwarber blasts grand slam as Phillies beat Astros - Reuters",
-    "source": "Reuters"
-  },
-  {
     "publishedAt": "2026-09-10T01:58:17.000Z",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UV18xcXpiY3Foa1VwdGNqRjh1bXNnVVBiWi1GYjZaRFhLdUdNeldQblhreHpjdFJ4cFIzU0hZODJDS2NTWEpZMF8ta1pJaW9ZcC1nNzN6MlFHbXBEWW1KejZQdHNhVGw0VEZzdg?oc=5",
-    "title": "Houston Astros vs. Philadelphia Phillies: Game Highlights - ESPN Philippines",
-    "source": "ESPN Philippines"
+    "title": "Houston Astros vs. Philadelphia Phillies: Game Highlights - espn.ph",
+    "source": "espn.ph"
   },
   {
     "publishedAt": "2026-09-10T01:58:17.000Z",
@@ -146,8 +146,8 @@
   {
     "publishedAt": "2026-09-09T14:07:51.000Z",
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFByRDJtTWxUVWVSY09vM2dvQjRaS3hfRUlFMWtGZmVfS2xETS1ZeGNocl9aekp3QmUxZjhfMUh5R3BtRmYtWGVaVWdYUXdPMHVIWVo3QkNwbXJoN2R4MDYwcXZ3MA?oc=5",
-    "title": "Statcast Game Preview: Houston Astros at Philadelphia Phillies - 2026-09-09 - baseballsavant.mlb.com",
-    "source": "baseballsavant.mlb.com"
+    "title": "Statcast Game Preview: Houston Astros at Philadelphia Phillies - 2026-09-09 - Baseball Savant",
+    "source": "Baseball Savant"
   },
   {
     "publishedAt": "2026-09-09T14:00:00.000Z",
@@ -220,12 +220,6 @@
     "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOMnhVbFduYlFicW45ckdIcnJxZUo0VGFzX3ltaUJIMndlaTNfMTZqQjFVb3UzRHlpWFFaYUJVS3JIWWZFT285MEVDV2o1Mm45RkJMLWo1Vy1vSDJwTV9BRUliOUtQcWRocTUxVjQ0RWVQNWUxUGk4MUk4Wnk2RmZFbmVIWjFjWEpKRWRHcm1PYm1WTmRrbHU0S3BOQ0VYNU10al9iQjdqWUVsRVMwV1dvcWVhUk80R3k3dW5xSDdMd2NCVDFScEVGdFMtUVl1aG1OU0ZKQ0RBbVMzeFRGUklHekl4WVQ2RFM2R1VJTEFfYzR6SmZ6eWdxbURRSWtCYjFlY1V3RThhZlBzNnRTNFRiSGRfdFU0dUVQWkxaU2NQaS1kbnQ3NjZVTHlMZnpPYXVYN0lxZUZXek1LWFNHSS1EcTZwbjVBX3FT?oc=5",
     "title": "PHILLIES POSTCAST: Painter, MORE bad base running DOOM Philadelphia Phillies in 6-5 LOSS to Astros - cbs19.tv",
     "source": "cbs19.tv"
-  },
-  {
-    "publishedAt": "2026-09-09T03:01:00.000Z",
-    "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOZGVBdzBWWmtMbEVOZ0hCNHFCOFg1c3NYVml3TnR0MFFESzZzaF80RTZWcHhpUk1jcWx2dVFJMTVZdjVSampHclpzOUtVemxNRVNMMHBwTkZsN3FUQ2tfb0JvN1hjelAwWUhwb2c1a0phNGtvYWExX2lIN2lUQk1wRUlQZVVqblk5Q3E5akMxbVYwYjFXeXdXUGk0anNBeDVPSWtMb2VhVzV5T2Uyamg5eEcwTFJaLVhJUEtaX2c0ckFyYlBOS0xSUGtBOWdqQkg3QkZWTVFPTlBqeEpPQVJCWG9qcFF5MWhvWWFRYmdYVm5MY2xvaGoxc3NNRjNpMUQ4ZWh2ZEpJTHQ1eWxFLThlaVQxZ3Q5WG5adWlPdmFHSEZTN2RLaEN5SVVjc2IxQS0wTWJ6S1FDSDM4S1Y1LWxzcm9ZYmJ1MDA5S2c?oc=5",
-    "title": "PHILLIES POSTCAST: Painter, MORE bad base running DOOM Philadelphia Phillies in 6-5 LOSS to Astros - kens5.com",
-    "source": "kens5.com"
   },
   {
     "publishedAt": "2026-09-09T02:26:00.000Z",
@@ -344,8 +338,8 @@
   {
     "publishedAt": "2026-09-08T09:45:00.000Z",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxON3VhMWtOQXZydVJaU0liUWgxdTdlMGNldmtEckhZclM4WGQxSlJ5TDhFeDdyUTdjU2lGeDdMcnZENUpfdFFMbEd0LVE1aVk1NjZIdDF4elhGRUV6c284b0dmT3psSl9BVGJTcUtQVmZfZlFGRnJYQUpNSTJxS3Z3SlNVRFl0MkVodkpYS0JoU2xwNy1sdG1ZLWNTOW93alJh?oc=5",
-    "title": "Houston Astros vs Philadelphia Phillies: Odds, Spread, and Total - 975thefanatic.com",
-    "source": "975thefanatic.com"
+    "title": "Houston Astros vs Philadelphia Phillies: Odds, Spread, and Total - 97.5 The Fanatic",
+    "source": "97.5 The Fanatic"
   },
   {
     "publishedAt": "2026-09-08T09:35:24.000Z",
@@ -374,8 +368,8 @@
   {
     "publishedAt": "2026-09-07T19:29:31.000Z",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sblFsdm5tRVMxNjFXQmRpcTZ1ZDliTVA3ZUZjbER2TVlGd0w3cDgyckNBZXV2cUs4d2lDa0FubkxhSEVDWW5QaUFGV3BXTnNhZE9POGsxOS03NDg?oc=5",
-    "title": "Phillies 1-0 Braves (Sep 7, 2026) Game Recap - ESPN",
-    "source": "ESPN"
+    "title": "Phillies 1-0 Braves (Sep 7, 2026) Game Recap - espn.com",
+    "source": "espn.com"
   },
   {
     "publishedAt": "2026-09-07T18:57:00.000Z",
@@ -422,8 +416,8 @@
   {
     "publishedAt": "2026-09-06T20:24:15.000Z",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hdzljd2IxV3NmYk05dFNPcTZ6OWRQTV91dWR2cy1NdTdrNER6bXllOGZFTkl6ZWVHTm5kZDdnN1FHdEdfMjhKdWtYUFk0X3B2OFBzcktVenBtakE?oc=5",
-    "title": "Braves 5-4 Phillies (Sep 6, 2026) Game Recap - ESPN",
-    "source": "ESPN"
+    "title": "Braves 5-4 Phillies (Sep 6, 2026) Game Recap - espn.com",
+    "source": "espn.com"
   },
   {
     "publishedAt": "2026-09-06T19:22:24.000Z",
@@ -446,8 +440,8 @@
   {
     "publishedAt": "2026-09-06T00:54:09.000Z",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01VjhvUFVfZE1uNjlrTkd3dHpWalFSZjFGYm5vMGxTWXNoY3M0UGZUOGkxWHowLVNwUGZjUURYcWs1ZXh5NGoyc0FIaXdHM1lWMzdLLU9LV1kteW8?oc=5",
-    "title": "Phillies 4-2 Braves (Sep 5, 2026) Game Recap - ESPN",
-    "source": "ESPN"
+    "title": "Phillies 4-2 Braves (Sep 5, 2026) Game Recap - espn.com",
+    "source": "espn.com"
   },
   {
     "publishedAt": "2026-09-06T00:35:46.000Z",
@@ -476,8 +470,8 @@
   {
     "publishedAt": "2026-09-05T01:41:57.000Z",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtLXZZQlBXRVJBVG84NkJFdFdnbGY5VHpBZUl5QTZFTkl2UEcwdkRrZ1RxelBUd0tPRXhfOXFrel9pZkxiR3pzSXp4OXRsdk1MNG1jTU9pdjVDUGM?oc=5",
-    "title": "Braves 5-2 Phillies (Sep 4, 2026) Game Recap - ESPN",
-    "source": "ESPN"
+    "title": "Braves 5-2 Phillies (Sep 4, 2026) Game Recap - espn.com",
+    "source": "espn.com"
   },
   {
     "publishedAt": "2026-09-04T22:49:09.000Z",
@@ -514,6 +508,12 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWkg0NDA3STMxLU5xTlNfTkMxeFhwc3hKdnpCckRsWEJrN2pOb1JkZTY5cGwzQjlacVVvU3BXVHVUdC10RUUtMDJYWGhqeG04U09XVFk3UW1mbl9BWHh0Q3QxOEtNaE5pQWdGQjBWTnVlb1Q3bGg1bVRXYnRIT3otN0xhbWdfcGtfVUtQXzRBRkZDUGozMUNvZXk3Z2YtUnVtMllUQlNtVXA4NllkZnhqTGJiWk1VS3VlT2dpVGhzVmZZd2PSAcsBQVVfeXFMTWJOMExuM0p2d1YwNlpaUWZjUXk3eGNkVU9yVEJXUnE0MkpKMnlxSUlKcVI4NHFsVW5FWVZLNEdpODdXSXhURUJOMU1DMFZaSVFOeUoxbTZ5T052azVHbVQtVmw3TXc1NnR5QWxUQXg5cjZFRHRCRHVHNGxiWmpWaXczTGhRZk5icnY4bl9NWXppRWI0TWRscGswNzBQTGtsazZwNnZGWGlpWDlEajFsZkMtSFZ3YlVVYXlXMXRRd3VHMzNHVUI3ckRfbG8?oc=5",
     "title": "Breaking down Phillies-Braves as September starts to feel like October - NBC Sports Philadelphia",
     "source": "NBC Sports Philadelphia"
+  },
+  {
+    "publishedAt": "2026-09-04T03:24:30.000Z",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWGVRSXRZcHM3cHlzRFVnWm02NU91cmhpeHF6ZnE1VlRVbGJRUUxJb09KSGNmcXJaRGNPLXJad25wZmVWemYwZVVOSmtmM05zLUVneUtTTDZBdUJoUHdkQ0o1WFRWN2piRVBKdUYxOG13VnpfZjg4ejZGejhfeDFGWkJVdXVULVFMdjY2aUN3WjJOX056VVJZZUFnZVhHcjA?oc=5",
+    "title": "Phillies’ Alec Bohm settles lawsuit with his parents - The New York Times",
+    "source": "The New York Times"
   },
   {
     "publishedAt": "2026-09-03T16:00:00.000Z",
