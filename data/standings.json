@@ -12,20 +12,20 @@
         "teamId": 144,
         "team": "Atlanta Braves",
         "abbreviation": "ATL",
-        "wins": 85,
+        "wins": 86,
         "losses": 61,
-        "winningPercentage": ".582",
+        "winningPercentage": ".585",
         "gamesBack": "-",
         "divisionRank": 1,
         "leagueRank": 3,
         "wildCardRank": null,
-        "magicNumber": "13",
+        "magicNumber": "11",
         "wildCardGamesBack": "-",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 85,
+          "wins": 86,
           "losses": 61,
-          "pct": ".582"
+          "pct": ".585"
         },
         "lastTen": {
           "wins": 4,
@@ -34,13 +34,13 @@
           "pct": ".400"
         },
         "streak": {
-          "streakCode": "L3",
-          "streakType": "losses",
-          "streakNumber": 3
+          "streakCode": "W1",
+          "streakType": "wins",
+          "streakNumber": 1
         },
-        "runsScored": 668,
-        "runsAllowed": 560,
-        "runDifferential": 108,
+        "runsScored": 671,
+        "runsAllowed": 561,
+        "runDifferential": 110,
         "postseason": "division"
       },
       {
@@ -48,34 +48,34 @@
         "team": "Philadelphia Phillies",
         "abbreviation": "PHI",
         "wins": 82,
-        "losses": 64,
-        "winningPercentage": ".562",
-        "gamesBack": "3.0",
+        "losses": 65,
+        "winningPercentage": ".558",
+        "gamesBack": "4.0",
         "divisionRank": 2,
         "leagueRank": 4,
         "wildCardRank": 1,
         "magicNumber": null,
-        "wildCardGamesBack": "+4.0",
+        "wildCardGamesBack": "+3.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 82,
-          "losses": 64,
-          "pct": ".562"
+          "losses": 65,
+          "pct": ".558"
         },
         "lastTen": {
-          "wins": 6,
-          "losses": 4,
+          "wins": 5,
+          "losses": 5,
           "type": "lastTen",
-          "pct": ".600"
+          "pct": ".500"
         },
         "streak": {
-          "streakCode": "W1",
-          "streakType": "wins",
+          "streakCode": "L1",
+          "streakType": "losses",
           "streakNumber": 1
         },
-        "runsScored": 658,
-        "runsAllowed": 620,
-        "runDifferential": 38,
+        "runsScored": 659,
+        "runsAllowed": 622,
+        "runDifferential": 37,
         "postseason": "wildcard"
       },
       {
@@ -85,7 +85,7 @@
         "wins": 72,
         "losses": 75,
         "winningPercentage": ".490",
-        "gamesBack": "13.5",
+        "gamesBack": "14.0",
         "divisionRank": 3,
         "leagueRank": 9,
         "wildCardRank": 6,
@@ -120,7 +120,7 @@
         "wins": 68,
         "losses": 78,
         "winningPercentage": ".466",
-        "gamesBack": "17.0",
+        "gamesBack": "17.5",
         "divisionRank": 4,
         "leagueRank": 12,
         "wildCardRank": 9,
@@ -155,7 +155,7 @@
         "wins": 67,
         "losses": 81,
         "winningPercentage": ".453",
-        "gamesBack": "19.0",
+        "gamesBack": "19.5",
         "divisionRank": 5,
         "leagueRank": 13,
         "wildCardRank": 10,
@@ -262,20 +262,20 @@
         "teamId": 144,
         "team": "Atlanta Braves",
         "abbreviation": "ATL",
-        "wins": 85,
+        "wins": 86,
         "losses": 61,
-        "winningPercentage": ".582",
+        "winningPercentage": ".585",
         "gamesBack": "-",
         "divisionRank": 1,
         "leagueRank": 3,
         "wildCardRank": null,
-        "magicNumber": "13",
+        "magicNumber": "11",
         "wildCardGamesBack": "-",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 85,
+          "wins": 86,
           "losses": 61,
-          "pct": ".582"
+          "pct": ".585"
         },
         "lastTen": {
           "wins": 4,
@@ -284,13 +284,13 @@
           "pct": ".400"
         },
         "streak": {
-          "streakCode": "L3",
-          "streakType": "losses",
-          "streakNumber": 3
+          "streakCode": "W1",
+          "streakType": "wins",
+          "streakNumber": 1
         },
-        "runsScored": 668,
-        "runsAllowed": 560,
-        "runDifferential": 108,
+        "runsScored": 671,
+        "runsAllowed": 561,
+        "runDifferential": 110,
         "postseason": "division"
       },
       {
@@ -298,34 +298,34 @@
         "team": "Philadelphia Phillies",
         "abbreviation": "PHI",
         "wins": 82,
-        "losses": 64,
-        "winningPercentage": ".562",
-        "gamesBack": "3.0",
+        "losses": 65,
+        "winningPercentage": ".558",
+        "gamesBack": "4.0",
         "divisionRank": 2,
         "leagueRank": 4,
         "wildCardRank": 1,
         "magicNumber": null,
-        "wildCardGamesBack": "+4.0",
+        "wildCardGamesBack": "+3.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 82,
-          "losses": 64,
-          "pct": ".562"
+          "losses": 65,
+          "pct": ".558"
         },
         "lastTen": {
-          "wins": 6,
-          "losses": 4,
+          "wins": 5,
+          "losses": 5,
           "type": "lastTen",
-          "pct": ".600"
+          "pct": ".500"
         },
         "streak": {
-          "streakCode": "W1",
-          "streakType": "wins",
+          "streakCode": "L1",
+          "streakType": "losses",
           "streakNumber": 1
         },
-        "runsScored": 658,
-        "runsAllowed": 620,
-        "runDifferential": 38,
+        "runsScored": 659,
+        "runsAllowed": 622,
+        "runDifferential": 37,
         "postseason": "wildcard"
       },
       {
@@ -475,7 +475,7 @@
         "wins": 72,
         "losses": 75,
         "winningPercentage": ".490",
-        "gamesBack": "13.5",
+        "gamesBack": "14.0",
         "divisionRank": 3,
         "leagueRank": 9,
         "wildCardRank": 6,
@@ -580,7 +580,7 @@
         "wins": 68,
         "losses": 78,
         "winningPercentage": ".466",
-        "gamesBack": "17.0",
+        "gamesBack": "17.5",
         "divisionRank": 4,
         "leagueRank": 12,
         "wildCardRank": 9,
@@ -615,7 +615,7 @@
         "wins": 67,
         "losses": 81,
         "winningPercentage": ".453",
-        "gamesBack": "19.0",
+        "gamesBack": "19.5",
         "divisionRank": 5,
         "leagueRank": 13,
         "wildCardRank": 10,
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-09-10T18:13:10.950Z"
+  "updatedAt": "2026-09-10T21:26:04.429Z"
 }
