@@ -55,7 +55,7 @@
         "leagueRank": 5,
         "wildCardRank": 2,
         "magicNumber": null,
-        "wildCardGamesBack": "+2.0",
+        "wildCardGamesBack": "+1.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 83,
@@ -90,7 +90,7 @@
         "leagueRank": 9,
         "wildCardRank": 6,
         "magicNumber": null,
-        "wildCardGamesBack": "7.0",
+        "wildCardGamesBack": "7.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 74,
@@ -125,7 +125,7 @@
         "leagueRank": 12,
         "wildCardRank": 9,
         "magicNumber": null,
-        "wildCardGamesBack": "11.5",
+        "wildCardGamesBack": "12.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 70,
@@ -160,7 +160,7 @@
         "leagueRank": 13,
         "wildCardRank": 10,
         "magicNumber": null,
-        "wildCardGamesBack": "11.5",
+        "wildCardGamesBack": "12.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 69,
@@ -305,7 +305,7 @@
         "leagueRank": 4,
         "wildCardRank": 1,
         "magicNumber": null,
-        "wildCardGamesBack": "+2.0",
+        "wildCardGamesBack": "+1.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 83,
@@ -340,7 +340,7 @@
         "leagueRank": 5,
         "wildCardRank": 2,
         "magicNumber": null,
-        "wildCardGamesBack": "+2.0",
+        "wildCardGamesBack": "+1.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 83,
@@ -367,10 +367,10 @@
         "teamId": 135,
         "team": "San Diego Padres",
         "abbreviation": "SD",
-        "wins": 80,
+        "wins": 81,
         "losses": 68,
-        "winningPercentage": ".541",
-        "gamesBack": "9.5",
+        "winningPercentage": ".544",
+        "gamesBack": "9.0",
         "divisionRank": 2,
         "leagueRank": 6,
         "wildCardRank": 3,
@@ -378,24 +378,24 @@
         "wildCardGamesBack": "-",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 80,
+          "wins": 81,
           "losses": 68,
-          "pct": ".541"
+          "pct": ".544"
         },
         "lastTen": {
-          "wins": 7,
-          "losses": 3,
+          "wins": 8,
+          "losses": 2,
           "type": "lastTen",
-          "pct": ".700"
+          "pct": ".800"
         },
         "streak": {
-          "streakCode": "W6",
+          "streakCode": "W7",
           "streakType": "wins",
-          "streakNumber": 6
+          "streakNumber": 7
         },
-        "runsScored": 633,
-        "runsAllowed": 613,
-        "runDifferential": 20,
+        "runsScored": 639,
+        "runsAllowed": 617,
+        "runDifferential": 22,
         "postseason": "wildcard"
       },
       {
@@ -410,7 +410,7 @@
         "leagueRank": 7,
         "wildCardRank": 4,
         "magicNumber": null,
-        "wildCardGamesBack": "2.0",
+        "wildCardGamesBack": "2.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 79,
@@ -445,7 +445,7 @@
         "leagueRank": 8,
         "wildCardRank": 5,
         "magicNumber": null,
-        "wildCardGamesBack": "6.0",
+        "wildCardGamesBack": "6.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 75,
@@ -480,7 +480,7 @@
         "leagueRank": 9,
         "wildCardRank": 6,
         "magicNumber": null,
-        "wildCardGamesBack": "7.0",
+        "wildCardGamesBack": "7.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 74,
@@ -515,7 +515,7 @@
         "leagueRank": 10,
         "wildCardRank": 7,
         "magicNumber": null,
-        "wildCardGamesBack": "7.0",
+        "wildCardGamesBack": "7.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 74,
@@ -550,7 +550,7 @@
         "leagueRank": 11,
         "wildCardRank": 8,
         "magicNumber": null,
-        "wildCardGamesBack": "10.5",
+        "wildCardGamesBack": "11.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 70,
@@ -585,7 +585,7 @@
         "leagueRank": 12,
         "wildCardRank": 9,
         "magicNumber": null,
-        "wildCardGamesBack": "11.5",
+        "wildCardGamesBack": "12.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 70,
@@ -620,7 +620,7 @@
         "leagueRank": 13,
         "wildCardRank": 10,
         "magicNumber": null,
-        "wildCardGamesBack": "11.5",
+        "wildCardGamesBack": "12.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 69,
@@ -648,34 +648,34 @@
         "team": "San Francisco Giants",
         "abbreviation": "SF",
         "wins": 62,
-        "losses": 87,
-        "winningPercentage": ".416",
-        "gamesBack": "28.0",
+        "losses": 88,
+        "winningPercentage": ".413",
+        "gamesBack": "28.5",
         "divisionRank": 4,
         "leagueRank": 14,
         "wildCardRank": 11,
         "magicNumber": null,
-        "wildCardGamesBack": "18.5",
+        "wildCardGamesBack": "19.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 62,
-          "losses": 87,
-          "pct": ".416"
+          "losses": 88,
+          "pct": ".413"
         },
         "lastTen": {
-          "wins": 5,
-          "losses": 5,
+          "wins": 4,
+          "losses": 6,
           "type": "lastTen",
-          "pct": ".500"
+          "pct": ".400"
         },
         "streak": {
-          "streakCode": "L2",
+          "streakCode": "L3",
           "streakType": "losses",
-          "streakNumber": 2
+          "streakNumber": 3
         },
-        "runsScored": 628,
-        "runsAllowed": 703,
-        "runDifferential": -75,
+        "runsScored": 632,
+        "runsAllowed": 709,
+        "runDifferential": -77,
         "postseason": null
       },
       {
@@ -690,7 +690,7 @@
         "leagueRank": 15,
         "wildCardRank": 12,
         "magicNumber": null,
-        "wildCardGamesBack": "25.5",
+        "wildCardGamesBack": "26.0",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 55,
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-09-14T00:46:56.656Z"
+  "updatedAt": "2026-09-14T05:50:34.381Z"
 }
