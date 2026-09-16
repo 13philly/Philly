@@ -82,35 +82,35 @@
         "teamId": 146,
         "team": "Miami Marlins",
         "abbreviation": "MIA",
-        "wins": 74,
+        "wins": 75,
         "losses": 77,
-        "winningPercentage": ".490",
-        "gamesBack": "14.5",
+        "winningPercentage": ".493",
+        "gamesBack": "14.0",
         "divisionRank": 3,
-        "leagueRank": 10,
-        "wildCardRank": 7,
+        "leagueRank": 9,
+        "wildCardRank": 6,
         "magicNumber": null,
-        "wildCardGamesBack": "8.0",
+        "wildCardGamesBack": "7.5",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 74,
+          "wins": 75,
           "losses": 77,
-          "pct": ".490"
+          "pct": ".493"
         },
         "lastTen": {
-          "wins": 3,
-          "losses": 7,
+          "wins": 4,
+          "losses": 6,
           "type": "lastTen",
-          "pct": ".300"
+          "pct": ".400"
         },
         "streak": {
-          "streakCode": "L1",
-          "streakType": "losses",
+          "streakCode": "W1",
+          "streakType": "wins",
           "streakNumber": 1
         },
-        "runsScored": 673,
-        "runsAllowed": 668,
-        "runDifferential": 5,
+        "runsScored": 677,
+        "runsAllowed": 670,
+        "runDifferential": 7,
         "postseason": null
       },
       {
@@ -403,19 +403,19 @@
         "team": "Arizona Diamondbacks",
         "abbreviation": "AZ",
         "wins": 80,
-        "losses": 71,
-        "winningPercentage": ".530",
-        "gamesBack": "12.0",
+        "losses": 72,
+        "winningPercentage": ".526",
+        "gamesBack": "12.5",
         "divisionRank": 3,
         "leagueRank": 7,
         "wildCardRank": 4,
         "magicNumber": null,
-        "wildCardGamesBack": "2.0",
+        "wildCardGamesBack": "2.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 80,
-          "losses": 71,
-          "pct": ".530"
+          "losses": 72,
+          "pct": ".526"
         },
         "lastTen": {
           "wins": 6,
@@ -424,13 +424,13 @@
           "pct": ".600"
         },
         "streak": {
-          "streakCode": "W1",
-          "streakType": "wins",
+          "streakCode": "L1",
+          "streakType": "losses",
           "streakNumber": 1
         },
-        "runsScored": 673,
-        "runsAllowed": 670,
-        "runDifferential": 3,
+        "runsScored": 675,
+        "runsAllowed": 674,
+        "runDifferential": 1,
         "postseason": null
       },
       {
@@ -469,6 +469,41 @@
         "postseason": null
       },
       {
+        "teamId": 146,
+        "team": "Miami Marlins",
+        "abbreviation": "MIA",
+        "wins": 75,
+        "losses": 77,
+        "winningPercentage": ".493",
+        "gamesBack": "14.0",
+        "divisionRank": 3,
+        "leagueRank": 9,
+        "wildCardRank": 6,
+        "magicNumber": null,
+        "wildCardGamesBack": "7.5",
+        "divisionRecord": null,
+        "leagueRecord": {
+          "wins": 75,
+          "losses": 77,
+          "pct": ".493"
+        },
+        "lastTen": {
+          "wins": 4,
+          "losses": 6,
+          "type": "lastTen",
+          "pct": ".400"
+        },
+        "streak": {
+          "streakCode": "W1",
+          "streakType": "wins",
+          "streakNumber": 1
+        },
+        "runsScored": 677,
+        "runsAllowed": 670,
+        "runDifferential": 7,
+        "postseason": null
+      },
+      {
         "teamId": 138,
         "team": "St. Louis Cardinals",
         "abbreviation": "STL",
@@ -477,8 +512,8 @@
         "winningPercentage": ".493",
         "gamesBack": "19.5",
         "divisionRank": 4,
-        "leagueRank": 9,
-        "wildCardRank": 6,
+        "leagueRank": 10,
+        "wildCardRank": 7,
         "magicNumber": null,
         "wildCardGamesBack": "7.5",
         "divisionRecord": null,
@@ -501,41 +536,6 @@
         "runsScored": 688,
         "runsAllowed": 701,
         "runDifferential": -13,
-        "postseason": null
-      },
-      {
-        "teamId": 146,
-        "team": "Miami Marlins",
-        "abbreviation": "MIA",
-        "wins": 74,
-        "losses": 77,
-        "winningPercentage": ".490",
-        "gamesBack": "14.5",
-        "divisionRank": 3,
-        "leagueRank": 10,
-        "wildCardRank": 7,
-        "magicNumber": null,
-        "wildCardGamesBack": "8.0",
-        "divisionRecord": null,
-        "leagueRecord": {
-          "wins": 74,
-          "losses": 77,
-          "pct": ".490"
-        },
-        "lastTen": {
-          "wins": 3,
-          "losses": 7,
-          "type": "lastTen",
-          "pct": ".300"
-        },
-        "streak": {
-          "streakCode": "L1",
-          "streakType": "losses",
-          "streakNumber": 1
-        },
-        "runsScored": 673,
-        "runsAllowed": 668,
-        "runDifferential": 5,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-09-16T03:36:22.929Z"
+  "updatedAt": "2026-09-16T09:07:03.448Z"
 }
