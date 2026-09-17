@@ -122,8 +122,8 @@
         "winningPercentage": ".464",
         "gamesBack": "18.0",
         "divisionRank": 4,
-        "leagueRank": 12,
-        "wildCardRank": 9,
+        "leagueRank": 11,
+        "wildCardRank": 8,
         "magicNumber": null,
         "wildCardGamesBack": "12.5",
         "divisionRecord": null,
@@ -193,8 +193,8 @@
         "team": "Milwaukee Brewers",
         "abbreviation": "MIL",
         "wins": 95,
-        "losses": 57,
-        "winningPercentage": ".625",
+        "losses": 58,
+        "winningPercentage": ".621",
         "gamesBack": "-",
         "divisionRank": 1,
         "leagueRank": 1,
@@ -204,43 +204,8 @@
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 95,
-          "losses": 57,
-          "pct": ".625"
-        },
-        "lastTen": {
-          "wins": 7,
-          "losses": 3,
-          "type": "lastTen",
-          "pct": ".700"
-        },
-        "streak": {
-          "streakCode": "W2",
-          "streakType": "wins",
-          "streakNumber": 2
-        },
-        "runsScored": 788,
-        "runsAllowed": 588,
-        "runDifferential": 200,
-        "postseason": "division"
-      },
-      {
-        "teamId": 119,
-        "team": "Los Angeles Dodgers",
-        "abbreviation": "LAD",
-        "wins": 92,
-        "losses": 60,
-        "winningPercentage": ".605",
-        "gamesBack": "-",
-        "divisionRank": 1,
-        "leagueRank": 2,
-        "wildCardRank": null,
-        "magicNumber": "-",
-        "wildCardGamesBack": "-",
-        "divisionRecord": null,
-        "leagueRecord": {
-          "wins": 92,
-          "losses": 60,
-          "pct": ".605"
+          "losses": 58,
+          "pct": ".621"
         },
         "lastTen": {
           "wins": 7,
@@ -253,9 +218,44 @@
           "streakType": "losses",
           "streakNumber": 1
         },
-        "runsScored": 751,
-        "runsAllowed": 578,
-        "runDifferential": 173,
+        "runsScored": 792,
+        "runsAllowed": 595,
+        "runDifferential": 197,
+        "postseason": "division"
+      },
+      {
+        "teamId": 119,
+        "team": "Los Angeles Dodgers",
+        "abbreviation": "LAD",
+        "wins": 93,
+        "losses": 60,
+        "winningPercentage": ".608",
+        "gamesBack": "-",
+        "divisionRank": 1,
+        "leagueRank": 2,
+        "wildCardRank": null,
+        "magicNumber": "-",
+        "wildCardGamesBack": "-",
+        "divisionRecord": null,
+        "leagueRecord": {
+          "wins": 93,
+          "losses": 60,
+          "pct": ".608"
+        },
+        "lastTen": {
+          "wins": 7,
+          "losses": 3,
+          "type": "lastTen",
+          "pct": ".700"
+        },
+        "streak": {
+          "streakCode": "W1",
+          "streakType": "wins",
+          "streakNumber": 1
+        },
+        "runsScored": 759,
+        "runsAllowed": 580,
+        "runDifferential": 179,
         "postseason": "division"
       },
       {
@@ -300,7 +300,7 @@
         "wins": 85,
         "losses": 68,
         "winningPercentage": ".556",
-        "gamesBack": "10.5",
+        "gamesBack": "10.0",
         "divisionRank": 2,
         "leagueRank": 4,
         "wildCardRank": 1,
@@ -370,7 +370,7 @@
         "wins": 83,
         "losses": 69,
         "winningPercentage": ".546",
-        "gamesBack": "9.0",
+        "gamesBack": "9.5",
         "divisionRank": 2,
         "leagueRank": 6,
         "wildCardRank": 3,
@@ -405,7 +405,7 @@
         "wins": 80,
         "losses": 73,
         "winningPercentage": ".523",
-        "gamesBack": "12.5",
+        "gamesBack": "13.0",
         "divisionRank": 3,
         "leagueRank": 7,
         "wildCardRank": 4,
@@ -472,35 +472,35 @@
         "teamId": 134,
         "team": "Pittsburgh Pirates",
         "abbreviation": "PIT",
-        "wins": 75,
+        "wins": 76,
         "losses": 77,
-        "winningPercentage": ".493",
-        "gamesBack": "20.0",
+        "winningPercentage": ".497",
+        "gamesBack": "19.0",
         "divisionRank": 3,
         "leagueRank": 9,
         "wildCardRank": 6,
         "magicNumber": null,
-        "wildCardGamesBack": "8.0",
+        "wildCardGamesBack": "7.5",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 75,
+          "wins": 76,
           "losses": 77,
-          "pct": ".493"
+          "pct": ".497"
         },
         "lastTen": {
-          "wins": 5,
-          "losses": 5,
+          "wins": 6,
+          "losses": 4,
           "type": "lastTen",
-          "pct": ".500"
+          "pct": ".600"
         },
         "streak": {
-          "streakCode": "L2",
-          "streakType": "losses",
-          "streakNumber": 2
+          "streakCode": "W1",
+          "streakType": "wins",
+          "streakNumber": 1
         },
-        "runsScored": 723,
-        "runsAllowed": 702,
-        "runDifferential": 21,
+        "runsScored": 730,
+        "runsAllowed": 706,
+        "runDifferential": 24,
         "postseason": null
       },
       {
@@ -510,7 +510,7 @@
         "wins": 75,
         "losses": 78,
         "winningPercentage": ".490",
-        "gamesBack": "20.5",
+        "gamesBack": "20.0",
         "divisionRank": 4,
         "leagueRank": 10,
         "wildCardRank": 7,
@@ -539,41 +539,6 @@
         "postseason": null
       },
       {
-        "teamId": 113,
-        "team": "Cincinnati Reds",
-        "abbreviation": "CIN",
-        "wins": 71,
-        "losses": 81,
-        "winningPercentage": ".467",
-        "gamesBack": "24.0",
-        "divisionRank": 5,
-        "leagueRank": 11,
-        "wildCardRank": 8,
-        "magicNumber": null,
-        "wildCardGamesBack": "12.0",
-        "divisionRecord": null,
-        "leagueRecord": {
-          "wins": 71,
-          "losses": 81,
-          "pct": ".467"
-        },
-        "lastTen": {
-          "wins": 3,
-          "losses": 7,
-          "type": "lastTen",
-          "pct": ".300"
-        },
-        "streak": {
-          "streakCode": "W1",
-          "streakType": "wins",
-          "streakNumber": 1
-        },
-        "runsScored": 631,
-        "runsAllowed": 779,
-        "runDifferential": -148,
-        "postseason": null
-      },
-      {
         "teamId": 120,
         "team": "Washington Nationals",
         "abbreviation": "WSH",
@@ -582,8 +547,8 @@
         "winningPercentage": ".464",
         "gamesBack": "18.0",
         "divisionRank": 4,
-        "leagueRank": 12,
-        "wildCardRank": 9,
+        "leagueRank": 11,
+        "wildCardRank": 8,
         "magicNumber": null,
         "wildCardGamesBack": "12.5",
         "divisionRecord": null,
@@ -606,6 +571,41 @@
         "runsScored": 778,
         "runsAllowed": 775,
         "runDifferential": 3,
+        "postseason": null
+      },
+      {
+        "teamId": 113,
+        "team": "Cincinnati Reds",
+        "abbreviation": "CIN",
+        "wins": 71,
+        "losses": 82,
+        "winningPercentage": ".464",
+        "gamesBack": "24.0",
+        "divisionRank": 5,
+        "leagueRank": 12,
+        "wildCardRank": 9,
+        "magicNumber": null,
+        "wildCardGamesBack": "12.5",
+        "divisionRecord": null,
+        "leagueRecord": {
+          "wins": 71,
+          "losses": 82,
+          "pct": ".464"
+        },
+        "lastTen": {
+          "wins": 2,
+          "losses": 8,
+          "type": "lastTen",
+          "pct": ".200"
+        },
+        "streak": {
+          "streakCode": "L1",
+          "streakType": "losses",
+          "streakNumber": 1
+        },
+        "runsScored": 633,
+        "runsAllowed": 787,
+        "runDifferential": -154,
         "postseason": null
       },
       {
@@ -650,7 +650,7 @@
         "wins": 64,
         "losses": 89,
         "winningPercentage": ".418",
-        "gamesBack": "28.5",
+        "gamesBack": "29.0",
         "divisionRank": 4,
         "leagueRank": 14,
         "wildCardRank": 11,
@@ -685,7 +685,7 @@
         "wins": 56,
         "losses": 96,
         "winningPercentage": ".368",
-        "gamesBack": "36.0",
+        "gamesBack": "36.5",
         "divisionRank": 5,
         "leagueRank": 15,
         "wildCardRank": 12,
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-09-17T16:21:23.456Z"
+  "updatedAt": "2026-09-17T20:01:36.608Z"
 }
