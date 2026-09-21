@@ -192,9 +192,9 @@
         "teamId": 158,
         "team": "Milwaukee Brewers",
         "abbreviation": "MIL",
-        "wins": 97,
+        "wins": 98,
         "losses": 58,
-        "winningPercentage": ".626",
+        "winningPercentage": ".628",
         "gamesBack": "-",
         "divisionRank": 1,
         "leagueRank": 1,
@@ -203,9 +203,9 @@
         "wildCardGamesBack": "-",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 97,
+          "wins": 98,
           "losses": 58,
-          "pct": ".626"
+          "pct": ".628"
         },
         "lastTen": {
           "wins": 8,
@@ -214,13 +214,13 @@
           "pct": ".800"
         },
         "streak": {
-          "streakCode": "W2",
+          "streakCode": "W3",
           "streakType": "wins",
-          "streakNumber": 2
+          "streakNumber": 3
         },
-        "runsScored": 799,
+        "runsScored": 802,
         "runsAllowed": 600,
-        "runDifferential": 199,
+        "runDifferential": 202,
         "postseason": "division"
       },
       {
@@ -300,7 +300,7 @@
         "wins": 87,
         "losses": 69,
         "winningPercentage": ".558",
-        "gamesBack": "10.5",
+        "gamesBack": "11.0",
         "divisionRank": 2,
         "leagueRank": 4,
         "wildCardRank": 1,
@@ -440,7 +440,7 @@
         "wins": 79,
         "losses": 77,
         "winningPercentage": ".506",
-        "gamesBack": "18.5",
+        "gamesBack": "19.0",
         "divisionRank": 3,
         "leagueRank": 8,
         "wildCardRank": 5,
@@ -510,7 +510,7 @@
         "wins": 76,
         "losses": 80,
         "winningPercentage": ".487",
-        "gamesBack": "21.5",
+        "gamesBack": "22.0",
         "divisionRank": 4,
         "leagueRank": 10,
         "wildCardRank": 7,
@@ -580,7 +580,7 @@
         "wins": 72,
         "losses": 84,
         "winningPercentage": ".462",
-        "gamesBack": "25.5",
+        "gamesBack": "26.0",
         "divisionRank": 5,
         "leagueRank": 12,
         "wildCardRank": 9,
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-09-20T23:01:15.477Z"
+  "updatedAt": "2026-09-21T03:36:08.962Z"
 }
