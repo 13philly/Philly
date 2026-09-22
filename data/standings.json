@@ -647,20 +647,20 @@
         "teamId": 137,
         "team": "San Francisco Giants",
         "abbreviation": "SF",
-        "wins": 64,
+        "wins": 65,
         "losses": 92,
-        "winningPercentage": ".410",
-        "gamesBack": "32.0",
+        "winningPercentage": ".414",
+        "gamesBack": "31.5",
         "divisionRank": 4,
         "leagueRank": 14,
         "wildCardRank": 11,
         "magicNumber": null,
-        "wildCardGamesBack": "22.0",
+        "wildCardGamesBack": "21.5",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 64,
+          "wins": 65,
           "losses": 92,
-          "pct": ".410"
+          "pct": ".414"
         },
         "lastTen": {
           "wins": 3,
@@ -669,13 +669,13 @@
           "pct": ".300"
         },
         "streak": {
-          "streakCode": "L3",
-          "streakType": "losses",
-          "streakNumber": 3
+          "streakCode": "W1",
+          "streakType": "wins",
+          "streakNumber": 1
         },
-        "runsScored": 656,
-        "runsAllowed": 740,
-        "runDifferential": -84,
+        "runsScored": 661,
+        "runsAllowed": 742,
+        "runDifferential": -81,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-09-22T03:34:45.533Z"
+  "updatedAt": "2026-09-22T09:03:54.201Z"
 }
