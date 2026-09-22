@@ -118,19 +118,19 @@
         "team": "Washington Nationals",
         "abbreviation": "WSH",
         "wins": 73,
-        "losses": 83,
-        "winningPercentage": ".468",
-        "gamesBack": "19.0",
+        "losses": 84,
+        "winningPercentage": ".465",
+        "gamesBack": "19.5",
         "divisionRank": 4,
         "leagueRank": 11,
         "wildCardRank": 8,
         "magicNumber": null,
-        "wildCardGamesBack": "13.0",
+        "wildCardGamesBack": "13.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 73,
-          "losses": 83,
-          "pct": ".468"
+          "losses": 84,
+          "pct": ".465"
         },
         "lastTen": {
           "wins": 6,
@@ -139,13 +139,13 @@
           "pct": ".600"
         },
         "streak": {
-          "streakCode": "L1",
+          "streakCode": "L2",
           "streakType": "losses",
-          "streakNumber": 1
+          "streakNumber": 2
         },
-        "runsScored": 798,
-        "runsAllowed": 786,
-        "runDifferential": 12,
+        "runsScored": 800,
+        "runsAllowed": 795,
+        "runDifferential": 5,
         "postseason": null
       },
       {
@@ -543,19 +543,19 @@
         "team": "Washington Nationals",
         "abbreviation": "WSH",
         "wins": 73,
-        "losses": 83,
-        "winningPercentage": ".468",
-        "gamesBack": "19.0",
+        "losses": 84,
+        "winningPercentage": ".465",
+        "gamesBack": "19.5",
         "divisionRank": 4,
         "leagueRank": 11,
         "wildCardRank": 8,
         "magicNumber": null,
-        "wildCardGamesBack": "13.0",
+        "wildCardGamesBack": "13.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 73,
-          "losses": 83,
-          "pct": ".468"
+          "losses": 84,
+          "pct": ".465"
         },
         "lastTen": {
           "wins": 6,
@@ -564,13 +564,13 @@
           "pct": ".600"
         },
         "streak": {
-          "streakCode": "L1",
+          "streakCode": "L2",
           "streakType": "losses",
-          "streakNumber": 1
+          "streakNumber": 2
         },
-        "runsScored": 798,
-        "runsAllowed": 786,
-        "runDifferential": 12,
+        "runsScored": 800,
+        "runsAllowed": 795,
+        "runDifferential": 5,
         "postseason": null
       },
       {
@@ -715,5 +715,5 @@
       }
     ]
   },
-  "updatedAt": "2026-09-21T23:50:47.555Z"
+  "updatedAt": "2026-09-22T03:34:45.533Z"
 }
