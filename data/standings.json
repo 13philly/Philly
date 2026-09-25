@@ -402,35 +402,35 @@
         "teamId": 109,
         "team": "Arizona Diamondbacks",
         "abbreviation": "AZ",
-        "wins": 84,
+        "wins": 85,
         "losses": 74,
-        "winningPercentage": ".532",
-        "gamesBack": "13.0",
+        "winningPercentage": ".535",
+        "gamesBack": "12.5",
         "divisionRank": 3,
         "leagueRank": 7,
         "wildCardRank": 4,
         "magicNumber": null,
-        "wildCardGamesBack": "3.0",
+        "wildCardGamesBack": "2.5",
         "divisionRecord": null,
         "leagueRecord": {
-          "wins": 84,
+          "wins": 85,
           "losses": 74,
-          "pct": ".532"
+          "pct": ".535"
         },
         "lastTen": {
-          "wins": 5,
-          "losses": 5,
+          "wins": 6,
+          "losses": 4,
           "type": "lastTen",
-          "pct": ".500"
+          "pct": ".600"
         },
         "streak": {
-          "streakCode": "W4",
+          "streakCode": "W5",
           "streakType": "wins",
-          "streakNumber": 4
+          "streakNumber": 5
         },
-        "runsScored": 705,
-        "runsAllowed": 699,
-        "runDifferential": 6,
+        "runsScored": 717,
+        "runsAllowed": 707,
+        "runDifferential": 10,
         "postseason": null
       },
       {
@@ -683,19 +683,19 @@
         "team": "Colorado Rockies",
         "abbreviation": "COL",
         "wins": 57,
-        "losses": 101,
-        "winningPercentage": ".361",
-        "gamesBack": "40.0",
+        "losses": 102,
+        "winningPercentage": ".358",
+        "gamesBack": "40.5",
         "divisionRank": 5,
         "leagueRank": 15,
         "wildCardRank": 12,
         "magicNumber": null,
-        "wildCardGamesBack": "30.0",
+        "wildCardGamesBack": "30.5",
         "divisionRecord": null,
         "leagueRecord": {
           "wins": 57,
-          "losses": 101,
-          "pct": ".361"
+          "losses": 102,
+          "pct": ".358"
         },
         "lastTen": {
           "wins": 2,
@@ -704,16 +704,16 @@
           "pct": ".200"
         },
         "streak": {
-          "streakCode": "L3",
+          "streakCode": "L4",
           "streakType": "losses",
-          "streakNumber": 3
+          "streakNumber": 4
         },
-        "runsScored": 732,
-        "runsAllowed": 916,
-        "runDifferential": -184,
+        "runsScored": 740,
+        "runsAllowed": 928,
+        "runDifferential": -188,
         "postseason": null
       }
     ]
   },
-  "updatedAt": "2026-09-24T22:00:02.868Z"
+  "updatedAt": "2026-09-25T00:28:50.072Z"
 }
