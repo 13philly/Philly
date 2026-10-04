@@ -5,7 +5,7 @@
   },
   "season": 2026,
   "source": "MLB Stats API",
-  "updatedAt": "2026-10-04T11:32:09.030Z",
+  "updatedAt": "2026-10-04T16:10:37.920Z",
   "players": [
     {
       "id": 605400,
@@ -77,7 +77,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:31:59.187Z"
+      "updatedAt": "2026-10-04T16:10:34.557Z"
     },
     {
       "id": 666969,
@@ -154,7 +154,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:31:59.296Z"
+      "updatedAt": "2026-10-04T16:10:34.651Z"
     },
     {
       "id": 660604,
@@ -180,9 +180,9 @@
       },
       "roster": {
         "status": {
-          "code": "40M",
+          "code": "A",
           "type": null,
-          "description": "Forty Man"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -226,7 +226,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:31:59.438Z"
+      "updatedAt": "2026-10-04T16:10:34.748Z"
     },
     {
       "id": 664761,
@@ -303,7 +303,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:31:59.566Z"
+      "updatedAt": "2026-10-04T16:10:34.830Z"
     },
     {
       "id": 686934,
@@ -375,7 +375,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:31:59.689Z"
+      "updatedAt": "2026-10-04T16:10:34.902Z"
     },
     {
       "id": 694851,
@@ -401,9 +401,9 @@
       },
       "roster": {
         "status": {
-          "code": "40M",
+          "code": "A",
           "type": null,
-          "description": "Forty Man"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -447,7 +447,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:31:59.865Z"
+      "updatedAt": "2026-10-04T16:10:35.001Z"
     },
     {
       "id": 691725,
@@ -519,7 +519,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:00.024Z"
+      "updatedAt": "2026-10-04T16:10:35.106Z"
     },
     {
       "id": 641745,
@@ -591,7 +591,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:00.871Z"
+      "updatedAt": "2026-10-04T16:10:35.172Z"
     },
     {
       "id": 669016,
@@ -668,7 +668,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:00.988Z"
+      "updatedAt": "2026-10-04T16:10:35.246Z"
     },
     {
       "id": 548384,
@@ -694,9 +694,9 @@
       },
       "roster": {
         "status": {
-          "code": "40M",
+          "code": "A",
           "type": null,
-          "description": "Forty Man"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -740,7 +740,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:01.161Z"
+      "updatedAt": "2026-10-04T16:10:35.305Z"
     },
     {
       "id": 650559,
@@ -817,7 +817,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:01.377Z"
+      "updatedAt": "2026-10-04T16:10:35.361Z"
     },
     {
       "id": 547180,
@@ -894,7 +894,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:01.504Z"
+      "updatedAt": "2026-10-04T16:10:35.435Z"
     },
     {
       "id": 681082,
@@ -971,7 +971,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:01.617Z"
+      "updatedAt": "2026-10-04T16:10:35.512Z"
     },
     {
       "id": 668873,
@@ -1043,7 +1043,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:01.768Z"
+      "updatedAt": "2026-10-04T16:10:35.591Z"
     },
     {
       "id": 663767,
@@ -1115,7 +1115,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:01.927Z"
+      "updatedAt": "2026-10-04T16:10:35.666Z"
     },
     {
       "id": 687515,
@@ -1141,9 +1141,9 @@
       },
       "roster": {
         "status": {
-          "code": "40M",
+          "code": "A",
           "type": null,
-          "description": "Forty Man"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -1192,7 +1192,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:02.036Z"
+      "updatedAt": "2026-10-04T16:10:35.742Z"
     },
     {
       "id": 650911,
@@ -1264,7 +1264,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:02.149Z"
+      "updatedAt": "2026-10-04T16:10:35.846Z"
     },
     {
       "id": 656537,
@@ -1341,7 +1341,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:02.311Z"
+      "updatedAt": "2026-10-04T16:10:35.913Z"
     },
     {
       "id": 624641,
@@ -1418,7 +1418,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:02.468Z"
+      "updatedAt": "2026-10-04T16:10:35.983Z"
     },
     {
       "id": 694025,
@@ -1495,7 +1495,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:02.597Z"
+      "updatedAt": "2026-10-04T16:10:36.053Z"
     },
     {
       "id": 687282,
@@ -1521,9 +1521,9 @@
       },
       "roster": {
         "status": {
-          "code": "40M",
+          "code": "A",
           "type": null,
-          "description": "Forty Man"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -1572,7 +1572,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:02.770Z"
+      "updatedAt": "2026-10-04T16:10:36.158Z"
     },
     {
       "id": 596117,
@@ -1649,7 +1649,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:02.910Z"
+      "updatedAt": "2026-10-04T16:10:36.246Z"
     },
     {
       "id": 680880,
@@ -1675,9 +1675,9 @@
       },
       "roster": {
         "status": {
-          "code": "40M",
+          "code": "A",
           "type": null,
-          "description": "Forty Man"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -1721,7 +1721,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:03.063Z"
+      "updatedAt": "2026-10-04T16:10:36.331Z"
     },
     {
       "id": 592663,
@@ -1798,7 +1798,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:03.198Z"
+      "updatedAt": "2026-10-04T16:10:36.407Z"
     },
     {
       "id": 666200,
@@ -1870,7 +1870,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:03.353Z"
+      "updatedAt": "2026-10-04T16:10:36.476Z"
     },
     {
       "id": 661395,
@@ -1942,7 +1942,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:03.517Z"
+      "updatedAt": "2026-10-04T16:10:36.623Z"
     },
     {
       "id": 679032,
@@ -2019,7 +2019,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:03.637Z"
+      "updatedAt": "2026-10-04T16:10:36.671Z"
     },
     {
       "id": 680742,
@@ -2091,7 +2091,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:03.800Z"
+      "updatedAt": "2026-10-04T16:10:36.724Z"
     },
     {
       "id": 621237,
@@ -2163,7 +2163,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:04.015Z"
+      "updatedAt": "2026-10-04T16:10:36.794Z"
     },
     {
       "id": 702222,
@@ -2228,7 +2228,7 @@
             "homeRunsPerPlateAppearance": ".006"
           },
           "sabermetrics": {
-            "war": 0.17646,
+            "war": 0.17629,
             "wpa": null,
             "wpaMinus": null,
             "wpaPlus": null,
@@ -2240,7 +2240,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:04.191Z"
+      "updatedAt": "2026-10-04T16:10:36.861Z"
     },
     {
       "id": 670224,
@@ -2266,9 +2266,9 @@
       },
       "roster": {
         "status": {
-          "code": "40M",
+          "code": "A",
           "type": null,
-          "description": "Forty Man"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -2317,7 +2317,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:04.365Z"
+      "updatedAt": "2026-10-04T16:10:36.956Z"
     },
     {
       "id": 679775,
@@ -2343,9 +2343,9 @@
       },
       "roster": {
         "status": {
-          "code": "40M",
+          "code": "A",
           "type": null,
-          "description": "Forty Man"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -2389,7 +2389,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:04.484Z"
+      "updatedAt": "2026-10-04T16:10:37.026Z"
     },
     {
       "id": 656941,
@@ -2466,7 +2466,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:04.622Z"
+      "updatedAt": "2026-10-04T16:10:37.095Z"
     },
     {
       "id": 650333,
@@ -2492,9 +2492,9 @@
       },
       "roster": {
         "status": {
-          "code": "40M",
+          "code": "A",
           "type": null,
-          "description": "Forty Man"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -2543,7 +2543,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:04.807Z"
+      "updatedAt": "2026-10-04T16:10:37.188Z"
     },
     {
       "id": 676661,
@@ -2569,9 +2569,9 @@
       },
       "roster": {
         "status": {
-          "code": "40M",
+          "code": "A",
           "type": null,
-          "description": "Forty Man"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -2615,7 +2615,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:05.564Z"
+      "updatedAt": "2026-10-04T16:10:37.290Z"
     },
     {
       "id": 691330,
@@ -2641,9 +2641,9 @@
       },
       "roster": {
         "status": {
-          "code": "40M",
+          "code": "A",
           "type": null,
-          "description": "Forty Man"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -2687,7 +2687,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:05.742Z"
+      "updatedAt": "2026-10-04T16:10:37.348Z"
     },
     {
       "id": 641482,
@@ -2713,9 +2713,9 @@
       },
       "roster": {
         "status": {
-          "code": "40M",
+          "code": "A",
           "type": null,
-          "description": "Forty Man"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -2759,7 +2759,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:05.875Z"
+      "updatedAt": "2026-10-04T16:10:37.402Z"
     },
     {
       "id": 689147,
@@ -2785,9 +2785,9 @@
       },
       "roster": {
         "status": {
-          "code": "40M",
+          "code": "A",
           "type": null,
-          "description": "Forty Man"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -2831,7 +2831,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:07.432Z"
+      "updatedAt": "2026-10-04T16:10:37.488Z"
     },
     {
       "id": 805249,
@@ -2896,7 +2896,7 @@
             "homeRunsPerPlateAppearance": ".000"
           },
           "sabermetrics": {
-            "war": -0.71855,
+            "war": -0.71858,
             "wpa": null,
             "wpaMinus": null,
             "wpaPlus": null,
@@ -2908,7 +2908,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:07.560Z"
+      "updatedAt": "2026-10-04T16:10:37.558Z"
     },
     {
       "id": 665561,
@@ -2985,7 +2985,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:07.689Z"
+      "updatedAt": "2026-10-04T16:10:37.628Z"
     },
     {
       "id": 621383,
@@ -3057,7 +3057,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:07.853Z"
+      "updatedAt": "2026-10-04T16:10:37.688Z"
     },
     {
       "id": 641835,
@@ -3129,7 +3129,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:08.659Z"
+      "updatedAt": "2026-10-04T16:10:37.789Z"
     },
     {
       "id": 607208,
@@ -3206,7 +3206,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-04T11:32:08.833Z"
+      "updatedAt": "2026-10-04T16:10:37.858Z"
     },
     {
       "id": 554430,
@@ -3278,7 +3278,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-04T11:32:09.030Z"
+      "updatedAt": "2026-10-04T16:10:37.920Z"
     }
   ]
 }
