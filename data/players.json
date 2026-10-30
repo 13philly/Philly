@@ -5,7 +5,7 @@
   },
   "season": 2026,
   "source": "MLB Stats API",
-  "updatedAt": "2026-10-29T18:05:11.483Z",
+  "updatedAt": "2026-10-30T03:36:11.628Z",
   "players": [
     {
       "id": 605400,
@@ -77,84 +77,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:05.073Z"
-    },
-    {
-      "id": 666969,
-      "name": "Adolis García",
-      "firstName": "Jose",
-      "lastName": "García",
-      "number": "53",
-      "position": {
-        "code": "9",
-        "name": "Outfielder",
-        "abbreviation": "RF"
-      },
-      "bt": {
-        "bats": "R",
-        "throws": "R"
-      },
-      "physical": {
-        "height": "6' 0\"",
-        "weight": 205,
-        "birthDate": "1993-03-02",
-        "birthCity": "Ciego de Avila",
-        "birthCountry": "Cuba"
-      },
-      "roster": {
-        "status": {
-          "code": "D60",
-          "type": null,
-          "description": "Injured 60-Day"
-        },
-        "rosterType": "40-MAN",
-        "fortyMan": true
-      },
-      "stats": {
-        "type": "hitter",
-        "hitting": {
-          "season": {
-            "gamesPlayed": 67,
-            "plateAppearances": 259,
-            "atBats": 231,
-            "runs": 21,
-            "hits": 45,
-            "doubles": 8,
-            "triples": 1,
-            "homeRuns": 7,
-            "rbi": 21,
-            "baseOnBalls": 21,
-            "strikeOuts": 84,
-            "stolenBases": 3,
-            "caughtStealing": 0,
-            "avg": ".195",
-            "obp": ".270",
-            "slg": ".329",
-            "ops": ".599",
-            "babip": ".266",
-            "totalBases": 76
-          },
-          "advanced": {
-            "iso": ".134",
-            "pitchesPerPlateAppearance": "4.178",
-            "walksPerPlateAppearance": ".081",
-            "strikeoutsPerPlateAppearance": ".324",
-            "homeRunsPerPlateAppearance": ".027"
-          },
-          "sabermetrics": {
-            "war": -0.02928,
-            "wpa": null,
-            "wpaMinus": null,
-            "wpaPlus": null,
-            "re24": null,
-            "wrcPlus": null,
-            "wraa": null,
-            "woba": 0.26805
-          }
-        },
-        "pitching": null
-      },
-      "updatedAt": "2026-10-29T18:05:05.199Z"
+      "updatedAt": "2026-10-30T03:36:05.158Z"
     },
     {
       "id": 660604,
@@ -226,84 +149,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:05.341Z"
-    },
-    {
-      "id": 664761,
-      "name": "Alec Bohm",
-      "firstName": "Alec",
-      "lastName": "Bohm",
-      "number": "28",
-      "position": {
-        "code": "5",
-        "name": "Third Base",
-        "abbreviation": "3B"
-      },
-      "bt": {
-        "bats": "R",
-        "throws": "R"
-      },
-      "physical": {
-        "height": "6' 4\"",
-        "weight": 218,
-        "birthDate": "1996-08-03",
-        "birthCity": "Omaha",
-        "birthCountry": "USA"
-      },
-      "roster": {
-        "status": {
-          "code": "A",
-          "type": null,
-          "description": "Active"
-        },
-        "rosterType": "40-MAN",
-        "fortyMan": true
-      },
-      "stats": {
-        "type": "hitter",
-        "hitting": {
-          "season": {
-            "gamesPlayed": 155,
-            "plateAppearances": 629,
-            "atBats": 567,
-            "runs": 58,
-            "hits": 141,
-            "doubles": 29,
-            "triples": 1,
-            "homeRuns": 15,
-            "rbi": 88,
-            "baseOnBalls": 48,
-            "strikeOuts": 88,
-            "stolenBases": 2,
-            "caughtStealing": 0,
-            "avg": ".249",
-            "obp": ".315",
-            "slg": ".383",
-            "ops": ".698",
-            "babip": ".269",
-            "totalBases": 217
-          },
-          "advanced": {
-            "iso": ".134",
-            "pitchesPerPlateAppearance": "3.674",
-            "walksPerPlateAppearance": ".076",
-            "strikeoutsPerPlateAppearance": ".140",
-            "homeRunsPerPlateAppearance": ".024"
-          },
-          "sabermetrics": {
-            "war": 0.19262,
-            "wpa": null,
-            "wpaMinus": null,
-            "wpaPlus": null,
-            "re24": null,
-            "wrcPlus": null,
-            "wraa": null,
-            "woba": 0.308513
-          }
-        },
-        "pitching": null
-      },
-      "updatedAt": "2026-10-29T18:05:05.474Z"
+      "updatedAt": "2026-10-30T03:36:05.285Z"
     },
     {
       "id": 686934,
@@ -375,7 +221,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:05.621Z"
+      "updatedAt": "2026-10-30T03:36:05.403Z"
     },
     {
       "id": 694851,
@@ -447,7 +293,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:05.767Z"
+      "updatedAt": "2026-10-30T03:36:05.572Z"
     },
     {
       "id": 691725,
@@ -519,7 +365,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:05.901Z"
+      "updatedAt": "2026-10-30T03:36:05.743Z"
     },
     {
       "id": 641745,
@@ -591,7 +437,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:06.045Z"
+      "updatedAt": "2026-10-30T03:36:05.898Z"
     },
     {
       "id": 669016,
@@ -668,79 +514,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:06.194Z"
-    },
-    {
-      "id": 548384,
-      "name": "Brooks Raley",
-      "firstName": "Brooks",
-      "lastName": "Raley",
-      "number": "30",
-      "position": {
-        "code": "1",
-        "name": "Pitcher",
-        "abbreviation": "P"
-      },
-      "bt": {
-        "bats": "L",
-        "throws": "L"
-      },
-      "physical": {
-        "height": "6' 3\"",
-        "weight": 200,
-        "birthDate": "1988-06-29",
-        "birthCity": "San Antonio",
-        "birthCountry": "USA"
-      },
-      "roster": {
-        "status": {
-          "code": "A",
-          "type": null,
-          "description": "Active"
-        },
-        "rosterType": "40-MAN",
-        "fortyMan": true
-      },
-      "stats": {
-        "type": "pitcher",
-        "pitching": {
-          "season": {
-            "gamesPlayed": 61,
-            "gamesStarted": 0,
-            "wins": 5,
-            "losses": 7,
-            "saves": 1,
-            "holds": 16,
-            "inningsPitched": "52.2",
-            "hits": 47,
-            "runs": 22,
-            "earnedRuns": 19,
-            "homeRuns": 6,
-            "baseOnBalls": 20,
-            "strikeOuts": 51,
-            "era": "3.25",
-            "whip": "1.27"
-          },
-          "advanced": {
-            "strikeoutsPer9Inn": null,
-            "walksPer9Inn": null,
-            "hitsPer9Inn": null,
-            "homeRunsPer9": "1.03",
-            "strikeoutWalkRatio": null,
-            "strikePercentage": ".650"
-          },
-          "sabermetrics": {
-            "war": 0.474481,
-            "fip": 3.9541086075949368,
-            "xfip": 4.164454683544304,
-            "k-bb%": null,
-            "wpa": null,
-            "re24": null
-          }
-        },
-        "hitting": null
-      },
-      "updatedAt": "2026-10-29T18:05:06.390Z"
+      "updatedAt": "2026-10-30T03:36:06.017Z"
     },
     {
       "id": 650559,
@@ -817,7 +591,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:06.522Z"
+      "updatedAt": "2026-10-30T03:36:06.146Z"
     },
     {
       "id": 547180,
@@ -894,7 +668,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:06.673Z"
+      "updatedAt": "2026-10-30T03:36:06.268Z"
     },
     {
       "id": 681082,
@@ -971,7 +745,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:06.806Z"
+      "updatedAt": "2026-10-30T03:36:06.387Z"
     },
     {
       "id": 668873,
@@ -1043,7 +817,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:06.956Z"
+      "updatedAt": "2026-10-30T03:36:07.188Z"
     },
     {
       "id": 663767,
@@ -1115,7 +889,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:07.174Z"
+      "updatedAt": "2026-10-30T03:36:07.376Z"
     },
     {
       "id": 687515,
@@ -1192,7 +966,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:07.310Z"
+      "updatedAt": "2026-10-30T03:36:07.501Z"
     },
     {
       "id": 650911,
@@ -1264,7 +1038,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:07.448Z"
+      "updatedAt": "2026-10-30T03:36:07.665Z"
     },
     {
       "id": 656537,
@@ -1341,84 +1115,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:07.593Z"
-    },
-    {
-      "id": 624641,
-      "name": "Edmundo Sosa",
-      "firstName": "Edmundo",
-      "lastName": "Sosa",
-      "number": "33",
-      "position": {
-        "code": "7",
-        "name": "Outfielder",
-        "abbreviation": "LF"
-      },
-      "bt": {
-        "bats": "R",
-        "throws": "R"
-      },
-      "physical": {
-        "height": "5' 11\"",
-        "weight": 210,
-        "birthDate": "1996-03-06",
-        "birthCity": "Panama City",
-        "birthCountry": "Panama"
-      },
-      "roster": {
-        "status": {
-          "code": "A",
-          "type": null,
-          "description": "Active"
-        },
-        "rosterType": "40-MAN",
-        "fortyMan": true
-      },
-      "stats": {
-        "type": "hitter",
-        "hitting": {
-          "season": {
-            "gamesPlayed": 84,
-            "plateAppearances": 250,
-            "atBats": 231,
-            "runs": 31,
-            "hits": 57,
-            "doubles": 11,
-            "triples": 2,
-            "homeRuns": 9,
-            "rbi": 44,
-            "baseOnBalls": 7,
-            "strikeOuts": 54,
-            "stolenBases": 4,
-            "caughtStealing": 0,
-            "avg": ".247",
-            "obp": ".283",
-            "slg": ".429",
-            "ops": ".712",
-            "babip": ".281",
-            "totalBases": 99
-          },
-          "advanced": {
-            "iso": ".182",
-            "pitchesPerPlateAppearance": "3.592",
-            "walksPerPlateAppearance": ".028",
-            "strikeoutsPerPlateAppearance": ".216",
-            "homeRunsPerPlateAppearance": ".036"
-          },
-          "sabermetrics": {
-            "war": 0.78029,
-            "wpa": null,
-            "wpaMinus": null,
-            "wpaPlus": null,
-            "re24": null,
-            "wrcPlus": null,
-            "wraa": null,
-            "woba": 0.307399
-          }
-        },
-        "pitching": null
-      },
-      "updatedAt": "2026-10-29T18:05:07.814Z"
+      "updatedAt": "2026-10-30T03:36:07.783Z"
     },
     {
       "id": 694025,
@@ -1495,7 +1192,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:07.952Z"
+      "updatedAt": "2026-10-30T03:36:07.916Z"
     },
     {
       "id": 687282,
@@ -1572,7 +1269,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:08.093Z"
+      "updatedAt": "2026-10-30T03:36:08.076Z"
     },
     {
       "id": 596117,
@@ -1649,7 +1346,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:08.309Z"
+      "updatedAt": "2026-10-30T03:36:08.217Z"
     },
     {
       "id": 680880,
@@ -1721,7 +1418,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:08.501Z"
+      "updatedAt": "2026-10-30T03:36:08.401Z"
     },
     {
       "id": 592663,
@@ -1798,7 +1495,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:08.651Z"
+      "updatedAt": "2026-10-30T03:36:08.592Z"
     },
     {
       "id": 666200,
@@ -1870,7 +1567,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:08.783Z"
+      "updatedAt": "2026-10-30T03:36:08.745Z"
     },
     {
       "id": 661395,
@@ -1942,7 +1639,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:08.940Z"
+      "updatedAt": "2026-10-30T03:36:08.883Z"
     },
     {
       "id": 679032,
@@ -2019,7 +1716,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:09.081Z"
+      "updatedAt": "2026-10-30T03:36:08.995Z"
     },
     {
       "id": 680742,
@@ -2091,79 +1788,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:09.279Z"
-    },
-    {
-      "id": 621237,
-      "name": "José Alvarado",
-      "firstName": "José",
-      "lastName": "Alvarado",
-      "number": "46",
-      "position": {
-        "code": "1",
-        "name": "Pitcher",
-        "abbreviation": "P"
-      },
-      "bt": {
-        "bats": "L",
-        "throws": "L"
-      },
-      "physical": {
-        "height": "6' 2\"",
-        "weight": 245,
-        "birthDate": "1995-05-21",
-        "birthCity": "Maracaibo",
-        "birthCountry": "Venezuela"
-      },
-      "roster": {
-        "status": {
-          "code": "A",
-          "type": null,
-          "description": "Active"
-        },
-        "rosterType": "40-MAN",
-        "fortyMan": true
-      },
-      "stats": {
-        "type": "pitcher",
-        "pitching": {
-          "season": {
-            "gamesPlayed": 68,
-            "gamesStarted": 0,
-            "wins": 5,
-            "losses": 4,
-            "saves": 1,
-            "holds": 16,
-            "inningsPitched": "58.1",
-            "hits": 65,
-            "runs": 40,
-            "earnedRuns": 38,
-            "homeRuns": 5,
-            "baseOnBalls": 31,
-            "strikeOuts": 70,
-            "era": "5.86",
-            "whip": "1.65"
-          },
-          "advanced": {
-            "strikeoutsPer9Inn": null,
-            "walksPer9Inn": null,
-            "hitsPer9Inn": null,
-            "homeRunsPer9": "0.77",
-            "strikeoutWalkRatio": null,
-            "strikePercentage": ".600"
-          },
-          "sabermetrics": {
-            "war": 0.575831,
-            "fip": 3.81968,
-            "xfip": 4.31009,
-            "k-bb%": null,
-            "wpa": null,
-            "re24": null
-          }
-        },
-        "hitting": null
-      },
-      "updatedAt": "2026-10-29T18:05:09.416Z"
+      "updatedAt": "2026-10-30T03:36:09.785Z"
     },
     {
       "id": 702222,
@@ -2240,7 +1865,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:09.543Z"
+      "updatedAt": "2026-10-30T03:36:09.971Z"
     },
     {
       "id": 670224,
@@ -2317,7 +1942,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:09.674Z"
+      "updatedAt": "2026-10-30T03:36:10.161Z"
     },
     {
       "id": 679775,
@@ -2389,7 +2014,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:09.817Z"
+      "updatedAt": "2026-10-30T03:36:10.287Z"
     },
     {
       "id": 656941,
@@ -2466,84 +2091,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:09.945Z"
-    },
-    {
-      "id": 650333,
-      "name": "Luis Arraez",
-      "firstName": "Luis",
-      "lastName": "Arraez",
-      "number": "4",
-      "position": {
-        "code": "4",
-        "name": "Second Base",
-        "abbreviation": "2B"
-      },
-      "bt": {
-        "bats": "L",
-        "throws": "R"
-      },
-      "physical": {
-        "height": "5' 10\"",
-        "weight": 186,
-        "birthDate": "1997-04-09",
-        "birthCity": "San Felipe",
-        "birthCountry": "Venezuela"
-      },
-      "roster": {
-        "status": {
-          "code": "A",
-          "type": null,
-          "description": "Active"
-        },
-        "rosterType": "40-MAN",
-        "fortyMan": true
-      },
-      "stats": {
-        "type": "hitter",
-        "hitting": {
-          "season": {
-            "gamesPlayed": 151,
-            "plateAppearances": 655,
-            "atBats": 596,
-            "runs": 67,
-            "hits": 185,
-            "doubles": 33,
-            "triples": 7,
-            "homeRuns": 6,
-            "rbi": 64,
-            "baseOnBalls": 34,
-            "strikeOuts": 28,
-            "stolenBases": 10,
-            "caughtStealing": 1,
-            "avg": ".310",
-            "obp": ".345",
-            "slg": ".419",
-            "ops": ".764",
-            "babip": ".311",
-            "totalBases": 250
-          },
-          "advanced": {
-            "iso": ".109",
-            "pitchesPerPlateAppearance": "3.737",
-            "walksPerPlateAppearance": ".052",
-            "strikeoutsPerPlateAppearance": ".043",
-            "homeRunsPerPlateAppearance": ".009"
-          },
-          "sabermetrics": {
-            "war": 4.10915,
-            "wpa": null,
-            "wpaMinus": null,
-            "wpaPlus": null,
-            "re24": null,
-            "wrcPlus": null,
-            "wraa": null,
-            "woba": 0.331086
-          }
-        },
-        "pitching": null
-      },
-      "updatedAt": "2026-10-29T18:05:10.077Z"
+      "updatedAt": "2026-10-30T03:36:10.412Z"
     },
     {
       "id": 676661,
@@ -2615,7 +2163,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:10.194Z"
+      "updatedAt": "2026-10-30T03:36:10.564Z"
     },
     {
       "id": 691330,
@@ -2687,79 +2235,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:10.305Z"
-    },
-    {
-      "id": 641482,
-      "name": "Nestor Cortes",
-      "firstName": "Nestor",
-      "lastName": "Cortes",
-      "number": "",
-      "position": {
-        "code": "1",
-        "name": "Pitcher",
-        "abbreviation": "P"
-      },
-      "bt": {
-        "bats": "R",
-        "throws": "L"
-      },
-      "physical": {
-        "height": "5' 10\"",
-        "weight": 225,
-        "birthDate": "1994-12-10",
-        "birthCity": "Surgidero de Batabano",
-        "birthCountry": "Cuba"
-      },
-      "roster": {
-        "status": {
-          "code": "A",
-          "type": null,
-          "description": "Active"
-        },
-        "rosterType": "40-MAN",
-        "fortyMan": true
-      },
-      "stats": {
-        "type": "pitcher",
-        "pitching": {
-          "season": {
-            "gamesPlayed": null,
-            "gamesStarted": null,
-            "wins": null,
-            "losses": null,
-            "saves": null,
-            "holds": null,
-            "inningsPitched": null,
-            "hits": null,
-            "runs": null,
-            "earnedRuns": null,
-            "homeRuns": null,
-            "baseOnBalls": null,
-            "strikeOuts": null,
-            "era": null,
-            "whip": null
-          },
-          "advanced": {
-            "strikeoutsPer9Inn": null,
-            "walksPer9Inn": null,
-            "hitsPer9Inn": null,
-            "homeRunsPer9": null,
-            "strikeoutWalkRatio": null,
-            "strikePercentage": null
-          },
-          "sabermetrics": {
-            "war": null,
-            "fip": null,
-            "xfip": null,
-            "k-bb%": null,
-            "wpa": null,
-            "re24": null
-          }
-        },
-        "hitting": null
-      },
-      "updatedAt": "2026-10-29T18:05:10.420Z"
+      "updatedAt": "2026-10-30T03:36:10.663Z"
     },
     {
       "id": 689147,
@@ -2831,7 +2307,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:10.614Z"
+      "updatedAt": "2026-10-30T03:36:10.853Z"
     },
     {
       "id": 805249,
@@ -2908,7 +2384,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:10.753Z"
+      "updatedAt": "2026-10-30T03:36:10.977Z"
     },
     {
       "id": 665561,
@@ -2985,7 +2461,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:10.870Z"
+      "updatedAt": "2026-10-30T03:36:11.098Z"
     },
     {
       "id": 621383,
@@ -3057,7 +2533,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:11.009Z"
+      "updatedAt": "2026-10-30T03:36:11.251Z"
     },
     {
       "id": 641835,
@@ -3129,7 +2605,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:11.149Z"
+      "updatedAt": "2026-10-30T03:36:11.375Z"
     },
     {
       "id": 607208,
@@ -3206,7 +2682,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-10-29T18:05:11.274Z"
+      "updatedAt": "2026-10-30T03:36:11.498Z"
     },
     {
       "id": 554430,
@@ -3278,7 +2754,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-10-29T18:05:11.483Z"
+      "updatedAt": "2026-10-30T03:36:11.628Z"
     }
   ]
 }
