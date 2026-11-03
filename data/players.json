@@ -5,7 +5,7 @@
   },
   "season": 2026,
   "source": "MLB Stats API",
-  "updatedAt": "2026-11-02T14:14:37.736Z",
+  "updatedAt": "2026-11-03T00:12:22.235Z",
   "players": [
     {
       "id": 605400,
@@ -77,7 +77,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:34.054Z"
+      "updatedAt": "2026-11-03T00:12:14.648Z"
     },
     {
       "id": 660604,
@@ -149,7 +149,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:34.106Z"
+      "updatedAt": "2026-11-03T00:12:14.766Z"
     },
     {
       "id": 686934,
@@ -221,7 +221,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:34.174Z"
+      "updatedAt": "2026-11-03T00:12:14.938Z"
     },
     {
       "id": 694851,
@@ -293,7 +293,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:34.242Z"
+      "updatedAt": "2026-11-03T00:12:15.158Z"
     },
     {
       "id": 691725,
@@ -365,7 +365,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:34.300Z"
+      "updatedAt": "2026-11-03T00:12:15.324Z"
     },
     {
       "id": 641745,
@@ -391,9 +391,9 @@
       },
       "roster": {
         "status": {
-          "code": "D60",
+          "code": "A",
           "type": null,
-          "description": "Injured 60-Day"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -437,7 +437,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:35.022Z"
+      "updatedAt": "2026-11-03T00:12:15.484Z"
     },
     {
       "id": 669016,
@@ -514,7 +514,84 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:35.079Z"
+      "updatedAt": "2026-11-03T00:12:15.645Z"
+    },
+    {
+      "id": 695391,
+      "name": "Brett Harris",
+      "firstName": "Brett",
+      "lastName": "Harris",
+      "number": "",
+      "position": {
+        "code": "5",
+        "name": "Third Base",
+        "abbreviation": "3B"
+      },
+      "bt": {
+        "bats": "R",
+        "throws": "R"
+      },
+      "physical": {
+        "height": "6' 2\"",
+        "weight": 208,
+        "birthDate": "1998-06-24",
+        "birthCity": "Arlington Heights",
+        "birthCountry": "USA"
+      },
+      "roster": {
+        "status": {
+          "code": "A",
+          "type": null,
+          "description": "Active"
+        },
+        "rosterType": "40-MAN",
+        "fortyMan": true
+      },
+      "stats": {
+        "type": "hitter",
+        "hitting": {
+          "season": {
+            "gamesPlayed": 21,
+            "plateAppearances": 51,
+            "atBats": 44,
+            "runs": 3,
+            "hits": 6,
+            "doubles": 2,
+            "triples": 0,
+            "homeRuns": 0,
+            "rbi": 2,
+            "baseOnBalls": 3,
+            "strikeOuts": 16,
+            "stolenBases": 0,
+            "caughtStealing": 0,
+            "avg": ".136",
+            "obp": ".240",
+            "slg": ".182",
+            "ops": ".422",
+            "babip": ".214",
+            "totalBases": 8
+          },
+          "advanced": {
+            "iso": ".045",
+            "pitchesPerPlateAppearance": "3.784",
+            "walksPerPlateAppearance": ".059",
+            "strikeoutsPerPlateAppearance": ".314",
+            "homeRunsPerPlateAppearance": ".000"
+          },
+          "sabermetrics": {
+            "war": -0.38392,
+            "wpa": null,
+            "wpaMinus": null,
+            "wpaPlus": null,
+            "re24": null,
+            "wrcPlus": null,
+            "wraa": null,
+            "woba": 0.207169
+          }
+        },
+        "pitching": null
+      },
+      "updatedAt": "2026-11-03T00:12:15.764Z"
     },
     {
       "id": 650559,
@@ -591,7 +668,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:35.144Z"
+      "updatedAt": "2026-11-03T00:12:15.913Z"
     },
     {
       "id": 547180,
@@ -668,7 +745,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:35.226Z"
+      "updatedAt": "2026-11-03T00:12:16.037Z"
     },
     {
       "id": 681082,
@@ -745,7 +822,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:35.289Z"
+      "updatedAt": "2026-11-03T00:12:16.173Z"
     },
     {
       "id": 668873,
@@ -771,9 +848,9 @@
       },
       "roster": {
         "status": {
-          "code": "D60",
+          "code": "A",
           "type": null,
-          "description": "Injured 60-Day"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -817,7 +894,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:35.993Z"
+      "updatedAt": "2026-11-03T00:12:16.349Z"
     },
     {
       "id": 663767,
@@ -889,7 +966,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:36.082Z"
+      "updatedAt": "2026-11-03T00:12:16.507Z"
     },
     {
       "id": 687515,
@@ -966,7 +1043,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:36.151Z"
+      "updatedAt": "2026-11-03T00:12:16.624Z"
     },
     {
       "id": 650911,
@@ -1038,7 +1115,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:36.208Z"
+      "updatedAt": "2026-11-03T00:12:16.810Z"
     },
     {
       "id": 656537,
@@ -1115,7 +1192,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:36.280Z"
+      "updatedAt": "2026-11-03T00:12:17.003Z"
     },
     {
       "id": 694025,
@@ -1141,9 +1218,9 @@
       },
       "roster": {
         "status": {
-          "code": "D60",
+          "code": "A",
           "type": null,
-          "description": "Injured 60-Day"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -1192,7 +1269,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:36.346Z"
+      "updatedAt": "2026-11-03T00:12:17.136Z"
     },
     {
       "id": 687282,
@@ -1269,84 +1346,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:36.399Z"
-    },
-    {
-      "id": 596117,
-      "name": "Garrett Stubbs",
-      "firstName": "Garrett",
-      "lastName": "Stubbs",
-      "number": "21",
-      "position": {
-        "code": "2",
-        "name": "Catcher",
-        "abbreviation": "C"
-      },
-      "bt": {
-        "bats": "L",
-        "throws": "R"
-      },
-      "physical": {
-        "height": "5' 9\"",
-        "weight": 170,
-        "birthDate": "1993-05-26",
-        "birthCity": "San Diego",
-        "birthCountry": "USA"
-      },
-      "roster": {
-        "status": {
-          "code": "A",
-          "type": null,
-          "description": "Active"
-        },
-        "rosterType": "40-MAN",
-        "fortyMan": true
-      },
-      "stats": {
-        "type": "hitter",
-        "hitting": {
-          "season": {
-            "gamesPlayed": 37,
-            "plateAppearances": 65,
-            "atBats": 59,
-            "runs": 11,
-            "hits": 9,
-            "doubles": 0,
-            "triples": 0,
-            "homeRuns": 0,
-            "rbi": 3,
-            "baseOnBalls": 3,
-            "strikeOuts": 15,
-            "stolenBases": 0,
-            "caughtStealing": 0,
-            "avg": ".153",
-            "obp": ".215",
-            "slg": ".153",
-            "ops": ".368",
-            "babip": ".200",
-            "totalBases": 9
-          },
-          "advanced": {
-            "iso": ".000",
-            "pitchesPerPlateAppearance": "3.631",
-            "walksPerPlateAppearance": ".046",
-            "strikeoutsPerPlateAppearance": ".231",
-            "homeRunsPerPlateAppearance": ".000"
-          },
-          "sabermetrics": {
-            "war": -0.40962,
-            "wpa": null,
-            "wpaMinus": null,
-            "wpaPlus": null,
-            "re24": null,
-            "wrcPlus": null,
-            "wraa": null,
-            "woba": 0.177905
-          }
-        },
-        "pitching": null
-      },
-      "updatedAt": "2026-11-02T14:14:36.499Z"
+      "updatedAt": "2026-11-03T00:12:17.276Z"
     },
     {
       "id": 680880,
@@ -1418,7 +1418,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:36.576Z"
+      "updatedAt": "2026-11-03T00:12:18.089Z"
     },
     {
       "id": 592663,
@@ -1495,7 +1495,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:36.632Z"
+      "updatedAt": "2026-11-03T00:12:18.211Z"
     },
     {
       "id": 666200,
@@ -1567,7 +1567,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:36.694Z"
+      "updatedAt": "2026-11-03T00:12:18.348Z"
     },
     {
       "id": 661395,
@@ -1639,7 +1639,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:36.793Z"
+      "updatedAt": "2026-11-03T00:12:18.531Z"
     },
     {
       "id": 679032,
@@ -1665,9 +1665,9 @@
       },
       "roster": {
         "status": {
-          "code": "D60",
+          "code": "A",
           "type": null,
-          "description": "Injured 60-Day"
+          "description": "Active"
         },
         "rosterType": "40-MAN",
         "fortyMan": true
@@ -1716,7 +1716,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:36.856Z"
+      "updatedAt": "2026-11-03T00:12:18.639Z"
     },
     {
       "id": 680742,
@@ -1788,7 +1788,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:36.931Z"
+      "updatedAt": "2026-11-03T00:12:18.783Z"
     },
     {
       "id": 702222,
@@ -1865,7 +1865,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:36.985Z"
+      "updatedAt": "2026-11-03T00:12:18.982Z"
     },
     {
       "id": 670224,
@@ -1942,7 +1942,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:37.053Z"
+      "updatedAt": "2026-11-03T00:12:19.175Z"
     },
     {
       "id": 679775,
@@ -2014,7 +2014,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:37.115Z"
+      "updatedAt": "2026-11-03T00:12:20.023Z"
     },
     {
       "id": 656941,
@@ -2091,7 +2091,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:37.191Z"
+      "updatedAt": "2026-11-03T00:12:20.210Z"
     },
     {
       "id": 676661,
@@ -2163,7 +2163,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:37.244Z"
+      "updatedAt": "2026-11-03T00:12:20.333Z"
     },
     {
       "id": 691330,
@@ -2235,7 +2235,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:37.272Z"
+      "updatedAt": "2026-11-03T00:12:20.440Z"
     },
     {
       "id": 689147,
@@ -2307,7 +2307,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:37.367Z"
+      "updatedAt": "2026-11-03T00:12:21.232Z"
     },
     {
       "id": 805249,
@@ -2384,7 +2384,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:37.452Z"
+      "updatedAt": "2026-11-03T00:12:21.369Z"
     },
     {
       "id": 665561,
@@ -2461,7 +2461,84 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:37.504Z"
+      "updatedAt": "2026-11-03T00:12:21.554Z"
+    },
+    {
+      "id": 694376,
+      "name": "Shay Whitcomb",
+      "firstName": "Shay",
+      "lastName": "Whitcomb",
+      "number": "",
+      "position": {
+        "code": "5",
+        "name": "Third Base",
+        "abbreviation": "3B"
+      },
+      "bt": {
+        "bats": "R",
+        "throws": "R"
+      },
+      "physical": {
+        "height": "6' 0\"",
+        "weight": 202,
+        "birthDate": "1998-09-28",
+        "birthCity": "Thousand Oaks",
+        "birthCountry": "USA"
+      },
+      "roster": {
+        "status": {
+          "code": "A",
+          "type": null,
+          "description": "Active"
+        },
+        "rosterType": "40-MAN",
+        "fortyMan": true
+      },
+      "stats": {
+        "type": "hitter",
+        "hitting": {
+          "season": {
+            "gamesPlayed": 49,
+            "plateAppearances": 122,
+            "atBats": 116,
+            "runs": 9,
+            "hits": 24,
+            "doubles": 3,
+            "triples": 0,
+            "homeRuns": 4,
+            "rbi": 13,
+            "baseOnBalls": 4,
+            "strikeOuts": 35,
+            "stolenBases": 2,
+            "caughtStealing": 1,
+            "avg": ".207",
+            "obp": ".233",
+            "slg": ".336",
+            "ops": ".569",
+            "babip": ".260",
+            "totalBases": 39
+          },
+          "advanced": {
+            "iso": ".129",
+            "pitchesPerPlateAppearance": "3.705",
+            "walksPerPlateAppearance": ".033",
+            "strikeoutsPerPlateAppearance": ".287",
+            "homeRunsPerPlateAppearance": ".033"
+          },
+          "sabermetrics": {
+            "war": -0.20702,
+            "wpa": null,
+            "wpaMinus": null,
+            "wpaPlus": null,
+            "re24": null,
+            "wrcPlus": null,
+            "wraa": null,
+            "woba": 0.249269
+          }
+        },
+        "pitching": null
+      },
+      "updatedAt": "2026-11-03T00:12:21.689Z"
     },
     {
       "id": 621383,
@@ -2533,7 +2610,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:37.564Z"
+      "updatedAt": "2026-11-03T00:12:21.807Z"
     },
     {
       "id": 641835,
@@ -2605,7 +2682,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:37.620Z"
+      "updatedAt": "2026-11-03T00:12:21.981Z"
     },
     {
       "id": 607208,
@@ -2682,7 +2759,7 @@
         },
         "pitching": null
       },
-      "updatedAt": "2026-11-02T14:14:37.674Z"
+      "updatedAt": "2026-11-03T00:12:22.096Z"
     },
     {
       "id": 554430,
@@ -2754,7 +2831,7 @@
         },
         "hitting": null
       },
-      "updatedAt": "2026-11-02T14:14:37.736Z"
+      "updatedAt": "2026-11-03T00:12:22.235Z"
     }
   ]
 }
